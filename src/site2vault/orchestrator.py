@@ -86,16 +86,22 @@ async def run(config: RunConfig) -> int:
         emit("phase_end", phase="rewrite")
 
         # Phase 3: Index
-        emit("phase_start", phase="index")
-        generate_index(config, db)
-        emit("phase_end", phase="index")
+        # In single-page mode, skip index if vault has only one note
+        notes = db.get_all_notes()
+        if not config.single or len(notes) > 1:
+            emit("phase_start", phase="index")
+            generate_index(config, db)
+            emit("phase_end", phase="index")
 
         # Phase 4: Manifest
         if config.emit_manifest:
             emit("phase_start", phase="manifest")
             from site2vault.manifest import build_manifest, write_manifest
             manifest = build_manifest(config, db)
-            write_manifest(config, manifest)
+            if config.single:
+                _merge_manifest(config, manifest)
+            else:
+                write_manifest(config, manifest)
             emit("phase_end", phase="manifest")
 
     # Determine exit code
@@ -158,3 +164,31 @@ async def _seed_from_sitemap(config: RunConfig, db, robots) -> None:
 
     except Exception as e:
         log.warning("Sitemap discovery failed: %s (continuing with link discovery)", e)
+
+
+def _merge_manifest(config: RunConfig, new_manifest: dict) -> None:
+    """Merge new notes into an existing manifest (for --single mode)."""
+    import json
+    from site2vault.manifest import write_manifest
+
+    manifest_path = config.out / ".site2vault" / "manifest.json"
+    if manifest_path.exists():
+        try:
+            existing = json.loads(manifest_path.read_text(encoding="utf-8"))
+            # Merge notes: replace existing entries by URL, add new ones
+            existing_by_url = {n["url"]: n for n in existing.get("notes", [])}
+            for note in new_manifest.get("notes", []):
+                existing_by_url[note["url"]] = note
+            existing["notes"] = list(existing_by_url.values())
+            # Update stats
+            existing["stats"]["note_count"] = len(existing["notes"])
+            total_wc = sum(n.get("word_count", 0) for n in existing["notes"])
+            existing["stats"]["total_word_count"] = total_wc
+            existing["stats"]["estimated_total_tokens"] = round(total_wc * 1.33)
+            existing["crawled_at"] = new_manifest["crawled_at"]
+            write_manifest(config, existing)
+            return
+        except (json.JSONDecodeError, KeyError):
+            pass
+
+    write_manifest(config, new_manifest)

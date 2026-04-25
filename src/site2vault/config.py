@@ -31,3 +31,4 @@ class RunConfig:
     emit_manifest: bool = True
     json_progress: bool = False
     use_sitemap: bool = True
+    single: bool = False

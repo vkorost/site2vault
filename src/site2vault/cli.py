@@ -66,9 +66,19 @@ def main(
     no_manifest: Annotated[bool, typer.Option("--no-manifest", help="Skip manifest generation.")] = False,
     json_progress: Annotated[bool, typer.Option("--json-progress", help="Emit JSONL progress to stdout for plugin consumption.")] = False,
     no_sitemap: Annotated[bool, typer.Option("--no-sitemap", help="Skip sitemap.xml discovery.")] = False,
+    single: Annotated[bool, typer.Option("--single", help="Fetch only the seed URL (no crawl).")] = False,
 ) -> None:
     """Mirror a website into a linked Obsidian vault."""
     import asyncio
+
+    # Validate --single constraints
+    if single:
+        if depth != 3 and depth != 0:
+            raise typer.BadParameter("--single is incompatible with --depth (other than 0)")
+        if max_pages != 2000 and max_pages != 1:
+            raise typer.BadParameter("--single is incompatible with --max-pages (other than 1)")
+        depth = 0
+        max_pages = 1
 
     output_path = out or Path(f"./{_domain_slug(url)}")
 
@@ -97,7 +107,8 @@ def main(
         dry_run=dry_run,
         emit_manifest=not no_manifest,
         json_progress=json_progress,
-        use_sitemap=not no_sitemap,
+        use_sitemap=not no_sitemap and not single,
+        single=single,
     )
 
     from site2vault import exit_codes
