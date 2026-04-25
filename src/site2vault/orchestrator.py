@@ -40,5 +40,10 @@ async def run(config: RunConfig) -> None:
         rewrite_all(config, db)
         generate_index(config, db)
 
+        if config.emit_manifest:
+            from site2vault.manifest import build_manifest, write_manifest
+            manifest = build_manifest(config, db)
+            write_manifest(config, manifest)
+
     db.close()
     log.info("site2vault finished.")

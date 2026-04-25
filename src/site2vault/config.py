@@ -28,3 +28,4 @@ class RunConfig:
     link_style: str = "shortest"  # shortest | path
     verbose: bool = False
     dry_run: bool = False
+    emit_manifest: bool = True

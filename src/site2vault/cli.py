@@ -63,6 +63,7 @@ def main(
     link_style: Annotated[str, typer.Option(help="Wikilink style: shortest|path.")] = "shortest",
     verbose: Annotated[bool, typer.Option("--verbose", "-v", help="Debug logging.")] = False,
     dry_run: Annotated[bool, typer.Option(help="Discover URLs only, write no files.")] = False,
+    no_manifest: Annotated[bool, typer.Option("--no-manifest", help="Skip manifest generation.")] = False,
 ) -> None:
     """Mirror a website into a linked Obsidian vault."""
     import asyncio
@@ -92,6 +93,7 @@ def main(
         link_style=link_style,
         verbose=verbose,
         dry_run=dry_run,
+        emit_manifest=not no_manifest,
     )
 
     from site2vault.logging_setup import setup_logging
