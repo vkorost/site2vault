@@ -1,0 +1,494 @@
+{
+  "S2V_LINK_0": {
+    "url": "/docs/en/settings#available-settings",
+    "text": "under the"
+  },
+  "S2V_LINK_1": {
+    "url": "/docs/en/llm-gateway",
+    "text": "LLM gateway"
+  },
+  "S2V_LINK_2": {
+    "url": "/docs/en/amazon-bedrock",
+    "text": "Amazon Bedrock"
+  },
+  "S2V_LINK_3": {
+    "url": "/docs/en/amazon-bedrock#use-the-mantle-endpoint",
+    "text": "Mantle endpoint"
+  },
+  "S2V_LINK_4": {
+    "url": "https://platform.claude.com/docs/en/api/beta-headers",
+    "text": "Anthropic API beta"
+  },
+  "S2V_LINK_5": {
+    "url": "/docs/en/cli-reference#cli-flags",
+    "text": ", which requires API key authentication, this variable works with all auth methods including Claude.ai subscription"
+  },
+  "S2V_LINK_6": {
+    "url": "/docs/en/model-config#add-a-custom-model-option",
+    "text": "Model configuration"
+  },
+  "S2V_LINK_7": {
+    "url": "/docs/en/model-config#customize-pinned-model-display-and-capabilities",
+    "text": "Model configuration"
+  },
+  "S2V_LINK_8": {
+    "url": "/docs/en/model-config#environment-variables",
+    "text": "Model configuration"
+  },
+  "S2V_LINK_9": {
+    "url": "/docs/en/model-config#customize-pinned-model-display-and-capabilities",
+    "text": "Model configuration"
+  },
+  "S2V_LINK_10": {
+    "url": "/docs/en/model-config#customize-pinned-model-display-and-capabilities",
+    "text": "Model configuration"
+  },
+  "S2V_LINK_11": {
+    "url": "/docs/en/model-config#customize-pinned-model-display-and-capabilities",
+    "text": "Model configuration"
+  },
+  "S2V_LINK_12": {
+    "url": "/docs/en/model-config#environment-variables",
+    "text": "Model configuration"
+  },
+  "S2V_LINK_13": {
+    "url": "/docs/en/model-config#customize-pinned-model-display-and-capabilities",
+    "text": "Model configuration"
+  },
+  "S2V_LINK_14": {
+    "url": "/docs/en/model-config#customize-pinned-model-display-and-capabilities",
+    "text": "Model configuration"
+  },
+  "S2V_LINK_15": {
+    "url": "/docs/en/model-config#customize-pinned-model-display-and-capabilities",
+    "text": "Model configuration"
+  },
+  "S2V_LINK_16": {
+    "url": "/docs/en/model-config#environment-variables",
+    "text": "Model configuration"
+  },
+  "S2V_LINK_17": {
+    "url": "/docs/en/model-config#customize-pinned-model-display-and-capabilities",
+    "text": "Model configuration"
+  },
+  "S2V_LINK_18": {
+    "url": "/docs/en/model-config#customize-pinned-model-display-and-capabilities",
+    "text": "Model configuration"
+  },
+  "S2V_LINK_19": {
+    "url": "/docs/en/model-config#customize-pinned-model-display-and-capabilities",
+    "text": "Model configuration"
+  },
+  "S2V_LINK_20": {
+    "url": "/docs/en/microsoft-foundry",
+    "text": "Microsoft Foundry"
+  },
+  "S2V_LINK_21": {
+    "url": "/docs/en/microsoft-foundry",
+    "text": "Microsoft Foundry"
+  },
+  "S2V_LINK_22": {
+    "url": "/docs/en/microsoft-foundry",
+    "text": "Microsoft Foundry"
+  },
+  "S2V_LINK_23": {
+    "url": "/docs/en/model-config#environment-variables",
+    "text": "Model Configuration"
+  },
+  "S2V_LINK_24": {
+    "url": "/docs/en/costs",
+    "text": "Haiku-class model for background tasks"
+  },
+  "S2V_LINK_25": {
+    "url": "/docs/en/llm-gateway",
+    "text": "LLM gateway"
+  },
+  "S2V_LINK_26": {
+    "url": "/docs/en/google-vertex-ai",
+    "text": "Google Vertex AI"
+  },
+  "S2V_LINK_27": {
+    "url": "/docs/en/google-vertex-ai",
+    "text": "Google Vertex AI"
+  },
+  "S2V_LINK_28": {
+    "url": "https://aws.amazon.com/blogs/machine-learning/accelerate-ai-development-with-amazon-bedrock-api-keys/",
+    "text": "Bedrock API keys"
+  },
+  "S2V_LINK_29": {
+    "url": "/docs/en/claude-code-on-the-web#send-local-repositories-without-github",
+    "text": "to bundle and upload your local repository even when GitHub access is available"
+  },
+  "S2V_LINK_30": {
+    "url": "/docs/en/hooks",
+    "text": "hooks"
+  },
+  "S2V_LINK_31": {
+    "url": "/docs/en/statusline",
+    "text": "status line"
+  },
+  "S2V_LINK_32": {
+    "url": "/docs/en/sub-agents",
+    "text": "subagent"
+  },
+  "S2V_LINK_33": {
+    "url": "/docs/en/statusline",
+    "text": "status line"
+  },
+  "S2V_LINK_34": {
+    "url": "/docs/en/settings#available-settings",
+    "text": ")"
+  },
+  "S2V_LINK_35": {
+    "url": "/docs/en/model-config#extended-context",
+    "text": "extended context"
+  },
+  "S2V_LINK_36": {
+    "url": "/docs/en/vs-code",
+    "text": "IDE connection"
+  },
+  "S2V_LINK_37": {
+    "url": "/docs/en/cli-reference#cli-flags",
+    "text": "flag does both at once. Defaults to"
+  },
+  "S2V_LINK_38": {
+    "url": "/docs/en/model-config#extended-context",
+    "text": "1M context window"
+  },
+  "S2V_LINK_39": {
+    "url": "/docs/en/model-config#adjust-effort-level",
+    "text": "adaptive reasoning"
+  },
+  "S2V_LINK_40": {
+    "url": "/docs/en/memory#auto-memory",
+    "text": "auto memory"
+  },
+  "S2V_LINK_41": {
+    "url": "/docs/en/scheduled-tasks",
+    "text": "scheduled tasks"
+  },
+  "S2V_LINK_42": {
+    "url": "/docs/en/fast-mode",
+    "text": "fast mode"
+  },
+  "S2V_LINK_43": {
+    "url": "/docs/en/data-usage#session-quality-surveys",
+    "text": "Session quality surveys"
+  },
+  "S2V_LINK_44": {
+    "url": "/docs/en/checkpointing",
+    "text": "checkpointing"
+  },
+  "S2V_LINK_45": {
+    "url": "/docs/en/settings#available-settings",
+    "text": "setting when set"
+  },
+  "S2V_LINK_46": {
+    "url": "/docs/en/fullscreen",
+    "text": "fullscreen rendering"
+  },
+  "S2V_LINK_47": {
+    "url": "https://platform.claude.com/docs/en/build-with-claude/extended-thinking",
+    "text": "extended thinking"
+  },
+  "S2V_LINK_48": {
+    "url": "/docs/en/fullscreen",
+    "text": "fullscreen rendering"
+  },
+  "S2V_LINK_49": {
+    "url": "/docs/en/model-config#adjust-effort-level",
+    "text": "Adjust effort level"
+  },
+  "S2V_LINK_50": {
+    "url": "/docs/en/interactive-mode#session-recap",
+    "text": "session recap"
+  },
+  "S2V_LINK_51": {
+    "url": "/docs/en/settings#available-settings",
+    "text": "is"
+  },
+  "S2V_LINK_52": {
+    "url": "/docs/en/headless",
+    "text": "non-interactive mode"
+  },
+  "S2V_LINK_53": {
+    "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-caching",
+    "text": "prompt caching"
+  },
+  "S2V_LINK_54": {
+    "url": "/docs/en/interactive-mode#prompt-suggestions",
+    "text": "Prompt suggestions"
+  },
+  "S2V_LINK_55": {
+    "url": "/docs/en/interactive-mode#task-list",
+    "text": "Task list"
+  },
+  "S2V_LINK_56": {
+    "url": "/docs/en/monitoring-usage",
+    "text": "Monitoring"
+  },
+  "S2V_LINK_57": {
+    "url": "/docs/en/agent-teams",
+    "text": "agent teams"
+  },
+  "S2V_LINK_58": {
+    "url": "/docs/en/sub-agents#fork-the-current-conversation",
+    "text": "forked subagents"
+  },
+  "S2V_LINK_59": {
+    "url": "/docs/en/commands",
+    "text": ", and all subagent spawns run in the background. Interactive mode only"
+  },
+  "S2V_LINK_60": {
+    "url": "/docs/en/setup#set-up-on-windows",
+    "text": "Windows setup"
+  },
+  "S2V_LINK_61": {
+    "url": "/docs/en/tools-reference",
+    "text": "Glob tool"
+  },
+  "S2V_LINK_62": {
+    "url": "/docs/en/tools-reference",
+    "text": "Glob tool"
+  },
+  "S2V_LINK_63": {
+    "url": "/docs/en/settings#available-settings",
+    "text": ""
+  },
+  "S2V_LINK_64": {
+    "url": "/docs/en/settings#global-config-settings",
+    "text": "to"
+  },
+  "S2V_LINK_65": {
+    "url": "https://platform.claude.com/docs/en/about-claude/models/overview#latest-models-comparison",
+    "text": "max output tokens"
+  },
+  "S2V_LINK_66": {
+    "url": "/docs/en/costs#reduce-token-usage",
+    "text": "auto-compaction"
+  },
+  "S2V_LINK_67": {
+    "url": "/docs/en/fullscreen",
+    "text": "fullscreen rendering"
+  },
+  "S2V_LINK_68": {
+    "url": "/docs/en/settings#available-settings",
+    "text": "setting; you can also switch with"
+  },
+  "S2V_LINK_69": {
+    "url": "/docs/en/authentication#generate-a-long-lived-token",
+    "text": ""
+  },
+  "S2V_LINK_70": {
+    "url": "/docs/en/monitoring-usage",
+    "text": "Monitoring"
+  },
+  "S2V_LINK_71": {
+    "url": "/docs/en/monitoring-usage#dynamic-headers",
+    "text": "Dynamic headers"
+  },
+  "S2V_LINK_72": {
+    "url": "/docs/en/monitoring-usage",
+    "text": "Monitoring"
+  },
+  "S2V_LINK_73": {
+    "url": "/docs/en/plugin-marketplaces#git-operations-time-out",
+    "text": "Git operations time out"
+  },
+  "S2V_LINK_74": {
+    "url": "/docs/en/plugin-marketplaces#marketplace-updates-fail-in-offline-environments",
+    "text": "Marketplace updates fail in offline environments"
+  },
+  "S2V_LINK_75": {
+    "url": "/docs/en/plugin-marketplaces#pre-populate-plugins-for-containers",
+    "text": "Pre-populate plugins for containers"
+  },
+  "S2V_LINK_76": {
+    "url": "/docs/en/claude-code-on-the-web",
+    "text": "cloud session"
+  },
+  "S2V_LINK_77": {
+    "url": "/docs/en/claude-code-on-the-web",
+    "text": "cloud sessions"
+  },
+  "S2V_LINK_78": {
+    "url": "/docs/en/claude-code-on-the-web#link-artifacts-back-to-the-session",
+    "text": "Link artifacts back to the session"
+  },
+  "S2V_LINK_79": {
+    "url": "/docs/en/fullscreen#mouse-wheel-scrolling",
+    "text": "fullscreen rendering"
+  },
+  "S2V_LINK_80": {
+    "url": "/docs/en/hooks#sessionend",
+    "text": "SessionEnd"
+  },
+  "S2V_LINK_81": {
+    "url": "/docs/en/headless#start-faster-with-bare-mode",
+    "text": "CLI flag sets this"
+  },
+  "S2V_LINK_82": {
+    "url": "/docs/en/model-config",
+    "text": "Model configuration"
+  },
+  "S2V_LINK_83": {
+    "url": "/docs/en/interactive-mode#task-list",
+    "text": "Task list"
+  },
+  "S2V_LINK_84": {
+    "url": "/docs/en/agent-teams",
+    "text": "agent team"
+  },
+  "S2V_LINK_85": {
+    "url": "/docs/en/terminal-config",
+    "text": "Terminal configuration"
+  },
+  "S2V_LINK_86": {
+    "url": "/docs/en/amazon-bedrock",
+    "text": "Bedrock"
+  },
+  "S2V_LINK_87": {
+    "url": "/docs/en/microsoft-foundry",
+    "text": "Microsoft Foundry"
+  },
+  "S2V_LINK_88": {
+    "url": "/docs/en/amazon-bedrock#use-the-mantle-endpoint",
+    "text": "Mantle endpoint"
+  },
+  "S2V_LINK_89": {
+    "url": "/docs/en/tools-reference#powershell-tool",
+    "text": "PowerShell tool"
+  },
+  "S2V_LINK_90": {
+    "url": "/docs/en/google-vertex-ai",
+    "text": "Vertex"
+  },
+  "S2V_LINK_91": {
+    "url": "/docs/en/hooks#persist-environment-variables",
+    "text": "SessionStart"
+  },
+  "S2V_LINK_92": {
+    "url": "/docs/en/hooks#cwdchanged",
+    "text": "CwdChanged"
+  },
+  "S2V_LINK_93": {
+    "url": "/docs/en/hooks#filechanged",
+    "text": "FileChanged"
+  },
+  "S2V_LINK_94": {
+    "url": "/docs/en/remote-control",
+    "text": "Remote Control"
+  },
+  "S2V_LINK_95": {
+    "url": "https://platform.claude.com/docs/en/build-with-claude/extended-thinking#interleaved-thinking",
+    "text": "interleaved thinking"
+  },
+  "S2V_LINK_96": {
+    "url": "/docs/en/mcp#use-mcp-servers-from-claude-ai",
+    "text": "claude.ai MCP servers"
+  },
+  "S2V_LINK_97": {
+    "url": "/docs/en/amazon-bedrock",
+    "text": "Bedrock"
+  },
+  "S2V_LINK_98": {
+    "url": "/docs/en/google-vertex-ai",
+    "text": "Vertex"
+  },
+  "S2V_LINK_99": {
+    "url": "/docs/en/microsoft-foundry",
+    "text": "Foundry"
+  },
+  "S2V_LINK_100": {
+    "url": "/docs/en/mcp#scale-with-mcp-tool-search",
+    "text": "MCP tool search"
+  },
+  "S2V_LINK_101": {
+    "url": "/docs/en/cli-reference#cli-flags",
+    "text": "after repeated overload errors on any primary model. By default, only Opus models trigger the fallback"
+  },
+  "S2V_LINK_102": {
+    "url": "/docs/en/mcp#raise-the-limit-for-a-specific-tool",
+    "text": "use that character limit for text content instead, but image content from those tools is still subject to this variable (default: 25000)"
+  },
+  "S2V_LINK_103": {
+    "url": "/docs/en/cli-reference#cli-flags",
+    "text": "in non-interactive mode (the"
+  },
+  "S2V_LINK_104": {
+    "url": "https://platform.claude.com/docs/en/build-with-claude/extended-thinking",
+    "text": "extended thinking"
+  },
+  "S2V_LINK_105": {
+    "url": "https://platform.claude.com/docs/en/about-claude/models/overview#latest-models-comparison",
+    "text": "max output tokens"
+  },
+  "S2V_LINK_106": {
+    "url": "/docs/en/model-config#adjust-effort-level",
+    "text": "adaptive reasoning"
+  },
+  "S2V_LINK_107": {
+    "url": "/docs/en/mcp#use-pre-configured-oauth-credentials",
+    "text": "pre-configured credentials"
+  },
+  "S2V_LINK_108": {
+    "url": "/docs/en/mcp#use-pre-configured-oauth-credentials",
+    "text": "pre-configured credentials"
+  },
+  "S2V_LINK_109": {
+    "url": "/docs/en/monitoring-usage#api-request-body-event",
+    "text": "Monitoring"
+  },
+  "S2V_LINK_110": {
+    "url": "/docs/en/monitoring-usage",
+    "text": "Monitoring"
+  },
+  "S2V_LINK_111": {
+    "url": "/docs/en/monitoring-usage",
+    "text": "Monitoring"
+  },
+  "S2V_LINK_112": {
+    "url": "/docs/en/monitoring-usage",
+    "text": "Monitoring"
+  },
+  "S2V_LINK_113": {
+    "url": "/docs/en/monitoring-usage",
+    "text": "Monitoring"
+  },
+  "S2V_LINK_114": {
+    "url": "/docs/en/monitoring-usage",
+    "text": "Monitoring"
+  },
+  "S2V_LINK_115": {
+    "url": "/docs/en/monitoring-usage",
+    "text": "Monitoring"
+  },
+  "S2V_LINK_116": {
+    "url": "/docs/en/skills#control-who-invokes-a-skill",
+    "text": "Skill tool"
+  },
+  "S2V_LINK_117": {
+    "url": "/docs/en/sub-agents",
+    "text": "subagent"
+  },
+  "S2V_LINK_118": {
+    "url": "/docs/en/monitoring-usage",
+    "text": "Monitoring"
+  },
+  "S2V_LINK_119": {
+    "url": "/docs/en/settings",
+    "text": "Settings"
+  },
+  "S2V_LINK_120": {
+    "url": "/docs/en/cli-reference",
+    "text": "CLI reference"
+  },
+  "S2V_LINK_121": {
+    "url": "/docs/en/network-config",
+    "text": "Network configuration"
+  },
+  "S2V_LINK_122": {
+    "url": "/docs/en/monitoring-usage",
+    "text": "Monitoring"
+  }
+}

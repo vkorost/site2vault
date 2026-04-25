@@ -1,0 +1,30 @@
+{
+  "S2V_LINK_0": {
+    "url": "/docs/en/agent-sdk/sessions#resume-by-id",
+    "text": "."
+  },
+  "S2V_LINK_1": {
+    "url": "/docs/en/agent-sdk/skills",
+    "text": "Skills"
+  },
+  "S2V_LINK_2": {
+    "url": "/docs/en/skills",
+    "text": "Slash Commands"
+  },
+  "S2V_LINK_3": {
+    "url": "/docs/en/agent-sdk/subagents",
+    "text": "Subagents in the SDK"
+  },
+  "S2V_LINK_4": {
+    "url": "/docs/en/agent-sdk/typescript",
+    "text": "TypeScript SDK reference"
+  },
+  "S2V_LINK_5": {
+    "url": "/docs/en/agent-sdk/overview",
+    "text": "SDK overview"
+  },
+  "S2V_LINK_6": {
+    "url": "/docs/en/cli-reference",
+    "text": "CLI reference"
+  }
+}

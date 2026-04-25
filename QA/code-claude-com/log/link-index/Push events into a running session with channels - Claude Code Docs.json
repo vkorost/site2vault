@@ -1,0 +1,158 @@
+{
+  "S2V_LINK_0": {
+    "url": "#research-preview",
+    "text": "research preview"
+  },
+  "S2V_LINK_1": {
+    "url": "#enterprise-controls",
+    "text": "explicitly enable them"
+  },
+  "S2V_LINK_2": {
+    "url": "#how-channels-compare",
+    "text": "how channels compare"
+  },
+  "S2V_LINK_3": {
+    "url": "#supported-channels",
+    "text": "Supported channels"
+  },
+  "S2V_LINK_4": {
+    "url": "#quickstart",
+    "text": "Install and run a channel"
+  },
+  "S2V_LINK_5": {
+    "url": "#security",
+    "text": "Who can push messages"
+  },
+  "S2V_LINK_6": {
+    "url": "#enterprise-controls",
+    "text": "Enable channels for your organization"
+  },
+  "S2V_LINK_7": {
+    "url": "#how-channels-compare",
+    "text": "How channels compare"
+  },
+  "S2V_LINK_8": {
+    "url": "/docs/en/channels-reference",
+    "text": "Channels reference"
+  },
+  "S2V_LINK_9": {
+    "url": "https://bun.sh",
+    "text": "Bun"
+  },
+  "S2V_LINK_10": {
+    "url": "#quickstart",
+    "text": "fakechat quickstart"
+  },
+  "S2V_LINK_11": {
+    "url": "https://github.com/anthropics/claude-plugins-official/tree/main/external_plugins/telegram",
+    "text": "Telegram plugin source"
+  },
+  "S2V_LINK_12": {
+    "url": "https://t.me/BotFather",
+    "text": "BotFather"
+  },
+  "S2V_LINK_13": {
+    "url": "/docs/en/channels-reference",
+    "text": "build your own channel"
+  },
+  "S2V_LINK_14": {
+    "url": "https://github.com/anthropics/claude-plugins-official/tree/main/external_plugins/telegram",
+    "text": "Telegram"
+  },
+  "S2V_LINK_15": {
+    "url": "https://github.com/anthropics/claude-plugins-official/tree/main/external_plugins/discord",
+    "text": "Discord"
+  },
+  "S2V_LINK_16": {
+    "url": "https://github.com/anthropics/claude-plugins-official/tree/main/external_plugins/imessage",
+    "text": "iMessage"
+  },
+  "S2V_LINK_17": {
+    "url": "/docs/en/quickstart#step-1-install-claude-code",
+    "text": "installed and authenticated"
+  },
+  "S2V_LINK_18": {
+    "url": "https://bun.sh",
+    "text": "Bun"
+  },
+  "S2V_LINK_19": {
+    "url": "https://bun.sh/docs/installation",
+    "text": "install Bun"
+  },
+  "S2V_LINK_20": {
+    "url": "#enterprise-controls",
+    "text": "enable channels"
+  },
+  "S2V_LINK_21": {
+    "url": "http://localhost:8787",
+    "text": "http://localhost:8787"
+  },
+  "S2V_LINK_22": {
+    "url": "/docs/en/channels-reference#relay-permission-prompts",
+    "text": "permission relay capability"
+  },
+  "S2V_LINK_23": {
+    "url": "/docs/en/permission-modes#skip-all-checks-with-bypasspermissions-mode",
+    "text": "bypasses prompts entirely, but only use it in environments you trust."
+  },
+  "S2V_LINK_24": {
+    "url": "#enterprise-controls",
+    "text": ". Being in"
+  },
+  "S2V_LINK_25": {
+    "url": "/docs/en/channels-reference#relay-permission-prompts",
+    "text": "permission relay"
+  },
+  "S2V_LINK_26": {
+    "url": "/docs/en/settings",
+    "text": "managed settings"
+  },
+  "S2V_LINK_27": {
+    "url": "https://claude.ai/admin-settings/claude-code",
+    "text": "claude.ai \u2192 Admin settings \u2192 Claude Code \u2192 Channels"
+  },
+  "S2V_LINK_28": {
+    "url": "#restrict-which-channel-plugins-can-run",
+    "text": ". The channel plugins in"
+  },
+  "S2V_LINK_29": {
+    "url": "https://github.com/anthropics/claude-plugins-official/tree/main/external_plugins",
+    "text": "claude-plugins-official"
+  },
+  "S2V_LINK_30": {
+    "url": "/docs/en/channels-reference#test-during-the-research-preview",
+    "text": "Test during the research preview"
+  },
+  "S2V_LINK_31": {
+    "url": "https://github.com/anthropics/claude-code/issues",
+    "text": "Claude Code GitHub repository"
+  },
+  "S2V_LINK_32": {
+    "url": "/docs/en/slack",
+    "text": "Claude in Slack"
+  },
+  "S2V_LINK_33": {
+    "url": "/docs/en/mcp",
+    "text": "MCP server"
+  },
+  "S2V_LINK_34": {
+    "url": "/docs/en/remote-control",
+    "text": "Remote Control"
+  },
+  "S2V_LINK_35": {
+    "url": "/docs/en/channels-reference#example-build-a-webhook-receiver",
+    "text": "Webhook receiver"
+  },
+  "S2V_LINK_36": {
+    "url": "/docs/en/channels-reference",
+    "text": "Build your own channel"
+  },
+  "S2V_LINK_37": {
+    "url": "/docs/en/remote-control",
+    "text": "Remote Control"
+  },
+  "S2V_LINK_38": {
+    "url": "/docs/en/scheduled-tasks",
+    "text": "Scheduled tasks"
+  }
+}

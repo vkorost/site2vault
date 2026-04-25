@@ -1,0 +1,138 @@
+{
+  "S2V_LINK_0": {
+    "url": "/docs/en/discover-plugins",
+    "text": "Discover and install prebuilt plugins"
+  },
+  "S2V_LINK_1": {
+    "url": "/docs/en/plugins",
+    "text": "Create plugins"
+  },
+  "S2V_LINK_2": {
+    "url": "#create-the-marketplace-file",
+    "text": "Create the marketplace file"
+  },
+  "S2V_LINK_3": {
+    "url": "#host-and-distribute-marketplaces",
+    "text": "Host and distribute marketplaces"
+  },
+  "S2V_LINK_4": {
+    "url": "/docs/en/discover-plugins",
+    "text": "Discover and install plugins"
+  },
+  "S2V_LINK_5": {
+    "url": "#version-resolution-and-release-channels",
+    "text": "Version resolution"
+  },
+  "S2V_LINK_6": {
+    "url": "/docs/en/plugins",
+    "text": "Plugins"
+  },
+  "S2V_LINK_7": {
+    "url": "/docs/en/plugins-reference#plugin-caching-and-file-resolution",
+    "text": "Plugin caching and file resolution"
+  },
+  "S2V_LINK_8": {
+    "url": "#marketplace-schema",
+    "text": "full schema"
+  },
+  "S2V_LINK_9": {
+    "url": "/docs/en/plugins-reference#plugin-manifest-schema",
+    "text": "plugin manifest schema"
+  },
+  "S2V_LINK_10": {
+    "url": "#plugins-with-relative-paths-fail-in-url-based-marketplaces",
+    "text": "Troubleshooting"
+  },
+  "S2V_LINK_11": {
+    "url": "/docs/en/plugins-reference#persistent-data-directory",
+    "text": ""
+  },
+  "S2V_LINK_12": {
+    "url": "#strict-mode",
+    "text": "Strict mode"
+  },
+  "S2V_LINK_13": {
+    "url": "/docs/en/discover-plugins#add-marketplaces",
+    "text": "Add marketplaces"
+  },
+  "S2V_LINK_14": {
+    "url": "/docs/en/settings#plugin-settings",
+    "text": "Plugin settings"
+  },
+  "S2V_LINK_15": {
+    "url": "/docs/en/settings#strictknownmarketplaces",
+    "text": "setting in managed settings. When"
+  },
+  "S2V_LINK_16": {
+    "url": "/docs/en/github-enterprise-server#plugin-marketplaces-on-ghes",
+    "text": "GitHub Enterprise Server"
+  },
+  "S2V_LINK_17": {
+    "url": "/docs/en/settings#extraknownmarketplaces",
+    "text": "in the same"
+  },
+  "S2V_LINK_18": {
+    "url": "/docs/en/settings#strictknownmarketplaces",
+    "text": "Using both together"
+  },
+  "S2V_LINK_19": {
+    "url": "/docs/en/settings#settings-files",
+    "text": "managed settings"
+  },
+  "S2V_LINK_20": {
+    "url": "/docs/en/settings#strictknownmarketplaces",
+    "text": "strictKnownMarketplaces reference"
+  },
+  "S2V_LINK_21": {
+    "url": "/docs/en/settings#settings-files",
+    "text": "managed settings"
+  },
+  "S2V_LINK_22": {
+    "url": "/docs/en/plugin-dependencies",
+    "text": "Constrain plugin dependency versions"
+  },
+  "S2V_LINK_23": {
+    "url": "/docs/en/plugins#test-your-plugins-locally",
+    "text": "Test your plugins locally"
+  },
+  "S2V_LINK_24": {
+    "url": "/docs/en/plugins-reference",
+    "text": "Plugins reference"
+  },
+  "S2V_LINK_25": {
+    "url": "#pre-populate-plugins-for-containers",
+    "text": "Pre-populate plugins for containers"
+  },
+  "S2V_LINK_26": {
+    "url": "#pre-populate-plugins-for-containers",
+    "text": "to pre-populate the plugins directory at build time instead."
+  },
+  "S2V_LINK_27": {
+    "url": "/docs/en/plugins-reference#plugin-caching-and-file-resolution",
+    "text": "Plugin caching and file resolution"
+  },
+  "S2V_LINK_28": {
+    "url": "/docs/en/plugins-reference#debugging-and-development-tools",
+    "text": "Debugging and development tools"
+  },
+  "S2V_LINK_29": {
+    "url": "/docs/en/discover-plugins",
+    "text": "Discover and install prebuilt plugins"
+  },
+  "S2V_LINK_30": {
+    "url": "/docs/en/plugins",
+    "text": "Plugins"
+  },
+  "S2V_LINK_31": {
+    "url": "/docs/en/plugins-reference",
+    "text": "Plugins reference"
+  },
+  "S2V_LINK_32": {
+    "url": "/docs/en/settings#plugin-settings",
+    "text": "Plugin settings"
+  },
+  "S2V_LINK_33": {
+    "url": "/docs/en/settings#strictknownmarketplaces",
+    "text": "strictKnownMarketplaces reference"
+  }
+}

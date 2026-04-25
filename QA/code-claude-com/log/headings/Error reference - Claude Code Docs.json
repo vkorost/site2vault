@@ -1,0 +1,177 @@
+[
+  {
+    "level": 2,
+    "text": "Find your error",
+    "slug": "find-your-error"
+  },
+  {
+    "level": 2,
+    "text": "Automatic retries",
+    "slug": "automatic-retries"
+  },
+  {
+    "level": 2,
+    "text": "Server errors",
+    "slug": "server-errors"
+  },
+  {
+    "level": 3,
+    "text": "API Error: 500 Internal server error",
+    "slug": "api-error-500-internal-server-error"
+  },
+  {
+    "level": 3,
+    "text": "API Error: Repeated 529 Overloaded errors",
+    "slug": "api-error-repeated-529-overloaded-errors"
+  },
+  {
+    "level": 3,
+    "text": "Request timed out",
+    "slug": "request-timed-out"
+  },
+  {
+    "level": 3,
+    "text": "Auto mode cannot determine the safety of an action",
+    "slug": "auto-mode-cannot-determine-the-safety-of-an-action"
+  },
+  {
+    "level": 2,
+    "text": "Usage limits",
+    "slug": "usage-limits"
+  },
+  {
+    "level": 3,
+    "text": "You\u2019ve hit your session limit",
+    "slug": "youve-hit-your-session-limit"
+  },
+  {
+    "level": 3,
+    "text": "Server is temporarily limiting requests",
+    "slug": "server-is-temporarily-limiting-requests"
+  },
+  {
+    "level": 3,
+    "text": "Request rejected (429)",
+    "slug": "request-rejected-429"
+  },
+  {
+    "level": 3,
+    "text": "Credit balance is too low",
+    "slug": "credit-balance-is-too-low"
+  },
+  {
+    "level": 2,
+    "text": "Authentication errors",
+    "slug": "authentication-errors"
+  },
+  {
+    "level": 3,
+    "text": "Not logged in",
+    "slug": "not-logged-in"
+  },
+  {
+    "level": 3,
+    "text": "Invalid API key",
+    "slug": "invalid-api-key"
+  },
+  {
+    "level": 3,
+    "text": "This organization has been disabled",
+    "slug": "this-organization-has-been-disabled"
+  },
+  {
+    "level": 3,
+    "text": "OAuth token revoked or expired",
+    "slug": "oauth-token-revoked-or-expired"
+  },
+  {
+    "level": 3,
+    "text": "OAuth scope requirement",
+    "slug": "oauth-scope-requirement"
+  },
+  {
+    "level": 2,
+    "text": "Network and connection errors",
+    "slug": "network-and-connection-errors"
+  },
+  {
+    "level": 3,
+    "text": "Unable to connect to API",
+    "slug": "unable-to-connect-to-api"
+  },
+  {
+    "level": 3,
+    "text": "SSL certificate errors",
+    "slug": "ssl-certificate-errors"
+  },
+  {
+    "level": 2,
+    "text": "Request errors",
+    "slug": "request-errors"
+  },
+  {
+    "level": 3,
+    "text": "Prompt is too long",
+    "slug": "prompt-is-too-long"
+  },
+  {
+    "level": 3,
+    "text": "Error during compaction: Conversation too long",
+    "slug": "error-during-compaction-conversation-too-long"
+  },
+  {
+    "level": 3,
+    "text": "Request too large",
+    "slug": "request-too-large"
+  },
+  {
+    "level": 3,
+    "text": "Image was too large",
+    "slug": "image-was-too-large"
+  },
+  {
+    "level": 3,
+    "text": "PDF errors",
+    "slug": "pdf-errors"
+  },
+  {
+    "level": 3,
+    "text": "Extra inputs are not permitted",
+    "slug": "extra-inputs-are-not-permitted"
+  },
+  {
+    "level": 3,
+    "text": "There\u2019s an issue with the selected model",
+    "slug": "theres-an-issue-with-the-selected-model"
+  },
+  {
+    "level": 3,
+    "text": "Claude Opus is not available with the Claude Pro plan",
+    "slug": "claude-opus-is-not-available-with-the-claude-pro-plan"
+  },
+  {
+    "level": 3,
+    "text": "thinking.type.enabled is not supported for this model",
+    "slug": "thinkingtypeenabled-is-not-supported-for-this-model"
+  },
+  {
+    "level": 3,
+    "text": "Thinking budget exceeds output limit",
+    "slug": "thinking-budget-exceeds-output-limit"
+  },
+  {
+    "level": 3,
+    "text": "Tool use or thinking block mismatch",
+    "slug": "tool-use-or-thinking-block-mismatch"
+  },
+  {
+    "level": 2,
+    "text": "Responses seem lower quality than usual",
+    "slug": "responses-seem-lower-quality-than-usual"
+  },
+  {
+    "level": 2,
+    "text": "Report an error",
+    "slug": "report-an-error"
+  }
+]

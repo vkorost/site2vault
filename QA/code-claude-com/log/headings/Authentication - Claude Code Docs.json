@@ -1,0 +1,42 @@
+[
+  {
+    "level": 2,
+    "text": "Log in to Claude Code",
+    "slug": "log-in-to-claude-code"
+  },
+  {
+    "level": 2,
+    "text": "Set up team authentication",
+    "slug": "set-up-team-authentication"
+  },
+  {
+    "level": 3,
+    "text": "Claude for Teams or Enterprise",
+    "slug": "claude-for-teams-or-enterprise"
+  },
+  {
+    "level": 3,
+    "text": "Claude Console authentication",
+    "slug": "claude-console-authentication"
+  },
+  {
+    "level": 3,
+    "text": "Cloud provider authentication",
+    "slug": "cloud-provider-authentication"
+  },
+  {
+    "level": 2,
+    "text": "Credential management",
+    "slug": "credential-management"
+  },
+  {
+    "level": 3,
+    "text": "Authentication precedence",
+    "slug": "authentication-precedence"
+  },
+  {
+    "level": 3,
+    "text": "Generate a long-lived token",
+    "slug": "generate-a-long-lived-token"
+  }
+]

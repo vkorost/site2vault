@@ -1,0 +1,142 @@
+[
+  {
+    "level": 2,
+    "text": "How hooks work",
+    "slug": "how-hooks-work"
+  },
+  {
+    "level": 2,
+    "text": "Available hooks",
+    "slug": "available-hooks"
+  },
+  {
+    "level": 2,
+    "text": "Configure hooks",
+    "slug": "configure-hooks"
+  },
+  {
+    "level": 3,
+    "text": "Matchers",
+    "slug": "matchers"
+  },
+  {
+    "level": 3,
+    "text": "Callback functions",
+    "slug": "callback-functions"
+  },
+  {
+    "level": 4,
+    "text": "Inputs",
+    "slug": "inputs"
+  },
+  {
+    "level": 4,
+    "text": "Outputs",
+    "slug": "outputs"
+  },
+  {
+    "level": 4,
+    "text": "Asynchronous output",
+    "slug": "asynchronous-output"
+  },
+  {
+    "level": 2,
+    "text": "Examples",
+    "slug": "examples"
+  },
+  {
+    "level": 3,
+    "text": "Modify tool input",
+    "slug": "modify-tool-input"
+  },
+  {
+    "level": 3,
+    "text": "Add context and block a tool",
+    "slug": "add-context-and-block-a-tool"
+  },
+  {
+    "level": 3,
+    "text": "Auto-approve specific tools",
+    "slug": "auto-approve-specific-tools"
+  },
+  {
+    "level": 3,
+    "text": "Chain multiple hooks",
+    "slug": "chain-multiple-hooks"
+  },
+  {
+    "level": 3,
+    "text": "Filter with regex matchers",
+    "slug": "filter-with-regex-matchers"
+  },
+  {
+    "level": 3,
+    "text": "Track subagent activity",
+    "slug": "track-subagent-activity"
+  },
+  {
+    "level": 3,
+    "text": "Make HTTP requests from hooks",
+    "slug": "make-http-requests-from-hooks"
+  },
+  {
+    "level": 3,
+    "text": "Forward notifications to Slack",
+    "slug": "forward-notifications-to-slack"
+  },
+  {
+    "level": 2,
+    "text": "Fix common issues",
+    "slug": "fix-common-issues"
+  },
+  {
+    "level": 3,
+    "text": "Hook not firing",
+    "slug": "hook-not-firing"
+  },
+  {
+    "level": 3,
+    "text": "Matcher not filtering as expected",
+    "slug": "matcher-not-filtering-as-expected"
+  },
+  {
+    "level": 3,
+    "text": "Hook timeout",
+    "slug": "hook-timeout"
+  },
+  {
+    "level": 3,
+    "text": "Tool blocked unexpectedly",
+    "slug": "tool-blocked-unexpectedly"
+  },
+  {
+    "level": 3,
+    "text": "Modified input not applied",
+    "slug": "modified-input-not-applied"
+  },
+  {
+    "level": 3,
+    "text": "Session hooks not available in Python",
+    "slug": "session-hooks-not-available-in-python"
+  },
+  {
+    "level": 3,
+    "text": "Subagent permission prompts multiplying",
+    "slug": "subagent-permission-prompts-multiplying"
+  },
+  {
+    "level": 3,
+    "text": "Recursive hook loops with subagents",
+    "slug": "recursive-hook-loops-with-subagents"
+  },
+  {
+    "level": 3,
+    "text": "systemMessage not appearing in output",
+    "slug": "systemmessage-not-appearing-in-output"
+  },
+  {
+    "level": 2,
+    "text": "Related resources",
+    "slug": "related-resources"
+  }
+]

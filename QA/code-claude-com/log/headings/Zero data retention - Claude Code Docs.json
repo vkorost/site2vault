@@ -1,0 +1,32 @@
+[
+  {
+    "level": 2,
+    "text": "ZDR scope",
+    "slug": "zdr-scope"
+  },
+  {
+    "level": 3,
+    "text": "What ZDR covers",
+    "slug": "what-zdr-covers"
+  },
+  {
+    "level": 3,
+    "text": "What ZDR does not cover",
+    "slug": "what-zdr-does-not-cover"
+  },
+  {
+    "level": 2,
+    "text": "Features disabled under ZDR",
+    "slug": "features-disabled-under-zdr"
+  },
+  {
+    "level": 2,
+    "text": "Data retention for policy violations",
+    "slug": "data-retention-for-policy-violations"
+  },
+  {
+    "level": 2,
+    "text": "Request ZDR",
+    "slug": "request-zdr"
+  }
+]

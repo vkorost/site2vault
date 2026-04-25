@@ -1,0 +1,177 @@
+[
+  {
+    "level": 1,
+    "text": "Claude Code: AI-powered coding assistant for developers",
+    "slug": "claude-code-ai-powered-coding-assistant-for-developers"
+  },
+  {
+    "level": 3,
+    "text": "Claude Code on desktop",
+    "slug": "claude-code-on-desktop"
+  },
+  {
+    "level": 3,
+    "text": "Terminal",
+    "slug": "terminal"
+  },
+  {
+    "level": 3,
+    "text": "VS Code and JetBrains IDEs",
+    "slug": "vs-code-and-jetbrains-ides"
+  },
+  {
+    "level": 3,
+    "text": "Web & iOS research preview",
+    "slug": "web-ios-research-preview"
+  },
+  {
+    "level": 3,
+    "text": "Bring Claude to Slack",
+    "slug": "bring-claude-to-slack"
+  },
+  {
+    "level": 2,
+    "text": "Get started with Claude Code",
+    "slug": "get-started-with-claude-code"
+  },
+  {
+    "level": 3,
+    "text": "Pro",
+    "slug": "pro"
+  },
+  {
+    "level": 3,
+    "text": "Max 5x",
+    "slug": "max-5x"
+  },
+  {
+    "level": 3,
+    "text": "Max 20x",
+    "slug": "max-20x"
+  },
+  {
+    "level": 3,
+    "text": "Claude API",
+    "slug": "claude-api"
+  },
+  {
+    "level": 3,
+    "text": "Team",
+    "slug": "team"
+  },
+  {
+    "level": 3,
+    "text": "Enterprise",
+    "slug": "enterprise"
+  },
+  {
+    "level": 2,
+    "text": "Start a task from your phone, come back to a pull request",
+    "slug": "start-a-task-from-your-phone-come-back-to-a-pull-request"
+  },
+  {
+    "level": 3,
+    "text": "Message Claude from your phone",
+    "slug": "message-claude-from-your-phone"
+  },
+  {
+    "level": 3,
+    "text": "Claude works on your local machine",
+    "slug": "claude-works-on-your-local-machine"
+  },
+  {
+    "level": 3,
+    "text": "You get a working pull request",
+    "slug": "you-get-a-working-pull-request"
+  },
+  {
+    "level": 2,
+    "text": "What could you do with Claude Code?",
+    "slug": "what-could-you-do-with-claude-code"
+  },
+  {
+    "level": 3,
+    "text": "Code onboarding",
+    "slug": "code-onboarding"
+  },
+  {
+    "level": 3,
+    "text": "Turn issues into PRs",
+    "slug": "turn-issues-into-prs"
+  },
+  {
+    "level": 3,
+    "text": "Make powerful edits",
+    "slug": "make-powerful-edits"
+  },
+  {
+    "level": 3,
+    "text": "Powerful intelligence",
+    "slug": "powerful-intelligence"
+  },
+  {
+    "level": 3,
+    "text": "Works where you work",
+    "slug": "works-where-you-work"
+  },
+  {
+    "level": 3,
+    "text": "You\u2019re in control",
+    "slug": "youre-in-control"
+  },
+  {
+    "level": 2,
+    "text": "Meets you where you code",
+    "slug": "meets-you-where-you-code"
+  },
+  {
+    "level": 3,
+    "text": "Start in your terminal",
+    "slug": "start-in-your-terminal"
+  },
+  {
+    "level": 3,
+    "text": "Integrate with your editor",
+    "slug": "integrate-with-your-editor"
+  },
+  {
+    "level": 3,
+    "text": "Access anywhere",
+    "slug": "access-anywhere"
+  },
+  {
+    "level": 2,
+    "text": "Latest feature announcements",
+    "slug": "latest-feature-announcements"
+  },
+  {
+    "level": 2,
+    "text": "What developers are saying",
+    "slug": "what-developers-are-saying"
+  },
+  {
+    "level": 2,
+    "text": "Connects with your favorite command line tools",
+    "slug": "connects-with-your-favorite-command-line-tools"
+  },
+  {
+    "level": 2,
+    "text": "FAQ",
+    "slug": "faq"
+  },
+  {
+    "level": 2,
+    "text": "Get the technical rundown",
+    "slug": "get-the-technical-rundown"
+  },
+  {
+    "level": 2,
+    "text": "Create what\u2019s exciting. Maintain what\u2019s essential.",
+    "slug": "create-whats-exciting-maintain-whats-essential"
+  },
+  {
+    "level": 3,
+    "text": "Get the developer newsletter",
+    "slug": "get-the-developer-newsletter"
+  }
+]

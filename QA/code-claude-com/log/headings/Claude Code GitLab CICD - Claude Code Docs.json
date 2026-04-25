@@ -1,0 +1,152 @@
+[
+  {
+    "level": 2,
+    "text": "Why use Claude Code with GitLab?",
+    "slug": "why-use-claude-code-with-gitlab"
+  },
+  {
+    "level": 2,
+    "text": "How it works",
+    "slug": "how-it-works"
+  },
+  {
+    "level": 2,
+    "text": "What can Claude do?",
+    "slug": "what-can-claude-do"
+  },
+  {
+    "level": 2,
+    "text": "Setup",
+    "slug": "setup"
+  },
+  {
+    "level": 3,
+    "text": "Quick setup",
+    "slug": "quick-setup"
+  },
+  {
+    "level": 3,
+    "text": "Manual setup (recommended for production)",
+    "slug": "manual-setup-recommended-for-production"
+  },
+  {
+    "level": 2,
+    "text": "Example use cases",
+    "slug": "example-use-cases"
+  },
+  {
+    "level": 3,
+    "text": "Turn issues into MRs",
+    "slug": "turn-issues-into-mrs"
+  },
+  {
+    "level": 3,
+    "text": "Get implementation help",
+    "slug": "get-implementation-help"
+  },
+  {
+    "level": 3,
+    "text": "Fix bugs quickly",
+    "slug": "fix-bugs-quickly"
+  },
+  {
+    "level": 2,
+    "text": "Using with AWS Bedrock & Google Vertex AI",
+    "slug": "using-with-aws-bedrock-google-vertex-ai"
+  },
+  {
+    "level": 3,
+    "text": "Prerequisites",
+    "slug": "prerequisites"
+  },
+  {
+    "level": 3,
+    "text": "Setup instructions",
+    "slug": "setup-instructions"
+  },
+  {
+    "level": 2,
+    "text": "Configuration examples",
+    "slug": "configuration-examples"
+  },
+  {
+    "level": 3,
+    "text": "Basic .gitlab-ci.yml (Claude API)",
+    "slug": "basic-gitlab-ciyml-claude-api"
+  },
+  {
+    "level": 3,
+    "text": "AWS Bedrock job example (OIDC)",
+    "slug": "aws-bedrock-job-example-oidc"
+  },
+  {
+    "level": 3,
+    "text": "Google Vertex AI job example (Workload Identity Federation)",
+    "slug": "google-vertex-ai-job-example-workload-identity-federation"
+  },
+  {
+    "level": 2,
+    "text": "Best practices",
+    "slug": "best-practices"
+  },
+  {
+    "level": 3,
+    "text": "CLAUDE.md configuration",
+    "slug": "claudemd-configuration"
+  },
+  {
+    "level": 3,
+    "text": "Security considerations",
+    "slug": "security-considerations"
+  },
+  {
+    "level": 3,
+    "text": "Optimizing performance",
+    "slug": "optimizing-performance"
+  },
+  {
+    "level": 3,
+    "text": "CI costs",
+    "slug": "ci-costs"
+  },
+  {
+    "level": 2,
+    "text": "Security and governance",
+    "slug": "security-and-governance"
+  },
+  {
+    "level": 2,
+    "text": "Troubleshooting",
+    "slug": "troubleshooting"
+  },
+  {
+    "level": 3,
+    "text": "Claude not responding to @claude commands",
+    "slug": "claude-not-responding-to-claude-commands"
+  },
+  {
+    "level": 3,
+    "text": "Job can\u2019t write comments or open MRs",
+    "slug": "job-cant-write-comments-or-open-mrs"
+  },
+  {
+    "level": 3,
+    "text": "Authentication errors",
+    "slug": "authentication-errors"
+  },
+  {
+    "level": 2,
+    "text": "Advanced configuration",
+    "slug": "advanced-configuration"
+  },
+  {
+    "level": 3,
+    "text": "Common parameters and variables",
+    "slug": "common-parameters-and-variables"
+  },
+  {
+    "level": 3,
+    "text": "Customizing Claude\u2019s behavior",
+    "slug": "customizing-claudes-behavior"
+  }
+]

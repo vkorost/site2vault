@@ -1,0 +1,214 @@
+{
+  "S2V_LINK_0": {
+    "url": "/docs/en/env-vars",
+    "text": ", every"
+  },
+  "S2V_LINK_1": {
+    "url": "/docs/en/plugins-reference#plugin-caching-and-file-resolution",
+    "text": "plugin caching"
+  },
+  "S2V_LINK_2": {
+    "url": "#application-data",
+    "text": "application data"
+  },
+  "S2V_LINK_3": {
+    "url": "/docs/en/permissions",
+    "text": "Permissions"
+  },
+  "S2V_LINK_4": {
+    "url": "/docs/en/hooks",
+    "text": "Hooks"
+  },
+  "S2V_LINK_5": {
+    "url": "/docs/en/hooks",
+    "text": "Hooks"
+  },
+  "S2V_LINK_6": {
+    "url": "/docs/en/settings#available-settings",
+    "text": "Settings"
+  },
+  "S2V_LINK_7": {
+    "url": "/docs/en/settings#settings-files",
+    "text": "Settings scopes"
+  },
+  "S2V_LINK_8": {
+    "url": "/docs/en/skills",
+    "text": "Skills"
+  },
+  "S2V_LINK_9": {
+    "url": "/docs/en/sub-agents",
+    "text": "Subagents"
+  },
+  "S2V_LINK_10": {
+    "url": "/docs/en/mcp",
+    "text": "MCP"
+  },
+  "S2V_LINK_11": {
+    "url": "/docs/en/output-styles",
+    "text": "Output styles"
+  },
+  "S2V_LINK_12": {
+    "url": "/docs/en/server-managed-settings",
+    "text": "Managed settings"
+  },
+  "S2V_LINK_13": {
+    "url": "/docs/en/env-vars",
+    "text": "environment variables reference"
+  },
+  "S2V_LINK_14": {
+    "url": "/docs/en/settings#settings-precedence",
+    "text": "settings precedence"
+  },
+  "S2V_LINK_15": {
+    "url": "/docs/en/memory",
+    "text": "Memory"
+  },
+  "S2V_LINK_16": {
+    "url": "#ce-rules",
+    "text": ""
+  },
+  "S2V_LINK_17": {
+    "url": "/docs/en/memory#organize-rules-with-claude/rules/",
+    "text": "Rules"
+  },
+  "S2V_LINK_18": {
+    "url": "#ce-settings-json",
+    "text": ""
+  },
+  "S2V_LINK_19": {
+    "url": "/docs/en/settings",
+    "text": "Settings"
+  },
+  "S2V_LINK_20": {
+    "url": "#ce-settings-local-json",
+    "text": ""
+  },
+  "S2V_LINK_21": {
+    "url": "/docs/en/settings#settings-files",
+    "text": "Settings scopes"
+  },
+  "S2V_LINK_22": {
+    "url": "#ce-mcp-json",
+    "text": ""
+  },
+  "S2V_LINK_23": {
+    "url": "/docs/en/mcp#mcp-installation-scopes",
+    "text": "MCP scopes"
+  },
+  "S2V_LINK_24": {
+    "url": "#ce-worktreeinclude",
+    "text": ""
+  },
+  "S2V_LINK_25": {
+    "url": "/docs/en/common-workflows#copy-gitignored-files-to-worktrees",
+    "text": "Worktrees"
+  },
+  "S2V_LINK_26": {
+    "url": "#ce-skills",
+    "text": ""
+  },
+  "S2V_LINK_27": {
+    "url": "/docs/en/skills",
+    "text": "Skills"
+  },
+  "S2V_LINK_28": {
+    "url": "#ce-commands",
+    "text": ""
+  },
+  "S2V_LINK_29": {
+    "url": "/docs/en/skills",
+    "text": "Skills"
+  },
+  "S2V_LINK_30": {
+    "url": "#ce-output-styles",
+    "text": ""
+  },
+  "S2V_LINK_31": {
+    "url": "/docs/en/output-styles",
+    "text": "Output styles"
+  },
+  "S2V_LINK_32": {
+    "url": "#ce-agents",
+    "text": ""
+  },
+  "S2V_LINK_33": {
+    "url": "/docs/en/sub-agents",
+    "text": "Subagents"
+  },
+  "S2V_LINK_34": {
+    "url": "#ce-agent-memory",
+    "text": ""
+  },
+  "S2V_LINK_35": {
+    "url": "/docs/en/sub-agents#enable-persistent-memory",
+    "text": "Persistent memory"
+  },
+  "S2V_LINK_36": {
+    "url": "#ce-claude-json",
+    "text": ""
+  },
+  "S2V_LINK_37": {
+    "url": "/docs/en/settings#global-config-settings",
+    "text": "Global config"
+  },
+  "S2V_LINK_38": {
+    "url": "#ce-global-projects",
+    "text": ""
+  },
+  "S2V_LINK_39": {
+    "url": "/docs/en/memory#auto-memory",
+    "text": "Auto memory"
+  },
+  "S2V_LINK_40": {
+    "url": "#ce-keybindings",
+    "text": ""
+  },
+  "S2V_LINK_41": {
+    "url": "/docs/en/keybindings",
+    "text": "Keybindings"
+  },
+  "S2V_LINK_42": {
+    "url": "#ce-themes",
+    "text": ""
+  },
+  "S2V_LINK_43": {
+    "url": "/docs/en/terminal-config#create-a-custom-theme",
+    "text": "Custom themes"
+  },
+  "S2V_LINK_44": {
+    "url": "/docs/en/debug-your-config",
+    "text": "Debug your configuration"
+  },
+  "S2V_LINK_45": {
+    "url": "/docs/en/settings#available-settings",
+    "text": ". The default is 30 days."
+  },
+  "S2V_LINK_46": {
+    "url": "/docs/en/permission-modes#analyze-before-you-edit-with-plan-mode",
+    "text": "plan mode"
+  },
+  "S2V_LINK_47": {
+    "url": "/docs/en/env-vars",
+    "text": ""
+  },
+  "S2V_LINK_48": {
+    "url": "/docs/en/permissions",
+    "text": "permission rules"
+  },
+  "S2V_LINK_49": {
+    "url": "/docs/en/memory",
+    "text": "Manage Claude\u2019s memory"
+  },
+  "S2V_LINK_50": {
+    "url": "/docs/en/settings",
+    "text": "Configure settings"
+  },
+  "S2V_LINK_51": {
+    "url": "/docs/en/skills",
+    "text": "Create skills"
+  },
+  "S2V_LINK_52": {
+    "url": "/docs/en/sub-agents",
+    "text": "Configure subagents"
+  }
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "level": 2,
+    "text": "Supported channels",
+    "slug": "supported-channels"
+  },
+  {
+    "level": 2,
+    "text": "Quickstart",
+    "slug": "quickstart"
+  },
+  {
+    "level": 2,
+    "text": "Security",
+    "slug": "security"
+  },
+  {
+    "level": 2,
+    "text": "Enterprise controls",
+    "slug": "enterprise-controls"
+  },
+  {
+    "level": 3,
+    "text": "Enable channels for your organization",
+    "slug": "enable-channels-for-your-organization"
+  },
+  {
+    "level": 3,
+    "text": "Restrict which channel plugins can run",
+    "slug": "restrict-which-channel-plugins-can-run"
+  },
+  {
+    "level": 2,
+    "text": "Research preview",
+    "slug": "research-preview"
+  },
+  {
+    "level": 2,
+    "text": "How channels compare",
+    "slug": "how-channels-compare"
+  },
+  {
+    "level": 2,
+    "text": "Next steps",
+    "slug": "next-steps"
+  }
+]

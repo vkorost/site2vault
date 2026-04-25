@@ -1,0 +1,212 @@
+[
+  {
+    "level": 2,
+    "text": "Understand new codebases",
+    "slug": "understand-new-codebases"
+  },
+  {
+    "level": 3,
+    "text": "Get a quick codebase overview",
+    "slug": "get-a-quick-codebase-overview"
+  },
+  {
+    "level": 3,
+    "text": "Find relevant code",
+    "slug": "find-relevant-code"
+  },
+  {
+    "level": 2,
+    "text": "Fix bugs efficiently",
+    "slug": "fix-bugs-efficiently"
+  },
+  {
+    "level": 2,
+    "text": "Refactor code",
+    "slug": "refactor-code"
+  },
+  {
+    "level": 2,
+    "text": "Use specialized subagents",
+    "slug": "use-specialized-subagents"
+  },
+  {
+    "level": 2,
+    "text": "Use Plan Mode for safe code analysis",
+    "slug": "use-plan-mode-for-safe-code-analysis"
+  },
+  {
+    "level": 3,
+    "text": "When to use Plan Mode",
+    "slug": "when-to-use-plan-mode"
+  },
+  {
+    "level": 3,
+    "text": "How to use Plan Mode",
+    "slug": "how-to-use-plan-mode"
+  },
+  {
+    "level": 3,
+    "text": "Example: Planning a complex refactor",
+    "slug": "example-planning-a-complex-refactor"
+  },
+  {
+    "level": 3,
+    "text": "Configure Plan Mode as default",
+    "slug": "configure-plan-mode-as-default"
+  },
+  {
+    "level": 2,
+    "text": "Work with tests",
+    "slug": "work-with-tests"
+  },
+  {
+    "level": 2,
+    "text": "Create pull requests",
+    "slug": "create-pull-requests"
+  },
+  {
+    "level": 2,
+    "text": "Handle documentation",
+    "slug": "handle-documentation"
+  },
+  {
+    "level": 2,
+    "text": "Work in notes and non-code folders",
+    "slug": "work-in-notes-and-non-code-folders"
+  },
+  {
+    "level": 2,
+    "text": "Work with images",
+    "slug": "work-with-images"
+  },
+  {
+    "level": 2,
+    "text": "Reference files and directories",
+    "slug": "reference-files-and-directories"
+  },
+  {
+    "level": 2,
+    "text": "Use extended thinking (thinking mode)",
+    "slug": "use-extended-thinking-thinking-mode"
+  },
+  {
+    "level": 3,
+    "text": "Configure thinking mode",
+    "slug": "configure-thinking-mode"
+  },
+  {
+    "level": 3,
+    "text": "How extended thinking works",
+    "slug": "how-extended-thinking-works"
+  },
+  {
+    "level": 2,
+    "text": "Resume previous conversations",
+    "slug": "resume-previous-conversations"
+  },
+  {
+    "level": 3,
+    "text": "Name your sessions",
+    "slug": "name-your-sessions"
+  },
+  {
+    "level": 3,
+    "text": "Use the session picker",
+    "slug": "use-the-session-picker"
+  },
+  {
+    "level": 2,
+    "text": "Run parallel Claude Code sessions with Git worktrees",
+    "slug": "run-parallel-claude-code-sessions-with-git-worktrees"
+  },
+  {
+    "level": 3,
+    "text": "Subagent worktrees",
+    "slug": "subagent-worktrees"
+  },
+  {
+    "level": 3,
+    "text": "Worktree cleanup",
+    "slug": "worktree-cleanup"
+  },
+  {
+    "level": 3,
+    "text": "Copy gitignored files to worktrees",
+    "slug": "copy-gitignored-files-to-worktrees"
+  },
+  {
+    "level": 3,
+    "text": "Manage worktrees manually",
+    "slug": "manage-worktrees-manually"
+  },
+  {
+    "level": 3,
+    "text": "Non-git version control",
+    "slug": "non-git-version-control"
+  },
+  {
+    "level": 2,
+    "text": "Get notified when Claude needs your attention",
+    "slug": "get-notified-when-claude-needs-your-attention"
+  },
+  {
+    "level": 2,
+    "text": "Use Claude as a unix-style utility",
+    "slug": "use-claude-as-a-unix-style-utility"
+  },
+  {
+    "level": 3,
+    "text": "Add Claude to your verification process",
+    "slug": "add-claude-to-your-verification-process"
+  },
+  {
+    "level": 3,
+    "text": "Pipe in, pipe out",
+    "slug": "pipe-in-pipe-out"
+  },
+  {
+    "level": 3,
+    "text": "Control output format",
+    "slug": "control-output-format"
+  },
+  {
+    "level": 2,
+    "text": "Run Claude on a schedule",
+    "slug": "run-claude-on-a-schedule"
+  },
+  {
+    "level": 2,
+    "text": "Ask Claude about its capabilities",
+    "slug": "ask-claude-about-its-capabilities"
+  },
+  {
+    "level": 3,
+    "text": "Example questions",
+    "slug": "example-questions"
+  },
+  {
+    "level": 2,
+    "text": "Next steps",
+    "slug": "next-steps"
+  },
+  {
+    "level": 2,
+    "text": "Best practices",
+    "slug": "best-practices"
+  },
+  {
+    "level": 2,
+    "text": "How Claude Code works",
+    "slug": "how-claude-code-works"
+  },
+  {
+    "level": 2,
+    "text": "Extend Claude Code",
+    "slug": "extend-claude-code"
+  },
+  {
+    "level": 2,
+    "text": "Reference implementation",
+    "slug": "reference-implementation"
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "level": 2,
+    "text": "Proxy configuration",
+    "slug": "proxy-configuration"
+  },
+  {
+    "level": 3,
+    "text": "Environment variables",
+    "slug": "environment-variables"
+  },
+  {
+    "level": 3,
+    "text": "Basic authentication",
+    "slug": "basic-authentication"
+  },
+  {
+    "level": 2,
+    "text": "CA certificate store",
+    "slug": "ca-certificate-store"
+  },
+  {
+    "level": 2,
+    "text": "Custom CA certificates",
+    "slug": "custom-ca-certificates"
+  },
+  {
+    "level": 2,
+    "text": "mTLS authentication",
+    "slug": "mtls-authentication"
+  },
+  {
+    "level": 2,
+    "text": "Network access requirements",
+    "slug": "network-access-requirements"
+  }
+]

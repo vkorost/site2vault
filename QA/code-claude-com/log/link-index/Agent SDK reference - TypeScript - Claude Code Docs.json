@@ -1,0 +1,194 @@
+{
+  "S2V_LINK_0": {
+    "url": "/docs/en/agent-sdk/typescript-v2-preview",
+    "text": "Learn more about the TypeScript V2 preview"
+  },
+  "S2V_LINK_1": {
+    "url": "#options",
+    "text": "to a separately installed"
+  },
+  "S2V_LINK_2": {
+    "url": "#query-object",
+    "text": "object that extends"
+  },
+  "S2V_LINK_3": {
+    "url": "#sdk-message",
+    "text": ""
+  },
+  "S2V_LINK_4": {
+    "url": "#warm-query",
+    "text": "handle accepts a prompt later and writes it to an already-ready process, so the first"
+  },
+  "S2V_LINK_5": {
+    "url": "#warm-query",
+    "text": ""
+  },
+  "S2V_LINK_6": {
+    "url": "#return-type-sdk-session-info",
+    "text": ", or"
+  },
+  "S2V_LINK_7": {
+    "url": "#can-use-tool",
+    "text": ""
+  },
+  "S2V_LINK_8": {
+    "url": "/docs/en/agent-sdk/file-checkpointing",
+    "text": "File checkpointing"
+  },
+  "S2V_LINK_9": {
+    "url": "/docs/en/env-vars",
+    "text": "Environment variables"
+  },
+  "S2V_LINK_10": {
+    "url": "#hook-event",
+    "text": ""
+  },
+  "S2V_LINK_11": {
+    "url": "#hook-callback-matcher",
+    "text": ""
+  },
+  "S2V_LINK_12": {
+    "url": "/docs/en/agent-sdk/cost-tracking",
+    "text": "Track cost and usage"
+  },
+  "S2V_LINK_13": {
+    "url": "/docs/en/agent-sdk/structured-outputs",
+    "text": "Structured outputs"
+  },
+  "S2V_LINK_14": {
+    "url": "#permission-mode",
+    "text": ""
+  },
+  "S2V_LINK_15": {
+    "url": "#sdk-plugin-config",
+    "text": ""
+  },
+  "S2V_LINK_16": {
+    "url": "/docs/en/agent-sdk/plugins",
+    "text": "Plugins"
+  },
+  "S2V_LINK_17": {
+    "url": "#sandbox-settings",
+    "text": ""
+  },
+  "S2V_LINK_18": {
+    "url": "#sandbox-settings",
+    "text": "Sandbox settings"
+  },
+  "S2V_LINK_19": {
+    "url": "/docs/en/agent-sdk/session-storage#the-session-store-interface",
+    "text": ""
+  },
+  "S2V_LINK_20": {
+    "url": "/docs/en/agent-sdk/session-storage",
+    "text": "Persist sessions to external storage"
+  },
+  "S2V_LINK_21": {
+    "url": "#setting-source",
+    "text": ""
+  },
+  "S2V_LINK_22": {
+    "url": "/docs/en/agent-sdk/claude-code-features#what-settingsources-does-not-control",
+    "text": "Use Claude Code features"
+  },
+  "S2V_LINK_23": {
+    "url": "/docs/en/agent-sdk/modifying-system-prompts#improve-prompt-caching-across-users-and-machines",
+    "text": "better prompt-cache reuse across machines"
+  },
+  "S2V_LINK_24": {
+    "url": "#thinking-config",
+    "text": ""
+  },
+  "S2V_LINK_25": {
+    "url": "#thinking-config",
+    "text": "for options"
+  },
+  "S2V_LINK_26": {
+    "url": "#tool-config",
+    "text": ""
+  },
+  "S2V_LINK_27": {
+    "url": "#tool-config",
+    "text": "for details"
+  },
+  "S2V_LINK_28": {
+    "url": "#startup",
+    "text": ". The subprocess is already spawned and initialized, so calling"
+  },
+  "S2V_LINK_29": {
+    "url": "/docs/en/agent-sdk/claude-code-features#what-settingsources-does-not-control",
+    "text": "What settingSources does not control"
+  },
+  "S2V_LINK_30": {
+    "url": "/docs/en/agent-sdk/plugins",
+    "text": "Plugins"
+  },
+  "S2V_LINK_31": {
+    "url": "https://platform.claude.com/docs/en/api/messages/create",
+    "text": "from the Anthropic SDK. It includes fields like"
+  },
+  "S2V_LINK_32": {
+    "url": "/docs/en/hooks#defer-a-tool-call-for-later",
+    "text": "Defer a tool call for later"
+  },
+  "S2V_LINK_33": {
+    "url": "/docs/en/env-vars",
+    "text": "is set, so your Agent SDK application can track marketplace plugin installation before the first turn. The"
+  },
+  "S2V_LINK_34": {
+    "url": "/docs/en/agent-sdk/hooks",
+    "text": "Hooks guide"
+  },
+  "S2V_LINK_35": {
+    "url": "/docs/en/agent-sdk/user-input#handle-clarifying-questions",
+    "text": "Handle approvals and user input"
+  },
+  "S2V_LINK_36": {
+    "url": "/docs/en/tools-reference#monitor-tool",
+    "text": "Monitor tool reference"
+  },
+  "S2V_LINK_37": {
+    "url": "https://platform.claude.com/docs/en/api/beta-headers",
+    "text": "Beta headers"
+  },
+  "S2V_LINK_38": {
+    "url": "#mcp-server-config",
+    "text": "for details on each transport type."
+  },
+  "S2V_LINK_39": {
+    "url": "/docs/en/agent-sdk/cost-tracking",
+    "text": "Track cost and usage"
+  },
+  "S2V_LINK_40": {
+    "url": "#usage",
+    "text": "with all nullable fields made non-nullable."
+  },
+  "S2V_LINK_41": {
+    "url": "#monitor",
+    "text": "Monitor"
+  },
+  "S2V_LINK_42": {
+    "url": "#monitor",
+    "text": "Monitor"
+  },
+  "S2V_LINK_43": {
+    "url": "#sandbox-filesystem-config",
+    "text": ""
+  },
+  "S2V_LINK_44": {
+    "url": "/docs/en/agent-sdk/overview",
+    "text": "SDK overview"
+  },
+  "S2V_LINK_45": {
+    "url": "/docs/en/agent-sdk/python",
+    "text": "Python SDK reference"
+  },
+  "S2V_LINK_46": {
+    "url": "/docs/en/cli-reference",
+    "text": "CLI reference"
+  },
+  "S2V_LINK_47": {
+    "url": "/docs/en/common-workflows",
+    "text": "Common workflows"
+  }
+}

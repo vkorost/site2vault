@@ -1,0 +1,102 @@
+[
+  {
+    "level": 2,
+    "text": "Supported IDEs",
+    "slug": "supported-ides"
+  },
+  {
+    "level": 2,
+    "text": "Features",
+    "slug": "features"
+  },
+  {
+    "level": 2,
+    "text": "Installation",
+    "slug": "installation"
+  },
+  {
+    "level": 3,
+    "text": "Marketplace Installation",
+    "slug": "marketplace-installation"
+  },
+  {
+    "level": 2,
+    "text": "Usage",
+    "slug": "usage"
+  },
+  {
+    "level": 3,
+    "text": "From Your IDE",
+    "slug": "from-your-ide"
+  },
+  {
+    "level": 3,
+    "text": "From External Terminals",
+    "slug": "from-external-terminals"
+  },
+  {
+    "level": 2,
+    "text": "Configuration",
+    "slug": "configuration"
+  },
+  {
+    "level": 3,
+    "text": "Claude Code Settings",
+    "slug": "claude-code-settings"
+  },
+  {
+    "level": 3,
+    "text": "Plugin Settings",
+    "slug": "plugin-settings"
+  },
+  {
+    "level": 4,
+    "text": "General Settings",
+    "slug": "general-settings"
+  },
+  {
+    "level": 4,
+    "text": "ESC Key Configuration",
+    "slug": "esc-key-configuration"
+  },
+  {
+    "level": 2,
+    "text": "Special Configurations",
+    "slug": "special-configurations"
+  },
+  {
+    "level": 3,
+    "text": "Remote Development",
+    "slug": "remote-development"
+  },
+  {
+    "level": 3,
+    "text": "WSL Configuration",
+    "slug": "wsl-configuration"
+  },
+  {
+    "level": 2,
+    "text": "Troubleshooting",
+    "slug": "troubleshooting"
+  },
+  {
+    "level": 3,
+    "text": "Plugin Not Working",
+    "slug": "plugin-not-working"
+  },
+  {
+    "level": 3,
+    "text": "IDE Not Detected",
+    "slug": "ide-not-detected"
+  },
+  {
+    "level": 3,
+    "text": "Command Not Found",
+    "slug": "command-not-found"
+  },
+  {
+    "level": 2,
+    "text": "Security Considerations",
+    "slug": "security-considerations"
+  }
+]

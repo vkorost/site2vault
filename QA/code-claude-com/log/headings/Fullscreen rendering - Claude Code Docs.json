@@ -1,0 +1,52 @@
+[
+  {
+    "level": 2,
+    "text": "Enable fullscreen rendering",
+    "slug": "enable-fullscreen-rendering"
+  },
+  {
+    "level": 2,
+    "text": "What changes",
+    "slug": "what-changes"
+  },
+  {
+    "level": 2,
+    "text": "Use the mouse",
+    "slug": "use-the-mouse"
+  },
+  {
+    "level": 2,
+    "text": "Scroll the conversation",
+    "slug": "scroll-the-conversation"
+  },
+  {
+    "level": 3,
+    "text": "Auto-follow",
+    "slug": "auto-follow"
+  },
+  {
+    "level": 3,
+    "text": "Mouse wheel scrolling",
+    "slug": "mouse-wheel-scrolling"
+  },
+  {
+    "level": 2,
+    "text": "Search and review the conversation",
+    "slug": "search-and-review-the-conversation"
+  },
+  {
+    "level": 2,
+    "text": "Use with tmux",
+    "slug": "use-with-tmux"
+  },
+  {
+    "level": 2,
+    "text": "Keep native text selection",
+    "slug": "keep-native-text-selection"
+  },
+  {
+    "level": 2,
+    "text": "Research preview",
+    "slug": "research-preview"
+  }
+]

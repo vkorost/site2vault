@@ -1,0 +1,58 @@
+{
+  "S2V_LINK_0": {
+    "url": "/docs/en/agent-sdk/user-input",
+    "text": "to handle everything else at runtime."
+  },
+  "S2V_LINK_1": {
+    "url": "/docs/en/agent-sdk/user-input",
+    "text": "Handle approvals and user input"
+  },
+  "S2V_LINK_2": {
+    "url": "/docs/en/agent-sdk/hooks",
+    "text": "hooks"
+  },
+  "S2V_LINK_3": {
+    "url": "/docs/en/settings#permission-settings",
+    "text": "settings.json"
+  },
+  "S2V_LINK_4": {
+    "url": "#permission-modes",
+    "text": "permission mode"
+  },
+  "S2V_LINK_5": {
+    "url": "/docs/en/agent-sdk/user-input",
+    "text": "for a decision. In"
+  },
+  "S2V_LINK_6": {
+    "url": "/docs/en/agent-sdk/hooks",
+    "text": "Control execution with hooks"
+  },
+  "S2V_LINK_7": {
+    "url": "/docs/en/agent-sdk/user-input",
+    "text": "Handle approvals and user input"
+  },
+  "S2V_LINK_8": {
+    "url": "/docs/en/settings#permission-settings",
+    "text": "Permission settings"
+  },
+  "S2V_LINK_9": {
+    "url": "/docs/en/permission-modes#eliminate-prompts-with-auto-mode",
+    "text": "Auto mode"
+  },
+  "S2V_LINK_10": {
+    "url": "/docs/en/agent-sdk/user-input#handle-clarifying-questions",
+    "text": "Handle approvals and user input"
+  },
+  "S2V_LINK_11": {
+    "url": "/docs/en/agent-sdk/user-input",
+    "text": "Handle approvals and user input"
+  },
+  "S2V_LINK_12": {
+    "url": "/docs/en/agent-sdk/hooks",
+    "text": "Hooks guide"
+  },
+  "S2V_LINK_13": {
+    "url": "/docs/en/settings#permission-settings",
+    "text": "Permission rules"
+  }
+}

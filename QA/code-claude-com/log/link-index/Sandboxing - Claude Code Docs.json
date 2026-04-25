@@ -1,0 +1,86 @@
+{
+  "S2V_LINK_0": {
+    "url": "/docs/en/settings#sandbox-settings",
+    "text": ""
+  },
+  "S2V_LINK_1": {
+    "url": "https://github.com/containers/bubblewrap",
+    "text": "bubblewrap"
+  },
+  "S2V_LINK_2": {
+    "url": "/docs/en/settings#sandbox-settings",
+    "text": "to"
+  },
+  "S2V_LINK_3": {
+    "url": "/docs/en/settings#sandbox-settings",
+    "text": "Settings"
+  },
+  "S2V_LINK_4": {
+    "url": "/docs/en/settings#settings-precedence",
+    "text": "settings scopes"
+  },
+  "S2V_LINK_5": {
+    "url": "/docs/en/permissions#read-and-edit",
+    "text": "Read and Edit permission rules"
+  },
+  "S2V_LINK_6": {
+    "url": "/docs/en/settings#sandbox-settings",
+    "text": "sandbox settings"
+  },
+  "S2V_LINK_7": {
+    "url": "/docs/en/permissions#manage-permissions",
+    "text": "Claude permission settings"
+  },
+  "S2V_LINK_8": {
+    "url": "/docs/en/permissions",
+    "text": "permissions"
+  },
+  "S2V_LINK_9": {
+    "url": "https://github.com/anthropics/claude-code/tree/main/examples/settings",
+    "text": "repository"
+  },
+  "S2V_LINK_10": {
+    "url": "/docs/en/permissions",
+    "text": "permission settings"
+  },
+  "S2V_LINK_11": {
+    "url": "/docs/en/devcontainer",
+    "text": "devcontainers"
+  },
+  "S2V_LINK_12": {
+    "url": "/docs/en/settings#settings-precedence",
+    "text": "managed settings"
+  },
+  "S2V_LINK_13": {
+    "url": "https://github.com/anthropic-experimental/sandbox-runtime",
+    "text": "GitHub repository"
+  },
+  "S2V_LINK_14": {
+    "url": "/docs/en/permissions",
+    "text": "permissions"
+  },
+  "S2V_LINK_15": {
+    "url": "/docs/en/computer-use",
+    "text": "computer use in the CLI"
+  },
+  "S2V_LINK_16": {
+    "url": "/docs/en/desktop#let-claude-use-your-computer",
+    "text": "computer use in Desktop"
+  },
+  "S2V_LINK_17": {
+    "url": "/docs/en/security",
+    "text": "Security"
+  },
+  "S2V_LINK_18": {
+    "url": "/docs/en/permissions",
+    "text": "Permissions"
+  },
+  "S2V_LINK_19": {
+    "url": "/docs/en/settings",
+    "text": "Settings"
+  },
+  "S2V_LINK_20": {
+    "url": "/docs/en/cli-reference",
+    "text": "CLI reference"
+  }
+}

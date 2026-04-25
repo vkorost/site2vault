@@ -1,0 +1,14 @@
+{
+  "S2V_LINK_0": {
+    "url": "/docs/en/agent-sdk/overview",
+    "text": "Agent SDK"
+  },
+  "S2V_LINK_1": {
+    "url": "#breaking-changes",
+    "text": "breaking changes"
+  },
+  "S2V_LINK_2": {
+    "url": "/docs/en/agent-sdk/claude-code-features#what-settingsources-does-not-control",
+    "text": "What settingSources does not control"
+  }
+}

@@ -1,0 +1,67 @@
+[
+  {
+    "level": 2,
+    "text": "Prerequisites",
+    "slug": "prerequisites"
+  },
+  {
+    "level": 2,
+    "text": "Sign in with Vertex AI",
+    "slug": "sign-in-with-vertex-ai"
+  },
+  {
+    "level": 2,
+    "text": "Region configuration",
+    "slug": "region-configuration"
+  },
+  {
+    "level": 2,
+    "text": "Set up manually",
+    "slug": "set-up-manually"
+  },
+  {
+    "level": 3,
+    "text": "1. Enable Vertex AI API",
+    "slug": "1-enable-vertex-ai-api"
+  },
+  {
+    "level": 3,
+    "text": "2. Request model access",
+    "slug": "2-request-model-access"
+  },
+  {
+    "level": 3,
+    "text": "3. Configure GCP credentials",
+    "slug": "3-configure-gcp-credentials"
+  },
+  {
+    "level": 3,
+    "text": "4. Configure Claude Code",
+    "slug": "4-configure-claude-code"
+  },
+  {
+    "level": 3,
+    "text": "5. Pin model versions",
+    "slug": "5-pin-model-versions"
+  },
+  {
+    "level": 2,
+    "text": "Startup model checks",
+    "slug": "startup-model-checks"
+  },
+  {
+    "level": 2,
+    "text": "IAM configuration",
+    "slug": "iam-configuration"
+  },
+  {
+    "level": 2,
+    "text": "1M token context window",
+    "slug": "1m-token-context-window"
+  },
+  {
+    "level": 2,
+    "text": "Troubleshooting",
+    "slug": "troubleshooting"
+  }
+]

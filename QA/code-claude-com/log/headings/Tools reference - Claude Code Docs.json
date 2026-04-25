@@ -1,0 +1,47 @@
+[
+  {
+    "level": 2,
+    "text": "Bash tool behavior",
+    "slug": "bash-tool-behavior"
+  },
+  {
+    "level": 2,
+    "text": "LSP tool behavior",
+    "slug": "lsp-tool-behavior"
+  },
+  {
+    "level": 2,
+    "text": "Monitor tool",
+    "slug": "monitor-tool"
+  },
+  {
+    "level": 2,
+    "text": "PowerShell tool",
+    "slug": "powershell-tool"
+  },
+  {
+    "level": 3,
+    "text": "Enable the PowerShell tool",
+    "slug": "enable-the-powershell-tool"
+  },
+  {
+    "level": 3,
+    "text": "Shell selection in settings, hooks, and skills",
+    "slug": "shell-selection-in-settings-hooks-and-skills"
+  },
+  {
+    "level": 3,
+    "text": "Preview limitations",
+    "slug": "preview-limitations"
+  },
+  {
+    "level": 2,
+    "text": "Check which tools are available",
+    "slug": "check-which-tools-are-available"
+  },
+  {
+    "level": 2,
+    "text": "See also",
+    "slug": "see-also"
+  }
+]

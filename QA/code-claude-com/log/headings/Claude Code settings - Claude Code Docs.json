@@ -1,0 +1,157 @@
+[
+  {
+    "level": 2,
+    "text": "Configuration scopes",
+    "slug": "configuration-scopes"
+  },
+  {
+    "level": 3,
+    "text": "Available scopes",
+    "slug": "available-scopes"
+  },
+  {
+    "level": 3,
+    "text": "When to use each scope",
+    "slug": "when-to-use-each-scope"
+  },
+  {
+    "level": 3,
+    "text": "How scopes interact",
+    "slug": "how-scopes-interact"
+  },
+  {
+    "level": 3,
+    "text": "What uses scopes",
+    "slug": "what-uses-scopes"
+  },
+  {
+    "level": 2,
+    "text": "Settings files",
+    "slug": "settings-files"
+  },
+  {
+    "level": 3,
+    "text": "Available settings",
+    "slug": "available-settings"
+  },
+  {
+    "level": 3,
+    "text": "Global config settings",
+    "slug": "global-config-settings"
+  },
+  {
+    "level": 3,
+    "text": "Worktree settings",
+    "slug": "worktree-settings"
+  },
+  {
+    "level": 3,
+    "text": "Permission settings",
+    "slug": "permission-settings"
+  },
+  {
+    "level": 3,
+    "text": "Permission rule syntax",
+    "slug": "permission-rule-syntax"
+  },
+  {
+    "level": 3,
+    "text": "Sandbox settings",
+    "slug": "sandbox-settings"
+  },
+  {
+    "level": 4,
+    "text": "Sandbox path prefixes",
+    "slug": "sandbox-path-prefixes"
+  },
+  {
+    "level": 3,
+    "text": "Attribution settings",
+    "slug": "attribution-settings"
+  },
+  {
+    "level": 3,
+    "text": "File suggestion settings",
+    "slug": "file-suggestion-settings"
+  },
+  {
+    "level": 3,
+    "text": "Hook configuration",
+    "slug": "hook-configuration"
+  },
+  {
+    "level": 3,
+    "text": "Settings precedence",
+    "slug": "settings-precedence"
+  },
+  {
+    "level": 3,
+    "text": "Verify active settings",
+    "slug": "verify-active-settings"
+  },
+  {
+    "level": 3,
+    "text": "Key points about the configuration system",
+    "slug": "key-points-about-the-configuration-system"
+  },
+  {
+    "level": 3,
+    "text": "System prompt",
+    "slug": "system-prompt"
+  },
+  {
+    "level": 3,
+    "text": "Excluding sensitive files",
+    "slug": "excluding-sensitive-files"
+  },
+  {
+    "level": 2,
+    "text": "Subagent configuration",
+    "slug": "subagent-configuration"
+  },
+  {
+    "level": 2,
+    "text": "Plugin configuration",
+    "slug": "plugin-configuration"
+  },
+  {
+    "level": 3,
+    "text": "Plugin settings",
+    "slug": "plugin-settings"
+  },
+  {
+    "level": 4,
+    "text": "enabledPlugins",
+    "slug": "enabledplugins"
+  },
+  {
+    "level": 4,
+    "text": "extraKnownMarketplaces",
+    "slug": "extraknownmarketplaces"
+  },
+  {
+    "level": 4,
+    "text": "strictKnownMarketplaces",
+    "slug": "strictknownmarketplaces"
+  },
+  {
+    "level": 3,
+    "text": "Managing plugins",
+    "slug": "managing-plugins"
+  },
+  {
+    "level": 2,
+    "text": "Environment variables",
+    "slug": "environment-variables"
+  },
+  {
+    "level": 2,
+    "text": "Tools available to Claude",
+    "slug": "tools-available-to-claude"
+  },
+  {
+    "level": 2,
+    "text": "See also",
+    "slug": "see-also"
+  }
+]

@@ -1,0 +1,322 @@
+{
+  "S2V_LINK_0": {
+    "url": "/docs/en/context-window",
+    "text": "context window visualization"
+  },
+  "S2V_LINK_1": {
+    "url": "/docs/en/agent-teams",
+    "text": "agent teams"
+  },
+  "S2V_LINK_2": {
+    "url": "#built-in-subagents",
+    "text": "Built-in subagents"
+  },
+  "S2V_LINK_3": {
+    "url": "#quickstart-create-your-first-subagent",
+    "text": "How to create your own"
+  },
+  "S2V_LINK_4": {
+    "url": "#configure-subagents",
+    "text": "Full configuration options"
+  },
+  "S2V_LINK_5": {
+    "url": "#work-with-subagents",
+    "text": "Patterns for working with subagents"
+  },
+  "S2V_LINK_6": {
+    "url": "#fork-the-current-conversation",
+    "text": "Forked subagents"
+  },
+  "S2V_LINK_7": {
+    "url": "#example-subagents",
+    "text": "Example subagents"
+  },
+  "S2V_LINK_8": {
+    "url": "#write-subagent-files",
+    "text": "create them manually"
+  },
+  "S2V_LINK_9": {
+    "url": "#enable-persistent-memory",
+    "text": "persistent memory directory"
+  },
+  "S2V_LINK_10": {
+    "url": "/docs/en/plugins",
+    "text": "plugins"
+  },
+  "S2V_LINK_11": {
+    "url": "/docs/en/permissions#additional-directories-grant-file-access-not-configuration",
+    "text": "grant file access only"
+  },
+  "S2V_LINK_12": {
+    "url": "/docs/en/plugins",
+    "text": "plugin"
+  },
+  "S2V_LINK_13": {
+    "url": "#supported-frontmatter-fields",
+    "text": "frontmatter"
+  },
+  "S2V_LINK_14": {
+    "url": "/docs/en/settings#settings-files",
+    "text": "managed settings directory"
+  },
+  "S2V_LINK_15": {
+    "url": "/docs/en/plugins",
+    "text": "plugins"
+  },
+  "S2V_LINK_16": {
+    "url": "/docs/en/plugins-reference#agents",
+    "text": "plugin components reference"
+  },
+  "S2V_LINK_17": {
+    "url": "/docs/en/settings#permission-settings",
+    "text": "in"
+  },
+  "S2V_LINK_18": {
+    "url": "/docs/en/agent-teams#use-subagent-definitions-for-teammates",
+    "text": "agent teams"
+  },
+  "S2V_LINK_19": {
+    "url": "/docs/en/agent-teams#use-subagent-definitions-for-teammates",
+    "text": "agent teams"
+  },
+  "S2V_LINK_20": {
+    "url": "#supported-frontmatter-fields",
+    "text": "."
+  },
+  "S2V_LINK_21": {
+    "url": "#choose-a-model",
+    "text": "Model"
+  },
+  "S2V_LINK_22": {
+    "url": "#permission-modes",
+    "text": "Permission mode"
+  },
+  "S2V_LINK_23": {
+    "url": "/docs/en/skills",
+    "text": "Skills"
+  },
+  "S2V_LINK_24": {
+    "url": "/docs/en/mcp",
+    "text": "MCP servers"
+  },
+  "S2V_LINK_25": {
+    "url": "/docs/en/mcp#installing-mcp-servers",
+    "text": "MCP server config"
+  },
+  "S2V_LINK_26": {
+    "url": "#define-hooks-for-subagents",
+    "text": "Lifecycle hooks"
+  },
+  "S2V_LINK_27": {
+    "url": "#enable-persistent-memory",
+    "text": "Persistent memory scope"
+  },
+  "S2V_LINK_28": {
+    "url": "#run-subagents-in-foreground-or-background",
+    "text": "background task"
+  },
+  "S2V_LINK_29": {
+    "url": "/docs/en/common-workflows#run-parallel-claude-code-sessions-with-git-worktrees",
+    "text": "git worktree"
+  },
+  "S2V_LINK_30": {
+    "url": "/docs/en/commands",
+    "text": "Commands"
+  },
+  "S2V_LINK_31": {
+    "url": "/docs/en/skills",
+    "text": "skills"
+  },
+  "S2V_LINK_32": {
+    "url": "/docs/en/model-config",
+    "text": "AI model"
+  },
+  "S2V_LINK_33": {
+    "url": "/docs/en/model-config#environment-variables",
+    "text": ""
+  },
+  "S2V_LINK_34": {
+    "url": "/docs/en/tools-reference",
+    "text": "internal tools"
+  },
+  "S2V_LINK_35": {
+    "url": "#disable-specific-subagents",
+    "text": "instead. To allow spawning any subagent without restrictions, use"
+  },
+  "S2V_LINK_36": {
+    "url": "/docs/en/mcp",
+    "text": "MCP"
+  },
+  "S2V_LINK_37": {
+    "url": "#invoke-subagents-explicitly",
+    "text": ""
+  },
+  "S2V_LINK_38": {
+    "url": "/docs/en/mcp",
+    "text": "and settings files."
+  },
+  "S2V_LINK_39": {
+    "url": "/docs/en/permission-modes#eliminate-prompts-with-auto-mode",
+    "text": "auto mode"
+  },
+  "S2V_LINK_40": {
+    "url": "/docs/en/skills#control-who-invokes-a-skill",
+    "text": ", since preloading draws from the same set of skills Claude can invoke. If a listed skill is missing or disabled, Claude Code skips it and logs a warning to the debug log."
+  },
+  "S2V_LINK_41": {
+    "url": "/docs/en/skills#run-skills-in-a-subagent",
+    "text": "running a skill in a subagent"
+  },
+  "S2V_LINK_42": {
+    "url": "/docs/en/hooks#pretooluse-input",
+    "text": "passes hook input as JSON"
+  },
+  "S2V_LINK_43": {
+    "url": "/docs/en/hooks#exit-code-2-behavior-per-event",
+    "text": "exits with code 2"
+  },
+  "S2V_LINK_44": {
+    "url": "/docs/en/hooks#pretooluse-input",
+    "text": "Hook input"
+  },
+  "S2V_LINK_45": {
+    "url": "/docs/en/hooks#exit-code-output",
+    "text": "exit codes"
+  },
+  "S2V_LINK_46": {
+    "url": "/docs/en/settings#permission-settings",
+    "text": "settings"
+  },
+  "S2V_LINK_47": {
+    "url": "/docs/en/permissions#tool-specific-permission-rules",
+    "text": "Permissions documentation"
+  },
+  "S2V_LINK_48": {
+    "url": "/docs/en/hooks",
+    "text": "hooks"
+  },
+  "S2V_LINK_49": {
+    "url": "#invoke-subagents-explicitly",
+    "text": "or the"
+  },
+  "S2V_LINK_50": {
+    "url": "/docs/en/hooks",
+    "text": "."
+  },
+  "S2V_LINK_51": {
+    "url": "/docs/en/hooks#hook-events",
+    "text": "hook events"
+  },
+  "S2V_LINK_52": {
+    "url": "/docs/en/hooks",
+    "text": "Hooks"
+  },
+  "S2V_LINK_53": {
+    "url": "/docs/en/plugins",
+    "text": "plugin"
+  },
+  "S2V_LINK_54": {
+    "url": "/docs/en/cli-reference",
+    "text": "to start a session where the main thread itself takes on that subagent\u2019s system prompt, tool restrictions, and model:"
+  },
+  "S2V_LINK_55": {
+    "url": "/docs/en/cli-reference",
+    "text": "does."
+  },
+  "S2V_LINK_56": {
+    "url": "/docs/en/tools-reference",
+    "text": ""
+  },
+  "S2V_LINK_57": {
+    "url": "/docs/en/env-vars",
+    "text": "Environment variables"
+  },
+  "S2V_LINK_58": {
+    "url": "#fork-the-current-conversation",
+    "text": "fork mode"
+  },
+  "S2V_LINK_59": {
+    "url": "/docs/en/agent-teams",
+    "text": "agent teams"
+  },
+  "S2V_LINK_60": {
+    "url": "/docs/en/skills",
+    "text": "Skills"
+  },
+  "S2V_LINK_61": {
+    "url": "/docs/en/interactive-mode#side-questions-with-%2Fbtw",
+    "text": "instead of a subagent. It sees your full context but has no tool access, and the answer is discarded rather than added to history."
+  },
+  "S2V_LINK_62": {
+    "url": "/docs/en/skills",
+    "text": "Skills"
+  },
+  "S2V_LINK_63": {
+    "url": "#chain-subagents",
+    "text": "chain subagents"
+  },
+  "S2V_LINK_64": {
+    "url": "/docs/en/agent-teams",
+    "text": "agent teams"
+  },
+  "S2V_LINK_65": {
+    "url": "#resume-subagents",
+    "text": "resume a subagent"
+  },
+  "S2V_LINK_66": {
+    "url": "/docs/en/env-vars",
+    "text": "environment variables"
+  },
+  "S2V_LINK_67": {
+    "url": "/docs/en/env-vars",
+    "text": "environment variable to"
+  },
+  "S2V_LINK_68": {
+    "url": "#built-in-subagents",
+    "text": "general-purpose"
+  },
+  "S2V_LINK_69": {
+    "url": "#run-subagents-in-foreground-or-background",
+    "text": "background"
+  },
+  "S2V_LINK_70": {
+    "url": "/docs/en/commands",
+    "text": ""
+  },
+  "S2V_LINK_71": {
+    "url": "#run-subagents-in-foreground-or-background",
+    "text": "Pre-approved"
+  },
+  "S2V_LINK_72": {
+    "url": "/docs/en/headless",
+    "text": "non-interactive mode"
+  },
+  "S2V_LINK_73": {
+    "url": "/docs/en/hooks#pretooluse-input",
+    "text": "passes hook input as JSON"
+  },
+  "S2V_LINK_74": {
+    "url": "/docs/en/hooks#exit-code-2-behavior-per-event",
+    "text": "exits with code 2"
+  },
+  "S2V_LINK_75": {
+    "url": "/docs/en/hooks#exit-code-output",
+    "text": "Hooks"
+  },
+  "S2V_LINK_76": {
+    "url": "/docs/en/hooks#pretooluse-input",
+    "text": "Hook input"
+  },
+  "S2V_LINK_77": {
+    "url": "/docs/en/plugins",
+    "text": "Distribute subagents with plugins"
+  },
+  "S2V_LINK_78": {
+    "url": "/docs/en/headless",
+    "text": "Run Claude Code programmatically"
+  },
+  "S2V_LINK_79": {
+    "url": "/docs/en/mcp",
+    "text": "Use MCP servers"
+  }
+}

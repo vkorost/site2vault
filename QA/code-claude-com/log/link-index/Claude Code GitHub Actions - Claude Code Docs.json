@@ -1,0 +1,94 @@
+{
+  "S2V_LINK_0": {
+    "url": "/docs/en/code-review",
+    "text": "GitHub Code Review"
+  },
+  "S2V_LINK_1": {
+    "url": "/docs/en/agent-sdk/overview",
+    "text": "Claude Agent SDK"
+  },
+  "S2V_LINK_2": {
+    "url": "#breaking-changes-reference",
+    "text": "model parameter"
+  },
+  "S2V_LINK_3": {
+    "url": "https://github.com/anthropics/claude-code-action",
+    "text": "View repository \u2192"
+  },
+  "S2V_LINK_4": {
+    "url": "#using-with-aws-bedrock-%26-google-vertex-ai",
+    "text": "Using with AWS Bedrock & Google Vertex AI"
+  },
+  "S2V_LINK_5": {
+    "url": "https://github.com/apps/claude",
+    "text": "https://github.com/apps/claude"
+  },
+  "S2V_LINK_6": {
+    "url": "https://github.com/anthropics/claude-code-action/blob/main/docs/security.md",
+    "text": "security documentation"
+  },
+  "S2V_LINK_7": {
+    "url": "https://docs.github.com/en/actions/security-guides/using-secrets-in-github-actions",
+    "text": "Learn how to use secrets in GitHub Actions"
+  },
+  "S2V_LINK_8": {
+    "url": "https://github.com/anthropics/claude-code-action/blob/main/examples/claude.yml",
+    "text": "examples/claude.yml"
+  },
+  "S2V_LINK_9": {
+    "url": "https://github.com/anthropics/claude-code-action/tree/main/examples",
+    "text": "examples directory"
+  },
+  "S2V_LINK_10": {
+    "url": "https://github.com/anthropics/claude-code-action/blob/main/docs/security.md",
+    "text": "Claude Code Action security documentation"
+  },
+  "S2V_LINK_11": {
+    "url": "https://docs.github.com/en/billing/managing-billing-for-your-products/managing-billing-for-github-actions/about-billing-for-github-actions",
+    "text": "GitHub\u2019s billing documentation"
+  },
+  "S2V_LINK_12": {
+    "url": "https://claude.com/platform/api",
+    "text": "Claude\u2019s pricing page"
+  },
+  "S2V_LINK_13": {
+    "url": "/docs/en/skills",
+    "text": "skills"
+  },
+  "S2V_LINK_14": {
+    "url": "https://github.com/anthropics/claude-code-action/tree/main/examples",
+    "text": "examples directory"
+  },
+  "S2V_LINK_15": {
+    "url": "https://github.com/settings/apps/new",
+    "text": "https://github.com/settings/apps/new"
+  },
+  "S2V_LINK_16": {
+    "url": "https://github.com/actions/create-github-app-token",
+    "text": "actions/create-github-app-token"
+  },
+  "S2V_LINK_17": {
+    "url": "https://github.com/apps/claude",
+    "text": "https://github.com/apps/claude"
+  },
+  "S2V_LINK_18": {
+    "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_providers_create_oidc.html",
+    "text": "AWS documentation"
+  },
+  "S2V_LINK_19": {
+    "url": "https://cloud.google.com/iam/docs/workload-identity-federation",
+    "text": "Google Cloud Workload Identity Federation documentation"
+  },
+  "S2V_LINK_20": {
+    "url": "https://console.anthropic.com",
+    "text": "console.anthropic.com"
+  },
+  "S2V_LINK_21": {
+    "url": "https://github.com/anthropics/claude-code-action/blob/main/docs",
+    "text": "Claude Code Action documentation"
+  },
+  "S2V_LINK_22": {
+    "url": "/docs/en/memory",
+    "text": "Memory documentation"
+  }
+}

@@ -1,0 +1,152 @@
+[
+  {
+    "level": 2,
+    "text": "Set up your first hook",
+    "slug": "set-up-your-first-hook"
+  },
+  {
+    "level": 2,
+    "text": "What you can automate",
+    "slug": "what-you-can-automate"
+  },
+  {
+    "level": 3,
+    "text": "Get notified when Claude needs input",
+    "slug": "get-notified-when-claude-needs-input"
+  },
+  {
+    "level": 3,
+    "text": "Auto-format code after edits",
+    "slug": "auto-format-code-after-edits"
+  },
+  {
+    "level": 3,
+    "text": "Block edits to protected files",
+    "slug": "block-edits-to-protected-files"
+  },
+  {
+    "level": 3,
+    "text": "Re-inject context after compaction",
+    "slug": "re-inject-context-after-compaction"
+  },
+  {
+    "level": 3,
+    "text": "Audit configuration changes",
+    "slug": "audit-configuration-changes"
+  },
+  {
+    "level": 3,
+    "text": "Reload environment when directory or files change",
+    "slug": "reload-environment-when-directory-or-files-change"
+  },
+  {
+    "level": 3,
+    "text": "Auto-approve specific permission prompts",
+    "slug": "auto-approve-specific-permission-prompts"
+  },
+  {
+    "level": 2,
+    "text": "How hooks work",
+    "slug": "how-hooks-work"
+  },
+  {
+    "level": 3,
+    "text": "Read input and return output",
+    "slug": "read-input-and-return-output"
+  },
+  {
+    "level": 4,
+    "text": "Hook input",
+    "slug": "hook-input"
+  },
+  {
+    "level": 4,
+    "text": "Hook output",
+    "slug": "hook-output"
+  },
+  {
+    "level": 4,
+    "text": "Structured JSON output",
+    "slug": "structured-json-output"
+  },
+  {
+    "level": 3,
+    "text": "Filter hooks with matchers",
+    "slug": "filter-hooks-with-matchers"
+  },
+  {
+    "level": 4,
+    "text": "Filter by tool name and arguments with theiffield",
+    "slug": "filter-by-tool-name-and-arguments-with-theiffield"
+  },
+  {
+    "level": 3,
+    "text": "Configure hook location",
+    "slug": "configure-hook-location"
+  },
+  {
+    "level": 2,
+    "text": "Prompt-based hooks",
+    "slug": "prompt-based-hooks"
+  },
+  {
+    "level": 2,
+    "text": "Agent-based hooks",
+    "slug": "agent-based-hooks"
+  },
+  {
+    "level": 2,
+    "text": "HTTP hooks",
+    "slug": "http-hooks"
+  },
+  {
+    "level": 2,
+    "text": "Limitations and troubleshooting",
+    "slug": "limitations-and-troubleshooting"
+  },
+  {
+    "level": 3,
+    "text": "Limitations",
+    "slug": "limitations"
+  },
+  {
+    "level": 3,
+    "text": "Hooks and permission modes",
+    "slug": "hooks-and-permission-modes"
+  },
+  {
+    "level": 3,
+    "text": "Hook not firing",
+    "slug": "hook-not-firing"
+  },
+  {
+    "level": 3,
+    "text": "Hook error in output",
+    "slug": "hook-error-in-output"
+  },
+  {
+    "level": 3,
+    "text": "/hooksshows no hooks configured",
+    "slug": "hooksshows-no-hooks-configured"
+  },
+  {
+    "level": 3,
+    "text": "Stop hook runs forever",
+    "slug": "stop-hook-runs-forever"
+  },
+  {
+    "level": 3,
+    "text": "JSON validation failed",
+    "slug": "json-validation-failed"
+  },
+  {
+    "level": 3,
+    "text": "Debug techniques",
+    "slug": "debug-techniques"
+  },
+  {
+    "level": 2,
+    "text": "Learn more",
+    "slug": "learn-more"
+  }
+]

@@ -1,0 +1,192 @@
+[
+  {
+    "level": 2,
+    "text": "Prerequisites",
+    "slug": "prerequisites"
+  },
+  {
+    "level": 2,
+    "text": "Install the extension",
+    "slug": "install-the-extension"
+  },
+  {
+    "level": 2,
+    "text": "Get started",
+    "slug": "get-started"
+  },
+  {
+    "level": 2,
+    "text": "Use the prompt box",
+    "slug": "use-the-prompt-box"
+  },
+  {
+    "level": 3,
+    "text": "Reference files and folders",
+    "slug": "reference-files-and-folders"
+  },
+  {
+    "level": 3,
+    "text": "Resume past conversations",
+    "slug": "resume-past-conversations"
+  },
+  {
+    "level": 3,
+    "text": "Resume remote sessions from Claude.ai",
+    "slug": "resume-remote-sessions-from-claudeai"
+  },
+  {
+    "level": 2,
+    "text": "Customize your workflow",
+    "slug": "customize-your-workflow"
+  },
+  {
+    "level": 3,
+    "text": "Choose where Claude lives",
+    "slug": "choose-where-claude-lives"
+  },
+  {
+    "level": 3,
+    "text": "Run multiple conversations",
+    "slug": "run-multiple-conversations"
+  },
+  {
+    "level": 3,
+    "text": "Switch to terminal mode",
+    "slug": "switch-to-terminal-mode"
+  },
+  {
+    "level": 2,
+    "text": "Manage plugins",
+    "slug": "manage-plugins"
+  },
+  {
+    "level": 3,
+    "text": "Install plugins",
+    "slug": "install-plugins"
+  },
+  {
+    "level": 3,
+    "text": "Manage marketplaces",
+    "slug": "manage-marketplaces"
+  },
+  {
+    "level": 2,
+    "text": "Automate browser tasks with Chrome",
+    "slug": "automate-browser-tasks-with-chrome"
+  },
+  {
+    "level": 2,
+    "text": "VS Code commands and shortcuts",
+    "slug": "vs-code-commands-and-shortcuts"
+  },
+  {
+    "level": 3,
+    "text": "Launch a VS Code tab from other tools",
+    "slug": "launch-a-vs-code-tab-from-other-tools"
+  },
+  {
+    "level": 2,
+    "text": "Configure settings",
+    "slug": "configure-settings"
+  },
+  {
+    "level": 3,
+    "text": "Extension settings",
+    "slug": "extension-settings"
+  },
+  {
+    "level": 2,
+    "text": "VS Code extension vs. Claude Code CLI",
+    "slug": "vs-code-extension-vs-claude-code-cli"
+  },
+  {
+    "level": 3,
+    "text": "Rewind with checkpoints",
+    "slug": "rewind-with-checkpoints"
+  },
+  {
+    "level": 3,
+    "text": "Run CLI in VS Code",
+    "slug": "run-cli-in-vs-code"
+  },
+  {
+    "level": 3,
+    "text": "Switch between extension and CLI",
+    "slug": "switch-between-extension-and-cli"
+  },
+  {
+    "level": 3,
+    "text": "Include terminal output in prompts",
+    "slug": "include-terminal-output-in-prompts"
+  },
+  {
+    "level": 3,
+    "text": "Monitor background processes",
+    "slug": "monitor-background-processes"
+  },
+  {
+    "level": 3,
+    "text": "Connect to external tools with MCP",
+    "slug": "connect-to-external-tools-with-mcp"
+  },
+  {
+    "level": 2,
+    "text": "Work with git",
+    "slug": "work-with-git"
+  },
+  {
+    "level": 3,
+    "text": "Create commits and pull requests",
+    "slug": "create-commits-and-pull-requests"
+  },
+  {
+    "level": 3,
+    "text": "Use git worktrees for parallel tasks",
+    "slug": "use-git-worktrees-for-parallel-tasks"
+  },
+  {
+    "level": 2,
+    "text": "Use third-party providers",
+    "slug": "use-third-party-providers"
+  },
+  {
+    "level": 2,
+    "text": "Security and privacy",
+    "slug": "security-and-privacy"
+  },
+  {
+    "level": 3,
+    "text": "The built-in IDE MCP server",
+    "slug": "the-built-in-ide-mcp-server"
+  },
+  {
+    "level": 2,
+    "text": "Fix common issues",
+    "slug": "fix-common-issues"
+  },
+  {
+    "level": 3,
+    "text": "Extension won\u2019t install",
+    "slug": "extension-wont-install"
+  },
+  {
+    "level": 3,
+    "text": "Spark icon not visible",
+    "slug": "spark-icon-not-visible"
+  },
+  {
+    "level": 3,
+    "text": "Claude Code never responds",
+    "slug": "claude-code-never-responds"
+  },
+  {
+    "level": 2,
+    "text": "Uninstall the extension",
+    "slug": "uninstall-the-extension"
+  },
+  {
+    "level": 2,
+    "text": "Next steps",
+    "slug": "next-steps"
+  }
+]

@@ -1,0 +1,172 @@
+[
+  {
+    "level": 2,
+    "text": "Configuration file",
+    "slug": "configuration-file"
+  },
+  {
+    "level": 2,
+    "text": "Contexts",
+    "slug": "contexts"
+  },
+  {
+    "level": 2,
+    "text": "Available actions",
+    "slug": "available-actions"
+  },
+  {
+    "level": 3,
+    "text": "App actions",
+    "slug": "app-actions"
+  },
+  {
+    "level": 3,
+    "text": "History actions",
+    "slug": "history-actions"
+  },
+  {
+    "level": 3,
+    "text": "Chat actions",
+    "slug": "chat-actions"
+  },
+  {
+    "level": 3,
+    "text": "Autocomplete actions",
+    "slug": "autocomplete-actions"
+  },
+  {
+    "level": 3,
+    "text": "Confirmation actions",
+    "slug": "confirmation-actions"
+  },
+  {
+    "level": 3,
+    "text": "Permission actions",
+    "slug": "permission-actions"
+  },
+  {
+    "level": 3,
+    "text": "Transcript actions",
+    "slug": "transcript-actions"
+  },
+  {
+    "level": 3,
+    "text": "History search actions",
+    "slug": "history-search-actions"
+  },
+  {
+    "level": 3,
+    "text": "Task actions",
+    "slug": "task-actions"
+  },
+  {
+    "level": 3,
+    "text": "Theme actions",
+    "slug": "theme-actions"
+  },
+  {
+    "level": 3,
+    "text": "Help actions",
+    "slug": "help-actions"
+  },
+  {
+    "level": 3,
+    "text": "Tabs actions",
+    "slug": "tabs-actions"
+  },
+  {
+    "level": 3,
+    "text": "Attachments actions",
+    "slug": "attachments-actions"
+  },
+  {
+    "level": 3,
+    "text": "Message selector actions",
+    "slug": "message-selector-actions"
+  },
+  {
+    "level": 3,
+    "text": "Diff actions",
+    "slug": "diff-actions"
+  },
+  {
+    "level": 3,
+    "text": "Model picker actions",
+    "slug": "model-picker-actions"
+  },
+  {
+    "level": 3,
+    "text": "Select actions",
+    "slug": "select-actions"
+  },
+  {
+    "level": 3,
+    "text": "Plugin actions",
+    "slug": "plugin-actions"
+  },
+  {
+    "level": 3,
+    "text": "Settings actions",
+    "slug": "settings-actions"
+  },
+  {
+    "level": 3,
+    "text": "Doctor actions",
+    "slug": "doctor-actions"
+  },
+  {
+    "level": 3,
+    "text": "Voice actions",
+    "slug": "voice-actions"
+  },
+  {
+    "level": 2,
+    "text": "Keystroke syntax",
+    "slug": "keystroke-syntax"
+  },
+  {
+    "level": 3,
+    "text": "Modifiers",
+    "slug": "modifiers"
+  },
+  {
+    "level": 3,
+    "text": "Uppercase letters",
+    "slug": "uppercase-letters"
+  },
+  {
+    "level": 3,
+    "text": "Chords",
+    "slug": "chords"
+  },
+  {
+    "level": 3,
+    "text": "Special keys",
+    "slug": "special-keys"
+  },
+  {
+    "level": 2,
+    "text": "Unbind default shortcuts",
+    "slug": "unbind-default-shortcuts"
+  },
+  {
+    "level": 2,
+    "text": "Reserved shortcuts",
+    "slug": "reserved-shortcuts"
+  },
+  {
+    "level": 2,
+    "text": "Terminal conflicts",
+    "slug": "terminal-conflicts"
+  },
+  {
+    "level": 2,
+    "text": "Vim mode interaction",
+    "slug": "vim-mode-interaction"
+  },
+  {
+    "level": 2,
+    "text": "Validation",
+    "slug": "validation"
+  }
+]

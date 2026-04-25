@@ -1,0 +1,22 @@
+{
+  "S2V_LINK_0": {
+    "url": "/docs/en/memory",
+    "text": "CLAUDE.md"
+  },
+  "S2V_LINK_1": {
+    "url": "/docs/en/settings",
+    "text": "local project level"
+  },
+  "S2V_LINK_2": {
+    "url": "/docs/en/plugins-reference",
+    "text": "Plugins"
+  },
+  "S2V_LINK_3": {
+    "url": "/docs/en/sub-agents",
+    "text": "Agents"
+  },
+  "S2V_LINK_4": {
+    "url": "/docs/en/skills",
+    "text": "Skills"
+  }
+}

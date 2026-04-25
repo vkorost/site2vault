@@ -1,0 +1,110 @@
+{
+  "S2V_LINK_0": {
+    "url": "https://claude.com/pricing",
+    "text": "claude.com/pricing"
+  },
+  "S2V_LINK_1": {
+    "url": "#track-your-costs",
+    "text": "track your costs"
+  },
+  "S2V_LINK_2": {
+    "url": "#managing-costs-for-teams",
+    "text": "manage costs for teams"
+  },
+  "S2V_LINK_3": {
+    "url": "#reduce-token-usage",
+    "text": "reduce token usage"
+  },
+  "S2V_LINK_4": {
+    "url": "https://platform.claude.com/usage",
+    "text": "Claude Console"
+  },
+  "S2V_LINK_5": {
+    "url": "https://platform.claude.com/docs/en/build-with-claude/workspaces#workspace-limits",
+    "text": "set workspace spend limits"
+  },
+  "S2V_LINK_6": {
+    "url": "https://platform.claude.com/docs/en/build-with-claude/workspaces#usage-and-cost-tracking",
+    "text": "view cost and usage reporting"
+  },
+  "S2V_LINK_7": {
+    "url": "https://platform.claude.com/docs/en/api/rate-limits#setting-lower-limits-for-workspaces",
+    "text": "workspace rate limit"
+  },
+  "S2V_LINK_8": {
+    "url": "/docs/en/llm-gateway#litellm-configuration",
+    "text": "LiteLLM"
+  },
+  "S2V_LINK_9": {
+    "url": "https://docs.litellm.ai/docs/proxy/virtual_keys#tracking-spend",
+    "text": "track spend by key"
+  },
+  "S2V_LINK_10": {
+    "url": "/docs/en/agent-teams",
+    "text": "Agent teams"
+  },
+  "S2V_LINK_11": {
+    "url": "/docs/en/settings",
+    "text": "settings.json"
+  },
+  "S2V_LINK_12": {
+    "url": "/docs/en/agent-teams#enable-agent-teams",
+    "text": "enable agent teams"
+  },
+  "S2V_LINK_13": {
+    "url": "/docs/en/statusline#context-window-usage",
+    "text": "configure your status line"
+  },
+  "S2V_LINK_14": {
+    "url": "/docs/en/sub-agents#choose-a-model",
+    "text": "subagent configuration"
+  },
+  "S2V_LINK_15": {
+    "url": "/docs/en/mcp#scale-with-mcp-tool-search",
+    "text": "deferred by default"
+  },
+  "S2V_LINK_16": {
+    "url": "/docs/en/discover-plugins#code-intelligence",
+    "text": "Code intelligence plugins"
+  },
+  "S2V_LINK_17": {
+    "url": "/docs/en/hooks",
+    "text": "hooks"
+  },
+  "S2V_LINK_18": {
+    "url": "/docs/en/skills",
+    "text": "skill"
+  },
+  "S2V_LINK_19": {
+    "url": "/docs/en/settings#settings-files",
+    "text": "settings.json"
+  },
+  "S2V_LINK_20": {
+    "url": "/docs/en/memory",
+    "text": "CLAUDE.md"
+  },
+  "S2V_LINK_21": {
+    "url": "/docs/en/skills",
+    "text": "Skills"
+  },
+  "S2V_LINK_22": {
+    "url": "/docs/en/model-config#adjust-effort-level",
+    "text": "effort level"
+  },
+  "S2V_LINK_23": {
+    "url": "/docs/en/sub-agents#isolate-high-volume-operations",
+    "text": "subagents"
+  },
+  "S2V_LINK_24": {
+    "url": "/docs/en/agent-teams",
+    "text": "agent teams"
+  },
+  "S2V_LINK_25": {
+    "url": "/docs/en/common-workflows#use-plan-mode-for-safe-code-analysis",
+    "text": "plan mode"
+  },
+  "S2V_LINK_26": {
+    "url": "https://platform.claude.com/login",
+    "text": "Console account"
+  }
+}

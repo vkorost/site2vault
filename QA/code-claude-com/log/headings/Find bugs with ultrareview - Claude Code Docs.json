@@ -1,0 +1,27 @@
+[
+  {
+    "level": 2,
+    "text": "Run ultrareview from the CLI",
+    "slug": "run-ultrareview-from-the-cli"
+  },
+  {
+    "level": 2,
+    "text": "Pricing and free runs",
+    "slug": "pricing-and-free-runs"
+  },
+  {
+    "level": 2,
+    "text": "Track a running review",
+    "slug": "track-a-running-review"
+  },
+  {
+    "level": 2,
+    "text": "How ultrareview compares to /review",
+    "slug": "how-ultrareview-compares-to-review"
+  },
+  {
+    "level": 2,
+    "text": "Related resources",
+    "slug": "related-resources"
+  }
+]

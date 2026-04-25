@@ -1,0 +1,82 @@
+[
+  {
+    "level": 2,
+    "text": "How sessions run",
+    "slug": "how-sessions-run"
+  },
+  {
+    "level": 2,
+    "text": "Compare ways to run Claude Code",
+    "slug": "compare-ways-to-run-claude-code"
+  },
+  {
+    "level": 2,
+    "text": "Connect GitHub and create an environment",
+    "slug": "connect-github-and-create-an-environment"
+  },
+  {
+    "level": 3,
+    "text": "Connect from your terminal",
+    "slug": "connect-from-your-terminal"
+  },
+  {
+    "level": 2,
+    "text": "Start a task",
+    "slug": "start-a-task"
+  },
+  {
+    "level": 2,
+    "text": "Pre-fill sessions",
+    "slug": "pre-fill-sessions"
+  },
+  {
+    "level": 2,
+    "text": "Review and iterate",
+    "slug": "review-and-iterate"
+  },
+  {
+    "level": 2,
+    "text": "Troubleshoot setup",
+    "slug": "troubleshoot-setup"
+  },
+  {
+    "level": 3,
+    "text": "No repositories appear after connecting GitHub",
+    "slug": "no-repositories-appear-after-connecting-github"
+  },
+  {
+    "level": 3,
+    "text": "The page only shows a GitHub login button",
+    "slug": "the-page-only-shows-a-github-login-button"
+  },
+  {
+    "level": 3,
+    "text": "\u201dNot available for the selected organization\u201d",
+    "slug": "not-available-for-the-selected-organization"
+  },
+  {
+    "level": 3,
+    "text": "/web-setupreturns \u201cUnknown command\u201d",
+    "slug": "web-setupreturns-unknown-command"
+  },
+  {
+    "level": 3,
+    "text": "\u201dCould not create a cloud environment\u201d or \u201cNo cloud environment available\u201d when using--remoteor ultraplan",
+    "slug": "could-not-create-a-cloud-environment-or-no-cloud-environment-available-when-using-remoteor-ultraplan"
+  },
+  {
+    "level": 3,
+    "text": "Setup script failed",
+    "slug": "setup-script-failed"
+  },
+  {
+    "level": 3,
+    "text": "Session keeps running after closing the tab",
+    "slug": "session-keeps-running-after-closing-the-tab"
+  },
+  {
+    "level": 2,
+    "text": "Next steps",
+    "slug": "next-steps"
+  }
+]

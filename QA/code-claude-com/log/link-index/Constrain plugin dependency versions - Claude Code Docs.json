@@ -1,0 +1,30 @@
+{
+  "S2V_LINK_0": {
+    "url": "/docs/en/discover-plugins",
+    "text": "Discover and install plugins"
+  },
+  "S2V_LINK_1": {
+    "url": "/docs/en/plugins-reference",
+    "text": "Plugins reference"
+  },
+  "S2V_LINK_2": {
+    "url": "#depend-on-a-plugin-from-another-marketplace",
+    "text": "in the root marketplace\u2019s"
+  },
+  "S2V_LINK_3": {
+    "url": "/docs/en/plugins",
+    "text": "Create plugins"
+  },
+  "S2V_LINK_4": {
+    "url": "/docs/en/plugin-marketplaces",
+    "text": "Create and distribute a plugin marketplace"
+  },
+  "S2V_LINK_5": {
+    "url": "/docs/en/plugins-reference#plugin-manifest-schema",
+    "text": "Plugins reference"
+  },
+  "S2V_LINK_6": {
+    "url": "/docs/en/plugins-reference#version-management",
+    "text": "Version management"
+  }
+}

@@ -1,0 +1,226 @@
+{
+  "S2V_LINK_0": {
+    "url": "#prompt-based-hooks",
+    "text": "prompt-based hooks"
+  },
+  "S2V_LINK_1": {
+    "url": "#agent-based-hooks",
+    "text": "agent-based hooks"
+  },
+  "S2V_LINK_2": {
+    "url": "/docs/en/skills",
+    "text": "skills"
+  },
+  "S2V_LINK_3": {
+    "url": "/docs/en/sub-agents",
+    "text": "subagents"
+  },
+  "S2V_LINK_4": {
+    "url": "/docs/en/plugins",
+    "text": "plugins"
+  },
+  "S2V_LINK_5": {
+    "url": "#configure-hook-location",
+    "text": "settings file"
+  },
+  "S2V_LINK_6": {
+    "url": "#get-notified-when-claude-needs-input",
+    "text": "Get notified when Claude needs input"
+  },
+  "S2V_LINK_7": {
+    "url": "/docs/en/hooks#hook-lifecycle",
+    "text": "Hooks reference"
+  },
+  "S2V_LINK_8": {
+    "url": "#configure-hook-location",
+    "text": "settings file"
+  },
+  "S2V_LINK_9": {
+    "url": "#get-notified-when-claude-needs-input",
+    "text": "Get notified when Claude needs input"
+  },
+  "S2V_LINK_10": {
+    "url": "#auto-format-code-after-edits",
+    "text": "Auto-format code after edits"
+  },
+  "S2V_LINK_11": {
+    "url": "#block-edits-to-protected-files",
+    "text": "Block edits to protected files"
+  },
+  "S2V_LINK_12": {
+    "url": "#re-inject-context-after-compaction",
+    "text": "Re-inject context after compaction"
+  },
+  "S2V_LINK_13": {
+    "url": "#audit-configuration-changes",
+    "text": "Audit configuration changes"
+  },
+  "S2V_LINK_14": {
+    "url": "#reload-environment-when-directory-or-files-change",
+    "text": "Reload environment when directory or files change"
+  },
+  "S2V_LINK_15": {
+    "url": "#auto-approve-specific-permission-prompts",
+    "text": "Auto-approve specific permission prompts"
+  },
+  "S2V_LINK_16": {
+    "url": "https://prettier.io/",
+    "text": "Prettier"
+  },
+  "S2V_LINK_17": {
+    "url": "https://jqlang.github.io/jq/",
+    "text": "and passes it to Prettier. Add this to"
+  },
+  "S2V_LINK_18": {
+    "url": "https://jqlang.github.io/jq/download/",
+    "text": "."
+  },
+  "S2V_LINK_19": {
+    "url": "/docs/en/memory",
+    "text": "CLAUDE.md"
+  },
+  "S2V_LINK_20": {
+    "url": "/docs/en/hooks#persist-environment-variables",
+    "text": "in the reference."
+  },
+  "S2V_LINK_21": {
+    "url": "/docs/en/hooks#configchange",
+    "text": "ConfigChange reference"
+  },
+  "S2V_LINK_22": {
+    "url": "https://direnv.net/",
+    "text": "direnv"
+  },
+  "S2V_LINK_23": {
+    "url": "/docs/en/hooks#filechanged",
+    "text": "FileChanged"
+  },
+  "S2V_LINK_24": {
+    "url": "/docs/en/hooks#cwdchanged",
+    "text": "CwdChanged"
+  },
+  "S2V_LINK_25": {
+    "url": "/docs/en/hooks#filechanged",
+    "text": "FileChanged"
+  },
+  "S2V_LINK_26": {
+    "url": "/docs/en/permissions#managed-settings",
+    "text": ". It is never persisted as"
+  },
+  "S2V_LINK_27": {
+    "url": "/docs/en/hooks#permissionrequest-decision-control",
+    "text": "PermissionRequest reference"
+  },
+  "S2V_LINK_28": {
+    "url": "#http-hooks",
+    "text": "HTTP hooks"
+  },
+  "S2V_LINK_29": {
+    "url": "/docs/en/hooks#mcp-tool-hook-fields",
+    "text": "MCP tool hooks"
+  },
+  "S2V_LINK_30": {
+    "url": "#prompt-based-hooks",
+    "text": "Prompt-based hooks"
+  },
+  "S2V_LINK_31": {
+    "url": "#agent-based-hooks",
+    "text": "Agent-based hooks"
+  },
+  "S2V_LINK_32": {
+    "url": "/docs/en/hooks#common-input-fields",
+    "text": "Common input fields"
+  },
+  "S2V_LINK_33": {
+    "url": "/docs/en/hooks#debug-hooks",
+    "text": "debug log"
+  },
+  "S2V_LINK_34": {
+    "url": "/docs/en/headless",
+    "text": "non-interactive mode"
+  },
+  "S2V_LINK_35": {
+    "url": "/docs/en/hooks#defer-a-tool-call-for-later",
+    "text": "Defer a tool call for later"
+  },
+  "S2V_LINK_36": {
+    "url": "/docs/en/permissions#manage-permissions",
+    "text": "permission rules"
+  },
+  "S2V_LINK_37": {
+    "url": "/docs/en/settings#settings-files",
+    "text": "managed settings"
+  },
+  "S2V_LINK_38": {
+    "url": "/docs/en/hooks#decision-control",
+    "text": "summary table"
+  },
+  "S2V_LINK_39": {
+    "url": "#prompt-based-hooks",
+    "text": "Prompt-based hooks"
+  },
+  "S2V_LINK_40": {
+    "url": "/docs/en/hooks#matcher-patterns",
+    "text": "Matcher patterns"
+  },
+  "S2V_LINK_41": {
+    "url": "/docs/en/hooks#configuration",
+    "text": "Hooks reference"
+  },
+  "S2V_LINK_42": {
+    "url": "/docs/en/permissions",
+    "text": "permission rule syntax"
+  },
+  "S2V_LINK_43": {
+    "url": "/docs/en/skills",
+    "text": "Skill"
+  },
+  "S2V_LINK_44": {
+    "url": "/docs/en/sub-agents",
+    "text": "agent"
+  },
+  "S2V_LINK_45": {
+    "url": "/docs/en/hooks#the-hooks-menu",
+    "text": "in Claude Code to browse all configured hooks grouped by event. To disable all hooks at once, set"
+  },
+  "S2V_LINK_46": {
+    "url": "/docs/en/hooks#prompt-based-hooks",
+    "text": "Prompt-based hooks"
+  },
+  "S2V_LINK_47": {
+    "url": "/docs/en/hooks#agent-based-hooks",
+    "text": "Agent-based hooks"
+  },
+  "S2V_LINK_48": {
+    "url": "/docs/en/hooks#json-output",
+    "text": "output format"
+  },
+  "S2V_LINK_49": {
+    "url": "/docs/en/hooks#http-hook-fields",
+    "text": "HTTP hooks"
+  },
+  "S2V_LINK_50": {
+    "url": "/docs/en/headless",
+    "text": "non-interactive mode"
+  },
+  "S2V_LINK_51": {
+    "url": "/docs/en/hooks#stopfailure",
+    "text": "StopFailure"
+  },
+  "S2V_LINK_52": {
+    "url": "/docs/en/hooks#pretooluse",
+    "text": ""
+  },
+  "S2V_LINK_53": {
+    "url": "/docs/en/hooks",
+    "text": "Hooks reference"
+  },
+  "S2V_LINK_54": {
+    "url": "/docs/en/hooks#security-considerations",
+    "text": "Security considerations"
+  },
+  "S2V_LINK_55": {
+    "url": "https://github.com/anthropics/claude-code/blob/main/examples/hooks/bash_command_validator_example.py",
+    "text": "Bash command validator example"
+  }
+}

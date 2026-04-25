@@ -1,0 +1,47 @@
+[
+  {
+    "level": 2,
+    "text": "Built-in output styles",
+    "slug": "built-in-output-styles"
+  },
+  {
+    "level": 2,
+    "text": "How output styles work",
+    "slug": "how-output-styles-work"
+  },
+  {
+    "level": 2,
+    "text": "Change your output style",
+    "slug": "change-your-output-style"
+  },
+  {
+    "level": 2,
+    "text": "Create a custom output style",
+    "slug": "create-a-custom-output-style"
+  },
+  {
+    "level": 3,
+    "text": "Frontmatter",
+    "slug": "frontmatter"
+  },
+  {
+    "level": 2,
+    "text": "Comparisons to related features",
+    "slug": "comparisons-to-related-features"
+  },
+  {
+    "level": 3,
+    "text": "Output Styles vs. CLAUDE.md vs. \u2014append-system-prompt",
+    "slug": "output-styles-vs-claudemd-vs-append-system-prompt"
+  },
+  {
+    "level": 3,
+    "text": "Output Styles vs.Agents",
+    "slug": "output-styles-vsagents"
+  },
+  {
+    "level": 3,
+    "text": "Output Styles vs.Skills",
+    "slug": "output-styles-vsskills"
+  }
+]

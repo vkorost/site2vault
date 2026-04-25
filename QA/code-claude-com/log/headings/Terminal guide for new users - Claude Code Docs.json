@@ -1,0 +1,57 @@
+[
+  {
+    "level": 2,
+    "text": "macOS and Linux",
+    "slug": "macos-and-linux"
+  },
+  {
+    "level": 2,
+    "text": "Windows",
+    "slug": "windows"
+  },
+  {
+    "level": 2,
+    "text": "What\u2019s next?",
+    "slug": "whats-next"
+  },
+  {
+    "level": 3,
+    "text": "Build something",
+    "slug": "build-something"
+  },
+  {
+    "level": 3,
+    "text": "Work with files on your computer",
+    "slug": "work-with-files-on-your-computer"
+  },
+  {
+    "level": 3,
+    "text": "Ask questions",
+    "slug": "ask-questions"
+  },
+  {
+    "level": 3,
+    "text": "Other ways to use Claude Code",
+    "slug": "other-ways-to-use-claude-code"
+  },
+  {
+    "level": 3,
+    "text": "Learn more",
+    "slug": "learn-more"
+  },
+  {
+    "level": 2,
+    "text": "Troubleshooting",
+    "slug": "troubleshooting"
+  },
+  {
+    "level": 3,
+    "text": "macOS and Linux troubleshooting",
+    "slug": "macos-and-linux-troubleshooting"
+  },
+  {
+    "level": 3,
+    "text": "Windows troubleshooting",
+    "slug": "windows-troubleshooting"
+  }
+]

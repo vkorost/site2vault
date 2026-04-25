@@ -1,0 +1,102 @@
+{
+  "S2V_LINK_0": {
+    "url": "#enter-multiline-prompts",
+    "text": "Shift+Enter submits instead of inserting a newline"
+  },
+  "S2V_LINK_1": {
+    "url": "#enable-option-key-shortcuts-on-macos",
+    "text": "Option-key shortcuts do nothing on macOS"
+  },
+  "S2V_LINK_2": {
+    "url": "#get-a-terminal-bell-or-notification",
+    "text": "No sound or alert when Claude finishes"
+  },
+  "S2V_LINK_3": {
+    "url": "#configure-tmux",
+    "text": "You run Claude Code inside tmux"
+  },
+  "S2V_LINK_4": {
+    "url": "#switch-to-fullscreen-rendering",
+    "text": "Display flickers or scrollback jumps"
+  },
+  "S2V_LINK_5": {
+    "url": "#edit-prompts-with-vim-keybindings",
+    "text": "You want Vim keys in the prompt"
+  },
+  "S2V_LINK_6": {
+    "url": "/docs/en/keybindings",
+    "text": "keybindings"
+  },
+  "S2V_LINK_7": {
+    "url": "/docs/en/fullscreen",
+    "text": "fullscreen mode"
+  },
+  "S2V_LINK_8": {
+    "url": "#configure-tmux",
+    "text": "tmux configuration below"
+  },
+  "S2V_LINK_9": {
+    "url": "/docs/en/keybindings",
+    "text": "keybindings file"
+  },
+  "S2V_LINK_10": {
+    "url": "#play-a-sound-with-a-notification-hook",
+    "text": "Notification hook"
+  },
+  "S2V_LINK_11": {
+    "url": "#configure-tmux",
+    "text": "enable passthrough"
+  },
+  "S2V_LINK_12": {
+    "url": "/docs/en/hooks-guide#get-notified-when-claude-needs-input",
+    "text": "Notification hook"
+  },
+  "S2V_LINK_13": {
+    "url": "/docs/en/settings#available-settings",
+    "text": "progress bar"
+  },
+  "S2V_LINK_14": {
+    "url": "/docs/en/statusline",
+    "text": "custom status line"
+  },
+  "S2V_LINK_15": {
+    "url": "/docs/en/plugins-reference#themes",
+    "text": "plugins"
+  },
+  "S2V_LINK_16": {
+    "url": "/docs/en/fullscreen",
+    "text": "fullscreen rendering mode"
+  },
+  "S2V_LINK_17": {
+    "url": "/docs/en/fullscreen#search-and-review-the-conversation",
+    "text": "fullscreen page"
+  },
+  "S2V_LINK_18": {
+    "url": "/docs/en/settings#available-settings",
+    "text": "to"
+  },
+  "S2V_LINK_19": {
+    "url": "/docs/en/interactive-mode#vim-editor-mode",
+    "text": "Vim editor mode reference"
+  },
+  "S2V_LINK_20": {
+    "url": "/docs/en/interactive-mode",
+    "text": "Interactive mode"
+  },
+  "S2V_LINK_21": {
+    "url": "/docs/en/keybindings",
+    "text": "Keybindings"
+  },
+  "S2V_LINK_22": {
+    "url": "/docs/en/fullscreen",
+    "text": "Fullscreen rendering"
+  },
+  "S2V_LINK_23": {
+    "url": "/docs/en/hooks-guide",
+    "text": "Hooks guide"
+  },
+  "S2V_LINK_24": {
+    "url": "/docs/en/troubleshooting",
+    "text": "Troubleshooting"
+  }
+}

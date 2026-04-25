@@ -1,0 +1,138 @@
+{
+  "S2V_LINK_0": {
+    "url": "/docs/en/sub-agents",
+    "text": "subagents"
+  },
+  "S2V_LINK_1": {
+    "url": "#when-to-use-agent-teams",
+    "text": "When to use agent teams"
+  },
+  "S2V_LINK_2": {
+    "url": "#start-your-first-agent-team",
+    "text": "Starting a team"
+  },
+  "S2V_LINK_3": {
+    "url": "#control-your-agent-team",
+    "text": "Controlling teammates"
+  },
+  "S2V_LINK_4": {
+    "url": "#best-practices",
+    "text": "Best practices for parallel work"
+  },
+  "S2V_LINK_5": {
+    "url": "#use-case-examples",
+    "text": "use case examples"
+  },
+  "S2V_LINK_6": {
+    "url": "/docs/en/sub-agents",
+    "text": "subagents"
+  },
+  "S2V_LINK_7": {
+    "url": "/docs/en/sub-agents",
+    "text": "subagents"
+  },
+  "S2V_LINK_8": {
+    "url": "/docs/en/settings",
+    "text": "settings.json"
+  },
+  "S2V_LINK_9": {
+    "url": "/docs/en/interactive-mode#task-list",
+    "text": "shared task list"
+  },
+  "S2V_LINK_10": {
+    "url": "#clean-up-the-team",
+    "text": "clean up the team"
+  },
+  "S2V_LINK_11": {
+    "url": "#choose-a-display-mode",
+    "text": "Choose a display mode"
+  },
+  "S2V_LINK_12": {
+    "url": "/docs/en/settings#available-settings",
+    "text": "in"
+  },
+  "S2V_LINK_13": {
+    "url": "https://github.com/tmux/tmux/wiki",
+    "text": "tmux"
+  },
+  "S2V_LINK_14": {
+    "url": "https://github.com/mkusaka/it2",
+    "text": ". To install manually:"
+  },
+  "S2V_LINK_15": {
+    "url": "https://github.com/tmux/tmux/wiki/Installing",
+    "text": "tmux wiki"
+  },
+  "S2V_LINK_16": {
+    "url": "https://github.com/mkusaka/it2",
+    "text": ""
+  },
+  "S2V_LINK_17": {
+    "url": "/docs/en/hooks",
+    "text": "hooks"
+  },
+  "S2V_LINK_18": {
+    "url": "/docs/en/hooks#teammateidle",
+    "text": ""
+  },
+  "S2V_LINK_19": {
+    "url": "/docs/en/hooks#taskcreated",
+    "text": ""
+  },
+  "S2V_LINK_20": {
+    "url": "/docs/en/hooks#taskcompleted",
+    "text": ""
+  },
+  "S2V_LINK_21": {
+    "url": "#control-your-agent-team",
+    "text": "Control your agent team"
+  },
+  "S2V_LINK_22": {
+    "url": "#choose-a-display-mode",
+    "text": "Choose a display mode"
+  },
+  "S2V_LINK_23": {
+    "url": "#use-subagent-definitions-for-teammates",
+    "text": "subagent definitions"
+  },
+  "S2V_LINK_24": {
+    "url": "/docs/en/sub-agents",
+    "text": "subagent"
+  },
+  "S2V_LINK_25": {
+    "url": "/docs/en/sub-agents#choose-the-subagent-scope",
+    "text": "subagent scope"
+  },
+  "S2V_LINK_26": {
+    "url": "/docs/en/costs#agent-team-token-costs",
+    "text": "agent team token costs"
+  },
+  "S2V_LINK_27": {
+    "url": "#context-and-communication",
+    "text": "Context and communication"
+  },
+  "S2V_LINK_28": {
+    "url": "/docs/en/costs#agent-team-token-costs",
+    "text": "agent team token costs"
+  },
+  "S2V_LINK_29": {
+    "url": "/docs/en/agent-teams#architecture",
+    "text": "tasks"
+  },
+  "S2V_LINK_30": {
+    "url": "/docs/en/permissions",
+    "text": "permission settings"
+  },
+  "S2V_LINK_31": {
+    "url": "/docs/en/sub-agents",
+    "text": "subagents"
+  },
+  "S2V_LINK_32": {
+    "url": "/docs/en/common-workflows#run-parallel-claude-code-sessions-with-git-worktrees",
+    "text": "Git worktrees"
+  },
+  "S2V_LINK_33": {
+    "url": "/docs/en/features-overview#compare-similar-features",
+    "text": "subagent vs agent team"
+  }
+}

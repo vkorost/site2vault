@@ -1,0 +1,42 @@
+[
+  {
+    "level": 2,
+    "text": "Compare scheduling options",
+    "slug": "compare-scheduling-options"
+  },
+  {
+    "level": 2,
+    "text": "Create a scheduled task",
+    "slug": "create-a-scheduled-task"
+  },
+  {
+    "level": 2,
+    "text": "Frequency options",
+    "slug": "frequency-options"
+  },
+  {
+    "level": 2,
+    "text": "How scheduled tasks run",
+    "slug": "how-scheduled-tasks-run"
+  },
+  {
+    "level": 2,
+    "text": "Missed runs",
+    "slug": "missed-runs"
+  },
+  {
+    "level": 2,
+    "text": "Permissions for scheduled tasks",
+    "slug": "permissions-for-scheduled-tasks"
+  },
+  {
+    "level": 2,
+    "text": "Manage scheduled tasks",
+    "slug": "manage-scheduled-tasks"
+  },
+  {
+    "level": 2,
+    "text": "Related resources",
+    "slug": "related-resources"
+  }
+]

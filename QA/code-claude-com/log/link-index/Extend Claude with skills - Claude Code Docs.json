@@ -1,0 +1,162 @@
+{
+  "S2V_LINK_0": {
+    "url": "/docs/en/commands",
+    "text": "commands reference"
+  },
+  "S2V_LINK_1": {
+    "url": "#control-who-invokes-a-skill",
+    "text": "control whether you or Claude invokes them"
+  },
+  "S2V_LINK_2": {
+    "url": "https://agentskills.io",
+    "text": "Agent Skills"
+  },
+  "S2V_LINK_3": {
+    "url": "#control-who-invokes-a-skill",
+    "text": "invocation control"
+  },
+  "S2V_LINK_4": {
+    "url": "#run-skills-in-a-subagent",
+    "text": "subagent execution"
+  },
+  "S2V_LINK_5": {
+    "url": "#inject-dynamic-context",
+    "text": "dynamic context injection"
+  },
+  "S2V_LINK_6": {
+    "url": "/docs/en/commands",
+    "text": "commands reference"
+  },
+  "S2V_LINK_7": {
+    "url": "#add-supporting-files",
+    "text": "Add supporting files"
+  },
+  "S2V_LINK_8": {
+    "url": "#frontmatter-reference",
+    "text": "frontmatter"
+  },
+  "S2V_LINK_9": {
+    "url": "/docs/en/permissions#additional-directories-grant-file-access-not-configuration",
+    "text": "grants file access"
+  },
+  "S2V_LINK_10": {
+    "url": "#live-change-detection",
+    "text": "Live change detection"
+  },
+  "S2V_LINK_11": {
+    "url": "/docs/en/permissions#additional-directories-grant-file-access-not-configuration",
+    "text": "exceptions table"
+  },
+  "S2V_LINK_12": {
+    "url": "/docs/en/memory#load-from-additional-directories",
+    "text": "Load from additional directories"
+  },
+  "S2V_LINK_13": {
+    "url": "#add-supporting-files",
+    "text": "add supporting files"
+  },
+  "S2V_LINK_14": {
+    "url": "/docs/en/sub-agents#preload-skills-into-subagents",
+    "text": "preloaded into subagents"
+  },
+  "S2V_LINK_15": {
+    "url": "/docs/en/model-config",
+    "text": ", or"
+  },
+  "S2V_LINK_16": {
+    "url": "/docs/en/model-config#adjust-effort-level",
+    "text": "Effort level"
+  },
+  "S2V_LINK_17": {
+    "url": "/docs/en/hooks#hooks-in-skills-and-agents",
+    "text": "Hooks in skills and agents"
+  },
+  "S2V_LINK_18": {
+    "url": "/docs/en/memory#path-specific-rules",
+    "text": "path-specific rules"
+  },
+  "S2V_LINK_19": {
+    "url": "/docs/en/sub-agents#preload-skills-into-subagents",
+    "text": "Subagents with preloaded skills"
+  },
+  "S2V_LINK_20": {
+    "url": "/docs/en/how-claude-code-works#when-context-fills-up",
+    "text": "Auto-compaction"
+  },
+  "S2V_LINK_21": {
+    "url": "/docs/en/hooks",
+    "text": "hooks"
+  },
+  "S2V_LINK_22": {
+    "url": "/docs/en/permissions",
+    "text": "permission settings"
+  },
+  "S2V_LINK_23": {
+    "url": "/docs/en/permissions",
+    "text": "permission settings"
+  },
+  "S2V_LINK_24": {
+    "url": "#skills-from-additional-directories",
+    "text": "additional-directory"
+  },
+  "S2V_LINK_25": {
+    "url": "/docs/en/settings",
+    "text": "settings"
+  },
+  "S2V_LINK_26": {
+    "url": "/docs/en/permissions#managed-settings",
+    "text": "managed settings"
+  },
+  "S2V_LINK_27": {
+    "url": "/docs/en/sub-agents",
+    "text": "subagents"
+  },
+  "S2V_LINK_28": {
+    "url": "/docs/en/sub-agents#preload-skills-into-subagents",
+    "text": "Subagents"
+  },
+  "S2V_LINK_29": {
+    "url": "/docs/en/permissions",
+    "text": "permission settings"
+  },
+  "S2V_LINK_30": {
+    "url": "/docs/en/permissions",
+    "text": "permission rules"
+  },
+  "S2V_LINK_31": {
+    "url": "/docs/en/plugins",
+    "text": "plugin"
+  },
+  "S2V_LINK_32": {
+    "url": "/docs/en/settings#settings-files",
+    "text": "managed settings"
+  },
+  "S2V_LINK_33": {
+    "url": "/docs/en/debug-your-config",
+    "text": "Debug your configuration"
+  },
+  "S2V_LINK_34": {
+    "url": "/docs/en/sub-agents",
+    "text": "Subagents"
+  },
+  "S2V_LINK_35": {
+    "url": "/docs/en/plugins",
+    "text": "Plugins"
+  },
+  "S2V_LINK_36": {
+    "url": "/docs/en/hooks",
+    "text": "Hooks"
+  },
+  "S2V_LINK_37": {
+    "url": "/docs/en/memory",
+    "text": "Memory"
+  },
+  "S2V_LINK_38": {
+    "url": "/docs/en/commands",
+    "text": "Commands"
+  },
+  "S2V_LINK_39": {
+    "url": "/docs/en/permissions",
+    "text": "Permissions"
+  }
+}

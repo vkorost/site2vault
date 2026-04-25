@@ -1,0 +1,482 @@
+{
+  "S2V_LINK_0": {
+    "url": "https://claude.ai/api/desktop/win32/arm64/setup/latest/redirect?utm_source=claude_code&utm_medium=docs",
+    "text": "ARM64 installer"
+  },
+  "S2V_LINK_1": {
+    "url": "/docs/en/desktop-quickstart",
+    "text": "Get started guide"
+  },
+  "S2V_LINK_2": {
+    "url": "#work-in-parallel-with-sessions",
+    "text": "Parallel sessions"
+  },
+  "S2V_LINK_3": {
+    "url": "#arrange-your-workspace",
+    "text": "Drag-and-drop layout"
+  },
+  "S2V_LINK_4": {
+    "url": "#ask-a-side-question-without-derailing-the-session",
+    "text": "Side chats"
+  },
+  "S2V_LINK_5": {
+    "url": "#review-changes-with-diff-view",
+    "text": "Visual diff review"
+  },
+  "S2V_LINK_6": {
+    "url": "#preview-your-app",
+    "text": "Live app preview"
+  },
+  "S2V_LINK_7": {
+    "url": "#let-claude-use-your-computer",
+    "text": "Computer use"
+  },
+  "S2V_LINK_8": {
+    "url": "#monitor-pull-request-status",
+    "text": "GitHub PR monitoring"
+  },
+  "S2V_LINK_9": {
+    "url": "#sessions-from-dispatch",
+    "text": "Dispatch"
+  },
+  "S2V_LINK_10": {
+    "url": "/docs/en/desktop-scheduled-tasks",
+    "text": "Scheduled tasks"
+  },
+  "S2V_LINK_11": {
+    "url": "#connect-external-tools",
+    "text": "Connectors"
+  },
+  "S2V_LINK_12": {
+    "url": "#ssh-sessions",
+    "text": "SSH"
+  },
+  "S2V_LINK_13": {
+    "url": "#run-long-running-tasks-remotely",
+    "text": "cloud"
+  },
+  "S2V_LINK_14": {
+    "url": "#work-with-code",
+    "text": "working with code"
+  },
+  "S2V_LINK_15": {
+    "url": "#arrange-your-workspace",
+    "text": "arranging your workspace"
+  },
+  "S2V_LINK_16": {
+    "url": "#let-claude-use-your-computer",
+    "text": "computer use"
+  },
+  "S2V_LINK_17": {
+    "url": "#manage-sessions",
+    "text": "managing sessions"
+  },
+  "S2V_LINK_18": {
+    "url": "#extend-claude-code",
+    "text": "extending Claude Code"
+  },
+  "S2V_LINK_19": {
+    "url": "#environment-configuration",
+    "text": "configuration"
+  },
+  "S2V_LINK_20": {
+    "url": "#coming-from-the-cli",
+    "text": "CLI comparison"
+  },
+  "S2V_LINK_21": {
+    "url": "#troubleshooting",
+    "text": "troubleshooting"
+  },
+  "S2V_LINK_22": {
+    "url": "#ssh-sessions",
+    "text": "SSH connection"
+  },
+  "S2V_LINK_23": {
+    "url": "#environment-configuration",
+    "text": "environment configuration"
+  },
+  "S2V_LINK_24": {
+    "url": "#run-long-running-tasks-remotely",
+    "text": "multiple repositories"
+  },
+  "S2V_LINK_25": {
+    "url": "/docs/en/model-config#available-models",
+    "text": "model"
+  },
+  "S2V_LINK_26": {
+    "url": "#choose-a-permission-mode",
+    "text": "mode selector"
+  },
+  "S2V_LINK_27": {
+    "url": "#choose-a-permission-mode",
+    "text": "permission mode"
+  },
+  "S2V_LINK_28": {
+    "url": "#use-skills",
+    "text": "skills"
+  },
+  "S2V_LINK_29": {
+    "url": "#connect-external-tools",
+    "text": "connectors"
+  },
+  "S2V_LINK_30": {
+    "url": "#install-plugins",
+    "text": "plugins"
+  },
+  "S2V_LINK_31": {
+    "url": "/docs/en/permission-modes#allow-only-pre-approved-tools-with-dontask-mode",
+    "text": "CLI"
+  },
+  "S2V_LINK_32": {
+    "url": "#enterprise-configuration",
+    "text": "enterprise configuration"
+  },
+  "S2V_LINK_33": {
+    "url": "#auto-verify-changes",
+    "text": "auto-verifies"
+  },
+  "S2V_LINK_34": {
+    "url": "#configure-preview-servers",
+    "text": "Configure preview servers"
+  },
+  "S2V_LINK_35": {
+    "url": "https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/configuring-pull-request-merges/managing-auto-merge-for-pull-requests-in-your-repository",
+    "text": "enabled in your GitHub repository settings"
+  },
+  "S2V_LINK_36": {
+    "url": "#work-in-parallel-with-sessions",
+    "text": "auto-archive"
+  },
+  "S2V_LINK_37": {
+    "url": "https://cli.github.com/",
+    "text": "GitHub CLI ("
+  },
+  "S2V_LINK_38": {
+    "url": "#preview-your-app",
+    "text": "preview pane"
+  },
+  "S2V_LINK_39": {
+    "url": "/docs/en/interactive-mode#keyboard-shortcuts",
+    "text": "interactive mode shortcuts"
+  },
+  "S2V_LINK_40": {
+    "url": "#enable-computer-use",
+    "text": "Enable it in Settings"
+  },
+  "S2V_LINK_41": {
+    "url": "#connect-external-tools",
+    "text": "connector"
+  },
+  "S2V_LINK_42": {
+    "url": "/docs/en/chrome",
+    "text": "Claude in Chrome"
+  },
+  "S2V_LINK_43": {
+    "url": "#app-permissions",
+    "text": "per-app access tiers"
+  },
+  "S2V_LINK_44": {
+    "url": "https://claude.com/download",
+    "text": "claude.com/download"
+  },
+  "S2V_LINK_45": {
+    "url": "#sessions-from-dispatch",
+    "text": "Dispatch-spawned sessions"
+  },
+  "S2V_LINK_46": {
+    "url": "/docs/en/common-workflows#run-parallel-claude-code-sessions-with-git-worktrees",
+    "text": "Git worktrees"
+  },
+  "S2V_LINK_47": {
+    "url": "/docs/en/common-workflows#copy-gitignored-files-to-worktrees",
+    "text": "in your project root."
+  },
+  "S2V_LINK_48": {
+    "url": "https://git-scm.com/downloads",
+    "text": "Git"
+  },
+  "S2V_LINK_49": {
+    "url": "https://git-scm.com/downloads/win",
+    "text": "download Git for Windows"
+  },
+  "S2V_LINK_50": {
+    "url": "#check-usage",
+    "text": "Check usage"
+  },
+  "S2V_LINK_51": {
+    "url": "/docs/en/how-claude-code-works#the-context-window",
+    "text": "the context window"
+  },
+  "S2V_LINK_52": {
+    "url": "#work-in-parallel-with-sessions",
+    "text": "sidebar"
+  },
+  "S2V_LINK_53": {
+    "url": "https://claude.ai/code",
+    "text": "claude.ai/code"
+  },
+  "S2V_LINK_54": {
+    "url": "/docs/en/claude-code-on-the-web",
+    "text": "Claude Code on the web"
+  },
+  "S2V_LINK_55": {
+    "url": "https://support.claude.com/en/articles/13947068",
+    "text": "Dispatch"
+  },
+  "S2V_LINK_56": {
+    "url": "https://claude.com/product/cowork#dispatch-and-computer-use",
+    "text": "Cowork"
+  },
+  "S2V_LINK_57": {
+    "url": "#let-claude-use-your-computer",
+    "text": "computer use"
+  },
+  "S2V_LINK_58": {
+    "url": "https://support.claude.com/en/articles/13947068",
+    "text": "Dispatch help article"
+  },
+  "S2V_LINK_59": {
+    "url": "/docs/en/platforms#work-when-you-are-away-from-your-terminal",
+    "text": "Platforms and integrations"
+  },
+  "S2V_LINK_60": {
+    "url": "#ssh-sessions",
+    "text": "SSH"
+  },
+  "S2V_LINK_61": {
+    "url": "/docs/en/routines",
+    "text": "routines"
+  },
+  "S2V_LINK_62": {
+    "url": "/docs/en/mcp",
+    "text": "MCP servers"
+  },
+  "S2V_LINK_63": {
+    "url": "/docs/en/mcp#installing-mcp-servers",
+    "text": "settings files"
+  },
+  "S2V_LINK_64": {
+    "url": "https://support.claude.com/en/articles/11175166-getting-started-with-custom-connectors-using-remote-mcp",
+    "text": "create custom connectors"
+  },
+  "S2V_LINK_65": {
+    "url": "/docs/en/skills",
+    "text": "Skills"
+  },
+  "S2V_LINK_66": {
+    "url": "/docs/en/commands",
+    "text": "built-in commands"
+  },
+  "S2V_LINK_67": {
+    "url": "/docs/en/skills#create-your-first-skill",
+    "text": "custom skills"
+  },
+  "S2V_LINK_68": {
+    "url": "/docs/en/plugins",
+    "text": "installed plugins"
+  },
+  "S2V_LINK_69": {
+    "url": "/docs/en/plugins",
+    "text": "Plugins"
+  },
+  "S2V_LINK_70": {
+    "url": "#ssh-sessions",
+    "text": "SSH"
+  },
+  "S2V_LINK_71": {
+    "url": "/docs/en/plugin-marketplaces",
+    "text": "marketplaces"
+  },
+  "S2V_LINK_72": {
+    "url": "/docs/en/plugins",
+    "text": "plugins"
+  },
+  "S2V_LINK_73": {
+    "url": "#examples",
+    "text": "examples"
+  },
+  "S2V_LINK_74": {
+    "url": "#start-a-session",
+    "text": "starting a session"
+  },
+  "S2V_LINK_75": {
+    "url": "/docs/en/env-vars",
+    "text": "environment variables"
+  },
+  "S2V_LINK_76": {
+    "url": "/docs/en/common-workflows#use-extended-thinking-thinking-mode",
+    "text": "Extended thinking"
+  },
+  "S2V_LINK_77": {
+    "url": "/docs/en/model-config#adjust-effort-level",
+    "text": "adaptive reasoning"
+  },
+  "S2V_LINK_78": {
+    "url": "/docs/en/costs",
+    "text": "subscription plan limits"
+  },
+  "S2V_LINK_79": {
+    "url": "/docs/en/claude-code-on-the-web#the-cloud-environment",
+    "text": "the cloud environment"
+  },
+  "S2V_LINK_80": {
+    "url": "/docs/en/settings#settings-precedence",
+    "text": "managed settings"
+  },
+  "S2V_LINK_81": {
+    "url": "https://claude.ai/admin-settings/claude-code",
+    "text": "admin settings console"
+  },
+  "S2V_LINK_82": {
+    "url": "/docs/en/claude-code-on-the-web",
+    "text": "web sessions"
+  },
+  "S2V_LINK_83": {
+    "url": "/docs/en/remote-control",
+    "text": "Remote Control"
+  },
+  "S2V_LINK_84": {
+    "url": "/docs/en/settings#settings-precedence",
+    "text": "managed settings"
+  },
+  "S2V_LINK_85": {
+    "url": "#pre-configure-ssh-connections-for-your-team",
+    "text": "SSH connections"
+  },
+  "S2V_LINK_86": {
+    "url": "/docs/en/permissions#managed-only-settings",
+    "text": "managed-only settings"
+  },
+  "S2V_LINK_87": {
+    "url": "/docs/en/authentication",
+    "text": "authentication"
+  },
+  "S2V_LINK_88": {
+    "url": "https://support.claude.com/en/articles/13132885-setting-up-single-sign-on-sso",
+    "text": "Setting up SSO"
+  },
+  "S2V_LINK_89": {
+    "url": "/docs/en/data-usage",
+    "text": "data handling"
+  },
+  "S2V_LINK_90": {
+    "url": "https://support.claude.com/en/articles/12622703-deploy-claude-desktop-for-windows",
+    "text": "Deploy Claude Desktop for Windows"
+  },
+  "S2V_LINK_91": {
+    "url": "/docs/en/network-config",
+    "text": "network configuration"
+  },
+  "S2V_LINK_92": {
+    "url": "https://support.claude.com/en/articles/12622667-enterprise-configuration",
+    "text": "enterprise configuration guide"
+  },
+  "S2V_LINK_93": {
+    "url": "#environment-configuration",
+    "text": "environment configuration"
+  },
+  "S2V_LINK_94": {
+    "url": "/docs/en/memory",
+    "text": "CLAUDE.md"
+  },
+  "S2V_LINK_95": {
+    "url": "/docs/en/mcp",
+    "text": "MCP servers"
+  },
+  "S2V_LINK_96": {
+    "url": "/docs/en/hooks",
+    "text": "Hooks"
+  },
+  "S2V_LINK_97": {
+    "url": "/docs/en/skills",
+    "text": "skills"
+  },
+  "S2V_LINK_98": {
+    "url": "/docs/en/settings",
+    "text": "Settings"
+  },
+  "S2V_LINK_99": {
+    "url": "/docs/en/mcp#installing-mcp-servers",
+    "text": "MCP configuration"
+  },
+  "S2V_LINK_100": {
+    "url": "/docs/en/cli-reference",
+    "text": "CLI reference"
+  },
+  "S2V_LINK_101": {
+    "url": "https://support.claude.com/en/articles/12622667-enterprise-configuration",
+    "text": "enterprise configuration guide"
+  },
+  "S2V_LINK_102": {
+    "url": "/docs/en/mcp",
+    "text": "MCP servers"
+  },
+  "S2V_LINK_103": {
+    "url": "/docs/en/plugins",
+    "text": "Plugins"
+  },
+  "S2V_LINK_104": {
+    "url": "/docs/en/cli-reference",
+    "text": "flag"
+  },
+  "S2V_LINK_105": {
+    "url": "/docs/en/desktop-scheduled-tasks",
+    "text": "Scheduled tasks"
+  },
+  "S2V_LINK_106": {
+    "url": "/docs/en/computer-use",
+    "text": "Enable via"
+  },
+  "S2V_LINK_107": {
+    "url": "#let-claude-use-your-computer",
+    "text": "App and screen control"
+  },
+  "S2V_LINK_108": {
+    "url": "#sessions-from-dispatch",
+    "text": "Dispatch sessions"
+  },
+  "S2V_LINK_109": {
+    "url": "/docs/en/cli-reference",
+    "text": ","
+  },
+  "S2V_LINK_110": {
+    "url": "/docs/en/headless",
+    "text": "Agent SDK"
+  },
+  "S2V_LINK_111": {
+    "url": "https://support.claude.com/en/articles/12622667-enterprise-configuration",
+    "text": "managed settings"
+  },
+  "S2V_LINK_112": {
+    "url": "/docs/en/quickstart",
+    "text": "CLI"
+  },
+  "S2V_LINK_113": {
+    "url": "/docs/en/agent-teams",
+    "text": "CLI"
+  },
+  "S2V_LINK_114": {
+    "url": "/docs/en/headless",
+    "text": "Agent SDK"
+  },
+  "S2V_LINK_115": {
+    "url": "/docs/en/errors",
+    "text": "Error reference"
+  },
+  "S2V_LINK_116": {
+    "url": "https://git-scm.com/downloads/win",
+    "text": "Git for Windows"
+  },
+  "S2V_LINK_117": {
+    "url": "https://git-lfs.com/",
+    "text": "git-lfs.com"
+  },
+  "S2V_LINK_118": {
+    "url": "https://github.com/anthropics/claude-code/issues",
+    "text": "GitHub Issues"
+  },
+  "S2V_LINK_119": {
+    "url": "https://support.claude.com/",
+    "text": "Claude support center"
+  }
+}

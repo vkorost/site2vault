@@ -1,0 +1,342 @@
+[
+  {
+    "level": 2,
+    "text": "Download for macOS",
+    "slug": "download-for-macos"
+  },
+  {
+    "level": 2,
+    "text": "Download for Windows",
+    "slug": "download-for-windows"
+  },
+  {
+    "level": 2,
+    "text": "Start a session",
+    "slug": "start-a-session"
+  },
+  {
+    "level": 2,
+    "text": "Work with code",
+    "slug": "work-with-code"
+  },
+  {
+    "level": 3,
+    "text": "Use the prompt box",
+    "slug": "use-the-prompt-box"
+  },
+  {
+    "level": 3,
+    "text": "Add files and context to prompts",
+    "slug": "add-files-and-context-to-prompts"
+  },
+  {
+    "level": 3,
+    "text": "Choose a permission mode",
+    "slug": "choose-a-permission-mode"
+  },
+  {
+    "level": 3,
+    "text": "Preview your app",
+    "slug": "preview-your-app"
+  },
+  {
+    "level": 3,
+    "text": "Review changes with diff view",
+    "slug": "review-changes-with-diff-view"
+  },
+  {
+    "level": 3,
+    "text": "Review your code",
+    "slug": "review-your-code"
+  },
+  {
+    "level": 3,
+    "text": "Monitor pull request status",
+    "slug": "monitor-pull-request-status"
+  },
+  {
+    "level": 2,
+    "text": "Arrange your workspace",
+    "slug": "arrange-your-workspace"
+  },
+  {
+    "level": 3,
+    "text": "Run commands in the terminal",
+    "slug": "run-commands-in-the-terminal"
+  },
+  {
+    "level": 3,
+    "text": "Open and edit files",
+    "slug": "open-and-edit-files"
+  },
+  {
+    "level": 3,
+    "text": "Open files in other apps",
+    "slug": "open-files-in-other-apps"
+  },
+  {
+    "level": 3,
+    "text": "Switch view modes",
+    "slug": "switch-view-modes"
+  },
+  {
+    "level": 3,
+    "text": "Keyboard shortcuts",
+    "slug": "keyboard-shortcuts"
+  },
+  {
+    "level": 3,
+    "text": "Check usage",
+    "slug": "check-usage"
+  },
+  {
+    "level": 2,
+    "text": "Let Claude use your computer",
+    "slug": "let-claude-use-your-computer"
+  },
+  {
+    "level": 3,
+    "text": "When computer use applies",
+    "slug": "when-computer-use-applies"
+  },
+  {
+    "level": 3,
+    "text": "Enable computer use",
+    "slug": "enable-computer-use"
+  },
+  {
+    "level": 3,
+    "text": "App permissions",
+    "slug": "app-permissions"
+  },
+  {
+    "level": 2,
+    "text": "Manage sessions",
+    "slug": "manage-sessions"
+  },
+  {
+    "level": 3,
+    "text": "Work in parallel with sessions",
+    "slug": "work-in-parallel-with-sessions"
+  },
+  {
+    "level": 3,
+    "text": "Ask a side question without derailing the session",
+    "slug": "ask-a-side-question-without-derailing-the-session"
+  },
+  {
+    "level": 3,
+    "text": "Watch background tasks",
+    "slug": "watch-background-tasks"
+  },
+  {
+    "level": 3,
+    "text": "Run long-running tasks remotely",
+    "slug": "run-long-running-tasks-remotely"
+  },
+  {
+    "level": 3,
+    "text": "Continue in another surface",
+    "slug": "continue-in-another-surface"
+  },
+  {
+    "level": 3,
+    "text": "Sessions from Dispatch",
+    "slug": "sessions-from-dispatch"
+  },
+  {
+    "level": 2,
+    "text": "Extend Claude Code",
+    "slug": "extend-claude-code"
+  },
+  {
+    "level": 3,
+    "text": "Connect external tools",
+    "slug": "connect-external-tools"
+  },
+  {
+    "level": 3,
+    "text": "Use skills",
+    "slug": "use-skills"
+  },
+  {
+    "level": 3,
+    "text": "Install plugins",
+    "slug": "install-plugins"
+  },
+  {
+    "level": 3,
+    "text": "Configure preview servers",
+    "slug": "configure-preview-servers"
+  },
+  {
+    "level": 4,
+    "text": "Auto-verify changes",
+    "slug": "auto-verify-changes"
+  },
+  {
+    "level": 4,
+    "text": "Configuration fields",
+    "slug": "configuration-fields"
+  },
+  {
+    "level": 5,
+    "text": "When to useprogramvsruntimeExecutable",
+    "slug": "when-to-useprogramvsruntimeexecutable"
+  },
+  {
+    "level": 4,
+    "text": "Port conflicts",
+    "slug": "port-conflicts"
+  },
+  {
+    "level": 4,
+    "text": "Examples",
+    "slug": "examples"
+  },
+  {
+    "level": 2,
+    "text": "Environment configuration",
+    "slug": "environment-configuration"
+  },
+  {
+    "level": 3,
+    "text": "Local sessions",
+    "slug": "local-sessions"
+  },
+  {
+    "level": 3,
+    "text": "Remote sessions",
+    "slug": "remote-sessions"
+  },
+  {
+    "level": 3,
+    "text": "SSH sessions",
+    "slug": "ssh-sessions"
+  },
+  {
+    "level": 4,
+    "text": "Pre-configure SSH connections for your team",
+    "slug": "pre-configure-ssh-connections-for-your-team"
+  },
+  {
+    "level": 2,
+    "text": "Enterprise configuration",
+    "slug": "enterprise-configuration"
+  },
+  {
+    "level": 3,
+    "text": "Admin console controls",
+    "slug": "admin-console-controls"
+  },
+  {
+    "level": 3,
+    "text": "Managed settings",
+    "slug": "managed-settings"
+  },
+  {
+    "level": 3,
+    "text": "Device management policies",
+    "slug": "device-management-policies"
+  },
+  {
+    "level": 3,
+    "text": "Authentication and SSO",
+    "slug": "authentication-and-sso"
+  },
+  {
+    "level": 3,
+    "text": "Data handling",
+    "slug": "data-handling"
+  },
+  {
+    "level": 3,
+    "text": "Deployment",
+    "slug": "deployment"
+  },
+  {
+    "level": 2,
+    "text": "Coming from the CLI?",
+    "slug": "coming-from-the-cli"
+  },
+  {
+    "level": 3,
+    "text": "CLI flag equivalents",
+    "slug": "cli-flag-equivalents"
+  },
+  {
+    "level": 3,
+    "text": "Shared configuration",
+    "slug": "shared-configuration"
+  },
+  {
+    "level": 3,
+    "text": "Feature comparison",
+    "slug": "feature-comparison"
+  },
+  {
+    "level": 3,
+    "text": "What\u2019s not available in Desktop",
+    "slug": "whats-not-available-in-desktop"
+  },
+  {
+    "level": 2,
+    "text": "Troubleshooting",
+    "slug": "troubleshooting"
+  },
+  {
+    "level": 3,
+    "text": "Check your version",
+    "slug": "check-your-version"
+  },
+  {
+    "level": 3,
+    "text": "403 or authentication errors in the Code tab",
+    "slug": "403-or-authentication-errors-in-the-code-tab"
+  },
+  {
+    "level": 3,
+    "text": "Blank or stuck screen on launch",
+    "slug": "blank-or-stuck-screen-on-launch"
+  },
+  {
+    "level": 3,
+    "text": "\u201dFailed to load session\u201d",
+    "slug": "failed-to-load-session"
+  },
+  {
+    "level": 3,
+    "text": "Session not finding installed tools",
+    "slug": "session-not-finding-installed-tools"
+  },
+  {
+    "level": 3,
+    "text": "Git and Git LFS errors",
+    "slug": "git-and-git-lfs-errors"
+  },
+  {
+    "level": 3,
+    "text": "MCP servers not working on Windows",
+    "slug": "mcp-servers-not-working-on-windows"
+  },
+  {
+    "level": 3,
+    "text": "App won\u2019t quit",
+    "slug": "app-wont-quit"
+  },
+  {
+    "level": 3,
+    "text": "Windows-specific issues",
+    "slug": "windows-specific-issues"
+  },
+  {
+    "level": 3,
+    "text": "\u201dBranch doesn\u2019t exist yet\u201d when opening in CLI",
+    "slug": "branch-doesnt-exist-yet-when-opening-in-cli"
+  },
+  {
+    "level": 3,
+    "text": "Still stuck?",
+    "slug": "still-stuck"
+  }
+]

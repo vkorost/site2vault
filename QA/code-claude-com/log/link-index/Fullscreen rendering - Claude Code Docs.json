@@ -1,0 +1,30 @@
+{
+  "S2V_LINK_0": {
+    "url": "#research-preview",
+    "text": "research preview"
+  },
+  "S2V_LINK_1": {
+    "url": "/docs/en/settings#available-settings",
+    "text": "and relaunches into fullscreen with your conversation intact, so you can switch mid-session without losing context. Run"
+  },
+  "S2V_LINK_2": {
+    "url": "#use-the-mouse",
+    "text": "Use the mouse"
+  },
+  "S2V_LINK_3": {
+    "url": "#use-the-mouse",
+    "text": "Use the mouse"
+  },
+  "S2V_LINK_4": {
+    "url": "#keep-native-text-selection",
+    "text": "turn it off"
+  },
+  "S2V_LINK_5": {
+    "url": "/docs/en/keybindings#scroll-actions",
+    "text": "Scroll actions"
+  },
+  "S2V_LINK_6": {
+    "url": "https://github.com/anthropics/claude-code/issues",
+    "text": "claude-code GitHub repo"
+  }
+}

@@ -1,0 +1,52 @@
+[
+  {
+    "level": 2,
+    "text": "Toggle fast mode",
+    "slug": "toggle-fast-mode"
+  },
+  {
+    "level": 2,
+    "text": "Understand the cost tradeoff",
+    "slug": "understand-the-cost-tradeoff"
+  },
+  {
+    "level": 2,
+    "text": "Decide when to use fast mode",
+    "slug": "decide-when-to-use-fast-mode"
+  },
+  {
+    "level": 3,
+    "text": "Fast mode vs effort level",
+    "slug": "fast-mode-vs-effort-level"
+  },
+  {
+    "level": 2,
+    "text": "Requirements",
+    "slug": "requirements"
+  },
+  {
+    "level": 3,
+    "text": "Enable fast mode for your organization",
+    "slug": "enable-fast-mode-for-your-organization"
+  },
+  {
+    "level": 3,
+    "text": "Require per-session opt-in",
+    "slug": "require-per-session-opt-in"
+  },
+  {
+    "level": 2,
+    "text": "Handle rate limits",
+    "slug": "handle-rate-limits"
+  },
+  {
+    "level": 2,
+    "text": "Research preview",
+    "slug": "research-preview"
+  },
+  {
+    "level": 2,
+    "text": "See also",
+    "slug": "see-also"
+  }
+]

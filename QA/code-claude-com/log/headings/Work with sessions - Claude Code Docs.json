@@ -1,0 +1,57 @@
+[
+  {
+    "level": 2,
+    "text": "Choose an approach",
+    "slug": "choose-an-approach"
+  },
+  {
+    "level": 3,
+    "text": "Continue, resume, and fork",
+    "slug": "continue-resume-and-fork"
+  },
+  {
+    "level": 2,
+    "text": "Automatic session management",
+    "slug": "automatic-session-management"
+  },
+  {
+    "level": 3,
+    "text": "Python:ClaudeSDKClient",
+    "slug": "pythonclaudesdkclient"
+  },
+  {
+    "level": 3,
+    "text": "TypeScript:continue: true",
+    "slug": "typescriptcontinue-true"
+  },
+  {
+    "level": 2,
+    "text": "Use session options withquery()",
+    "slug": "use-session-options-withquery"
+  },
+  {
+    "level": 3,
+    "text": "Capture the session ID",
+    "slug": "capture-the-session-id"
+  },
+  {
+    "level": 3,
+    "text": "Resume by ID",
+    "slug": "resume-by-id"
+  },
+  {
+    "level": 3,
+    "text": "Fork to explore alternatives",
+    "slug": "fork-to-explore-alternatives"
+  },
+  {
+    "level": 2,
+    "text": "Resume across hosts",
+    "slug": "resume-across-hosts"
+  },
+  {
+    "level": 2,
+    "text": "Related resources",
+    "slug": "related-resources"
+  }
+]

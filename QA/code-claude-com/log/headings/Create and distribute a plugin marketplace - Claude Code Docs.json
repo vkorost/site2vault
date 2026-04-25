@@ -1,0 +1,247 @@
+[
+  {
+    "level": 2,
+    "text": "Overview",
+    "slug": "overview"
+  },
+  {
+    "level": 2,
+    "text": "Walkthrough: create a local marketplace",
+    "slug": "walkthrough-create-a-local-marketplace"
+  },
+  {
+    "level": 2,
+    "text": "Create the marketplace file",
+    "slug": "create-the-marketplace-file"
+  },
+  {
+    "level": 2,
+    "text": "Marketplace schema",
+    "slug": "marketplace-schema"
+  },
+  {
+    "level": 3,
+    "text": "Required fields",
+    "slug": "required-fields"
+  },
+  {
+    "level": 3,
+    "text": "Owner fields",
+    "slug": "owner-fields"
+  },
+  {
+    "level": 3,
+    "text": "Optional fields",
+    "slug": "optional-fields"
+  },
+  {
+    "level": 2,
+    "text": "Plugin entries",
+    "slug": "plugin-entries"
+  },
+  {
+    "level": 3,
+    "text": "Required fields",
+    "slug": "required-fields"
+  },
+  {
+    "level": 3,
+    "text": "Optional plugin fields",
+    "slug": "optional-plugin-fields"
+  },
+  {
+    "level": 2,
+    "text": "Plugin sources",
+    "slug": "plugin-sources"
+  },
+  {
+    "level": 3,
+    "text": "Relative paths",
+    "slug": "relative-paths"
+  },
+  {
+    "level": 3,
+    "text": "GitHub repositories",
+    "slug": "github-repositories"
+  },
+  {
+    "level": 3,
+    "text": "Git repositories",
+    "slug": "git-repositories"
+  },
+  {
+    "level": 3,
+    "text": "Git subdirectories",
+    "slug": "git-subdirectories"
+  },
+  {
+    "level": 3,
+    "text": "npm packages",
+    "slug": "npm-packages"
+  },
+  {
+    "level": 3,
+    "text": "Advanced plugin entries",
+    "slug": "advanced-plugin-entries"
+  },
+  {
+    "level": 3,
+    "text": "Strict mode",
+    "slug": "strict-mode"
+  },
+  {
+    "level": 2,
+    "text": "Host and distribute marketplaces",
+    "slug": "host-and-distribute-marketplaces"
+  },
+  {
+    "level": 3,
+    "text": "Host on GitHub (recommended)",
+    "slug": "host-on-github-recommended"
+  },
+  {
+    "level": 3,
+    "text": "Host on other git services",
+    "slug": "host-on-other-git-services"
+  },
+  {
+    "level": 3,
+    "text": "Private repositories",
+    "slug": "private-repositories"
+  },
+  {
+    "level": 3,
+    "text": "Test locally before distribution",
+    "slug": "test-locally-before-distribution"
+  },
+  {
+    "level": 3,
+    "text": "Require marketplaces for your team",
+    "slug": "require-marketplaces-for-your-team"
+  },
+  {
+    "level": 3,
+    "text": "Pre-populate plugins for containers",
+    "slug": "pre-populate-plugins-for-containers"
+  },
+  {
+    "level": 3,
+    "text": "Managed marketplace restrictions",
+    "slug": "managed-marketplace-restrictions"
+  },
+  {
+    "level": 4,
+    "text": "Common configurations",
+    "slug": "common-configurations"
+  },
+  {
+    "level": 4,
+    "text": "How restrictions work",
+    "slug": "how-restrictions-work"
+  },
+  {
+    "level": 3,
+    "text": "Version resolution and release channels",
+    "slug": "version-resolution-and-release-channels"
+  },
+  {
+    "level": 4,
+    "text": "Set up release channels",
+    "slug": "set-up-release-channels"
+  },
+  {
+    "level": 5,
+    "text": "Example",
+    "slug": "example"
+  },
+  {
+    "level": 5,
+    "text": "Assign channels to user groups",
+    "slug": "assign-channels-to-user-groups"
+  },
+  {
+    "level": 4,
+    "text": "Pin dependency versions",
+    "slug": "pin-dependency-versions"
+  },
+  {
+    "level": 2,
+    "text": "Validation and testing",
+    "slug": "validation-and-testing"
+  },
+  {
+    "level": 2,
+    "text": "Manage marketplaces from the CLI",
+    "slug": "manage-marketplaces-from-the-cli"
+  },
+  {
+    "level": 3,
+    "text": "Plugin marketplace add",
+    "slug": "plugin-marketplace-add"
+  },
+  {
+    "level": 3,
+    "text": "Plugin marketplace list",
+    "slug": "plugin-marketplace-list"
+  },
+  {
+    "level": 3,
+    "text": "Plugin marketplace remove",
+    "slug": "plugin-marketplace-remove"
+  },
+  {
+    "level": 3,
+    "text": "Plugin marketplace update",
+    "slug": "plugin-marketplace-update"
+  },
+  {
+    "level": 2,
+    "text": "Troubleshooting",
+    "slug": "troubleshooting"
+  },
+  {
+    "level": 3,
+    "text": "Marketplace not loading",
+    "slug": "marketplace-not-loading"
+  },
+  {
+    "level": 3,
+    "text": "Marketplace validation errors",
+    "slug": "marketplace-validation-errors"
+  },
+  {
+    "level": 3,
+    "text": "Plugin installation failures",
+    "slug": "plugin-installation-failures"
+  },
+  {
+    "level": 3,
+    "text": "Private repository authentication fails",
+    "slug": "private-repository-authentication-fails"
+  },
+  {
+    "level": 3,
+    "text": "Marketplace updates fail in offline environments",
+    "slug": "marketplace-updates-fail-in-offline-environments"
+  },
+  {
+    "level": 3,
+    "text": "Git operations time out",
+    "slug": "git-operations-time-out"
+  },
+  {
+    "level": 3,
+    "text": "Plugins with relative paths fail in URL-based marketplaces",
+    "slug": "plugins-with-relative-paths-fail-in-url-based-marketplaces"
+  },
+  {
+    "level": 3,
+    "text": "Files not found after installation",
+    "slug": "files-not-found-after-installation"
+  },
+  {
+    "level": 2,
+    "text": "See also",
+    "slug": "see-also"
+  }
+]

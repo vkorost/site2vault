@@ -1,0 +1,114 @@
+{
+  "S2V_LINK_0": {
+    "url": "/docs/en/claude-code-on-the-web",
+    "text": "Claude Code on the web"
+  },
+  "S2V_LINK_1": {
+    "url": "/docs/en/code-review",
+    "text": "Code Review"
+  },
+  "S2V_LINK_2": {
+    "url": "/docs/en/github-actions",
+    "text": "GitHub Actions"
+  },
+  "S2V_LINK_3": {
+    "url": "#manual-setup",
+    "text": "alternative manual setup"
+  },
+  "S2V_LINK_4": {
+    "url": "https://claude.ai/admin-settings/claude-code",
+    "text": "claude.ai/admin-settings/claude-code"
+  },
+  "S2V_LINK_5": {
+    "url": "https://claude.ai/admin-settings/claude-code",
+    "text": "claude.ai/admin-settings/claude-code"
+  },
+  "S2V_LINK_6": {
+    "url": "/docs/en/code-review#set-up-code-review",
+    "text": "Code Review"
+  },
+  "S2V_LINK_7": {
+    "url": "/docs/en/analytics#enable-contribution-metrics",
+    "text": "contribution metrics"
+  },
+  "S2V_LINK_8": {
+    "url": "#github-app-permissions",
+    "text": "permissions and events above"
+  },
+  "S2V_LINK_9": {
+    "url": "https://platform.claude.com/docs/en/api/ip-addresses",
+    "text": "Anthropic API IP addresses"
+  },
+  "S2V_LINK_10": {
+    "url": "https://claude.ai/code",
+    "text": "claude.ai/code"
+  },
+  "S2V_LINK_11": {
+    "url": "/docs/en/claude-code-on-the-web",
+    "text": "Claude Code on the web"
+  },
+  "S2V_LINK_12": {
+    "url": "/docs/en/claude-code-on-the-web#teleport-requirements",
+    "text": "teleport requirements"
+  },
+  "S2V_LINK_13": {
+    "url": "/docs/en/plugin-marketplaces",
+    "text": "Create and distribute a plugin marketplace"
+  },
+  "S2V_LINK_14": {
+    "url": "/docs/en/settings",
+    "text": "managed settings"
+  },
+  "S2V_LINK_15": {
+    "url": "/docs/en/settings#strictknownmarketplaces",
+    "text": "strictKnownMarketplaces"
+  },
+  "S2V_LINK_16": {
+    "url": "/docs/en/settings#extraknownmarketplaces",
+    "text": "extraKnownMarketplaces"
+  },
+  "S2V_LINK_17": {
+    "url": "#what-works-with-github-enterprise-server",
+    "text": "feature table"
+  },
+  "S2V_LINK_18": {
+    "url": "#admin-setup",
+    "text": "admin setup"
+  },
+  "S2V_LINK_19": {
+    "url": "https://github.com/anthropics/claude-code-action/blob/main/examples/claude.yml",
+    "text": "example workflow"
+  },
+  "S2V_LINK_20": {
+    "url": "#allowlist-ghes-marketplaces-in-managed-settings",
+    "text": "managed settings"
+  },
+  "S2V_LINK_21": {
+    "url": "https://platform.claude.com/docs/en/api/ip-addresses",
+    "text": "Anthropic API IP addresses"
+  },
+  "S2V_LINK_22": {
+    "url": "/docs/en/claude-code-on-the-web",
+    "text": "Claude Code on the web"
+  },
+  "S2V_LINK_23": {
+    "url": "/docs/en/code-review",
+    "text": "Code Review"
+  },
+  "S2V_LINK_24": {
+    "url": "/docs/en/plugin-marketplaces",
+    "text": "Plugin marketplaces"
+  },
+  "S2V_LINK_25": {
+    "url": "/docs/en/analytics",
+    "text": "Analytics"
+  },
+  "S2V_LINK_26": {
+    "url": "/docs/en/settings",
+    "text": "Managed settings"
+  },
+  "S2V_LINK_27": {
+    "url": "/docs/en/network-config",
+    "text": "Network configuration"
+  }
+}

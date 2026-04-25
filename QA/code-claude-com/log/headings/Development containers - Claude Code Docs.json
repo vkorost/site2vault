@@ -1,0 +1,27 @@
+[
+  {
+    "level": 2,
+    "text": "Key features",
+    "slug": "key-features"
+  },
+  {
+    "level": 2,
+    "text": "Getting started in 4 steps",
+    "slug": "getting-started-in-4-steps"
+  },
+  {
+    "level": 2,
+    "text": "Configuration breakdown",
+    "slug": "configuration-breakdown"
+  },
+  {
+    "level": 2,
+    "text": "Security features",
+    "slug": "security-features"
+  },
+  {
+    "level": 2,
+    "text": "Customization options",
+    "slug": "customization-options"
+  }
+]

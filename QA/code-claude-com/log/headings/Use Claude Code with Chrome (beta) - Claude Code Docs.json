@@ -1,0 +1,102 @@
+[
+  {
+    "level": 2,
+    "text": "Capabilities",
+    "slug": "capabilities"
+  },
+  {
+    "level": 2,
+    "text": "Prerequisites",
+    "slug": "prerequisites"
+  },
+  {
+    "level": 2,
+    "text": "Get started in the CLI",
+    "slug": "get-started-in-the-cli"
+  },
+  {
+    "level": 3,
+    "text": "Enable Chrome by default",
+    "slug": "enable-chrome-by-default"
+  },
+  {
+    "level": 3,
+    "text": "Manage site permissions",
+    "slug": "manage-site-permissions"
+  },
+  {
+    "level": 2,
+    "text": "Example workflows",
+    "slug": "example-workflows"
+  },
+  {
+    "level": 3,
+    "text": "Test a local web application",
+    "slug": "test-a-local-web-application"
+  },
+  {
+    "level": 3,
+    "text": "Debug with console logs",
+    "slug": "debug-with-console-logs"
+  },
+  {
+    "level": 3,
+    "text": "Automate form filling",
+    "slug": "automate-form-filling"
+  },
+  {
+    "level": 3,
+    "text": "Draft content in Google Docs",
+    "slug": "draft-content-in-google-docs"
+  },
+  {
+    "level": 3,
+    "text": "Extract data from web pages",
+    "slug": "extract-data-from-web-pages"
+  },
+  {
+    "level": 3,
+    "text": "Run multi-site workflows",
+    "slug": "run-multi-site-workflows"
+  },
+  {
+    "level": 3,
+    "text": "Record a demo GIF",
+    "slug": "record-a-demo-gif"
+  },
+  {
+    "level": 2,
+    "text": "Troubleshooting",
+    "slug": "troubleshooting"
+  },
+  {
+    "level": 3,
+    "text": "Extension not detected",
+    "slug": "extension-not-detected"
+  },
+  {
+    "level": 3,
+    "text": "Browser not responding",
+    "slug": "browser-not-responding"
+  },
+  {
+    "level": 3,
+    "text": "Connection drops during long sessions",
+    "slug": "connection-drops-during-long-sessions"
+  },
+  {
+    "level": 3,
+    "text": "Windows-specific issues",
+    "slug": "windows-specific-issues"
+  },
+  {
+    "level": 3,
+    "text": "Common error messages",
+    "slug": "common-error-messages"
+  },
+  {
+    "level": 2,
+    "text": "See also",
+    "slug": "see-also"
+  }
+]

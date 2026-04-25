@@ -1,0 +1,34 @@
+{
+  "S2V_LINK_0": {
+    "url": "/docs/en/agent-sdk/typescript#agent-definition",
+    "text": "TypeScript"
+  },
+  "S2V_LINK_1": {
+    "url": "/docs/en/agent-sdk/python#agent-definition",
+    "text": "Python"
+  },
+  "S2V_LINK_2": {
+    "url": "/docs/en/sub-agents",
+    "text": "defining subagents as files"
+  },
+  "S2V_LINK_3": {
+    "url": "#what-subagents-inherit",
+    "text": "What subagents inherit"
+  },
+  "S2V_LINK_4": {
+    "url": "/docs/en/agent-sdk/python#agent-definition",
+    "text": "for details."
+  },
+  "S2V_LINK_5": {
+    "url": "/docs/en/sub-agents",
+    "text": "Claude Code subagents documentation"
+  },
+  "S2V_LINK_6": {
+    "url": "/docs/en/sub-agents",
+    "text": "Claude Code subagents"
+  },
+  "S2V_LINK_7": {
+    "url": "/docs/en/agent-sdk/overview",
+    "text": "SDK overview"
+  }
+}

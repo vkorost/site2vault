@@ -1,0 +1,127 @@
+[
+  {
+    "level": 2,
+    "text": "Permission system",
+    "slug": "permission-system"
+  },
+  {
+    "level": 2,
+    "text": "Manage permissions",
+    "slug": "manage-permissions"
+  },
+  {
+    "level": 2,
+    "text": "Permission modes",
+    "slug": "permission-modes"
+  },
+  {
+    "level": 2,
+    "text": "Permission rule syntax",
+    "slug": "permission-rule-syntax"
+  },
+  {
+    "level": 3,
+    "text": "Match all uses of a tool",
+    "slug": "match-all-uses-of-a-tool"
+  },
+  {
+    "level": 3,
+    "text": "Use specifiers for fine-grained control",
+    "slug": "use-specifiers-for-fine-grained-control"
+  },
+  {
+    "level": 3,
+    "text": "Wildcard patterns",
+    "slug": "wildcard-patterns"
+  },
+  {
+    "level": 2,
+    "text": "Tool-specific permission rules",
+    "slug": "tool-specific-permission-rules"
+  },
+  {
+    "level": 3,
+    "text": "Bash",
+    "slug": "bash"
+  },
+  {
+    "level": 4,
+    "text": "Compound commands",
+    "slug": "compound-commands"
+  },
+  {
+    "level": 4,
+    "text": "Process wrappers",
+    "slug": "process-wrappers"
+  },
+  {
+    "level": 4,
+    "text": "Read-only commands",
+    "slug": "read-only-commands"
+  },
+  {
+    "level": 3,
+    "text": "Read and Edit",
+    "slug": "read-and-edit"
+  },
+  {
+    "level": 3,
+    "text": "WebFetch",
+    "slug": "webfetch"
+  },
+  {
+    "level": 3,
+    "text": "MCP",
+    "slug": "mcp"
+  },
+  {
+    "level": 3,
+    "text": "Agent (subagents)",
+    "slug": "agent-subagents"
+  },
+  {
+    "level": 2,
+    "text": "Extend permissions with hooks",
+    "slug": "extend-permissions-with-hooks"
+  },
+  {
+    "level": 2,
+    "text": "Working directories",
+    "slug": "working-directories"
+  },
+  {
+    "level": 3,
+    "text": "Additional directories grant file access, not configuration",
+    "slug": "additional-directories-grant-file-access-not-configuration"
+  },
+  {
+    "level": 2,
+    "text": "How permissions interact with sandboxing",
+    "slug": "how-permissions-interact-with-sandboxing"
+  },
+  {
+    "level": 2,
+    "text": "Managed settings",
+    "slug": "managed-settings"
+  },
+  {
+    "level": 3,
+    "text": "Managed-only settings",
+    "slug": "managed-only-settings"
+  },
+  {
+    "level": 2,
+    "text": "Settings precedence",
+    "slug": "settings-precedence"
+  },
+  {
+    "level": 2,
+    "text": "Example configurations",
+    "slug": "example-configurations"
+  },
+  {
+    "level": 2,
+    "text": "See also",
+    "slug": "see-also"
+  }
+]

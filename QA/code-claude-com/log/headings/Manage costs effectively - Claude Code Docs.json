@@ -1,0 +1,97 @@
+[
+  {
+    "level": 2,
+    "text": "Track your costs",
+    "slug": "track-your-costs"
+  },
+  {
+    "level": 3,
+    "text": "Using the/usagecommand",
+    "slug": "using-theusagecommand"
+  },
+  {
+    "level": 2,
+    "text": "Managing costs for teams",
+    "slug": "managing-costs-for-teams"
+  },
+  {
+    "level": 3,
+    "text": "Rate limit recommendations",
+    "slug": "rate-limit-recommendations"
+  },
+  {
+    "level": 3,
+    "text": "Agent team token costs",
+    "slug": "agent-team-token-costs"
+  },
+  {
+    "level": 2,
+    "text": "Reduce token usage",
+    "slug": "reduce-token-usage"
+  },
+  {
+    "level": 3,
+    "text": "Manage context proactively",
+    "slug": "manage-context-proactively"
+  },
+  {
+    "level": 3,
+    "text": "Choose the right model",
+    "slug": "choose-the-right-model"
+  },
+  {
+    "level": 3,
+    "text": "Reduce MCP server overhead",
+    "slug": "reduce-mcp-server-overhead"
+  },
+  {
+    "level": 3,
+    "text": "Install code intelligence plugins for typed languages",
+    "slug": "install-code-intelligence-plugins-for-typed-languages"
+  },
+  {
+    "level": 3,
+    "text": "Offload processing to hooks and skills",
+    "slug": "offload-processing-to-hooks-and-skills"
+  },
+  {
+    "level": 3,
+    "text": "Move instructions from CLAUDE.md to skills",
+    "slug": "move-instructions-from-claudemd-to-skills"
+  },
+  {
+    "level": 3,
+    "text": "Adjust extended thinking",
+    "slug": "adjust-extended-thinking"
+  },
+  {
+    "level": 3,
+    "text": "Delegate verbose operations to subagents",
+    "slug": "delegate-verbose-operations-to-subagents"
+  },
+  {
+    "level": 3,
+    "text": "Manage agent team costs",
+    "slug": "manage-agent-team-costs"
+  },
+  {
+    "level": 3,
+    "text": "Write specific prompts",
+    "slug": "write-specific-prompts"
+  },
+  {
+    "level": 3,
+    "text": "Work efficiently on complex tasks",
+    "slug": "work-efficiently-on-complex-tasks"
+  },
+  {
+    "level": 2,
+    "text": "Background token usage",
+    "slug": "background-token-usage"
+  },
+  {
+    "level": 2,
+    "text": "Understanding changes in Claude Code behavior",
+    "slug": "understanding-changes-in-claude-code-behavior"
+  }
+]

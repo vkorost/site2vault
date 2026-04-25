@@ -1,0 +1,22 @@
+[
+  {
+    "level": 2,
+    "text": "Get started",
+    "slug": "get-started"
+  },
+  {
+    "level": 2,
+    "text": "What you can do",
+    "slug": "what-you-can-do"
+  },
+  {
+    "level": 2,
+    "text": "Use Claude Code everywhere",
+    "slug": "use-claude-code-everywhere"
+  },
+  {
+    "level": 2,
+    "text": "Next steps",
+    "slug": "next-steps"
+  }
+]

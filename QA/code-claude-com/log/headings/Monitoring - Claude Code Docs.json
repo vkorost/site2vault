@@ -1,0 +1,297 @@
+[
+  {
+    "level": 2,
+    "text": "Quick start",
+    "slug": "quick-start"
+  },
+  {
+    "level": 2,
+    "text": "Administrator configuration",
+    "slug": "administrator-configuration"
+  },
+  {
+    "level": 2,
+    "text": "Configuration details",
+    "slug": "configuration-details"
+  },
+  {
+    "level": 3,
+    "text": "Common configuration variables",
+    "slug": "common-configuration-variables"
+  },
+  {
+    "level": 3,
+    "text": "Metrics cardinality control",
+    "slug": "metrics-cardinality-control"
+  },
+  {
+    "level": 3,
+    "text": "Traces (beta)",
+    "slug": "traces-beta"
+  },
+  {
+    "level": 4,
+    "text": "Span hierarchy",
+    "slug": "span-hierarchy"
+  },
+  {
+    "level": 4,
+    "text": "Span attributes",
+    "slug": "span-attributes"
+  },
+  {
+    "level": 3,
+    "text": "Dynamic headers",
+    "slug": "dynamic-headers"
+  },
+  {
+    "level": 4,
+    "text": "Settings configuration",
+    "slug": "settings-configuration"
+  },
+  {
+    "level": 4,
+    "text": "Script requirements",
+    "slug": "script-requirements"
+  },
+  {
+    "level": 4,
+    "text": "Refresh behavior",
+    "slug": "refresh-behavior"
+  },
+  {
+    "level": 3,
+    "text": "Multi-team organization support",
+    "slug": "multi-team-organization-support"
+  },
+  {
+    "level": 3,
+    "text": "Example configurations",
+    "slug": "example-configurations"
+  },
+  {
+    "level": 2,
+    "text": "Available metrics and events",
+    "slug": "available-metrics-and-events"
+  },
+  {
+    "level": 3,
+    "text": "Standard attributes",
+    "slug": "standard-attributes"
+  },
+  {
+    "level": 3,
+    "text": "Metrics",
+    "slug": "metrics"
+  },
+  {
+    "level": 3,
+    "text": "Metric details",
+    "slug": "metric-details"
+  },
+  {
+    "level": 4,
+    "text": "Session counter",
+    "slug": "session-counter"
+  },
+  {
+    "level": 4,
+    "text": "Lines of code counter",
+    "slug": "lines-of-code-counter"
+  },
+  {
+    "level": 4,
+    "text": "Pull request counter",
+    "slug": "pull-request-counter"
+  },
+  {
+    "level": 4,
+    "text": "Commit counter",
+    "slug": "commit-counter"
+  },
+  {
+    "level": 4,
+    "text": "Cost counter",
+    "slug": "cost-counter"
+  },
+  {
+    "level": 4,
+    "text": "Token counter",
+    "slug": "token-counter"
+  },
+  {
+    "level": 4,
+    "text": "Code edit tool decision counter",
+    "slug": "code-edit-tool-decision-counter"
+  },
+  {
+    "level": 4,
+    "text": "Active time counter",
+    "slug": "active-time-counter"
+  },
+  {
+    "level": 3,
+    "text": "Events",
+    "slug": "events"
+  },
+  {
+    "level": 4,
+    "text": "Event correlation attributes",
+    "slug": "event-correlation-attributes"
+  },
+  {
+    "level": 4,
+    "text": "User prompt event",
+    "slug": "user-prompt-event"
+  },
+  {
+    "level": 4,
+    "text": "Tool result event",
+    "slug": "tool-result-event"
+  },
+  {
+    "level": 4,
+    "text": "API request event",
+    "slug": "api-request-event"
+  },
+  {
+    "level": 4,
+    "text": "API error event",
+    "slug": "api-error-event"
+  },
+  {
+    "level": 4,
+    "text": "API request body event",
+    "slug": "api-request-body-event"
+  },
+  {
+    "level": 4,
+    "text": "API response body event",
+    "slug": "api-response-body-event"
+  },
+  {
+    "level": 4,
+    "text": "Tool decision event",
+    "slug": "tool-decision-event"
+  },
+  {
+    "level": 4,
+    "text": "Permission mode changed event",
+    "slug": "permission-mode-changed-event"
+  },
+  {
+    "level": 4,
+    "text": "Auth event",
+    "slug": "auth-event"
+  },
+  {
+    "level": 4,
+    "text": "MCP server connection event",
+    "slug": "mcp-server-connection-event"
+  },
+  {
+    "level": 4,
+    "text": "Internal error event",
+    "slug": "internal-error-event"
+  },
+  {
+    "level": 4,
+    "text": "Plugin installed event",
+    "slug": "plugin-installed-event"
+  },
+  {
+    "level": 4,
+    "text": "Skill activated event",
+    "slug": "skill-activated-event"
+  },
+  {
+    "level": 4,
+    "text": "API retries exhausted event",
+    "slug": "api-retries-exhausted-event"
+  },
+  {
+    "level": 4,
+    "text": "Hook execution start event",
+    "slug": "hook-execution-start-event"
+  },
+  {
+    "level": 4,
+    "text": "Hook execution complete event",
+    "slug": "hook-execution-complete-event"
+  },
+  {
+    "level": 4,
+    "text": "Compaction event",
+    "slug": "compaction-event"
+  },
+  {
+    "level": 2,
+    "text": "Interpret metrics and events data",
+    "slug": "interpret-metrics-and-events-data"
+  },
+  {
+    "level": 3,
+    "text": "Usage monitoring",
+    "slug": "usage-monitoring"
+  },
+  {
+    "level": 3,
+    "text": "Cost monitoring",
+    "slug": "cost-monitoring"
+  },
+  {
+    "level": 3,
+    "text": "Alerting and segmentation",
+    "slug": "alerting-and-segmentation"
+  },
+  {
+    "level": 3,
+    "text": "Detect retry exhaustion",
+    "slug": "detect-retry-exhaustion"
+  },
+  {
+    "level": 3,
+    "text": "Event analysis",
+    "slug": "event-analysis"
+  },
+  {
+    "level": 2,
+    "text": "Backend considerations",
+    "slug": "backend-considerations"
+  },
+  {
+    "level": 3,
+    "text": "For metrics",
+    "slug": "for-metrics"
+  },
+  {
+    "level": 3,
+    "text": "For events/logs",
+    "slug": "for-eventslogs"
+  },
+  {
+    "level": 3,
+    "text": "For traces",
+    "slug": "for-traces"
+  },
+  {
+    "level": 2,
+    "text": "Service information",
+    "slug": "service-information"
+  },
+  {
+    "level": 2,
+    "text": "ROI measurement resources",
+    "slug": "roi-measurement-resources"
+  },
+  {
+    "level": 2,
+    "text": "Security and privacy",
+    "slug": "security-and-privacy"
+  },
+  {
+    "level": 2,
+    "text": "Monitor Claude Code on Amazon Bedrock",
+    "slug": "monitor-claude-code-on-amazon-bedrock"
+  }
+]

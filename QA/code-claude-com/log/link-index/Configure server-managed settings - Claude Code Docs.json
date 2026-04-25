@@ -1,0 +1,102 @@
+{
+  "S2V_LINK_0": {
+    "url": "https://claude.com/pricing?utm_source=claude_code&utm_medium=docs&utm_content=server_settings_teams#team-&-enterprise",
+    "text": "Claude for Teams"
+  },
+  "S2V_LINK_1": {
+    "url": "https://anthropic.com/contact-sales?utm_source=claude_code&utm_medium=docs&utm_content=server_settings_enterprise",
+    "text": "Claude for Enterprise"
+  },
+  "S2V_LINK_2": {
+    "url": "/docs/en/settings#settings-files",
+    "text": "Endpoint-managed settings"
+  },
+  "S2V_LINK_3": {
+    "url": "https://claude.ai",
+    "text": "Claude.ai"
+  },
+  "S2V_LINK_4": {
+    "url": "/docs/en/settings#available-settings",
+    "text": "settings available in"
+  },
+  "S2V_LINK_5": {
+    "url": "/docs/en/hooks",
+    "text": "hooks"
+  },
+  "S2V_LINK_6": {
+    "url": "/docs/en/env-vars",
+    "text": "environment variables"
+  },
+  "S2V_LINK_7": {
+    "url": "/docs/en/permissions#managed-only-settings",
+    "text": "managed-only settings"
+  },
+  "S2V_LINK_8": {
+    "url": "/docs/en/permission-modes#eliminate-prompts-with-auto-mode",
+    "text": "auto mode"
+  },
+  "S2V_LINK_9": {
+    "url": "#security-approval-dialogs",
+    "text": "security approval dialog"
+  },
+  "S2V_LINK_10": {
+    "url": "/docs/en/auto-mode-config",
+    "text": "Configure auto mode"
+  },
+  "S2V_LINK_11": {
+    "url": "#security-approval-dialogs",
+    "text": "security approval dialog"
+  },
+  "S2V_LINK_12": {
+    "url": "/docs/en/settings#available-settings",
+    "text": "settings keys"
+  },
+  "S2V_LINK_13": {
+    "url": "/docs/en/permissions#managed-only-settings",
+    "text": "managed-only settings"
+  },
+  "S2V_LINK_14": {
+    "url": "/docs/en/mcp#managed-mcp-configuration",
+    "text": "MCP server configurations"
+  },
+  "S2V_LINK_15": {
+    "url": "/docs/en/settings#settings-files",
+    "text": "endpoint-managed settings"
+  },
+  "S2V_LINK_16": {
+    "url": "/docs/en/settings#settings-precedence",
+    "text": "settings hierarchy"
+  },
+  "S2V_LINK_17": {
+    "url": "#fetch-and-caching-behavior",
+    "text": "cached settings"
+  },
+  "S2V_LINK_18": {
+    "url": "/docs/en/llm-gateway",
+    "text": "LLM gateways"
+  },
+  "S2V_LINK_19": {
+    "url": "/docs/en/hooks#configchange",
+    "text": "to log modifications or block unauthorized changes before they take effect. For stronger enforcement guarantees, use"
+  },
+  "S2V_LINK_20": {
+    "url": "/docs/en/settings#settings-files",
+    "text": "endpoint-managed settings"
+  },
+  "S2V_LINK_21": {
+    "url": "/docs/en/settings",
+    "text": "Settings"
+  },
+  "S2V_LINK_22": {
+    "url": "/docs/en/settings#settings-files",
+    "text": "Endpoint-managed settings"
+  },
+  "S2V_LINK_23": {
+    "url": "/docs/en/authentication",
+    "text": "Authentication"
+  },
+  "S2V_LINK_24": {
+    "url": "/docs/en/security",
+    "text": "Security"
+  }
+}

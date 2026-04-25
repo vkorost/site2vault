@@ -1,0 +1,52 @@
+[
+  {
+    "level": 2,
+    "text": "How checkpoints work",
+    "slug": "how-checkpoints-work"
+  },
+  {
+    "level": 3,
+    "text": "Automatic tracking",
+    "slug": "automatic-tracking"
+  },
+  {
+    "level": 3,
+    "text": "Rewind and summarize",
+    "slug": "rewind-and-summarize"
+  },
+  {
+    "level": 4,
+    "text": "Restore vs. summarize",
+    "slug": "restore-vs-summarize"
+  },
+  {
+    "level": 2,
+    "text": "Common use cases",
+    "slug": "common-use-cases"
+  },
+  {
+    "level": 2,
+    "text": "Limitations",
+    "slug": "limitations"
+  },
+  {
+    "level": 3,
+    "text": "Bash command changes not tracked",
+    "slug": "bash-command-changes-not-tracked"
+  },
+  {
+    "level": 3,
+    "text": "External changes not tracked",
+    "slug": "external-changes-not-tracked"
+  },
+  {
+    "level": 3,
+    "text": "Not a replacement for version control",
+    "slug": "not-a-replacement-for-version-control"
+  },
+  {
+    "level": 2,
+    "text": "See also",
+    "slug": "see-also"
+  }
+]

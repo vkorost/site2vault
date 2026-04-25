@@ -1,0 +1,112 @@
+[
+  {
+    "level": 2,
+    "text": "Access analytics for Team and Enterprise",
+    "slug": "access-analytics-for-team-and-enterprise"
+  },
+  {
+    "level": 3,
+    "text": "Enable contribution metrics",
+    "slug": "enable-contribution-metrics"
+  },
+  {
+    "level": 3,
+    "text": "Review summary metrics",
+    "slug": "review-summary-metrics"
+  },
+  {
+    "level": 3,
+    "text": "Explore the charts",
+    "slug": "explore-the-charts"
+  },
+  {
+    "level": 4,
+    "text": "Track adoption",
+    "slug": "track-adoption"
+  },
+  {
+    "level": 4,
+    "text": "Measure PRs per user",
+    "slug": "measure-prs-per-user"
+  },
+  {
+    "level": 4,
+    "text": "View pull requests breakdown",
+    "slug": "view-pull-requests-breakdown"
+  },
+  {
+    "level": 4,
+    "text": "Find top contributors",
+    "slug": "find-top-contributors"
+  },
+  {
+    "level": 3,
+    "text": "PR attribution",
+    "slug": "pr-attribution"
+  },
+  {
+    "level": 4,
+    "text": "Tagging criteria",
+    "slug": "tagging-criteria"
+  },
+  {
+    "level": 4,
+    "text": "Attribution process",
+    "slug": "attribution-process"
+  },
+  {
+    "level": 4,
+    "text": "Time window",
+    "slug": "time-window"
+  },
+  {
+    "level": 4,
+    "text": "Excluded files",
+    "slug": "excluded-files"
+  },
+  {
+    "level": 4,
+    "text": "Attribution notes",
+    "slug": "attribution-notes"
+  },
+  {
+    "level": 3,
+    "text": "Get the most from analytics",
+    "slug": "get-the-most-from-analytics"
+  },
+  {
+    "level": 4,
+    "text": "Monitor adoption",
+    "slug": "monitor-adoption"
+  },
+  {
+    "level": 4,
+    "text": "Measure ROI",
+    "slug": "measure-roi"
+  },
+  {
+    "level": 4,
+    "text": "Identify power users",
+    "slug": "identify-power-users"
+  },
+  {
+    "level": 4,
+    "text": "Access data programmatically",
+    "slug": "access-data-programmatically"
+  },
+  {
+    "level": 2,
+    "text": "Access analytics for API customers",
+    "slug": "access-analytics-for-api-customers"
+  },
+  {
+    "level": 3,
+    "text": "View team insights",
+    "slug": "view-team-insights"
+  },
+  {
+    "level": 2,
+    "text": "Related resources",
+    "slug": "related-resources"
+  }
+]

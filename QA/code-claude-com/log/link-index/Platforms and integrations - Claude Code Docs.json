@@ -1,0 +1,194 @@
+{
+  "S2V_LINK_0": {
+    "url": "/docs/en/headless",
+    "text": "Agent SDK"
+  },
+  "S2V_LINK_1": {
+    "url": "/docs/en/computer-use",
+    "text": "computer use"
+  },
+  "S2V_LINK_2": {
+    "url": "/docs/en/desktop",
+    "text": "Desktop"
+  },
+  "S2V_LINK_3": {
+    "url": "/docs/en/desktop#let-claude-use-your-computer",
+    "text": "computer use"
+  },
+  "S2V_LINK_4": {
+    "url": "/docs/en/desktop#sessions-from-dispatch",
+    "text": "Dispatch"
+  },
+  "S2V_LINK_5": {
+    "url": "/docs/en/vs-code",
+    "text": "VS Code"
+  },
+  "S2V_LINK_6": {
+    "url": "/docs/en/jetbrains",
+    "text": "JetBrains"
+  },
+  "S2V_LINK_7": {
+    "url": "/docs/en/claude-code-on-the-web",
+    "text": "Web"
+  },
+  "S2V_LINK_8": {
+    "url": "/docs/en/remote-control",
+    "text": "Remote Control"
+  },
+  "S2V_LINK_9": {
+    "url": "/docs/en/desktop#sessions-from-dispatch",
+    "text": "Dispatch"
+  },
+  "S2V_LINK_10": {
+    "url": "/docs/en/github-actions",
+    "text": "GitHub Actions"
+  },
+  "S2V_LINK_11": {
+    "url": "/docs/en/gitlab-ci-cd",
+    "text": "GitLab CI/CD"
+  },
+  "S2V_LINK_12": {
+    "url": "/docs/en/code-review",
+    "text": "Code Review"
+  },
+  "S2V_LINK_13": {
+    "url": "/docs/en/slack",
+    "text": "Slack"
+  },
+  "S2V_LINK_14": {
+    "url": "/docs/en/mcp",
+    "text": "MCP servers"
+  },
+  "S2V_LINK_15": {
+    "url": "/docs/en/desktop#connect-external-tools",
+    "text": "connectors"
+  },
+  "S2V_LINK_16": {
+    "url": "https://support.claude.com/en/articles/13947068",
+    "text": "Pair the mobile app with Desktop"
+  },
+  "S2V_LINK_17": {
+    "url": "/docs/en/remote-control",
+    "text": "Remote Control"
+  },
+  "S2V_LINK_18": {
+    "url": "https://claude.ai/code",
+    "text": "claude.ai/code"
+  },
+  "S2V_LINK_19": {
+    "url": "/docs/en/channels",
+    "text": "Channels"
+  },
+  "S2V_LINK_20": {
+    "url": "/docs/en/channels#quickstart",
+    "text": "Install a channel plugin"
+  },
+  "S2V_LINK_21": {
+    "url": "/docs/en/channels-reference",
+    "text": "build your own"
+  },
+  "S2V_LINK_22": {
+    "url": "/docs/en/slack",
+    "text": "Slack"
+  },
+  "S2V_LINK_23": {
+    "url": "/docs/en/slack#setting-up-claude-code-in-slack",
+    "text": "Install the Slack app"
+  },
+  "S2V_LINK_24": {
+    "url": "/docs/en/claude-code-on-the-web",
+    "text": "Claude Code on the web"
+  },
+  "S2V_LINK_25": {
+    "url": "/docs/en/scheduled-tasks",
+    "text": "Scheduled tasks"
+  },
+  "S2V_LINK_26": {
+    "url": "/docs/en/scheduled-tasks",
+    "text": "CLI"
+  },
+  "S2V_LINK_27": {
+    "url": "/docs/en/desktop-scheduled-tasks",
+    "text": "Desktop"
+  },
+  "S2V_LINK_28": {
+    "url": "/docs/en/routines",
+    "text": "cloud"
+  },
+  "S2V_LINK_29": {
+    "url": "/docs/en/quickstart",
+    "text": "install the CLI"
+  },
+  "S2V_LINK_30": {
+    "url": "/docs/en/desktop-quickstart",
+    "text": "Desktop"
+  },
+  "S2V_LINK_31": {
+    "url": "/docs/en/quickstart",
+    "text": "CLI quickstart"
+  },
+  "S2V_LINK_32": {
+    "url": "/docs/en/desktop",
+    "text": "Desktop"
+  },
+  "S2V_LINK_33": {
+    "url": "/docs/en/vs-code",
+    "text": "VS Code"
+  },
+  "S2V_LINK_34": {
+    "url": "/docs/en/jetbrains",
+    "text": "JetBrains"
+  },
+  "S2V_LINK_35": {
+    "url": "/docs/en/claude-code-on-the-web",
+    "text": "Claude Code on the web"
+  },
+  "S2V_LINK_36": {
+    "url": "https://apps.apple.com/us/app/claude-by-anthropic/id6473753684",
+    "text": "iOS"
+  },
+  "S2V_LINK_37": {
+    "url": "https://play.google.com/store/apps/details?id=com.anthropic.claude",
+    "text": "Android"
+  },
+  "S2V_LINK_38": {
+    "url": "/docs/en/chrome",
+    "text": "Chrome"
+  },
+  "S2V_LINK_39": {
+    "url": "/docs/en/computer-use",
+    "text": "Computer use"
+  },
+  "S2V_LINK_40": {
+    "url": "/docs/en/github-actions",
+    "text": "GitHub Actions"
+  },
+  "S2V_LINK_41": {
+    "url": "/docs/en/gitlab-ci-cd",
+    "text": "GitLab CI/CD"
+  },
+  "S2V_LINK_42": {
+    "url": "/docs/en/code-review",
+    "text": "Code Review"
+  },
+  "S2V_LINK_43": {
+    "url": "/docs/en/slack",
+    "text": "Slack"
+  },
+  "S2V_LINK_44": {
+    "url": "/docs/en/desktop#sessions-from-dispatch",
+    "text": "Dispatch"
+  },
+  "S2V_LINK_45": {
+    "url": "/docs/en/remote-control",
+    "text": "Remote Control"
+  },
+  "S2V_LINK_46": {
+    "url": "/docs/en/channels",
+    "text": "Channels"
+  },
+  "S2V_LINK_47": {
+    "url": "/docs/en/scheduled-tasks",
+    "text": "Scheduled tasks"
+  }
+}

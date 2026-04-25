@@ -1,0 +1,77 @@
+[
+  {
+    "level": 2,
+    "text": "Overview",
+    "slug": "overview"
+  },
+  {
+    "level": 2,
+    "text": "How Skills Work with the SDK",
+    "slug": "how-skills-work-with-the-sdk"
+  },
+  {
+    "level": 2,
+    "text": "Using Skills with the SDK",
+    "slug": "using-skills-with-the-sdk"
+  },
+  {
+    "level": 2,
+    "text": "Skill Locations",
+    "slug": "skill-locations"
+  },
+  {
+    "level": 2,
+    "text": "Creating Skills",
+    "slug": "creating-skills"
+  },
+  {
+    "level": 2,
+    "text": "Tool Restrictions",
+    "slug": "tool-restrictions"
+  },
+  {
+    "level": 2,
+    "text": "Discovering Available Skills",
+    "slug": "discovering-available-skills"
+  },
+  {
+    "level": 2,
+    "text": "Testing Skills",
+    "slug": "testing-skills"
+  },
+  {
+    "level": 2,
+    "text": "Troubleshooting",
+    "slug": "troubleshooting"
+  },
+  {
+    "level": 3,
+    "text": "Skills Not Found",
+    "slug": "skills-not-found"
+  },
+  {
+    "level": 3,
+    "text": "Skill Not Being Used",
+    "slug": "skill-not-being-used"
+  },
+  {
+    "level": 3,
+    "text": "Additional Troubleshooting",
+    "slug": "additional-troubleshooting"
+  },
+  {
+    "level": 2,
+    "text": "Related Documentation",
+    "slug": "related-documentation"
+  },
+  {
+    "level": 3,
+    "text": "Skills Guides",
+    "slug": "skills-guides"
+  },
+  {
+    "level": 3,
+    "text": "SDK Resources",
+    "slug": "sdk-resources"
+  }
+]

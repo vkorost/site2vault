@@ -1,0 +1,146 @@
+{
+  "S2V_LINK_0": {
+    "url": "https://claude.ai/code",
+    "text": "claude.ai/code"
+  },
+  "S2V_LINK_1": {
+    "url": "#connect-github-and-create-an-environment",
+    "text": "get started"
+  },
+  "S2V_LINK_2": {
+    "url": "/docs/en/remote-control",
+    "text": "Remote Control"
+  },
+  "S2V_LINK_3": {
+    "url": "/docs/en/claude-code-on-the-web#setup-scripts",
+    "text": "setup script"
+  },
+  "S2V_LINK_4": {
+    "url": "/docs/en/claude-code-on-the-web#access-levels",
+    "text": "access level"
+  },
+  "S2V_LINK_5": {
+    "url": "/docs/en/permission-modes",
+    "text": "Permission modes"
+  },
+  "S2V_LINK_6": {
+    "url": "/docs/en/quickstart",
+    "text": "terminal quickstart"
+  },
+  "S2V_LINK_7": {
+    "url": "/docs/en/desktop",
+    "text": "Desktop app"
+  },
+  "S2V_LINK_8": {
+    "url": "/docs/en/remote-control",
+    "text": "Remote Control"
+  },
+  "S2V_LINK_9": {
+    "url": "#connect-from-your-terminal",
+    "text": "do this from your terminal"
+  },
+  "S2V_LINK_10": {
+    "url": "https://claude.ai/code",
+    "text": "claude.ai/code"
+  },
+  "S2V_LINK_11": {
+    "url": "https://github.com/new",
+    "text": "create an empty repository on GitHub"
+  },
+  "S2V_LINK_12": {
+    "url": "/docs/en/claude-code-on-the-web#installed-tools",
+    "text": "Installed tools"
+  },
+  "S2V_LINK_13": {
+    "url": "/docs/en/claude-code-on-the-web#default-allowed-domains",
+    "text": "common package registries"
+  },
+  "S2V_LINK_14": {
+    "url": "/docs/en/claude-code-on-the-web#environment-caching",
+    "text": "cached"
+  },
+  "S2V_LINK_15": {
+    "url": "/docs/en/claude-code-on-the-web#setup-scripts",
+    "text": "Setup scripts"
+  },
+  "S2V_LINK_16": {
+    "url": "/docs/en/claude-code-on-the-web#configure-your-environment",
+    "text": "edit it later or create additional environments"
+  },
+  "S2V_LINK_17": {
+    "url": "/docs/en/quickstart",
+    "text": "Claude Code CLI"
+  },
+  "S2V_LINK_18": {
+    "url": "/docs/en/zero-data-retention",
+    "text": "Zero Data Retention"
+  },
+  "S2V_LINK_19": {
+    "url": "/docs/en/claude-code-on-the-web#configure-your-environment",
+    "text": "edit the environment or add variables"
+  },
+  "S2V_LINK_20": {
+    "url": "/docs/en/claude-code-on-the-web#from-terminal-to-web",
+    "text": "or set up recurring tasks with"
+  },
+  "S2V_LINK_21": {
+    "url": "/docs/en/routines",
+    "text": "."
+  },
+  "S2V_LINK_22": {
+    "url": "https://claude.ai/code",
+    "text": "claude.ai/code"
+  },
+  "S2V_LINK_23": {
+    "url": "/docs/en/permission-modes",
+    "text": "Permission modes"
+  },
+  "S2V_LINK_24": {
+    "url": "https://claude.ai/code",
+    "text": "claude.ai/code"
+  },
+  "S2V_LINK_25": {
+    "url": "/docs/en/claude-code-on-the-web#auto-fix-pull-requests",
+    "text": "Auto-fix pull requests"
+  },
+  "S2V_LINK_26": {
+    "url": "/docs/en/remote-control",
+    "text": "Remote Control"
+  },
+  "S2V_LINK_27": {
+    "url": "https://claude.ai/code",
+    "text": "claude.ai/code"
+  },
+  "S2V_LINK_28": {
+    "url": "/docs/en/claude-code-on-the-web#access-levels",
+    "text": "network access level"
+  },
+  "S2V_LINK_29": {
+    "url": "/docs/en/claude-code-on-the-web#archive-sessions",
+    "text": "archive a session"
+  },
+  "S2V_LINK_30": {
+    "url": "/docs/en/claude-code-on-the-web#delete-sessions",
+    "text": "delete it"
+  },
+  "S2V_LINK_31": {
+    "url": "/docs/en/claude-code-on-the-web",
+    "text": "Use Claude Code on the web"
+  },
+  "S2V_LINK_32": {
+    "url": "/docs/en/routines",
+    "text": "Routines"
+  },
+  "S2V_LINK_33": {
+    "url": "/docs/en/memory",
+    "text": "CLAUDE.md"
+  },
+  "S2V_LINK_34": {
+    "url": "https://apps.apple.com/us/app/claude-by-anthropic/id6473753684",
+    "text": "iOS"
+  },
+  "S2V_LINK_35": {
+    "url": "https://play.google.com/store/apps/details?id=com.anthropic.claude",
+    "text": "Android"
+  }
+}

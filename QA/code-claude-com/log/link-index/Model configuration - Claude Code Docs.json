@@ -1,0 +1,118 @@
+{
+  "S2V_LINK_0": {
+    "url": "https://platform.claude.com/docs/en/about-claude/models/overview",
+    "text": "model name"
+  },
+  "S2V_LINK_1": {
+    "url": "https://platform.claude.com/docs/en/build-with-claude/context-windows#1m-token-context-window",
+    "text": "1 million token context window"
+  },
+  "S2V_LINK_2": {
+    "url": "/docs/en/settings#settings-files",
+    "text": "managed or policy settings"
+  },
+  "S2V_LINK_3": {
+    "url": "#default-model-setting",
+    "text": "based on the user\u2019s subscription tier"
+  },
+  "S2V_LINK_4": {
+    "url": "/docs/en/amazon-bedrock#use-the-mantle-endpoint",
+    "text": "Bedrock Mantle endpoint"
+  },
+  "S2V_LINK_5": {
+    "url": "#pin-models-for-third-party-deployments",
+    "text": "Pin models for third-party deployments"
+  },
+  "S2V_LINK_6": {
+    "url": "/docs/en/server-managed-settings",
+    "text": "server-managed settings"
+  },
+  "S2V_LINK_7": {
+    "url": "#extended-context",
+    "text": "Extended context"
+  },
+  "S2V_LINK_8": {
+    "url": "https://platform.claude.com/docs/en/build-with-claude/effort",
+    "text": "Effort levels"
+  },
+  "S2V_LINK_9": {
+    "url": "/docs/en/skills#frontmatter-reference",
+    "text": "skill"
+  },
+  "S2V_LINK_10": {
+    "url": "/docs/en/sub-agents#supported-frontmatter-fields",
+    "text": "subagent"
+  },
+  "S2V_LINK_11": {
+    "url": "/docs/en/env-vars",
+    "text": "environment variables"
+  },
+  "S2V_LINK_12": {
+    "url": "https://platform.claude.com/docs/en/build-with-claude/context-windows#1m-token-context-window",
+    "text": "1 million token context window"
+  },
+  "S2V_LINK_13": {
+    "url": "https://support.claude.com/en/articles/12429409-extra-usage-for-paid-claude-plans",
+    "text": "extra usage"
+  },
+  "S2V_LINK_14": {
+    "url": "https://support.claude.com/en/articles/12429409-extra-usage-for-paid-claude-plans",
+    "text": "extra usage"
+  },
+  "S2V_LINK_15": {
+    "url": "/docs/en/env-vars",
+    "text": "environment variables"
+  },
+  "S2V_LINK_16": {
+    "url": "/docs/en/statusline",
+    "text": "status line"
+  },
+  "S2V_LINK_17": {
+    "url": "/docs/en/amazon-bedrock",
+    "text": "Bedrock"
+  },
+  "S2V_LINK_18": {
+    "url": "/docs/en/google-vertex-ai",
+    "text": "Vertex AI"
+  },
+  "S2V_LINK_19": {
+    "url": "/docs/en/microsoft-foundry",
+    "text": "Foundry"
+  },
+  "S2V_LINK_20": {
+    "url": "https://platform.claude.com/docs/en/about-claude/models/overview",
+    "text": "Models overview"
+  },
+  "S2V_LINK_21": {
+    "url": "#extended-context",
+    "text": "extended context"
+  },
+  "S2V_LINK_22": {
+    "url": "/docs/en/llm-gateway",
+    "text": "LLM gateway"
+  },
+  "S2V_LINK_23": {
+    "url": "#adjust-effort-level",
+    "text": "effort levels"
+  },
+  "S2V_LINK_24": {
+    "url": "/docs/en/common-workflows#use-extended-thinking-thinking-mode",
+    "text": "extended thinking"
+  },
+  "S2V_LINK_25": {
+    "url": "/docs/en/common-workflows#use-extended-thinking-thinking-mode",
+    "text": "Extended thinking"
+  },
+  "S2V_LINK_26": {
+    "url": "/docs/en/settings#settings-files",
+    "text": "settings file"
+  },
+  "S2V_LINK_27": {
+    "url": "https://platform.claude.com/docs/en/about-claude/models/overview",
+    "text": "Models overview"
+  },
+  "S2V_LINK_28": {
+    "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-caching",
+    "text": "prompt caching"
+  }
+}

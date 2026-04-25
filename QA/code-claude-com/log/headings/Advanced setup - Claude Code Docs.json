@@ -1,0 +1,137 @@
+[
+  {
+    "level": 2,
+    "text": "System requirements",
+    "slug": "system-requirements"
+  },
+  {
+    "level": 3,
+    "text": "Additional dependencies",
+    "slug": "additional-dependencies"
+  },
+  {
+    "level": 2,
+    "text": "Install Claude Code",
+    "slug": "install-claude-code"
+  },
+  {
+    "level": 3,
+    "text": "Set up on Windows",
+    "slug": "set-up-on-windows"
+  },
+  {
+    "level": 3,
+    "text": "Alpine Linux and musl-based distributions",
+    "slug": "alpine-linux-and-musl-based-distributions"
+  },
+  {
+    "level": 2,
+    "text": "Verify your installation",
+    "slug": "verify-your-installation"
+  },
+  {
+    "level": 2,
+    "text": "Authenticate",
+    "slug": "authenticate"
+  },
+  {
+    "level": 2,
+    "text": "Update Claude Code",
+    "slug": "update-claude-code"
+  },
+  {
+    "level": 3,
+    "text": "Auto-updates",
+    "slug": "auto-updates"
+  },
+  {
+    "level": 3,
+    "text": "Configure release channel",
+    "slug": "configure-release-channel"
+  },
+  {
+    "level": 3,
+    "text": "Pin a minimum version",
+    "slug": "pin-a-minimum-version"
+  },
+  {
+    "level": 3,
+    "text": "Disable auto-updates",
+    "slug": "disable-auto-updates"
+  },
+  {
+    "level": 3,
+    "text": "Update manually",
+    "slug": "update-manually"
+  },
+  {
+    "level": 2,
+    "text": "Advanced installation options",
+    "slug": "advanced-installation-options"
+  },
+  {
+    "level": 3,
+    "text": "Install a specific version",
+    "slug": "install-a-specific-version"
+  },
+  {
+    "level": 3,
+    "text": "Install with Linux package managers",
+    "slug": "install-with-linux-package-managers"
+  },
+  {
+    "level": 3,
+    "text": "Install with npm",
+    "slug": "install-with-npm"
+  },
+  {
+    "level": 3,
+    "text": "Binary integrity and code signing",
+    "slug": "binary-integrity-and-code-signing"
+  },
+  {
+    "level": 4,
+    "text": "Verify the manifest signature",
+    "slug": "verify-the-manifest-signature"
+  },
+  {
+    "level": 4,
+    "text": "Platform code signatures",
+    "slug": "platform-code-signatures"
+  },
+  {
+    "level": 2,
+    "text": "Uninstall Claude Code",
+    "slug": "uninstall-claude-code"
+  },
+  {
+    "level": 3,
+    "text": "Native installation",
+    "slug": "native-installation"
+  },
+  {
+    "level": 3,
+    "text": "Homebrew installation",
+    "slug": "homebrew-installation"
+  },
+  {
+    "level": 3,
+    "text": "WinGet installation",
+    "slug": "winget-installation"
+  },
+  {
+    "level": 3,
+    "text": "apt / dnf / apk",
+    "slug": "apt-dnf-apk"
+  },
+  {
+    "level": 3,
+    "text": "npm",
+    "slug": "npm"
+  },
+  {
+    "level": 3,
+    "text": "Remove configuration files",
+    "slug": "remove-configuration-files"
+  }
+]

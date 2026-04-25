@@ -1,0 +1,102 @@
+[
+  {
+    "level": 2,
+    "text": "Discovering Available Slash Commands",
+    "slug": "discovering-available-slash-commands"
+  },
+  {
+    "level": 2,
+    "text": "Sending Slash Commands",
+    "slug": "sending-slash-commands"
+  },
+  {
+    "level": 2,
+    "text": "Common Slash Commands",
+    "slug": "common-slash-commands"
+  },
+  {
+    "level": 3,
+    "text": "/compact- Compact Conversation History",
+    "slug": "compact-compact-conversation-history"
+  },
+  {
+    "level": 3,
+    "text": "Clearing the conversation",
+    "slug": "clearing-the-conversation"
+  },
+  {
+    "level": 2,
+    "text": "Creating Custom Slash Commands",
+    "slug": "creating-custom-slash-commands"
+  },
+  {
+    "level": 3,
+    "text": "File Locations",
+    "slug": "file-locations"
+  },
+  {
+    "level": 3,
+    "text": "File Format",
+    "slug": "file-format"
+  },
+  {
+    "level": 4,
+    "text": "Basic Example",
+    "slug": "basic-example"
+  },
+  {
+    "level": 4,
+    "text": "With Frontmatter",
+    "slug": "with-frontmatter"
+  },
+  {
+    "level": 3,
+    "text": "Using Custom Commands in the SDK",
+    "slug": "using-custom-commands-in-the-sdk"
+  },
+  {
+    "level": 3,
+    "text": "Advanced Features",
+    "slug": "advanced-features"
+  },
+  {
+    "level": 4,
+    "text": "Arguments and Placeholders",
+    "slug": "arguments-and-placeholders"
+  },
+  {
+    "level": 4,
+    "text": "Bash Command Execution",
+    "slug": "bash-command-execution"
+  },
+  {
+    "level": 4,
+    "text": "File References",
+    "slug": "file-references"
+  },
+  {
+    "level": 3,
+    "text": "Organization with Namespacing",
+    "slug": "organization-with-namespacing"
+  },
+  {
+    "level": 3,
+    "text": "Practical Examples",
+    "slug": "practical-examples"
+  },
+  {
+    "level": 4,
+    "text": "Code Review Command",
+    "slug": "code-review-command"
+  },
+  {
+    "level": 4,
+    "text": "Test Runner Command",
+    "slug": "test-runner-command"
+  },
+  {
+    "level": 2,
+    "text": "See Also",
+    "slug": "see-also"
+  }
+]

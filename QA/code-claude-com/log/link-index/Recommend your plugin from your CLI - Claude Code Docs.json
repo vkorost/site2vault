@@ -1,0 +1,30 @@
+{
+  "S2V_LINK_0": {
+    "url": "/docs/en/discover-plugins",
+    "text": "Discover and install plugins"
+  },
+  "S2V_LINK_1": {
+    "url": "/docs/en/env-vars",
+    "text": "environment variable to"
+  },
+  "S2V_LINK_2": {
+    "url": "https://claude.ai/settings/plugins/submit",
+    "text": "claude.ai/settings/plugins/submit"
+  },
+  "S2V_LINK_3": {
+    "url": "https://platform.claude.com/plugins/submit",
+    "text": "platform.claude.com/plugins/submit"
+  },
+  "S2V_LINK_4": {
+    "url": "/docs/en/plugins",
+    "text": "Create plugins"
+  },
+  "S2V_LINK_5": {
+    "url": "/docs/en/plugin-marketplaces",
+    "text": "Create and distribute a plugin marketplace"
+  },
+  "S2V_LINK_6": {
+    "url": "/docs/en/env-vars",
+    "text": "Environment variables"
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "S2V_LINK_0": {
+    "url": "#available-hooks",
+    "text": "full list of events"
+  },
+  "S2V_LINK_1": {
+    "url": "/docs/en/agent-sdk/typescript#setting-source",
+    "text": "or"
+  },
+  "S2V_LINK_2": {
+    "url": "/docs/en/agent-sdk/python#setting-source",
+    "text": "entry is enabled, which it is for default"
+  },
+  "S2V_LINK_3": {
+    "url": "#matchers",
+    "text": "pattern (like"
+  },
+  "S2V_LINK_4": {
+    "url": "#callback-functions",
+    "text": "callback function"
+  },
+  "S2V_LINK_5": {
+    "url": "#outputs",
+    "text": "output object"
+  },
+  "S2V_LINK_6": {
+    "url": "#available-hooks",
+    "text": "hook event names"
+  },
+  "S2V_LINK_7": {
+    "url": "#matchers",
+    "text": "matchers"
+  },
+  "S2V_LINK_8": {
+    "url": "#callback-functions",
+    "text": "callback functions"
+  },
+  "S2V_LINK_9": {
+    "url": "/docs/en/hooks#matcher-patterns",
+    "text": "Claude Code hooks reference"
+  },
+  "S2V_LINK_10": {
+    "url": "/docs/en/agent-sdk/typescript#hook-input",
+    "text": "TypeScript"
+  },
+  "S2V_LINK_11": {
+    "url": "/docs/en/agent-sdk/python#hook-input",
+    "text": "Python"
+  },
+  "S2V_LINK_12": {
+    "url": "/docs/en/hooks#defer-a-tool-call-for-later",
+    "text": "resume later"
+  },
+  "S2V_LINK_13": {
+    "url": "/docs/en/hooks#json-output",
+    "text": "Claude Code shell command hooks"
+  },
+  "S2V_LINK_14": {
+    "url": "/docs/en/agent-sdk/typescript#sync-hook-json-output",
+    "text": "TypeScript"
+  },
+  "S2V_LINK_15": {
+    "url": "/docs/en/agent-sdk/python#sync-hook-json-output",
+    "text": "Python"
+  },
+  "S2V_LINK_16": {
+    "url": "/docs/en/agent-sdk/typescript#hook-input",
+    "text": "TypeScript"
+  },
+  "S2V_LINK_17": {
+    "url": "/docs/en/agent-sdk/python#hook-input",
+    "text": "Python"
+  },
+  "S2V_LINK_18": {
+    "url": "https://api.slack.com/messaging/webhooks",
+    "text": "Slack incoming webhook URL"
+  },
+  "S2V_LINK_19": {
+    "url": "/docs/en/hooks#matcher-patterns",
+    "text": "matcher patterns"
+  },
+  "S2V_LINK_20": {
+    "url": "/docs/en/agent-sdk/python#claude-agent-options",
+    "text": ""
+  },
+  "S2V_LINK_21": {
+    "url": "/docs/en/hooks#hook-events",
+    "text": "shell command hooks"
+  },
+  "S2V_LINK_22": {
+    "url": "/docs/en/agent-sdk/python#setting-source",
+    "text": "or"
+  },
+  "S2V_LINK_23": {
+    "url": "/docs/en/agent-sdk/typescript#setting-source",
+    "text": ":"
+  },
+  "S2V_LINK_24": {
+    "url": "/docs/en/hooks",
+    "text": "Claude Code hooks reference"
+  },
+  "S2V_LINK_25": {
+    "url": "/docs/en/hooks-guide",
+    "text": "Claude Code hooks guide"
+  },
+  "S2V_LINK_26": {
+    "url": "/docs/en/agent-sdk/typescript",
+    "text": "TypeScript SDK reference"
+  },
+  "S2V_LINK_27": {
+    "url": "/docs/en/agent-sdk/python",
+    "text": "Python SDK reference"
+  },
+  "S2V_LINK_28": {
+    "url": "/docs/en/agent-sdk/permissions",
+    "text": "Permissions"
+  },
+  "S2V_LINK_29": {
+    "url": "/docs/en/agent-sdk/custom-tools",
+    "text": "Custom tools"
+  }
+}

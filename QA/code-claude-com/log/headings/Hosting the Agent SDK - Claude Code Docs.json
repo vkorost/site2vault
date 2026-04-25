@@ -1,0 +1,92 @@
+[
+  {
+    "level": 2,
+    "text": "Hosting Requirements",
+    "slug": "hosting-requirements"
+  },
+  {
+    "level": 3,
+    "text": "Container-Based Sandboxing",
+    "slug": "container-based-sandboxing"
+  },
+  {
+    "level": 3,
+    "text": "System Requirements",
+    "slug": "system-requirements"
+  },
+  {
+    "level": 2,
+    "text": "Understanding the SDK Architecture",
+    "slug": "understanding-the-sdk-architecture"
+  },
+  {
+    "level": 2,
+    "text": "Sandbox Provider Options",
+    "slug": "sandbox-provider-options"
+  },
+  {
+    "level": 2,
+    "text": "Production Deployment Patterns",
+    "slug": "production-deployment-patterns"
+  },
+  {
+    "level": 3,
+    "text": "Pattern 1: Ephemeral Sessions",
+    "slug": "pattern-1-ephemeral-sessions"
+  },
+  {
+    "level": 3,
+    "text": "Pattern 2: Long-Running Sessions",
+    "slug": "pattern-2-long-running-sessions"
+  },
+  {
+    "level": 3,
+    "text": "Pattern 3: Hybrid Sessions",
+    "slug": "pattern-3-hybrid-sessions"
+  },
+  {
+    "level": 3,
+    "text": "Pattern 4: Single Containers",
+    "slug": "pattern-4-single-containers"
+  },
+  {
+    "level": 2,
+    "text": "FAQ",
+    "slug": "faq"
+  },
+  {
+    "level": 3,
+    "text": "How do I communicate with my sandboxes?",
+    "slug": "how-do-i-communicate-with-my-sandboxes"
+  },
+  {
+    "level": 3,
+    "text": "What is the cost of hosting a container?",
+    "slug": "what-is-the-cost-of-hosting-a-container"
+  },
+  {
+    "level": 3,
+    "text": "When should I shut down idle containers vs. keeping them warm?",
+    "slug": "when-should-i-shut-down-idle-containers-vs-keeping-them-warm"
+  },
+  {
+    "level": 3,
+    "text": "How often should I update the Claude Code CLI?",
+    "slug": "how-often-should-i-update-the-claude-code-cli"
+  },
+  {
+    "level": 3,
+    "text": "How do I monitor container health and agent performance?",
+    "slug": "how-do-i-monitor-container-health-and-agent-performance"
+  },
+  {
+    "level": 3,
+    "text": "How long can an agent session run before timing out?",
+    "slug": "how-long-can-an-agent-session-run-before-timing-out"
+  },
+  {
+    "level": 2,
+    "text": "Next Steps",
+    "slug": "next-steps"
+  }
+]

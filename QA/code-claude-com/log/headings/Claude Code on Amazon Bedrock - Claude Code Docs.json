@@ -1,0 +1,127 @@
+[
+  {
+    "level": 2,
+    "text": "Prerequisites",
+    "slug": "prerequisites"
+  },
+  {
+    "level": 2,
+    "text": "Sign in with Bedrock",
+    "slug": "sign-in-with-bedrock"
+  },
+  {
+    "level": 2,
+    "text": "Set up manually",
+    "slug": "set-up-manually"
+  },
+  {
+    "level": 3,
+    "text": "1. Submit use case details",
+    "slug": "1-submit-use-case-details"
+  },
+  {
+    "level": 3,
+    "text": "2. Configure AWS credentials",
+    "slug": "2-configure-aws-credentials"
+  },
+  {
+    "level": 4,
+    "text": "Advanced credential configuration",
+    "slug": "advanced-credential-configuration"
+  },
+  {
+    "level": 5,
+    "text": "Example configuration",
+    "slug": "example-configuration"
+  },
+  {
+    "level": 5,
+    "text": "Configuration settings explained",
+    "slug": "configuration-settings-explained"
+  },
+  {
+    "level": 3,
+    "text": "3. Configure Claude Code",
+    "slug": "3-configure-claude-code"
+  },
+  {
+    "level": 3,
+    "text": "4. Pin model versions",
+    "slug": "4-pin-model-versions"
+  },
+  {
+    "level": 4,
+    "text": "Map each model version to an inference profile",
+    "slug": "map-each-model-version-to-an-inference-profile"
+  },
+  {
+    "level": 2,
+    "text": "Startup model checks",
+    "slug": "startup-model-checks"
+  },
+  {
+    "level": 2,
+    "text": "IAM configuration",
+    "slug": "iam-configuration"
+  },
+  {
+    "level": 2,
+    "text": "1M token context window",
+    "slug": "1m-token-context-window"
+  },
+  {
+    "level": 2,
+    "text": "AWS Guardrails",
+    "slug": "aws-guardrails"
+  },
+  {
+    "level": 2,
+    "text": "Use the Mantle endpoint",
+    "slug": "use-the-mantle-endpoint"
+  },
+  {
+    "level": 3,
+    "text": "Enable Mantle",
+    "slug": "enable-mantle"
+  },
+  {
+    "level": 3,
+    "text": "Select a Mantle model",
+    "slug": "select-a-mantle-model"
+  },
+  {
+    "level": 3,
+    "text": "Run Mantle alongside the Invoke API",
+    "slug": "run-mantle-alongside-the-invoke-api"
+  },
+  {
+    "level": 3,
+    "text": "Route Mantle through a gateway",
+    "slug": "route-mantle-through-a-gateway"
+  },
+  {
+    "level": 3,
+    "text": "Mantle environment variables",
+    "slug": "mantle-environment-variables"
+  },
+  {
+    "level": 2,
+    "text": "Troubleshooting",
+    "slug": "troubleshooting"
+  },
+  {
+    "level": 3,
+    "text": "Authentication loop with SSO and corporate proxies",
+    "slug": "authentication-loop-with-sso-and-corporate-proxies"
+  },
+  {
+    "level": 3,
+    "text": "Region issues",
+    "slug": "region-issues"
+  },
+  {
+    "level": 3,
+    "text": "Mantle endpoint errors",
+    "slug": "mantle-endpoint-errors"
+  }
+]

@@ -1,0 +1,130 @@
+{
+  "S2V_LINK_0": {
+    "url": "/docs/en/permission-modes",
+    "text": "Permission modes"
+  },
+  "S2V_LINK_1": {
+    "url": "/docs/en/settings#settings-files",
+    "text": "settings files"
+  },
+  "S2V_LINK_2": {
+    "url": "/docs/en/settings#settings-files",
+    "text": "settings file"
+  },
+  "S2V_LINK_3": {
+    "url": "#managed-settings",
+    "text": "managed settings"
+  },
+  "S2V_LINK_4": {
+    "url": "#working-directories",
+    "text": "additional directory"
+  },
+  "S2V_LINK_5": {
+    "url": "https://git-scm.com/docs/gitignore",
+    "text": "gitignore"
+  },
+  "S2V_LINK_6": {
+    "url": "/docs/en/sub-agents",
+    "text": "subagents"
+  },
+  "S2V_LINK_7": {
+    "url": "/docs/en/hooks-guide",
+    "text": "Claude Code hooks"
+  },
+  "S2V_LINK_8": {
+    "url": "#manage-permissions",
+    "text": "Manage permissions"
+  },
+  "S2V_LINK_9": {
+    "url": "/docs/en/hooks-guide#block-edits-to-protected-files",
+    "text": "Block edits to protected files"
+  },
+  "S2V_LINK_10": {
+    "url": "/docs/en/settings#settings-files",
+    "text": "settings files"
+  },
+  "S2V_LINK_11": {
+    "url": "/docs/en/memory",
+    "text": "CLAUDE.md"
+  },
+  "S2V_LINK_12": {
+    "url": "/docs/en/plugins",
+    "text": "plugin"
+  },
+  "S2V_LINK_13": {
+    "url": "/docs/en/sandboxing",
+    "text": "sandboxing"
+  },
+  "S2V_LINK_14": {
+    "url": "/docs/en/sandboxing#sandbox-modes",
+    "text": "sandbox modes"
+  },
+  "S2V_LINK_15": {
+    "url": "/docs/en/server-managed-settings",
+    "text": "server-managed settings"
+  },
+  "S2V_LINK_16": {
+    "url": "/docs/en/settings#settings-files",
+    "text": "settings files"
+  },
+  "S2V_LINK_17": {
+    "url": "/docs/en/channels",
+    "text": "channels"
+  },
+  "S2V_LINK_18": {
+    "url": "/docs/en/server-managed-settings#enforce-fail-closed-startup",
+    "text": "fail-closed enforcement"
+  },
+  "S2V_LINK_19": {
+    "url": "/docs/en/plugin-marketplaces#managed-marketplace-restrictions",
+    "text": "managed marketplace restrictions"
+  },
+  "S2V_LINK_20": {
+    "url": "/docs/en/settings#settings-files",
+    "text": "Settings files"
+  },
+  "S2V_LINK_21": {
+    "url": "/docs/en/remote-control",
+    "text": "Remote Control"
+  },
+  "S2V_LINK_22": {
+    "url": "/docs/en/claude-code-on-the-web",
+    "text": "web sessions"
+  },
+  "S2V_LINK_23": {
+    "url": "https://claude.ai/admin-settings/claude-code",
+    "text": "Claude Code admin settings"
+  },
+  "S2V_LINK_24": {
+    "url": "/docs/en/settings#settings-precedence",
+    "text": "settings precedence"
+  },
+  "S2V_LINK_25": {
+    "url": "https://github.com/anthropics/claude-code/tree/main/examples/settings",
+    "text": "repository"
+  },
+  "S2V_LINK_26": {
+    "url": "/docs/en/settings",
+    "text": "Settings"
+  },
+  "S2V_LINK_27": {
+    "url": "/docs/en/auto-mode-config",
+    "text": "Configure auto mode"
+  },
+  "S2V_LINK_28": {
+    "url": "/docs/en/sandboxing",
+    "text": "Sandboxing"
+  },
+  "S2V_LINK_29": {
+    "url": "/docs/en/authentication",
+    "text": "Authentication"
+  },
+  "S2V_LINK_30": {
+    "url": "/docs/en/security",
+    "text": "Security"
+  },
+  "S2V_LINK_31": {
+    "url": "/docs/en/hooks-guide",
+    "text": "Hooks"
+  }
+}

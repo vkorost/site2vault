@@ -1,0 +1,138 @@
+{
+  "S2V_LINK_0": {
+    "url": "https://claude.ai/admin-settings/claude-code",
+    "text": "Team and Enterprise"
+  },
+  "S2V_LINK_1": {
+    "url": "/docs/en/zero-data-retention",
+    "text": "Zero Data Retention"
+  },
+  "S2V_LINK_2": {
+    "url": "/docs/en/github-actions",
+    "text": "GitHub Actions"
+  },
+  "S2V_LINK_3": {
+    "url": "/docs/en/gitlab-ci-cd",
+    "text": "GitLab CI/CD"
+  },
+  "S2V_LINK_4": {
+    "url": "/docs/en/github-enterprise-server",
+    "text": "GitHub Enterprise Server"
+  },
+  "S2V_LINK_5": {
+    "url": "#how-reviews-work",
+    "text": "How reviews work"
+  },
+  "S2V_LINK_6": {
+    "url": "#set-up-code-review",
+    "text": "Setup"
+  },
+  "S2V_LINK_7": {
+    "url": "#manually-trigger-reviews",
+    "text": "Triggering reviews manually"
+  },
+  "S2V_LINK_8": {
+    "url": "#customize-reviews",
+    "text": "Customizing reviews"
+  },
+  "S2V_LINK_9": {
+    "url": "#pricing",
+    "text": "Pricing"
+  },
+  "S2V_LINK_10": {
+    "url": "#troubleshooting",
+    "text": "Troubleshooting"
+  },
+  "S2V_LINK_11": {
+    "url": "#set-up-code-review",
+    "text": "enables Code Review"
+  },
+  "S2V_LINK_12": {
+    "url": "#manually-trigger-reviews",
+    "text": "starts reviews on a PR"
+  },
+  "S2V_LINK_13": {
+    "url": "#view-usage",
+    "text": "analytics dashboard"
+  },
+  "S2V_LINK_14": {
+    "url": "#manually-trigger-reviews",
+    "text": "top-level PR comment"
+  },
+  "S2V_LINK_15": {
+    "url": "#customize-reviews",
+    "text": "adding guidance files"
+  },
+  "S2V_LINK_16": {
+    "url": "https://claude.ai/admin-settings/claude-code",
+    "text": "claude.ai/admin-settings/claude-code"
+  },
+  "S2V_LINK_17": {
+    "url": "/docs/en/github-actions",
+    "text": "GitHub Actions"
+  },
+  "S2V_LINK_18": {
+    "url": "#manually-trigger-reviews",
+    "text": "comments"
+  },
+  "S2V_LINK_19": {
+    "url": "#severity-levels",
+    "text": "nit-level"
+  },
+  "S2V_LINK_20": {
+    "url": "/docs/en/memory",
+    "text": "memory documentation"
+  },
+  "S2V_LINK_21": {
+    "url": "#review-md",
+    "text": "instead."
+  },
+  "S2V_LINK_22": {
+    "url": "/docs/en/memory#import-additional-files",
+    "text": "is not expanded, and referenced files are not read into the prompt. Put the rules you want enforced directly in the file."
+  },
+  "S2V_LINK_23": {
+    "url": "https://claude.ai/analytics/code-review",
+    "text": "claude.ai/analytics/code-review"
+  },
+  "S2V_LINK_24": {
+    "url": "https://support.claude.com/en/articles/12429409-extra-usage-for-paid-claude-plans",
+    "text": "extra usage"
+  },
+  "S2V_LINK_25": {
+    "url": "#manually-trigger-reviews",
+    "text": "opts the PR into push-triggered reviews"
+  },
+  "S2V_LINK_26": {
+    "url": "https://claude.ai/admin-settings/usage",
+    "text": "claude.ai/admin-settings/usage"
+  },
+  "S2V_LINK_27": {
+    "url": "#view-usage",
+    "text": "analytics"
+  },
+  "S2V_LINK_28": {
+    "url": "https://claude.ai/admin-settings/usage",
+    "text": "claude.ai/admin-settings/usage"
+  },
+  "S2V_LINK_29": {
+    "url": "/docs/en/discover-plugins",
+    "text": "Plugins"
+  },
+  "S2V_LINK_30": {
+    "url": "/docs/en/github-actions",
+    "text": "GitHub Actions"
+  },
+  "S2V_LINK_31": {
+    "url": "/docs/en/gitlab-ci-cd",
+    "text": "GitLab CI/CD"
+  },
+  "S2V_LINK_32": {
+    "url": "/docs/en/memory",
+    "text": "Memory"
+  },
+  "S2V_LINK_33": {
+    "url": "/docs/en/analytics",
+    "text": "Analytics"
+  }
+}

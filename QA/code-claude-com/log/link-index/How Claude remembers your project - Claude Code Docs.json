@@ -1,0 +1,142 @@
+{
+  "S2V_LINK_0": {
+    "url": "#claude-md-files",
+    "text": "Write and organize CLAUDE.md files"
+  },
+  "S2V_LINK_1": {
+    "url": "#organize-rules-with-claude/rules/",
+    "text": "Scope rules to specific file types"
+  },
+  "S2V_LINK_2": {
+    "url": "#auto-memory",
+    "text": "Configure auto memory"
+  },
+  "S2V_LINK_3": {
+    "url": "#troubleshoot-memory-issues",
+    "text": "Troubleshoot"
+  },
+  "S2V_LINK_4": {
+    "url": "/docs/en/sub-agents#enable-persistent-memory",
+    "text": "subagent configuration"
+  },
+  "S2V_LINK_5": {
+    "url": "/docs/en/skills",
+    "text": "skill"
+  },
+  "S2V_LINK_6": {
+    "url": "#organize-rules-with-claude/rules/",
+    "text": "path-scoped rule"
+  },
+  "S2V_LINK_7": {
+    "url": "/docs/en/features-overview#build-your-setup-over-time",
+    "text": "extension overview"
+  },
+  "S2V_LINK_8": {
+    "url": "#how-claude-md-files-load",
+    "text": "How CLAUDE.md files load"
+  },
+  "S2V_LINK_9": {
+    "url": "#organize-rules-with-claude/rules/",
+    "text": "project rules"
+  },
+  "S2V_LINK_10": {
+    "url": "/docs/en/context-window",
+    "text": "context window visualization"
+  },
+  "S2V_LINK_11": {
+    "url": "#path-specific-rules",
+    "text": "path-scoped rules"
+  },
+  "S2V_LINK_12": {
+    "url": "#import-additional-files",
+    "text": "imports"
+  },
+  "S2V_LINK_13": {
+    "url": "#organize-rules-with-claude/rules/",
+    "text": "periodically to remove outdated or conflicting instructions. In monorepos, use"
+  },
+  "S2V_LINK_14": {
+    "url": "#exclude-specific-claude-md-files",
+    "text": "to skip CLAUDE.md files from other teams that aren\u2019t relevant to your work."
+  },
+  "S2V_LINK_15": {
+    "url": "#organize-rules-with-claude/rules/",
+    "text": "."
+  },
+  "S2V_LINK_16": {
+    "url": "#exclude-specific-claude-md-files",
+    "text": "to skip them. Block-level HTML comments ("
+  },
+  "S2V_LINK_17": {
+    "url": "/docs/en/cli-reference",
+    "text": "."
+  },
+  "S2V_LINK_18": {
+    "url": "#path-specific-rules",
+    "text": "scoped to specific file paths"
+  },
+  "S2V_LINK_19": {
+    "url": "/docs/en/skills",
+    "text": "skills"
+  },
+  "S2V_LINK_20": {
+    "url": "#path-specific-rules",
+    "text": "are loaded at launch with the same priority as"
+  },
+  "S2V_LINK_21": {
+    "url": "/docs/en/permissions#managed-settings",
+    "text": "managed settings"
+  },
+  "S2V_LINK_22": {
+    "url": "/docs/en/settings#settings-files",
+    "text": "managed settings"
+  },
+  "S2V_LINK_23": {
+    "url": "/docs/en/settings#settings-files",
+    "text": "settings layer"
+  },
+  "S2V_LINK_24": {
+    "url": "#view-and-edit-with-memory",
+    "text": "to browse and open memory files from within a session."
+  },
+  "S2V_LINK_25": {
+    "url": "#choose-where-to-put-claude-md-files",
+    "text": "Choose where to put CLAUDE.md files"
+  },
+  "S2V_LINK_26": {
+    "url": "/docs/en/cli-reference#system-prompt-flags",
+    "text": ". This must be passed every invocation, so it\u2019s better suited to scripts and automation than interactive use."
+  },
+  "S2V_LINK_27": {
+    "url": "#path-specific-rules",
+    "text": "path-scoped rules"
+  },
+  "S2V_LINK_28": {
+    "url": "#import-additional-files",
+    "text": "helps organization but does not reduce context, since imported files load at launch."
+  },
+  "S2V_LINK_29": {
+    "url": "/docs/en/context-window#what-survives-compaction",
+    "text": "What survives compaction"
+  },
+  "S2V_LINK_30": {
+    "url": "#write-effective-instructions",
+    "text": "Write effective instructions"
+  },
+  "S2V_LINK_31": {
+    "url": "/docs/en/debug-your-config",
+    "text": "Debug your configuration"
+  },
+  "S2V_LINK_32": {
+    "url": "/docs/en/skills",
+    "text": "Skills"
+  },
+  "S2V_LINK_33": {
+    "url": "/docs/en/settings",
+    "text": "Settings"
+  },
+  "S2V_LINK_34": {
+    "url": "/docs/en/sub-agents#enable-persistent-memory",
+    "text": "Subagent memory"
+  }
+}

@@ -1,0 +1,157 @@
+[
+  {
+    "level": 2,
+    "text": "Use cases",
+    "slug": "use-cases"
+  },
+  {
+    "level": 2,
+    "text": "Prerequisites",
+    "slug": "prerequisites"
+  },
+  {
+    "level": 2,
+    "text": "Setting up Claude Code in Slack",
+    "slug": "setting-up-claude-code-in-slack"
+  },
+  {
+    "level": 2,
+    "text": "How it works",
+    "slug": "how-it-works"
+  },
+  {
+    "level": 3,
+    "text": "Automatic detection",
+    "slug": "automatic-detection"
+  },
+  {
+    "level": 3,
+    "text": "Context gathering",
+    "slug": "context-gathering"
+  },
+  {
+    "level": 3,
+    "text": "Session flow",
+    "slug": "session-flow"
+  },
+  {
+    "level": 2,
+    "text": "User interface elements",
+    "slug": "user-interface-elements"
+  },
+  {
+    "level": 3,
+    "text": "App Home",
+    "slug": "app-home"
+  },
+  {
+    "level": 3,
+    "text": "Message actions",
+    "slug": "message-actions"
+  },
+  {
+    "level": 3,
+    "text": "Repository selection",
+    "slug": "repository-selection"
+  },
+  {
+    "level": 2,
+    "text": "Access and permissions",
+    "slug": "access-and-permissions"
+  },
+  {
+    "level": 3,
+    "text": "User-level access",
+    "slug": "user-level-access"
+  },
+  {
+    "level": 3,
+    "text": "Workspace-level access",
+    "slug": "workspace-level-access"
+  },
+  {
+    "level": 3,
+    "text": "Channel-based access control",
+    "slug": "channel-based-access-control"
+  },
+  {
+    "level": 2,
+    "text": "What\u2019s accessible where",
+    "slug": "whats-accessible-where"
+  },
+  {
+    "level": 2,
+    "text": "Best practices",
+    "slug": "best-practices"
+  },
+  {
+    "level": 3,
+    "text": "Writing effective requests",
+    "slug": "writing-effective-requests"
+  },
+  {
+    "level": 3,
+    "text": "When to use Slack vs. web",
+    "slug": "when-to-use-slack-vs-web"
+  },
+  {
+    "level": 2,
+    "text": "Troubleshooting",
+    "slug": "troubleshooting"
+  },
+  {
+    "level": 3,
+    "text": "Sessions not starting",
+    "slug": "sessions-not-starting"
+  },
+  {
+    "level": 3,
+    "text": "Repository not showing",
+    "slug": "repository-not-showing"
+  },
+  {
+    "level": 3,
+    "text": "Wrong repository selected",
+    "slug": "wrong-repository-selected"
+  },
+  {
+    "level": 3,
+    "text": "Authentication errors",
+    "slug": "authentication-errors"
+  },
+  {
+    "level": 3,
+    "text": "Session expiration",
+    "slug": "session-expiration"
+  },
+  {
+    "level": 2,
+    "text": "Current limitations",
+    "slug": "current-limitations"
+  },
+  {
+    "level": 2,
+    "text": "Related resources",
+    "slug": "related-resources"
+  },
+  {
+    "level": 2,
+    "text": "Claude Code on the web",
+    "slug": "claude-code-on-the-web"
+  },
+  {
+    "level": 2,
+    "text": "Claude for Slack",
+    "slug": "claude-for-slack"
+  },
+  {
+    "level": 2,
+    "text": "Slack App Marketplace",
+    "slug": "slack-app-marketplace"
+  },
+  {
+    "level": 2,
+    "text": "Claude Help Center",
+    "slug": "claude-help-center"
+  }
+]

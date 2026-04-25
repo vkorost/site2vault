@@ -1,0 +1,117 @@
+[
+  {
+    "level": 2,
+    "text": "Example use cases",
+    "slug": "example-use-cases"
+  },
+  {
+    "level": 2,
+    "text": "Create a routine",
+    "slug": "create-a-routine"
+  },
+  {
+    "level": 3,
+    "text": "Create from the web",
+    "slug": "create-from-the-web"
+  },
+  {
+    "level": 3,
+    "text": "Create from the CLI",
+    "slug": "create-from-the-cli"
+  },
+  {
+    "level": 3,
+    "text": "Create from the Desktop app",
+    "slug": "create-from-the-desktop-app"
+  },
+  {
+    "level": 2,
+    "text": "Configure triggers",
+    "slug": "configure-triggers"
+  },
+  {
+    "level": 3,
+    "text": "Add a schedule trigger",
+    "slug": "add-a-schedule-trigger"
+  },
+  {
+    "level": 4,
+    "text": "Schedule a one-off run",
+    "slug": "schedule-a-one-off-run"
+  },
+  {
+    "level": 3,
+    "text": "Add an API trigger",
+    "slug": "add-an-api-trigger"
+  },
+  {
+    "level": 4,
+    "text": "Trigger a routine",
+    "slug": "trigger-a-routine"
+  },
+  {
+    "level": 4,
+    "text": "API reference",
+    "slug": "api-reference"
+  },
+  {
+    "level": 3,
+    "text": "Add a GitHub trigger",
+    "slug": "add-a-github-trigger"
+  },
+  {
+    "level": 4,
+    "text": "Supported events",
+    "slug": "supported-events"
+  },
+  {
+    "level": 4,
+    "text": "Filter pull requests",
+    "slug": "filter-pull-requests"
+  },
+  {
+    "level": 4,
+    "text": "How sessions map to events",
+    "slug": "how-sessions-map-to-events"
+  },
+  {
+    "level": 2,
+    "text": "Manage routines",
+    "slug": "manage-routines"
+  },
+  {
+    "level": 3,
+    "text": "View and interact with runs",
+    "slug": "view-and-interact-with-runs"
+  },
+  {
+    "level": 3,
+    "text": "Edit and control routines",
+    "slug": "edit-and-control-routines"
+  },
+  {
+    "level": 3,
+    "text": "Repositories and branch permissions",
+    "slug": "repositories-and-branch-permissions"
+  },
+  {
+    "level": 3,
+    "text": "Connectors",
+    "slug": "connectors"
+  },
+  {
+    "level": 3,
+    "text": "Environments",
+    "slug": "environments"
+  },
+  {
+    "level": 2,
+    "text": "Usage and limits",
+    "slug": "usage-and-limits"
+  },
+  {
+    "level": 2,
+    "text": "Related resources",
+    "slug": "related-resources"
+  }
+]

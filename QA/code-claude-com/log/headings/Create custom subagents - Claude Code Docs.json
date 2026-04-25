@@ -1,0 +1,217 @@
+[
+  {
+    "level": 2,
+    "text": "Built-in subagents",
+    "slug": "built-in-subagents"
+  },
+  {
+    "level": 2,
+    "text": "Quickstart: create your first subagent",
+    "slug": "quickstart-create-your-first-subagent"
+  },
+  {
+    "level": 2,
+    "text": "Configure subagents",
+    "slug": "configure-subagents"
+  },
+  {
+    "level": 3,
+    "text": "Use the /agents command",
+    "slug": "use-the-agents-command"
+  },
+  {
+    "level": 3,
+    "text": "Choose the subagent scope",
+    "slug": "choose-the-subagent-scope"
+  },
+  {
+    "level": 3,
+    "text": "Write subagent files",
+    "slug": "write-subagent-files"
+  },
+  {
+    "level": 4,
+    "text": "Supported frontmatter fields",
+    "slug": "supported-frontmatter-fields"
+  },
+  {
+    "level": 3,
+    "text": "Choose a model",
+    "slug": "choose-a-model"
+  },
+  {
+    "level": 3,
+    "text": "Control subagent capabilities",
+    "slug": "control-subagent-capabilities"
+  },
+  {
+    "level": 4,
+    "text": "Available tools",
+    "slug": "available-tools"
+  },
+  {
+    "level": 4,
+    "text": "Restrict which subagents can be spawned",
+    "slug": "restrict-which-subagents-can-be-spawned"
+  },
+  {
+    "level": 4,
+    "text": "Scope MCP servers to a subagent",
+    "slug": "scope-mcp-servers-to-a-subagent"
+  },
+  {
+    "level": 4,
+    "text": "Permission modes",
+    "slug": "permission-modes"
+  },
+  {
+    "level": 4,
+    "text": "Preload skills into subagents",
+    "slug": "preload-skills-into-subagents"
+  },
+  {
+    "level": 4,
+    "text": "Enable persistent memory",
+    "slug": "enable-persistent-memory"
+  },
+  {
+    "level": 5,
+    "text": "Persistent memory tips",
+    "slug": "persistent-memory-tips"
+  },
+  {
+    "level": 4,
+    "text": "Conditional rules with hooks",
+    "slug": "conditional-rules-with-hooks"
+  },
+  {
+    "level": 4,
+    "text": "Disable specific subagents",
+    "slug": "disable-specific-subagents"
+  },
+  {
+    "level": 3,
+    "text": "Define hooks for subagents",
+    "slug": "define-hooks-for-subagents"
+  },
+  {
+    "level": 4,
+    "text": "Hooks in subagent frontmatter",
+    "slug": "hooks-in-subagent-frontmatter"
+  },
+  {
+    "level": 4,
+    "text": "Project-level hooks for subagent events",
+    "slug": "project-level-hooks-for-subagent-events"
+  },
+  {
+    "level": 2,
+    "text": "Work with subagents",
+    "slug": "work-with-subagents"
+  },
+  {
+    "level": 3,
+    "text": "Understand automatic delegation",
+    "slug": "understand-automatic-delegation"
+  },
+  {
+    "level": 3,
+    "text": "Invoke subagents explicitly",
+    "slug": "invoke-subagents-explicitly"
+  },
+  {
+    "level": 3,
+    "text": "Run subagents in foreground or background",
+    "slug": "run-subagents-in-foreground-or-background"
+  },
+  {
+    "level": 3,
+    "text": "Common patterns",
+    "slug": "common-patterns"
+  },
+  {
+    "level": 4,
+    "text": "Isolate high-volume operations",
+    "slug": "isolate-high-volume-operations"
+  },
+  {
+    "level": 4,
+    "text": "Run parallel research",
+    "slug": "run-parallel-research"
+  },
+  {
+    "level": 4,
+    "text": "Chain subagents",
+    "slug": "chain-subagents"
+  },
+  {
+    "level": 3,
+    "text": "Choose between subagents and main conversation",
+    "slug": "choose-between-subagents-and-main-conversation"
+  },
+  {
+    "level": 3,
+    "text": "Manage subagent context",
+    "slug": "manage-subagent-context"
+  },
+  {
+    "level": 4,
+    "text": "Resume subagents",
+    "slug": "resume-subagents"
+  },
+  {
+    "level": 4,
+    "text": "Auto-compaction",
+    "slug": "auto-compaction"
+  },
+  {
+    "level": 2,
+    "text": "Fork the current conversation",
+    "slug": "fork-the-current-conversation"
+  },
+  {
+    "level": 3,
+    "text": "Observe and steer running forks",
+    "slug": "observe-and-steer-running-forks"
+  },
+  {
+    "level": 3,
+    "text": "How forks differ from named subagents",
+    "slug": "how-forks-differ-from-named-subagents"
+  },
+  {
+    "level": 3,
+    "text": "Limitations",
+    "slug": "limitations"
+  },
+  {
+    "level": 2,
+    "text": "Example subagents",
+    "slug": "example-subagents"
+  },
+  {
+    "level": 3,
+    "text": "Code reviewer",
+    "slug": "code-reviewer"
+  },
+  {
+    "level": 3,
+    "text": "Debugger",
+    "slug": "debugger"
+  },
+  {
+    "level": 3,
+    "text": "Data scientist",
+    "slug": "data-scientist"
+  },
+  {
+    "level": 3,
+    "text": "Database query validator",
+    "slug": "database-query-validator"
+  },
+  {
+    "level": 2,
+    "text": "Next steps",
+    "slug": "next-steps"
+  }
+]

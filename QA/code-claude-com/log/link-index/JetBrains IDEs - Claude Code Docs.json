@@ -1,0 +1,18 @@
+{
+  "S2V_LINK_0": {
+    "url": "https://plugins.jetbrains.com/plugin/27310-claude-code-beta-",
+    "text": "Claude Code plugin"
+  },
+  "S2V_LINK_1": {
+    "url": "/docs/en/quickstart",
+    "text": "our quickstart guide"
+  },
+  "S2V_LINK_2": {
+    "url": "/docs/en/troubleshooting#jetbrains-ide-not-detected-on-wsl2",
+    "text": "WSL troubleshooting guide"
+  },
+  "S2V_LINK_3": {
+    "url": "/docs/en/troubleshooting",
+    "text": "troubleshooting guide"
+  }
+}

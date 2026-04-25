@@ -1,0 +1,212 @@
+[
+  {
+    "level": 2,
+    "text": "Plugin components reference",
+    "slug": "plugin-components-reference"
+  },
+  {
+    "level": 3,
+    "text": "Skills",
+    "slug": "skills"
+  },
+  {
+    "level": 3,
+    "text": "Agents",
+    "slug": "agents"
+  },
+  {
+    "level": 3,
+    "text": "Hooks",
+    "slug": "hooks"
+  },
+  {
+    "level": 3,
+    "text": "MCP servers",
+    "slug": "mcp-servers"
+  },
+  {
+    "level": 3,
+    "text": "LSP servers",
+    "slug": "lsp-servers"
+  },
+  {
+    "level": 3,
+    "text": "Monitors",
+    "slug": "monitors"
+  },
+  {
+    "level": 3,
+    "text": "Themes",
+    "slug": "themes"
+  },
+  {
+    "level": 2,
+    "text": "Plugin installation scopes",
+    "slug": "plugin-installation-scopes"
+  },
+  {
+    "level": 2,
+    "text": "Plugin manifest schema",
+    "slug": "plugin-manifest-schema"
+  },
+  {
+    "level": 3,
+    "text": "Complete schema",
+    "slug": "complete-schema"
+  },
+  {
+    "level": 3,
+    "text": "Required fields",
+    "slug": "required-fields"
+  },
+  {
+    "level": 3,
+    "text": "Metadata fields",
+    "slug": "metadata-fields"
+  },
+  {
+    "level": 3,
+    "text": "Component path fields",
+    "slug": "component-path-fields"
+  },
+  {
+    "level": 3,
+    "text": "User configuration",
+    "slug": "user-configuration"
+  },
+  {
+    "level": 3,
+    "text": "Channels",
+    "slug": "channels"
+  },
+  {
+    "level": 3,
+    "text": "Path behavior rules",
+    "slug": "path-behavior-rules"
+  },
+  {
+    "level": 3,
+    "text": "Environment variables",
+    "slug": "environment-variables"
+  },
+  {
+    "level": 4,
+    "text": "Persistent data directory",
+    "slug": "persistent-data-directory"
+  },
+  {
+    "level": 2,
+    "text": "Plugin caching and file resolution",
+    "slug": "plugin-caching-and-file-resolution"
+  },
+  {
+    "level": 3,
+    "text": "Path traversal limitations",
+    "slug": "path-traversal-limitations"
+  },
+  {
+    "level": 3,
+    "text": "Working with external dependencies",
+    "slug": "working-with-external-dependencies"
+  },
+  {
+    "level": 2,
+    "text": "Plugin directory structure",
+    "slug": "plugin-directory-structure"
+  },
+  {
+    "level": 3,
+    "text": "Standard plugin layout",
+    "slug": "standard-plugin-layout"
+  },
+  {
+    "level": 3,
+    "text": "File locations reference",
+    "slug": "file-locations-reference"
+  },
+  {
+    "level": 2,
+    "text": "CLI commands reference",
+    "slug": "cli-commands-reference"
+  },
+  {
+    "level": 3,
+    "text": "plugin install",
+    "slug": "plugin-install"
+  },
+  {
+    "level": 3,
+    "text": "plugin uninstall",
+    "slug": "plugin-uninstall"
+  },
+  {
+    "level": 3,
+    "text": "plugin enable",
+    "slug": "plugin-enable"
+  },
+  {
+    "level": 3,
+    "text": "plugin disable",
+    "slug": "plugin-disable"
+  },
+  {
+    "level": 3,
+    "text": "plugin update",
+    "slug": "plugin-update"
+  },
+  {
+    "level": 3,
+    "text": "plugin list",
+    "slug": "plugin-list"
+  },
+  {
+    "level": 3,
+    "text": "plugin tag",
+    "slug": "plugin-tag"
+  },
+  {
+    "level": 2,
+    "text": "Debugging and development tools",
+    "slug": "debugging-and-development-tools"
+  },
+  {
+    "level": 3,
+    "text": "Debugging commands",
+    "slug": "debugging-commands"
+  },
+  {
+    "level": 3,
+    "text": "Common issues",
+    "slug": "common-issues"
+  },
+  {
+    "level": 3,
+    "text": "Example error messages",
+    "slug": "example-error-messages"
+  },
+  {
+    "level": 3,
+    "text": "Hook troubleshooting",
+    "slug": "hook-troubleshooting"
+  },
+  {
+    "level": 3,
+    "text": "MCP server troubleshooting",
+    "slug": "mcp-server-troubleshooting"
+  },
+  {
+    "level": 3,
+    "text": "Directory structure mistakes",
+    "slug": "directory-structure-mistakes"
+  },
+  {
+    "level": 2,
+    "text": "Distribution and versioning reference",
+    "slug": "distribution-and-versioning-reference"
+  },
+  {
+    "level": 3,
+    "text": "Version management",
+    "slug": "version-management"
+  }
+]

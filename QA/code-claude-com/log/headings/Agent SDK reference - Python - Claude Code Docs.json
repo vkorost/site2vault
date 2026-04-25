@@ -1,0 +1,692 @@
+[
+  {
+    "level": 2,
+    "text": "Installation",
+    "slug": "installation"
+  },
+  {
+    "level": 2,
+    "text": "Choosing betweenquery()andClaudeSDKClient",
+    "slug": "choosing-betweenqueryandclaudesdkclient"
+  },
+  {
+    "level": 3,
+    "text": "Quick comparison",
+    "slug": "quick-comparison"
+  },
+  {
+    "level": 3,
+    "text": "When to usequery()(new session each time)",
+    "slug": "when-to-usequerynew-session-each-time"
+  },
+  {
+    "level": 3,
+    "text": "When to useClaudeSDKClient(continuous conversation)",
+    "slug": "when-to-useclaudesdkclientcontinuous-conversation"
+  },
+  {
+    "level": 2,
+    "text": "Functions",
+    "slug": "functions"
+  },
+  {
+    "level": 3,
+    "text": "query()",
+    "slug": "query"
+  },
+  {
+    "level": 4,
+    "text": "Parameters",
+    "slug": "parameters"
+  },
+  {
+    "level": 4,
+    "text": "Returns",
+    "slug": "returns"
+  },
+  {
+    "level": 4,
+    "text": "Example - With options",
+    "slug": "example-with-options"
+  },
+  {
+    "level": 4,
+    "text": "Parameters",
+    "slug": "parameters"
+  },
+  {
+    "level": 4,
+    "text": "Returns",
+    "slug": "returns"
+  },
+  {
+    "level": 4,
+    "text": "Example",
+    "slug": "example"
+  },
+  {
+    "level": 3,
+    "text": "create_sdk_mcp_server()",
+    "slug": "create_sdk_mcp_server"
+  },
+  {
+    "level": 4,
+    "text": "Parameters",
+    "slug": "parameters"
+  },
+  {
+    "level": 4,
+    "text": "Returns",
+    "slug": "returns"
+  },
+  {
+    "level": 4,
+    "text": "Example",
+    "slug": "example"
+  },
+  {
+    "level": 3,
+    "text": "list_sessions()",
+    "slug": "list_sessions"
+  },
+  {
+    "level": 4,
+    "text": "Parameters",
+    "slug": "parameters"
+  },
+  {
+    "level": 4,
+    "text": "Return type:SDKSessionInfo",
+    "slug": "return-typesdksessioninfo"
+  },
+  {
+    "level": 4,
+    "text": "Example",
+    "slug": "example"
+  },
+  {
+    "level": 3,
+    "text": "get_session_messages()",
+    "slug": "get_session_messages"
+  },
+  {
+    "level": 4,
+    "text": "Parameters",
+    "slug": "parameters"
+  },
+  {
+    "level": 4,
+    "text": "Return type:SessionMessage",
+    "slug": "return-typesessionmessage"
+  },
+  {
+    "level": 4,
+    "text": "Example",
+    "slug": "example"
+  },
+  {
+    "level": 3,
+    "text": "get_session_info()",
+    "slug": "get_session_info"
+  },
+  {
+    "level": 4,
+    "text": "Parameters",
+    "slug": "parameters"
+  },
+  {
+    "level": 4,
+    "text": "Example",
+    "slug": "example"
+  },
+  {
+    "level": 3,
+    "text": "rename_session()",
+    "slug": "rename_session"
+  },
+  {
+    "level": 4,
+    "text": "Parameters",
+    "slug": "parameters"
+  },
+  {
+    "level": 4,
+    "text": "Example",
+    "slug": "example"
+  },
+  {
+    "level": 3,
+    "text": "tag_session()",
+    "slug": "tag_session"
+  },
+  {
+    "level": 4,
+    "text": "Parameters",
+    "slug": "parameters"
+  },
+  {
+    "level": 4,
+    "text": "Example",
+    "slug": "example"
+  },
+  {
+    "level": 2,
+    "text": "Classes",
+    "slug": "classes"
+  },
+  {
+    "level": 3,
+    "text": "ClaudeSDKClient",
+    "slug": "claudesdkclient"
+  },
+  {
+    "level": 4,
+    "text": "Key Features",
+    "slug": "key-features"
+  },
+  {
+    "level": 4,
+    "text": "Methods",
+    "slug": "methods"
+  },
+  {
+    "level": 4,
+    "text": "Context Manager Support",
+    "slug": "context-manager-support"
+  },
+  {
+    "level": 4,
+    "text": "Example - Continuing a conversation",
+    "slug": "example-continuing-a-conversation"
+  },
+  {
+    "level": 4,
+    "text": "Example - Using interrupts",
+    "slug": "example-using-interrupts"
+  },
+  {
+    "level": 4,
+    "text": "Example - Advanced permission control",
+    "slug": "example-advanced-permission-control"
+  },
+  {
+    "level": 2,
+    "text": "Types",
+    "slug": "types"
+  },
+  {
+    "level": 3,
+    "text": "Transport",
+    "slug": "transport"
+  },
+  {
+    "level": 3,
+    "text": "ClaudeAgentOptions",
+    "slug": "claudeagentoptions"
+  },
+  {
+    "level": 3,
+    "text": "SystemPromptPreset",
+    "slug": "systempromptpreset"
+  },
+  {
+    "level": 3,
+    "text": "SettingSource",
+    "slug": "settingsource"
+  },
+  {
+    "level": 4,
+    "text": "Default behavior",
+    "slug": "default-behavior"
+  },
+  {
+    "level": 4,
+    "text": "Why use setting_sources",
+    "slug": "why-use-setting_sources"
+  },
+  {
+    "level": 4,
+    "text": "Settings precedence",
+    "slug": "settings-precedence"
+  },
+  {
+    "level": 3,
+    "text": "AgentDefinition",
+    "slug": "agentdefinition"
+  },
+  {
+    "level": 3,
+    "text": "PermissionMode",
+    "slug": "permissionmode"
+  },
+  {
+    "level": 3,
+    "text": "ToolPermissionContext",
+    "slug": "toolpermissioncontext"
+  },
+  {
+    "level": 3,
+    "text": "PermissionResult",
+    "slug": "permissionresult"
+  },
+  {
+    "level": 3,
+    "text": "PermissionResultAllow",
+    "slug": "permissionresultallow"
+  },
+  {
+    "level": 3,
+    "text": "PermissionResultDeny",
+    "slug": "permissionresultdeny"
+  },
+  {
+    "level": 3,
+    "text": "PermissionUpdate",
+    "slug": "permissionupdate"
+  },
+  {
+    "level": 3,
+    "text": "PermissionRuleValue",
+    "slug": "permissionrulevalue"
+  },
+  {
+    "level": 3,
+    "text": "ThinkingConfig",
+    "slug": "thinkingconfig"
+  },
+  {
+    "level": 3,
+    "text": "SdkBeta",
+    "slug": "sdkbeta"
+  },
+  {
+    "level": 3,
+    "text": "McpSdkServerConfig",
+    "slug": "mcpsdkserverconfig"
+  },
+  {
+    "level": 3,
+    "text": "McpServerConfig",
+    "slug": "mcpserverconfig"
+  },
+  {
+    "level": 4,
+    "text": "McpStdioServerConfig",
+    "slug": "mcpstdioserverconfig"
+  },
+  {
+    "level": 4,
+    "text": "McpSSEServerConfig",
+    "slug": "mcpsseserverconfig"
+  },
+  {
+    "level": 4,
+    "text": "McpHttpServerConfig",
+    "slug": "mcphttpserverconfig"
+  },
+  {
+    "level": 3,
+    "text": "McpServerStatusConfig",
+    "slug": "mcpserverstatusconfig"
+  },
+  {
+    "level": 3,
+    "text": "McpStatusResponse",
+    "slug": "mcpstatusresponse"
+  },
+  {
+    "level": 3,
+    "text": "McpServerStatus",
+    "slug": "mcpserverstatus"
+  },
+  {
+    "level": 3,
+    "text": "SdkPluginConfig",
+    "slug": "sdkpluginconfig"
+  },
+  {
+    "level": 2,
+    "text": "Message Types",
+    "slug": "message-types"
+  },
+  {
+    "level": 3,
+    "text": "Message",
+    "slug": "message"
+  },
+  {
+    "level": 3,
+    "text": "UserMessage",
+    "slug": "usermessage"
+  },
+  {
+    "level": 3,
+    "text": "AssistantMessage",
+    "slug": "assistantmessage"
+  },
+  {
+    "level": 3,
+    "text": "AssistantMessageError",
+    "slug": "assistantmessageerror"
+  },
+  {
+    "level": 3,
+    "text": "SystemMessage",
+    "slug": "systemmessage"
+  },
+  {
+    "level": 3,
+    "text": "ResultMessage",
+    "slug": "resultmessage"
+  },
+  {
+    "level": 3,
+    "text": "StreamEvent",
+    "slug": "streamevent"
+  },
+  {
+    "level": 3,
+    "text": "RateLimitEvent",
+    "slug": "ratelimitevent"
+  },
+  {
+    "level": 3,
+    "text": "RateLimitInfo",
+    "slug": "ratelimitinfo"
+  },
+  {
+    "level": 3,
+    "text": "TaskStartedMessage",
+    "slug": "taskstartedmessage"
+  },
+  {
+    "level": 3,
+    "text": "TaskUsage",
+    "slug": "taskusage"
+  },
+  {
+    "level": 3,
+    "text": "TaskProgressMessage",
+    "slug": "taskprogressmessage"
+  },
+  {
+    "level": 3,
+    "text": "TaskNotificationMessage",
+    "slug": "tasknotificationmessage"
+  },
+  {
+    "level": 2,
+    "text": "Content Block Types",
+    "slug": "content-block-types"
+  },
+  {
+    "level": 3,
+    "text": "ContentBlock",
+    "slug": "contentblock"
+  },
+  {
+    "level": 3,
+    "text": "TextBlock",
+    "slug": "textblock"
+  },
+  {
+    "level": 3,
+    "text": "ThinkingBlock",
+    "slug": "thinkingblock"
+  },
+  {
+    "level": 2,
+    "text": "Error Types",
+    "slug": "error-types"
+  },
+  {
+    "level": 3,
+    "text": "ClaudeSDKError",
+    "slug": "claudesdkerror"
+  },
+  {
+    "level": 3,
+    "text": "CLINotFoundError",
+    "slug": "clinotfounderror"
+  },
+  {
+    "level": 3,
+    "text": "CLIConnectionError",
+    "slug": "cliconnectionerror"
+  },
+  {
+    "level": 3,
+    "text": "ProcessError",
+    "slug": "processerror"
+  },
+  {
+    "level": 3,
+    "text": "CLIJSONDecodeError",
+    "slug": "clijsondecodeerror"
+  },
+  {
+    "level": 2,
+    "text": "Hook Types",
+    "slug": "hook-types"
+  },
+  {
+    "level": 3,
+    "text": "HookEvent",
+    "slug": "hookevent"
+  },
+  {
+    "level": 3,
+    "text": "HookCallback",
+    "slug": "hookcallback"
+  },
+  {
+    "level": 3,
+    "text": "HookContext",
+    "slug": "hookcontext"
+  },
+  {
+    "level": 3,
+    "text": "HookMatcher",
+    "slug": "hookmatcher"
+  },
+  {
+    "level": 3,
+    "text": "PostToolUseHookInput",
+    "slug": "posttoolusehookinput"
+  },
+  {
+    "level": 3,
+    "text": "PostToolUseFailureHookInput",
+    "slug": "posttoolusefailurehookinput"
+  },
+  {
+    "level": 3,
+    "text": "HookJSONOutput",
+    "slug": "hookjsonoutput"
+  },
+  {
+    "level": 4,
+    "text": "SyncHookJSONOutput",
+    "slug": "synchookjsonoutput"
+  },
+  {
+    "level": 4,
+    "text": "HookSpecificOutput",
+    "slug": "hookspecificoutput"
+  },
+  {
+    "level": 4,
+    "text": "AsyncHookJSONOutput",
+    "slug": "asynchookjsonoutput"
+  },
+  {
+    "level": 3,
+    "text": "Hook Usage Example",
+    "slug": "hook-usage-example"
+  },
+  {
+    "level": 3,
+    "text": "Agent",
+    "slug": "agent"
+  },
+  {
+    "level": 3,
+    "text": "AskUserQuestion",
+    "slug": "askuserquestion"
+  },
+  {
+    "level": 3,
+    "text": "Bash",
+    "slug": "bash"
+  },
+  {
+    "level": 3,
+    "text": "Monitor",
+    "slug": "monitor"
+  },
+  {
+    "level": 3,
+    "text": "Edit",
+    "slug": "edit"
+  },
+  {
+    "level": 3,
+    "text": "Read",
+    "slug": "read"
+  },
+  {
+    "level": 3,
+    "text": "Write",
+    "slug": "write"
+  },
+  {
+    "level": 3,
+    "text": "Glob",
+    "slug": "glob"
+  },
+  {
+    "level": 3,
+    "text": "Grep",
+    "slug": "grep"
+  },
+  {
+    "level": 3,
+    "text": "NotebookEdit",
+    "slug": "notebookedit"
+  },
+  {
+    "level": 3,
+    "text": "WebFetch",
+    "slug": "webfetch"
+  },
+  {
+    "level": 3,
+    "text": "WebSearch",
+    "slug": "websearch"
+  },
+  {
+    "level": 3,
+    "text": "TodoWrite",
+    "slug": "todowrite"
+  },
+  {
+    "level": 3,
+    "text": "BashOutput",
+    "slug": "bashoutput"
+  },
+  {
+    "level": 3,
+    "text": "KillBash",
+    "slug": "killbash"
+  },
+  {
+    "level": 3,
+    "text": "ExitPlanMode",
+    "slug": "exitplanmode"
+  },
+  {
+    "level": 3,
+    "text": "ListMcpResources",
+    "slug": "listmcpresources"
+  },
+  {
+    "level": 3,
+    "text": "ReadMcpResource",
+    "slug": "readmcpresource"
+  },
+  {
+    "level": 2,
+    "text": "Advanced Features with ClaudeSDKClient",
+    "slug": "advanced-features-with-claudesdkclient"
+  },
+  {
+    "level": 3,
+    "text": "Building a Continuous Conversation Interface",
+    "slug": "building-a-continuous-conversation-interface"
+  },
+  {
+    "level": 3,
+    "text": "Using Hooks for Behavior Modification",
+    "slug": "using-hooks-for-behavior-modification"
+  },
+  {
+    "level": 3,
+    "text": "Real-time Progress Monitoring",
+    "slug": "real-time-progress-monitoring"
+  },
+  {
+    "level": 2,
+    "text": "Example Usage",
+    "slug": "example-usage"
+  },
+  {
+    "level": 3,
+    "text": "Basic file operations (using query)",
+    "slug": "basic-file-operations-using-query"
+  },
+  {
+    "level": 3,
+    "text": "Error handling",
+    "slug": "error-handling"
+  },
+  {
+    "level": 3,
+    "text": "Streaming mode with client",
+    "slug": "streaming-mode-with-client"
+  },
+  {
+    "level": 2,
+    "text": "Sandbox Configuration",
+    "slug": "sandbox-configuration"
+  },
+  {
+    "level": 3,
+    "text": "SandboxSettings",
+    "slug": "sandboxsettings"
+  },
+  {
+    "level": 4,
+    "text": "Example usage",
+    "slug": "example-usage"
+  },
+  {
+    "level": 3,
+    "text": "SandboxNetworkConfig",
+    "slug": "sandboxnetworkconfig"
+  },
+  {
+    "level": 3,
+    "text": "SandboxIgnoreViolations",
+    "slug": "sandboxignoreviolations"
+  },
+  {
+    "level": 3,
+    "text": "Permissions Fallback for Unsandboxed Commands",
+    "slug": "permissions-fallback-for-unsandboxed-commands"
+  },
+  {
+    "level": 2,
+    "text": "See also",
+    "slug": "see-also"
+  }
+]

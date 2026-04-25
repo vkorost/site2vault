@@ -1,0 +1,77 @@
+[
+  {
+    "level": 2,
+    "text": "Overview",
+    "slug": "overview"
+  },
+  {
+    "level": 2,
+    "text": "What you need",
+    "slug": "what-you-need"
+  },
+  {
+    "level": 2,
+    "text": "Example: build a webhook receiver",
+    "slug": "example-build-a-webhook-receiver"
+  },
+  {
+    "level": 2,
+    "text": "Test during the research preview",
+    "slug": "test-during-the-research-preview"
+  },
+  {
+    "level": 2,
+    "text": "Server options",
+    "slug": "server-options"
+  },
+  {
+    "level": 2,
+    "text": "Notification format",
+    "slug": "notification-format"
+  },
+  {
+    "level": 2,
+    "text": "Expose a reply tool",
+    "slug": "expose-a-reply-tool"
+  },
+  {
+    "level": 2,
+    "text": "Gate inbound messages",
+    "slug": "gate-inbound-messages"
+  },
+  {
+    "level": 2,
+    "text": "Relay permission prompts",
+    "slug": "relay-permission-prompts"
+  },
+  {
+    "level": 3,
+    "text": "How relay works",
+    "slug": "how-relay-works"
+  },
+  {
+    "level": 3,
+    "text": "Permission request fields",
+    "slug": "permission-request-fields"
+  },
+  {
+    "level": 3,
+    "text": "Add relay to a chat bridge",
+    "slug": "add-relay-to-a-chat-bridge"
+  },
+  {
+    "level": 3,
+    "text": "Full example",
+    "slug": "full-example"
+  },
+  {
+    "level": 2,
+    "text": "Package as a plugin",
+    "slug": "package-as-a-plugin"
+  },
+  {
+    "level": 2,
+    "text": "See also",
+    "slug": "see-also"
+  }
+]

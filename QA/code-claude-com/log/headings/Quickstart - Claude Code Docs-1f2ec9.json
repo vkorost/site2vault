@@ -1,0 +1,57 @@
+[
+  {
+    "level": 2,
+    "text": "Prerequisites",
+    "slug": "prerequisites"
+  },
+  {
+    "level": 2,
+    "text": "Setup",
+    "slug": "setup"
+  },
+  {
+    "level": 2,
+    "text": "Create a buggy file",
+    "slug": "create-a-buggy-file"
+  },
+  {
+    "level": 2,
+    "text": "Build an agent that finds and fixes bugs",
+    "slug": "build-an-agent-that-finds-and-fixes-bugs"
+  },
+  {
+    "level": 3,
+    "text": "Run your agent",
+    "slug": "run-your-agent"
+  },
+  {
+    "level": 3,
+    "text": "Try other prompts",
+    "slug": "try-other-prompts"
+  },
+  {
+    "level": 3,
+    "text": "Customize your agent",
+    "slug": "customize-your-agent"
+  },
+  {
+    "level": 2,
+    "text": "Key concepts",
+    "slug": "key-concepts"
+  },
+  {
+    "level": 2,
+    "text": "Troubleshooting",
+    "slug": "troubleshooting"
+  },
+  {
+    "level": 3,
+    "text": "API errorthinking.type.enabledis not supported for this model",
+    "slug": "api-errorthinkingtypeenabledis-not-supported-for-this-model"
+  },
+  {
+    "level": 2,
+    "text": "Next steps",
+    "slug": "next-steps"
+  }
+]

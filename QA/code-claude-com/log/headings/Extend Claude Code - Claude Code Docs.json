@@ -1,0 +1,92 @@
+[
+  {
+    "level": 2,
+    "text": "Overview",
+    "slug": "overview"
+  },
+  {
+    "level": 2,
+    "text": "Match features to your goal",
+    "slug": "match-features-to-your-goal"
+  },
+  {
+    "level": 3,
+    "text": "Build your setup over time",
+    "slug": "build-your-setup-over-time"
+  },
+  {
+    "level": 3,
+    "text": "Compare similar features",
+    "slug": "compare-similar-features"
+  },
+  {
+    "level": 3,
+    "text": "Understand how features layer",
+    "slug": "understand-how-features-layer"
+  },
+  {
+    "level": 3,
+    "text": "Combine features",
+    "slug": "combine-features"
+  },
+  {
+    "level": 2,
+    "text": "Understand context costs",
+    "slug": "understand-context-costs"
+  },
+  {
+    "level": 3,
+    "text": "Context cost by feature",
+    "slug": "context-cost-by-feature"
+  },
+  {
+    "level": 3,
+    "text": "Understand how features load",
+    "slug": "understand-how-features-load"
+  },
+  {
+    "level": 2,
+    "text": "Learn more",
+    "slug": "learn-more"
+  },
+  {
+    "level": 2,
+    "text": "CLAUDE.md",
+    "slug": "claudemd"
+  },
+  {
+    "level": 2,
+    "text": "Skills",
+    "slug": "skills"
+  },
+  {
+    "level": 2,
+    "text": "Subagents",
+    "slug": "subagents"
+  },
+  {
+    "level": 2,
+    "text": "Agent teams",
+    "slug": "agent-teams"
+  },
+  {
+    "level": 2,
+    "text": "MCP",
+    "slug": "mcp"
+  },
+  {
+    "level": 2,
+    "text": "Hooks",
+    "slug": "hooks"
+  },
+  {
+    "level": 2,
+    "text": "Plugins",
+    "slug": "plugins"
+  },
+  {
+    "level": 2,
+    "text": "Marketplaces",
+    "slug": "marketplaces"
+  }
+]

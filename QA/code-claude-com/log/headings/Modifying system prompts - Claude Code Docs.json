@@ -1,0 +1,112 @@
+[
+  {
+    "level": 2,
+    "text": "Understanding system prompts",
+    "slug": "understanding-system-prompts"
+  },
+  {
+    "level": 2,
+    "text": "Methods of modification",
+    "slug": "methods-of-modification"
+  },
+  {
+    "level": 3,
+    "text": "Method 1: CLAUDE.md files (project-level instructions)",
+    "slug": "method-1-claudemd-files-project-level-instructions"
+  },
+  {
+    "level": 4,
+    "text": "How CLAUDE.md works with the SDK",
+    "slug": "how-claudemd-works-with-the-sdk"
+  },
+  {
+    "level": 4,
+    "text": "Example CLAUDE.md",
+    "slug": "example-claudemd"
+  },
+  {
+    "level": 4,
+    "text": "Using CLAUDE.md with the SDK",
+    "slug": "using-claudemd-with-the-sdk"
+  },
+  {
+    "level": 4,
+    "text": "When to use CLAUDE.md",
+    "slug": "when-to-use-claudemd"
+  },
+  {
+    "level": 3,
+    "text": "Method 2: Output styles (persistent configurations)",
+    "slug": "method-2-output-styles-persistent-configurations"
+  },
+  {
+    "level": 4,
+    "text": "Creating an output style",
+    "slug": "creating-an-output-style"
+  },
+  {
+    "level": 4,
+    "text": "Using output styles",
+    "slug": "using-output-styles"
+  },
+  {
+    "level": 3,
+    "text": "Method 3: UsingsystemPromptwith append",
+    "slug": "method-3-usingsystempromptwith-append"
+  },
+  {
+    "level": 4,
+    "text": "Improve prompt caching across users and machines",
+    "slug": "improve-prompt-caching-across-users-and-machines"
+  },
+  {
+    "level": 3,
+    "text": "Method 4: Custom system prompts",
+    "slug": "method-4-custom-system-prompts"
+  },
+  {
+    "level": 2,
+    "text": "Comparison of all four approaches",
+    "slug": "comparison-of-all-four-approaches"
+  },
+  {
+    "level": 2,
+    "text": "Use cases and best practices",
+    "slug": "use-cases-and-best-practices"
+  },
+  {
+    "level": 3,
+    "text": "When to use CLAUDE.md",
+    "slug": "when-to-use-claudemd"
+  },
+  {
+    "level": 3,
+    "text": "When to use output styles",
+    "slug": "when-to-use-output-styles"
+  },
+  {
+    "level": 3,
+    "text": "When to usesystemPromptwith append",
+    "slug": "when-to-usesystempromptwith-append"
+  },
+  {
+    "level": 3,
+    "text": "When to use customsystemPrompt",
+    "slug": "when-to-use-customsystemprompt"
+  },
+  {
+    "level": 2,
+    "text": "Combining approaches",
+    "slug": "combining-approaches"
+  },
+  {
+    "level": 3,
+    "text": "Example: Output style with session-specific additions",
+    "slug": "example-output-style-with-session-specific-additions"
+  },
+  {
+    "level": 2,
+    "text": "See also",
+    "slug": "see-also"
+  }
+]

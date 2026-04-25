@@ -1,0 +1,122 @@
+{
+  "S2V_LINK_0": {
+    "url": "https://claude.ai/api/desktop/darwin/universal/dmg/latest/redirect?utm_source=claude_code&utm_medium=docs",
+    "text": "macOS"
+  },
+  "S2V_LINK_1": {
+    "url": "https://claude.com/download?utm_source=claude_code&utm_medium=docs",
+    "text": "Windows"
+  },
+  "S2V_LINK_2": {
+    "url": "/docs/en/desktop-quickstart",
+    "text": "Desktop quickstart"
+  },
+  "S2V_LINK_3": {
+    "url": "/docs/en/setup#system-requirements",
+    "text": "system requirements"
+  },
+  "S2V_LINK_4": {
+    "url": "#macos-and-linux-troubleshooting",
+    "text": "troubleshooting section"
+  },
+  "S2V_LINK_5": {
+    "url": "/docs/en/authentication",
+    "text": "log in"
+  },
+  "S2V_LINK_6": {
+    "url": "/docs/en/setup#system-requirements",
+    "text": "system requirements"
+  },
+  "S2V_LINK_7": {
+    "url": "https://git-scm.com/downloads/win",
+    "text": "git-scm.com/downloads/win"
+  },
+  "S2V_LINK_8": {
+    "url": "#windows-troubleshooting",
+    "text": "troubleshooting section"
+  },
+  "S2V_LINK_9": {
+    "url": "/docs/en/authentication",
+    "text": "log in"
+  },
+  "S2V_LINK_10": {
+    "url": "/docs/en/vs-code",
+    "text": "VS Code"
+  },
+  "S2V_LINK_11": {
+    "url": "/docs/en/jetbrains",
+    "text": "JetBrains IDEs"
+  },
+  "S2V_LINK_12": {
+    "url": "/docs/en/desktop-quickstart",
+    "text": "desktop app"
+  },
+  "S2V_LINK_13": {
+    "url": "/docs/en/claude-code-on-the-web",
+    "text": "web"
+  },
+  "S2V_LINK_14": {
+    "url": "/docs/en/github-actions",
+    "text": "GitHub Actions"
+  },
+  "S2V_LINK_15": {
+    "url": "/docs/en/gitlab-ci-cd",
+    "text": "GitLab CI/CD"
+  },
+  "S2V_LINK_16": {
+    "url": "/docs/en/quickstart",
+    "text": "Quickstart"
+  },
+  "S2V_LINK_17": {
+    "url": "/docs/en/how-claude-code-works",
+    "text": "How Claude Code works"
+  },
+  "S2V_LINK_18": {
+    "url": "/docs/en/best-practices",
+    "text": "Best practices"
+  },
+  "S2V_LINK_19": {
+    "url": "/docs/en/common-workflows",
+    "text": "Common workflows"
+  },
+  "S2V_LINK_20": {
+    "url": "/docs/en/terminal-config",
+    "text": "Terminal configuration"
+  },
+  "S2V_LINK_21": {
+    "url": "/docs/en/troubleshooting#verify-your-path",
+    "text": "fix your PATH"
+  },
+  "S2V_LINK_22": {
+    "url": "https://www.anthropic.com/supported-countries",
+    "text": "supported countries"
+  },
+  "S2V_LINK_23": {
+    "url": "https://brew.sh",
+    "text": "Homebrew"
+  },
+  "S2V_LINK_24": {
+    "url": "/docs/en/troubleshooting#dyld-cannot-load-on-macos",
+    "text": "macOS troubleshooting guide"
+  },
+  "S2V_LINK_25": {
+    "url": "/docs/en/troubleshooting#troubleshoot-installation-issues",
+    "text": "installation troubleshooting guide"
+  },
+  "S2V_LINK_26": {
+    "url": "#windows",
+    "text": "first step in the Windows section"
+  },
+  "S2V_LINK_27": {
+    "url": "/docs/en/troubleshooting#windows-claude-code-on-windows-requires-git-bash",
+    "text": "configure Git Bash path"
+  },
+  "S2V_LINK_28": {
+    "url": "/docs/en/troubleshooting#verify-your-path",
+    "text": "verify your PATH"
+  },
+  "S2V_LINK_29": {
+    "url": "/docs/en/troubleshooting#troubleshoot-installation-issues",
+    "text": "installation troubleshooting guide"
+  }
+}

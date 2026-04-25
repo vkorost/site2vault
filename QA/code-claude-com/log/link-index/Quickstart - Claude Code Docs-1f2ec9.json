@@ -1,0 +1,78 @@
+{
+  "S2V_LINK_0": {
+    "url": "https://platform.claude.com/",
+    "text": "sign up here"
+  },
+  "S2V_LINK_1": {
+    "url": "https://platform.claude.com/",
+    "text": "Claude Console"
+  },
+  "S2V_LINK_2": {
+    "url": "/docs/en/amazon-bedrock",
+    "text": "Bedrock"
+  },
+  "S2V_LINK_3": {
+    "url": "/docs/en/google-vertex-ai",
+    "text": "Vertex AI"
+  },
+  "S2V_LINK_4": {
+    "url": "/docs/en/microsoft-foundry",
+    "text": "Azure AI Foundry"
+  },
+  "S2V_LINK_5": {
+    "url": "/docs/en/agent-sdk/python#query",
+    "text": "Python"
+  },
+  "S2V_LINK_6": {
+    "url": "/docs/en/agent-sdk/typescript#query",
+    "text": "TypeScript"
+  },
+  "S2V_LINK_7": {
+    "url": "/docs/en/agent-sdk/python#claude-agent-options",
+    "text": "Python"
+  },
+  "S2V_LINK_8": {
+    "url": "/docs/en/agent-sdk/typescript#options",
+    "text": "TypeScript"
+  },
+  "S2V_LINK_9": {
+    "url": "/docs/en/agent-sdk/streaming-vs-single-mode",
+    "text": "Streaming vs. single-turn mode"
+  },
+  "S2V_LINK_10": {
+    "url": "/docs/en/troubleshooting",
+    "text": "full troubleshooting guide"
+  },
+  "S2V_LINK_11": {
+    "url": "/docs/en/agent-sdk/user-input",
+    "text": "that collects user input. For more control, see"
+  },
+  "S2V_LINK_12": {
+    "url": "/docs/en/agent-sdk/permissions",
+    "text": "Permissions"
+  },
+  "S2V_LINK_13": {
+    "url": "/docs/en/agent-sdk/permissions",
+    "text": "Permissions"
+  },
+  "S2V_LINK_14": {
+    "url": "/docs/en/agent-sdk/hooks",
+    "text": "Hooks"
+  },
+  "S2V_LINK_15": {
+    "url": "/docs/en/agent-sdk/sessions",
+    "text": "Sessions"
+  },
+  "S2V_LINK_16": {
+    "url": "/docs/en/agent-sdk/mcp",
+    "text": "MCP servers"
+  },
+  "S2V_LINK_17": {
+    "url": "/docs/en/agent-sdk/hosting",
+    "text": "Hosting"
+  },
+  "S2V_LINK_18": {
+    "url": "https://github.com/anthropics/claude-agent-sdk-demos",
+    "text": "Example agents"
+  }
+}

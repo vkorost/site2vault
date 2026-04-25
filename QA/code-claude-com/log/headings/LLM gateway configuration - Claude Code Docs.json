@@ -1,0 +1,72 @@
+[
+  {
+    "level": 2,
+    "text": "Gateway requirements",
+    "slug": "gateway-requirements"
+  },
+  {
+    "level": 2,
+    "text": "Configuration",
+    "slug": "configuration"
+  },
+  {
+    "level": 3,
+    "text": "Model selection",
+    "slug": "model-selection"
+  },
+  {
+    "level": 2,
+    "text": "LiteLLM configuration",
+    "slug": "litellm-configuration"
+  },
+  {
+    "level": 3,
+    "text": "Prerequisites",
+    "slug": "prerequisites"
+  },
+  {
+    "level": 3,
+    "text": "Basic LiteLLM setup",
+    "slug": "basic-litellm-setup"
+  },
+  {
+    "level": 4,
+    "text": "Authentication methods",
+    "slug": "authentication-methods"
+  },
+  {
+    "level": 5,
+    "text": "Static API key",
+    "slug": "static-api-key"
+  },
+  {
+    "level": 5,
+    "text": "Dynamic API key with helper",
+    "slug": "dynamic-api-key-with-helper"
+  },
+  {
+    "level": 4,
+    "text": "Unified endpoint (recommended)",
+    "slug": "unified-endpoint-recommended"
+  },
+  {
+    "level": 4,
+    "text": "Provider-specific pass-through endpoints (alternative)",
+    "slug": "provider-specific-pass-through-endpoints-alternative"
+  },
+  {
+    "level": 5,
+    "text": "Claude API through LiteLLM",
+    "slug": "claude-api-through-litellm"
+  },
+  {
+    "level": 5,
+    "text": "Amazon Bedrock through LiteLLM",
+    "slug": "amazon-bedrock-through-litellm"
+  },
+  {
+    "level": 5,
+    "text": "Google Vertex AI through LiteLLM",
+    "slug": "google-vertex-ai-through-litellm"
+  }
+]

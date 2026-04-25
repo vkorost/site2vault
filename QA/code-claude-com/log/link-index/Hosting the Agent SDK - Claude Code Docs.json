@@ -1,0 +1,38 @@
+{
+  "S2V_LINK_0": {
+    "url": "/docs/en/agent-sdk/secure-deployment",
+    "text": "Secure Deployment"
+  },
+  "S2V_LINK_1": {
+    "url": "/docs/en/agent-sdk/typescript#sandbox-settings",
+    "text": "programmatic sandbox configuration"
+  },
+  "S2V_LINK_2": {
+    "url": "/docs/en/agent-sdk/secure-deployment#isolation-technologies",
+    "text": "Isolation Technologies"
+  },
+  "S2V_LINK_3": {
+    "url": "/docs/en/agent-sdk/secure-deployment",
+    "text": "Secure Deployment"
+  },
+  "S2V_LINK_4": {
+    "url": "/docs/en/agent-sdk/typescript#sandbox-settings",
+    "text": "TypeScript SDK - Sandbox Settings"
+  },
+  "S2V_LINK_5": {
+    "url": "/docs/en/agent-sdk/sessions",
+    "text": "Sessions Guide"
+  },
+  "S2V_LINK_6": {
+    "url": "/docs/en/agent-sdk/permissions",
+    "text": "Permissions"
+  },
+  "S2V_LINK_7": {
+    "url": "/docs/en/agent-sdk/cost-tracking",
+    "text": "Cost Tracking"
+  },
+  "S2V_LINK_8": {
+    "url": "/docs/en/agent-sdk/mcp",
+    "text": "MCP Integration"
+  }
+}

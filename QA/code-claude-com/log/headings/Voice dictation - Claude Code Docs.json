@@ -1,0 +1,47 @@
+[
+  {
+    "level": 2,
+    "text": "Requirements",
+    "slug": "requirements"
+  },
+  {
+    "level": 2,
+    "text": "Enable voice dictation",
+    "slug": "enable-voice-dictation"
+  },
+  {
+    "level": 2,
+    "text": "Hold to record",
+    "slug": "hold-to-record"
+  },
+  {
+    "level": 2,
+    "text": "Tap to record and send",
+    "slug": "tap-to-record-and-send"
+  },
+  {
+    "level": 2,
+    "text": "Change the dictation language",
+    "slug": "change-the-dictation-language"
+  },
+  {
+    "level": 2,
+    "text": "Rebind the dictation key",
+    "slug": "rebind-the-dictation-key"
+  },
+  {
+    "level": 2,
+    "text": "Troubleshooting",
+    "slug": "troubleshooting"
+  },
+  {
+    "level": 3,
+    "text": "Terminal not listed in macOS Microphone settings",
+    "slug": "terminal-not-listed-in-macos-microphone-settings"
+  },
+  {
+    "level": 2,
+    "text": "See also",
+    "slug": "see-also"
+  }
+]

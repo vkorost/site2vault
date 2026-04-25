@@ -1,0 +1,657 @@
+[
+  {
+    "level": 2,
+    "text": "Hook lifecycle",
+    "slug": "hook-lifecycle"
+  },
+  {
+    "level": 3,
+    "text": "How a hook resolves",
+    "slug": "how-a-hook-resolves"
+  },
+  {
+    "level": 2,
+    "text": "Configuration",
+    "slug": "configuration"
+  },
+  {
+    "level": 3,
+    "text": "Hook locations",
+    "slug": "hook-locations"
+  },
+  {
+    "level": 3,
+    "text": "Matcher patterns",
+    "slug": "matcher-patterns"
+  },
+  {
+    "level": 4,
+    "text": "Match MCP tools",
+    "slug": "match-mcp-tools"
+  },
+  {
+    "level": 3,
+    "text": "Hook handler fields",
+    "slug": "hook-handler-fields"
+  },
+  {
+    "level": 4,
+    "text": "Common fields",
+    "slug": "common-fields"
+  },
+  {
+    "level": 4,
+    "text": "Command hook fields",
+    "slug": "command-hook-fields"
+  },
+  {
+    "level": 4,
+    "text": "HTTP hook fields",
+    "slug": "http-hook-fields"
+  },
+  {
+    "level": 4,
+    "text": "MCP tool hook fields",
+    "slug": "mcp-tool-hook-fields"
+  },
+  {
+    "level": 4,
+    "text": "Prompt and agent hook fields",
+    "slug": "prompt-and-agent-hook-fields"
+  },
+  {
+    "level": 3,
+    "text": "Reference scripts by path",
+    "slug": "reference-scripts-by-path"
+  },
+  {
+    "level": 3,
+    "text": "Hooks in skills and agents",
+    "slug": "hooks-in-skills-and-agents"
+  },
+  {
+    "level": 3,
+    "text": "The/hooksmenu",
+    "slug": "thehooksmenu"
+  },
+  {
+    "level": 3,
+    "text": "Disable or remove hooks",
+    "slug": "disable-or-remove-hooks"
+  },
+  {
+    "level": 2,
+    "text": "Hook input and output",
+    "slug": "hook-input-and-output"
+  },
+  {
+    "level": 3,
+    "text": "Common input fields",
+    "slug": "common-input-fields"
+  },
+  {
+    "level": 3,
+    "text": "Exit code output",
+    "slug": "exit-code-output"
+  },
+  {
+    "level": 4,
+    "text": "Exit code 2 behavior per event",
+    "slug": "exit-code-2-behavior-per-event"
+  },
+  {
+    "level": 3,
+    "text": "HTTP response handling",
+    "slug": "http-response-handling"
+  },
+  {
+    "level": 3,
+    "text": "JSON output",
+    "slug": "json-output"
+  },
+  {
+    "level": 4,
+    "text": "Decision control",
+    "slug": "decision-control"
+  },
+  {
+    "level": 2,
+    "text": "Hook events",
+    "slug": "hook-events"
+  },
+  {
+    "level": 3,
+    "text": "SessionStart",
+    "slug": "sessionstart"
+  },
+  {
+    "level": 4,
+    "text": "SessionStart input",
+    "slug": "sessionstart-input"
+  },
+  {
+    "level": 4,
+    "text": "SessionStart decision control",
+    "slug": "sessionstart-decision-control"
+  },
+  {
+    "level": 4,
+    "text": "Persist environment variables",
+    "slug": "persist-environment-variables"
+  },
+  {
+    "level": 3,
+    "text": "InstructionsLoaded",
+    "slug": "instructionsloaded"
+  },
+  {
+    "level": 4,
+    "text": "InstructionsLoaded input",
+    "slug": "instructionsloaded-input"
+  },
+  {
+    "level": 4,
+    "text": "InstructionsLoaded decision control",
+    "slug": "instructionsloaded-decision-control"
+  },
+  {
+    "level": 3,
+    "text": "UserPromptSubmit",
+    "slug": "userpromptsubmit"
+  },
+  {
+    "level": 4,
+    "text": "UserPromptSubmit input",
+    "slug": "userpromptsubmit-input"
+  },
+  {
+    "level": 4,
+    "text": "UserPromptSubmit decision control",
+    "slug": "userpromptsubmit-decision-control"
+  },
+  {
+    "level": 3,
+    "text": "UserPromptExpansion",
+    "slug": "userpromptexpansion"
+  },
+  {
+    "level": 4,
+    "text": "UserPromptExpansion input",
+    "slug": "userpromptexpansion-input"
+  },
+  {
+    "level": 4,
+    "text": "UserPromptExpansion decision control",
+    "slug": "userpromptexpansion-decision-control"
+  },
+  {
+    "level": 3,
+    "text": "PreToolUse",
+    "slug": "pretooluse"
+  },
+  {
+    "level": 4,
+    "text": "PreToolUse input",
+    "slug": "pretooluse-input"
+  },
+  {
+    "level": 5,
+    "text": "Bash",
+    "slug": "bash"
+  },
+  {
+    "level": 5,
+    "text": "Write",
+    "slug": "write"
+  },
+  {
+    "level": 5,
+    "text": "Edit",
+    "slug": "edit"
+  },
+  {
+    "level": 5,
+    "text": "Read",
+    "slug": "read"
+  },
+  {
+    "level": 5,
+    "text": "Glob",
+    "slug": "glob"
+  },
+  {
+    "level": 5,
+    "text": "Grep",
+    "slug": "grep"
+  },
+  {
+    "level": 5,
+    "text": "WebFetch",
+    "slug": "webfetch"
+  },
+  {
+    "level": 5,
+    "text": "WebSearch",
+    "slug": "websearch"
+  },
+  {
+    "level": 5,
+    "text": "Agent",
+    "slug": "agent"
+  },
+  {
+    "level": 5,
+    "text": "AskUserQuestion",
+    "slug": "askuserquestion"
+  },
+  {
+    "level": 4,
+    "text": "PreToolUse decision control",
+    "slug": "pretooluse-decision-control"
+  },
+  {
+    "level": 4,
+    "text": "Defer a tool call for later",
+    "slug": "defer-a-tool-call-for-later"
+  },
+  {
+    "level": 3,
+    "text": "PermissionRequest",
+    "slug": "permissionrequest"
+  },
+  {
+    "level": 4,
+    "text": "PermissionRequest input",
+    "slug": "permissionrequest-input"
+  },
+  {
+    "level": 4,
+    "text": "PermissionRequest decision control",
+    "slug": "permissionrequest-decision-control"
+  },
+  {
+    "level": 4,
+    "text": "Permission update entries",
+    "slug": "permission-update-entries"
+  },
+  {
+    "level": 3,
+    "text": "PostToolUse",
+    "slug": "posttooluse"
+  },
+  {
+    "level": 4,
+    "text": "PostToolUse input",
+    "slug": "posttooluse-input"
+  },
+  {
+    "level": 4,
+    "text": "PostToolUse decision control",
+    "slug": "posttooluse-decision-control"
+  },
+  {
+    "level": 3,
+    "text": "PostToolUseFailure",
+    "slug": "posttoolusefailure"
+  },
+  {
+    "level": 4,
+    "text": "PostToolUseFailure input",
+    "slug": "posttoolusefailure-input"
+  },
+  {
+    "level": 4,
+    "text": "PostToolUseFailure decision control",
+    "slug": "posttoolusefailure-decision-control"
+  },
+  {
+    "level": 3,
+    "text": "PostToolBatch",
+    "slug": "posttoolbatch"
+  },
+  {
+    "level": 4,
+    "text": "PostToolBatch input",
+    "slug": "posttoolbatch-input"
+  },
+  {
+    "level": 4,
+    "text": "PostToolBatch decision control",
+    "slug": "posttoolbatch-decision-control"
+  },
+  {
+    "level": 3,
+    "text": "PermissionDenied",
+    "slug": "permissiondenied"
+  },
+  {
+    "level": 4,
+    "text": "PermissionDenied input",
+    "slug": "permissiondenied-input"
+  },
+  {
+    "level": 4,
+    "text": "PermissionDenied decision control",
+    "slug": "permissiondenied-decision-control"
+  },
+  {
+    "level": 3,
+    "text": "Notification",
+    "slug": "notification"
+  },
+  {
+    "level": 4,
+    "text": "Notification input",
+    "slug": "notification-input"
+  },
+  {
+    "level": 3,
+    "text": "SubagentStart",
+    "slug": "subagentstart"
+  },
+  {
+    "level": 4,
+    "text": "SubagentStart input",
+    "slug": "subagentstart-input"
+  },
+  {
+    "level": 3,
+    "text": "SubagentStop",
+    "slug": "subagentstop"
+  },
+  {
+    "level": 4,
+    "text": "SubagentStop input",
+    "slug": "subagentstop-input"
+  },
+  {
+    "level": 3,
+    "text": "TaskCreated",
+    "slug": "taskcreated"
+  },
+  {
+    "level": 4,
+    "text": "TaskCreated input",
+    "slug": "taskcreated-input"
+  },
+  {
+    "level": 4,
+    "text": "TaskCreated decision control",
+    "slug": "taskcreated-decision-control"
+  },
+  {
+    "level": 3,
+    "text": "TaskCompleted",
+    "slug": "taskcompleted"
+  },
+  {
+    "level": 4,
+    "text": "TaskCompleted input",
+    "slug": "taskcompleted-input"
+  },
+  {
+    "level": 4,
+    "text": "TaskCompleted decision control",
+    "slug": "taskcompleted-decision-control"
+  },
+  {
+    "level": 3,
+    "text": "Stop",
+    "slug": "stop"
+  },
+  {
+    "level": 4,
+    "text": "Stop input",
+    "slug": "stop-input"
+  },
+  {
+    "level": 4,
+    "text": "Stop decision control",
+    "slug": "stop-decision-control"
+  },
+  {
+    "level": 3,
+    "text": "StopFailure",
+    "slug": "stopfailure"
+  },
+  {
+    "level": 4,
+    "text": "StopFailure input",
+    "slug": "stopfailure-input"
+  },
+  {
+    "level": 3,
+    "text": "TeammateIdle",
+    "slug": "teammateidle"
+  },
+  {
+    "level": 4,
+    "text": "TeammateIdle input",
+    "slug": "teammateidle-input"
+  },
+  {
+    "level": 4,
+    "text": "TeammateIdle decision control",
+    "slug": "teammateidle-decision-control"
+  },
+  {
+    "level": 3,
+    "text": "ConfigChange",
+    "slug": "configchange"
+  },
+  {
+    "level": 4,
+    "text": "ConfigChange input",
+    "slug": "configchange-input"
+  },
+  {
+    "level": 4,
+    "text": "ConfigChange decision control",
+    "slug": "configchange-decision-control"
+  },
+  {
+    "level": 3,
+    "text": "CwdChanged",
+    "slug": "cwdchanged"
+  },
+  {
+    "level": 4,
+    "text": "CwdChanged input",
+    "slug": "cwdchanged-input"
+  },
+  {
+    "level": 4,
+    "text": "CwdChanged output",
+    "slug": "cwdchanged-output"
+  },
+  {
+    "level": 3,
+    "text": "FileChanged",
+    "slug": "filechanged"
+  },
+  {
+    "level": 4,
+    "text": "FileChanged input",
+    "slug": "filechanged-input"
+  },
+  {
+    "level": 4,
+    "text": "FileChanged output",
+    "slug": "filechanged-output"
+  },
+  {
+    "level": 3,
+    "text": "WorktreeCreate",
+    "slug": "worktreecreate"
+  },
+  {
+    "level": 4,
+    "text": "WorktreeCreate input",
+    "slug": "worktreecreate-input"
+  },
+  {
+    "level": 4,
+    "text": "WorktreeCreate output",
+    "slug": "worktreecreate-output"
+  },
+  {
+    "level": 3,
+    "text": "WorktreeRemove",
+    "slug": "worktreeremove"
+  },
+  {
+    "level": 4,
+    "text": "WorktreeRemove input",
+    "slug": "worktreeremove-input"
+  },
+  {
+    "level": 3,
+    "text": "PreCompact",
+    "slug": "precompact"
+  },
+  {
+    "level": 4,
+    "text": "PreCompact input",
+    "slug": "precompact-input"
+  },
+  {
+    "level": 3,
+    "text": "PostCompact",
+    "slug": "postcompact"
+  },
+  {
+    "level": 4,
+    "text": "PostCompact input",
+    "slug": "postcompact-input"
+  },
+  {
+    "level": 3,
+    "text": "SessionEnd",
+    "slug": "sessionend"
+  },
+  {
+    "level": 4,
+    "text": "SessionEnd input",
+    "slug": "sessionend-input"
+  },
+  {
+    "level": 3,
+    "text": "Elicitation",
+    "slug": "elicitation"
+  },
+  {
+    "level": 4,
+    "text": "Elicitation input",
+    "slug": "elicitation-input"
+  },
+  {
+    "level": 4,
+    "text": "Elicitation output",
+    "slug": "elicitation-output"
+  },
+  {
+    "level": 3,
+    "text": "ElicitationResult",
+    "slug": "elicitationresult"
+  },
+  {
+    "level": 4,
+    "text": "ElicitationResult input",
+    "slug": "elicitationresult-input"
+  },
+  {
+    "level": 4,
+    "text": "ElicitationResult output",
+    "slug": "elicitationresult-output"
+  },
+  {
+    "level": 2,
+    "text": "Prompt-based hooks",
+    "slug": "prompt-based-hooks"
+  },
+  {
+    "level": 3,
+    "text": "How prompt-based hooks work",
+    "slug": "how-prompt-based-hooks-work"
+  },
+  {
+    "level": 3,
+    "text": "Prompt hook configuration",
+    "slug": "prompt-hook-configuration"
+  },
+  {
+    "level": 3,
+    "text": "Response schema",
+    "slug": "response-schema"
+  },
+  {
+    "level": 3,
+    "text": "Example: Multi-criteria Stop hook",
+    "slug": "example-multi-criteria-stop-hook"
+  },
+  {
+    "level": 2,
+    "text": "Agent-based hooks",
+    "slug": "agent-based-hooks"
+  },
+  {
+    "level": 3,
+    "text": "How agent hooks work",
+    "slug": "how-agent-hooks-work"
+  },
+  {
+    "level": 3,
+    "text": "Agent hook configuration",
+    "slug": "agent-hook-configuration"
+  },
+  {
+    "level": 2,
+    "text": "Run hooks in the background",
+    "slug": "run-hooks-in-the-background"
+  },
+  {
+    "level": 3,
+    "text": "Configure an async hook",
+    "slug": "configure-an-async-hook"
+  },
+  {
+    "level": 3,
+    "text": "How async hooks execute",
+    "slug": "how-async-hooks-execute"
+  },
+  {
+    "level": 3,
+    "text": "Example: run tests after file changes",
+    "slug": "example-run-tests-after-file-changes"
+  },
+  {
+    "level": 3,
+    "text": "Limitations",
+    "slug": "limitations"
+  },
+  {
+    "level": 2,
+    "text": "Security considerations",
+    "slug": "security-considerations"
+  },
+  {
+    "level": 3,
+    "text": "Disclaimer",
+    "slug": "disclaimer"
+  },
+  {
+    "level": 3,
+    "text": "Security best practices",
+    "slug": "security-best-practices"
+  },
+  {
+    "level": 2,
+    "text": "Windows PowerShell tool",
+    "slug": "windows-powershell-tool"
+  },
+  {
+    "level": 2,
+    "text": "Debug hooks",
+    "slug": "debug-hooks"
+  }
+]

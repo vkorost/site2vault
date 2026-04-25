@@ -1,0 +1,52 @@
+[
+  {
+    "level": 2,
+    "text": "Basic usage",
+    "slug": "basic-usage"
+  },
+  {
+    "level": 3,
+    "text": "Start faster with bare mode",
+    "slug": "start-faster-with-bare-mode"
+  },
+  {
+    "level": 2,
+    "text": "Examples",
+    "slug": "examples"
+  },
+  {
+    "level": 3,
+    "text": "Get structured output",
+    "slug": "get-structured-output"
+  },
+  {
+    "level": 3,
+    "text": "Stream responses",
+    "slug": "stream-responses"
+  },
+  {
+    "level": 3,
+    "text": "Auto-approve tools",
+    "slug": "auto-approve-tools"
+  },
+  {
+    "level": 3,
+    "text": "Create a commit",
+    "slug": "create-a-commit"
+  },
+  {
+    "level": 3,
+    "text": "Customize the system prompt",
+    "slug": "customize-the-system-prompt"
+  },
+  {
+    "level": 3,
+    "text": "Continue conversations",
+    "slug": "continue-conversations"
+  },
+  {
+    "level": 2,
+    "text": "Next steps",
+    "slug": "next-steps"
+  }
+]

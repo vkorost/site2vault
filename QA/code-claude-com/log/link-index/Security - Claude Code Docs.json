@@ -1,0 +1,94 @@
+{
+  "S2V_LINK_0": {
+    "url": "https://trust.anthropic.com",
+    "text": "Anthropic Trust Center"
+  },
+  "S2V_LINK_1": {
+    "url": "/docs/en/permissions",
+    "text": "Permissions"
+  },
+  "S2V_LINK_2": {
+    "url": "/docs/en/sandboxing",
+    "text": "Sandbox"
+  },
+  "S2V_LINK_3": {
+    "url": "/docs/en/permissions#tool-specific-permission-rules",
+    "text": "permission pattern limitations"
+  },
+  "S2V_LINK_4": {
+    "url": "https://privacy.anthropic.com/en/articles/10023548-how-long-do-you-store-my-data",
+    "text": "Privacy Center"
+  },
+  "S2V_LINK_5": {
+    "url": "https://claude.ai/settings/privacy",
+    "text": "privacy settings"
+  },
+  "S2V_LINK_6": {
+    "url": "https://www.anthropic.com/legal/commercial-terms",
+    "text": "Commercial Terms of Service"
+  },
+  "S2V_LINK_7": {
+    "url": "https://www.anthropic.com/legal/consumer-terms",
+    "text": "Consumer Terms"
+  },
+  "S2V_LINK_8": {
+    "url": "https://www.anthropic.com/legal/privacy",
+    "text": "Privacy Policy"
+  },
+  "S2V_LINK_9": {
+    "url": "/docs/en/authentication#credential-management",
+    "text": "Credential Management"
+  },
+  "S2V_LINK_10": {
+    "url": "/docs/en/vs-code#security-and-privacy",
+    "text": "VS Code security and privacy"
+  },
+  "S2V_LINK_11": {
+    "url": "/docs/en/claude-code-on-the-web",
+    "text": "Claude Code on the web"
+  },
+  "S2V_LINK_12": {
+    "url": "/docs/en/claude-code-on-the-web",
+    "text": "Claude Code on the web"
+  },
+  "S2V_LINK_13": {
+    "url": "/docs/en/remote-control",
+    "text": "Remote Control"
+  },
+  "S2V_LINK_14": {
+    "url": "/docs/en/devcontainer",
+    "text": "devcontainers"
+  },
+  "S2V_LINK_15": {
+    "url": "/docs/en/settings#settings-files",
+    "text": "managed settings"
+  },
+  "S2V_LINK_16": {
+    "url": "/docs/en/monitoring-usage",
+    "text": "OpenTelemetry metrics"
+  },
+  "S2V_LINK_17": {
+    "url": "https://hackerone.com/anthropic-vdp/reports/new?type=team&report_type=vulnerability",
+    "text": "HackerOne program"
+  },
+  "S2V_LINK_18": {
+    "url": "/docs/en/sandboxing",
+    "text": "Sandboxing"
+  },
+  "S2V_LINK_19": {
+    "url": "/docs/en/permissions",
+    "text": "Permissions"
+  },
+  "S2V_LINK_20": {
+    "url": "/docs/en/monitoring-usage",
+    "text": "Monitoring usage"
+  },
+  "S2V_LINK_21": {
+    "url": "/docs/en/devcontainer",
+    "text": "Development containers"
+  },
+  "S2V_LINK_22": {
+    "url": "https://trust.anthropic.com",
+    "text": "Anthropic Trust Center"
+  }
+}

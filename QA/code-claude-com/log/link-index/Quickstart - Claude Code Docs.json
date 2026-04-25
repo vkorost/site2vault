@@ -1,0 +1,86 @@
+{
+  "S2V_LINK_0": {
+    "url": "/docs/en/terminal-guide",
+    "text": "terminal guide"
+  },
+  "S2V_LINK_1": {
+    "url": "https://claude.com/pricing?utm_source=claude_code&utm_medium=docs&utm_content=quickstart_prereq",
+    "text": "Claude subscription"
+  },
+  "S2V_LINK_2": {
+    "url": "https://console.anthropic.com/",
+    "text": "Claude Console"
+  },
+  "S2V_LINK_3": {
+    "url": "/docs/en/third-party-integrations",
+    "text": "supported cloud provider"
+  },
+  "S2V_LINK_4": {
+    "url": "https://claude.ai/code",
+    "text": "web"
+  },
+  "S2V_LINK_5": {
+    "url": "/docs/en/desktop",
+    "text": "desktop app"
+  },
+  "S2V_LINK_6": {
+    "url": "/docs/en/vs-code",
+    "text": "VS Code"
+  },
+  "S2V_LINK_7": {
+    "url": "/docs/en/jetbrains",
+    "text": "JetBrains IDEs"
+  },
+  "S2V_LINK_8": {
+    "url": "/docs/en/slack",
+    "text": "Slack"
+  },
+  "S2V_LINK_9": {
+    "url": "/docs/en/github-actions",
+    "text": "GitHub Actions"
+  },
+  "S2V_LINK_10": {
+    "url": "/docs/en/gitlab-ci-cd",
+    "text": "GitLab"
+  },
+  "S2V_LINK_11": {
+    "url": "/docs/en/overview#use-claude-code-everywhere",
+    "text": "all interfaces"
+  },
+  "S2V_LINK_12": {
+    "url": "https://git-scm.com/downloads/win",
+    "text": "Git for Windows"
+  },
+  "S2V_LINK_13": {
+    "url": "/docs/en/setup#install-with-linux-package-managers",
+    "text": "apt, dnf, or apk"
+  },
+  "S2V_LINK_14": {
+    "url": "https://claude.com/pricing?utm_source=claude_code&utm_medium=docs&utm_content=quickstart_login",
+    "text": "Claude Pro, Max, Team, or Enterprise"
+  },
+  "S2V_LINK_15": {
+    "url": "https://console.anthropic.com/",
+    "text": "Claude Console"
+  },
+  "S2V_LINK_16": {
+    "url": "/docs/en/third-party-integrations",
+    "text": "Amazon Bedrock, Google Vertex AI, or Microsoft Foundry"
+  },
+  "S2V_LINK_17": {
+    "url": "/docs/en/cli-reference",
+    "text": "CLI reference"
+  },
+  "S2V_LINK_18": {
+    "url": "/docs/en/best-practices",
+    "text": "best practices"
+  },
+  "S2V_LINK_19": {
+    "url": "/docs/en/common-workflows",
+    "text": "common workflows"
+  },
+  "S2V_LINK_20": {
+    "url": "https://www.anthropic.com/discord",
+    "text": "Discord"
+  }
+}

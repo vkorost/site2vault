@@ -1,0 +1,334 @@
+2026-04-24 18:37:58,159 INFO     site2vault.orchestrator site2vault starting: https://code.claude.com/docs/en/ -> code-claude-com
+2026-04-24 18:37:59,437 INFO     site2vault.crawler Fetching: https://code.claude.com/docs/en
+2026-04-24 18:38:00,099 INFO     site2vault.crawler Written: docs/Claude Code overview - Claude Code Docs.md  <-  https://code.claude.com/docs/en
+2026-04-24 18:38:00,326 INFO     site2vault.crawler Fetching: https://code.claude.com/docs/en/third-party-integrations
+2026-04-24 18:38:00,623 INFO     site2vault.crawler Written: docs/en/Enterprise deployment overview - Claude Code Docs.md  <-  https://code.claude.com/docs/en/third-party-integrations
+2026-04-24 18:38:00,670 INFO     site2vault.crawler Fetching: https://code.claude.com/docs/en/setup
+2026-04-24 18:38:01,235 INFO     site2vault.crawler Written: docs/en/Advanced setup - Claude Code Docs.md  <-  https://code.claude.com/docs/en/setup
+2026-04-24 18:38:01,543 INFO     site2vault.crawler Fetching: https://code.claude.com/docs/en/quickstart
+2026-04-24 18:38:01,936 INFO     site2vault.crawler Written: docs/en/Quickstart - Claude Code Docs.md  <-  https://code.claude.com/docs/en/quickstart
+2026-04-24 18:38:02,620 INFO     site2vault.crawler Fetching: https://code.claude.com/docs/en/common-workflows
+2026-04-24 18:38:03,430 INFO     site2vault.crawler Written: docs/en/Common workflows - Claude Code Docs.md  <-  https://code.claude.com/docs/en/common-workflows
+2026-04-24 18:38:03,556 INFO     site2vault.crawler Fetching: https://code.claude.com/docs/en/github-actions
+2026-04-24 18:38:04,046 INFO     site2vault.crawler Written: docs/en/Claude Code GitHub Actions - Claude Code Docs.md  <-  https://code.claude.com/docs/en/github-actions
+2026-04-24 18:38:04,619 INFO     site2vault.crawler Fetching: https://code.claude.com/docs/en/gitlab-ci-cd
+2026-04-24 18:38:05,009 INFO     site2vault.crawler Written: docs/en/Claude Code GitLab CICD - Claude Code Docs.md  <-  https://code.claude.com/docs/en/gitlab-ci-cd
+2026-04-24 18:38:05,605 INFO     site2vault.crawler Fetching: https://code.claude.com/docs/en/mcp
+2026-04-24 18:38:06,442 INFO     site2vault.crawler Written: docs/en/Connect Claude Code to tools via MCP - Claude Code Docs.md  <-  https://code.claude.com/docs/en/mcp
+2026-04-24 18:38:06,538 INFO     site2vault.crawler Fetching: https://code.claude.com/docs/en/memory
+2026-04-24 18:38:07,025 INFO     site2vault.crawler Written: docs/en/How Claude remembers your project - Claude Code Docs.md  <-  https://code.claude.com/docs/en/memory
+2026-04-24 18:38:07,375 INFO     site2vault.crawler Fetching: https://code.claude.com/docs/en/skills
+2026-04-24 18:38:08,001 INFO     site2vault.crawler Written: docs/en/Extend Claude with skills - Claude Code Docs.md  <-  https://code.claude.com/docs/en/skills
+2026-04-24 18:38:08,423 INFO     site2vault.crawler Fetching: https://code.claude.com/docs/en/hooks
+2026-04-24 18:38:10,230 INFO     site2vault.crawler Written: docs/en/Hooks reference - Claude Code Docs.md  <-  https://code.claude.com/docs/en/hooks
+2026-04-24 18:38:10,257 INFO     site2vault.crawler Fetching: https://code.claude.com/docs/en/sub-agents
+2026-04-24 18:38:10,975 INFO     site2vault.crawler Written: docs/en/Create custom subagents - Claude Code Docs.md  <-  https://code.claude.com/docs/en/sub-agents
+2026-04-24 18:38:11,090 INFO     site2vault.crawler Fetching: https://code.claude.com/docs/en/agent-sdk/overview
+2026-04-24 18:38:11,530 INFO     site2vault.crawler Written: docs/en/agent-sdk/Agent SDK overview - Claude Code Docs.md  <-  https://code.claude.com/docs/en/agent-sdk/overview
+2026-04-24 18:38:11,559 INFO     site2vault.crawler Fetching: https://code.claude.com/docs/en/cli-reference
+2026-04-24 18:38:11,856 INFO     site2vault.crawler Written: docs/en/CLI reference - Claude Code Docs.md  <-  https://code.claude.com/docs/en/cli-reference
+2026-04-24 18:38:12,684 INFO     site2vault.crawler Fetching: https://code.claude.com/docs/en/routines
+2026-04-24 18:38:13,047 INFO     site2vault.crawler Written: docs/en/Automate work with routines - Claude Code Docs.md  <-  https://code.claude.com/docs/en/routines
+2026-04-24 18:38:13,521 INFO     site2vault.crawler Fetching: https://code.claude.com/docs/en/desktop-scheduled-tasks
+2026-04-24 18:38:13,772 INFO     site2vault.crawler Written: docs/en/Schedule recurring tasks in Claude Code Desktop - Claude Code Docs.md  <-  https://code.claude.com/docs/en/desktop-scheduled-tasks
+2026-04-24 18:38:14,535 INFO     site2vault.crawler Fetching: https://code.claude.com/docs/en/scheduled-tasks
+2026-04-24 18:38:14,830 INFO     site2vault.crawler Written: docs/en/Run prompts on a schedule - Claude Code Docs.md  <-  https://code.claude.com/docs/en/scheduled-tasks
+2026-04-24 18:38:15,424 INFO     site2vault.crawler Fetching: https://code.claude.com/docs/en/remote-control
+2026-04-24 18:38:15,912 INFO     site2vault.crawler Written: docs/en/Continue local sessions from any device with Remote Control - Claude Code Docs.md  <-  https://code.claude.com/docs/en/remote-control
+2026-04-24 18:38:16,625 INFO     site2vault.crawler Fetching: https://code.claude.com/docs/en/desktop
+2026-04-24 18:38:17,231 INFO     site2vault.crawler Written: docs/en/Use Claude Code Desktop - Claude Code Docs.md  <-  https://code.claude.com/docs/en/desktop
+2026-04-24 18:38:17,418 INFO     site2vault.crawler Fetching: https://code.claude.com/docs/en/claude-code-on-the-web
+2026-04-24 18:38:17,998 INFO     site2vault.crawler Written: docs/en/Use Claude Code on the web - Claude Code Docs.md  <-  https://code.claude.com/docs/en/claude-code-on-the-web
+2026-04-24 18:38:18,369 INFO     site2vault.crawler Fetching: https://code.claude.com/docs/en/slack
+2026-04-24 18:38:18,657 INFO     site2vault.crawler Written: docs/en/Claude Code in Slack - Claude Code Docs.md  <-  https://code.claude.com/docs/en/slack
+2026-04-24 18:38:19,586 INFO     site2vault.crawler Fetching: https://code.claude.com/docs/en/vs-code
+2026-04-24 18:38:20,033 INFO     site2vault.crawler Written: docs/en/Use Claude Code in VS Code - Claude Code Docs.md  <-  https://code.claude.com/docs/en/vs-code
+2026-04-24 18:38:20,378 INFO     site2vault.crawler Fetching: https://code.claude.com/docs/en/jetbrains
+2026-04-24 18:38:20,625 INFO     site2vault.crawler Written: docs/en/JetBrains IDEs - Claude Code Docs.md  <-  https://code.claude.com/docs/en/jetbrains
+2026-04-24 18:38:21,613 INFO     site2vault.crawler Fetching: https://code.claude.com/docs/en/channels
+2026-04-24 18:38:21,972 INFO     site2vault.crawler Written: docs/en/Push events into a running session with channels - Claude Code Docs.md  <-  https://code.claude.com/docs/en/channels
+2026-04-24 18:38:22,566 INFO     site2vault.crawler Fetching: https://code.claude.com/docs/en/code-review
+2026-04-24 18:38:22,886 INFO     site2vault.crawler Written: docs/en/Code Review - Claude Code Docs.md  <-  https://code.claude.com/docs/en/code-review
+2026-04-24 18:38:23,597 INFO     site2vault.crawler Fetching: https://code.claude.com/docs/en/chrome
+2026-04-24 18:38:23,901 INFO     site2vault.crawler Written: docs/en/Use Claude Code with Chrome (beta) - Claude Code Docs.md  <-  https://code.claude.com/docs/en/chrome
+2026-04-24 18:38:24,407 INFO     site2vault.crawler Fetching: https://code.claude.com/docs/en/best-practices
+2026-04-24 18:38:24,899 INFO     site2vault.crawler Written: docs/en/Best Practices for Claude Code - Claude Code Docs.md  <-  https://code.claude.com/docs/en/best-practices
+2026-04-24 18:38:25,596 INFO     site2vault.crawler Fetching: https://code.claude.com/docs/en/settings
+2026-04-24 18:38:26,536 INFO     site2vault.crawler Written: docs/en/Claude Code settings - Claude Code Docs.md  <-  https://code.claude.com/docs/en/settings
+2026-04-24 18:38:26,750 INFO     site2vault.crawler Fetching: https://code.claude.com/docs/en/troubleshooting
+2026-04-24 18:38:27,527 INFO     site2vault.crawler Written: docs/en/Troubleshooting - Claude Code Docs.md  <-  https://code.claude.com/docs/en/troubleshooting
+2026-04-24 18:38:27,556 INFO     site2vault.crawler Fetching: https://code.claude.com/
+2026-04-24 18:38:28,524 INFO     site2vault.crawler Written: Claude Code by Anthropic AI Coding Agent, Terminal, IDE.md  <-  https://code.claude.com/
+2026-04-24 18:38:28,647 INFO     site2vault.crawler Fetching: https://code.claude.com/docs/en/network-config
+2026-04-24 18:38:28,958 INFO     site2vault.crawler Written: docs/en/Enterprise network configuration - Claude Code Docs.md  <-  https://code.claude.com/docs/en/network-config
+2026-04-24 18:38:29,562 INFO     site2vault.crawler Fetching: https://code.claude.com/docs/en/llm-gateway
+2026-04-24 18:38:29,841 INFO     site2vault.crawler Written: docs/en/LLM gateway configuration - Claude Code Docs.md  <-  https://code.claude.com/docs/en/llm-gateway
+2026-04-24 18:38:30,589 INFO     site2vault.crawler Fetching: https://code.claude.com/docs/en/env-vars
+2026-04-24 18:38:30,991 INFO     site2vault.crawler Written: docs/en/Environment variables - Claude Code Docs.md  <-  https://code.claude.com/docs/en/env-vars
+2026-04-24 18:38:31,423 INFO     site2vault.crawler Fetching: https://code.claude.com/docs/en/amazon-bedrock
+2026-04-24 18:38:31,850 INFO     site2vault.crawler Written: docs/en/Claude Code on Amazon Bedrock - Claude Code Docs.md  <-  https://code.claude.com/docs/en/amazon-bedrock
+2026-04-24 18:38:32,561 INFO     site2vault.crawler Fetching: https://code.claude.com/docs/en/google-vertex-ai
+2026-04-24 18:38:32,832 INFO     site2vault.crawler Written: docs/en/Claude Code on Google Vertex AI - Claude Code Docs.md  <-  https://code.claude.com/docs/en/google-vertex-ai
+2026-04-24 18:38:33,453 INFO     site2vault.crawler Fetching: https://code.claude.com/docs/en/microsoft-foundry
+2026-04-24 18:38:33,684 INFO     site2vault.crawler Written: docs/en/Claude Code on Microsoft Foundry - Claude Code Docs.md  <-  https://code.claude.com/docs/en/microsoft-foundry
+2026-04-24 18:38:34,648 INFO     site2vault.crawler Fetching: https://code.claude.com/docs/en/model-config
+2026-04-24 18:38:35,210 INFO     site2vault.crawler Written: docs/en/Model configuration - Claude Code Docs.md  <-  https://code.claude.com/docs/en/model-config
+2026-04-24 18:38:35,472 INFO     site2vault.crawler Fetching: https://code.claude.com/docs/en/security
+2026-04-24 18:38:35,722 INFO     site2vault.crawler Written: docs/en/Security - Claude Code Docs.md  <-  https://code.claude.com/docs/en/security
+2026-04-24 18:38:36,627 INFO     site2vault.crawler Fetching: https://code.claude.com/docs/en/terminal-guide
+2026-04-24 18:38:37,458 INFO     site2vault.crawler Written: docs/en/Terminal guide for new users - Claude Code Docs.md  <-  https://code.claude.com/docs/en/terminal-guide
+2026-04-24 18:38:37,499 INFO     site2vault.crawler Fetching: https://code.claude.com/docs/en/tools-reference
+2026-04-24 18:38:37,764 INFO     site2vault.crawler Written: docs/en/Tools reference - Claude Code Docs.md  <-  https://code.claude.com/docs/en/tools-reference
+2026-04-24 18:38:38,563 INFO     site2vault.crawler Fetching: https://code.claude.com/docs/en/authentication
+2026-04-24 18:38:38,819 INFO     site2vault.crawler Written: docs/en/Authentication - Claude Code Docs.md  <-  https://code.claude.com/docs/en/authentication
+2026-04-24 18:38:39,625 INFO     site2vault.crawler Fetching: https://code.claude.com/docs/en/permissions
+2026-04-24 18:38:40,004 INFO     site2vault.crawler Written: docs/en/Configure permissions - Claude Code Docs.md  <-  https://code.claude.com/docs/en/permissions
+2026-04-24 18:38:40,402 INFO     site2vault.crawler Fetching: https://code.claude.com/docs/en/overview
+2026-04-24 18:38:41,545 INFO     site2vault.crawler Fetching: https://code.claude.com/docs/en/headless
+2026-04-24 18:38:41,876 INFO     site2vault.crawler Written: docs/en/Run Claude Code programmatically - Claude Code Docs.md  <-  https://code.claude.com/docs/en/headless
+2026-04-24 18:38:42,507 INFO     site2vault.crawler Fetching: https://code.claude.com/docs/en/terminal-config
+2026-04-24 18:38:42,796 INFO     site2vault.crawler Written: docs/en/Configure your terminal for Claude Code - Claude Code Docs.md  <-  https://code.claude.com/docs/en/terminal-config
+2026-04-24 18:38:43,366 INFO     site2vault.crawler Fetching: https://code.claude.com/docs/en/agent-teams
+2026-04-24 18:38:43,769 INFO     site2vault.crawler Written: docs/en/Orchestrate teams of Claude Code sessions - Claude Code Docs.md  <-  https://code.claude.com/docs/en/agent-teams
+2026-04-24 18:38:44,537 INFO     site2vault.crawler Fetching: https://code.claude.com/docs/en/hooks-guide
+2026-04-24 18:38:45,200 INFO     site2vault.crawler Written: docs/en/Automate workflows with hooks - Claude Code Docs.md  <-  https://code.claude.com/docs/en/hooks-guide
+2026-04-24 18:38:45,457 INFO     site2vault.crawler Fetching: https://code.claude.com/docs/en/channels-reference
+2026-04-24 18:38:46,149 INFO     site2vault.crawler Written: docs/en/Channels reference - Claude Code Docs.md  <-  https://code.claude.com/docs/en/channels-reference
+2026-04-24 18:38:46,644 INFO     site2vault.crawler Fetching: https://code.claude.com/docs/en/plugins
+2026-04-24 18:38:47,228 INFO     site2vault.crawler Written: docs/en/Create plugins - Claude Code Docs.md  <-  https://code.claude.com/docs/en/plugins
+2026-04-24 18:38:47,481 INFO     site2vault.crawler Fetching: https://code.claude.com/docs/en/plugins-reference
+2026-04-24 18:38:48,190 INFO     site2vault.crawler Written: docs/en/Plugins reference - Claude Code Docs.md  <-  https://code.claude.com/docs/en/plugins-reference
+2026-04-24 18:38:48,672 INFO     site2vault.crawler Fetching: https://code.claude.com/docs/en/features-overview
+2026-04-24 18:38:49,015 INFO     site2vault.crawler Written: docs/en/Extend Claude Code - Claude Code Docs.md  <-  https://code.claude.com/docs/en/features-overview
+2026-04-24 18:38:49,511 INFO     site2vault.crawler Fetching: https://code.claude.com/docs/en/context-window
+2026-04-24 18:38:49,743 INFO     site2vault.crawler Written: docs/en/Explore the context window - Claude Code Docs.md  <-  https://code.claude.com/docs/en/context-window
+2026-04-24 18:38:50,683 INFO     site2vault.crawler Fetching: https://code.claude.com/docs/en/debug-your-config
+2026-04-24 18:38:50,959 INFO     site2vault.crawler Written: docs/en/Debug your configuration - Claude Code Docs.md  <-  https://code.claude.com/docs/en/debug-your-config
+2026-04-24 18:38:51,569 INFO     site2vault.crawler Fetching: https://code.claude.com/docs/en/commands
+2026-04-24 18:38:51,837 INFO     site2vault.crawler Written: docs/en/Commands - Claude Code Docs.md  <-  https://code.claude.com/docs/en/commands
+2026-04-24 18:38:52,613 INFO     site2vault.crawler Fetching: https://code.claude.com/docs/en/how-claude-code-works
+2026-04-24 18:38:52,934 INFO     site2vault.crawler Written: docs/en/How Claude Code works - Claude Code Docs.md  <-  https://code.claude.com/docs/en/how-claude-code-works
+2026-04-24 18:38:53,646 INFO     site2vault.crawler Fetching: https://code.claude.com/docs/en/permission-modes
+2026-04-24 18:38:53,969 INFO     site2vault.crawler Written: docs/en/Choose a permission mode - Claude Code Docs.md  <-  https://code.claude.com/docs/en/permission-modes
+2026-04-24 18:38:54,595 INFO     site2vault.crawler Fetching: https://code.claude.com/docs/en/interactive-mode
+2026-04-24 18:38:54,993 INFO     site2vault.crawler Written: docs/en/Interactive mode - Claude Code Docs.md  <-  https://code.claude.com/docs/en/interactive-mode
+2026-04-24 18:38:55,464 INFO     site2vault.crawler Fetching: https://code.claude.com/docs/en/agent-sdk/migration-guide
+2026-04-24 18:38:55,795 INFO     site2vault.crawler Written: docs/en/agent-sdk/Migrate to Claude Agent SDK - Claude Code Docs.md  <-  https://code.claude.com/docs/en/agent-sdk/migration-guide
+2026-04-24 18:38:56,615 INFO     site2vault.crawler Fetching: https://code.claude.com/docs/en/agent-sdk/quickstart
+2026-04-24 18:38:56,971 INFO     site2vault.crawler Written: docs/en/agent-sdk/Quickstart - Claude Code Docs-1f2ec9.md  <-  https://code.claude.com/docs/en/agent-sdk/quickstart
+2026-04-24 18:38:57,549 INFO     site2vault.crawler Fetching: https://code.claude.com/docs/en/agent-sdk/slash-commands
+2026-04-24 18:38:57,915 INFO     site2vault.crawler Written: docs/en/agent-sdk/Slash Commands in the SDK - Claude Code Docs.md  <-  https://code.claude.com/docs/en/agent-sdk/slash-commands
+2026-04-24 18:38:58,608 INFO     site2vault.crawler Fetching: https://code.claude.com/docs/en/agent-sdk/modifying-system-prompts
+2026-04-24 18:38:59,012 INFO     site2vault.crawler Written: docs/en/agent-sdk/Modifying system prompts - Claude Code Docs.md  <-  https://code.claude.com/docs/en/agent-sdk/modifying-system-prompts
+2026-04-24 18:38:59,385 INFO     site2vault.crawler Fetching: https://code.claude.com/docs/en/agent-sdk/plugins
+2026-04-24 18:38:59,882 INFO     site2vault.crawler Written: docs/en/agent-sdk/Plugins in the SDK - Claude Code Docs.md  <-  https://code.claude.com/docs/en/agent-sdk/plugins
+2026-04-24 18:39:00,403 INFO     site2vault.crawler Fetching: https://code.claude.com/docs/en/agent-sdk/structured-outputs
+2026-04-24 18:39:00,785 INFO     site2vault.crawler Written: docs/en/agent-sdk/Get structured output from agents - Claude Code Docs.md  <-  https://code.claude.com/docs/en/agent-sdk/structured-outputs
+2026-04-24 18:39:01,402 INFO     site2vault.crawler Fetching: https://code.claude.com/docs/en/ultraplan
+2026-04-24 18:39:01,639 INFO     site2vault.crawler Written: docs/en/Plan in the cloud with ultraplan - Claude Code Docs.md  <-  https://code.claude.com/docs/en/ultraplan
+2026-04-24 18:39:02,651 INFO     site2vault.crawler Fetching: https://code.claude.com/docs/en/data-usage
+2026-04-24 18:39:02,910 INFO     site2vault.crawler Written: docs/en/Data usage - Claude Code Docs.md  <-  https://code.claude.com/docs/en/data-usage
+2026-04-24 18:39:03,428 INFO     site2vault.crawler Fetching: https://code.claude.com/docs/en/desktop-quickstart
+2026-04-24 18:39:03,674 INFO     site2vault.crawler Written: docs/en/Get started with the desktop app - Claude Code Docs.md  <-  https://code.claude.com/docs/en/desktop-quickstart
+2026-04-24 18:39:04,525 INFO     site2vault.crawler Fetching: https://code.claude.com/docs/en/platforms
+2026-04-24 18:39:04,771 INFO     site2vault.crawler Written: docs/en/Platforms and integrations - Claude Code Docs.md  <-  https://code.claude.com/docs/en/platforms
+2026-04-24 18:39:05,457 INFO     site2vault.crawler Fetching: https://code.claude.com/docs/en/plugin-marketplaces
+2026-04-24 18:39:06,259 INFO     site2vault.crawler Written: docs/en/Create and distribute a plugin marketplace - Claude Code Docs.md  <-  https://code.claude.com/docs/en/plugin-marketplaces
+2026-04-24 18:39:06,406 INFO     site2vault.crawler Fetching: https://code.claude.com/docs/en/costs
+2026-04-24 18:39:06,711 INFO     site2vault.crawler Written: docs/en/Manage costs effectively - Claude Code Docs.md  <-  https://code.claude.com/docs/en/costs
+2026-04-24 18:39:07,482 INFO     site2vault.crawler Fetching: https://code.claude.com/docs/en/computer-use
+2026-04-24 18:39:07,766 INFO     site2vault.crawler Written: docs/en/Let Claude use your computer from the CLI - Claude Code Docs.md  <-  https://code.claude.com/docs/en/computer-use
+2026-04-24 18:39:08,730 INFO     site2vault.crawler Fetching: https://code.claude.com/docs/en/errors
+2026-04-24 18:39:09,194 INFO     site2vault.crawler Written: docs/en/Error reference - Claude Code Docs.md  <-  https://code.claude.com/docs/en/errors
+2026-04-24 18:39:09,445 INFO     site2vault.crawler Fetching: https://code.claude.com/docs/en/web-quickstart
+2026-04-24 18:39:09,780 INFO     site2vault.crawler Written: docs/en/Get started with Claude Code on the web - Claude Code Docs.md  <-  https://code.claude.com/docs/en/web-quickstart
+2026-04-24 18:39:10,564 INFO     site2vault.crawler Fetching: https://code.claude.com/docs/en/zero-data-retention
+2026-04-24 18:39:10,765 INFO     site2vault.crawler Written: docs/en/Zero data retention - Claude Code Docs.md  <-  https://code.claude.com/docs/en/zero-data-retention
+2026-04-24 18:39:11,405 INFO     site2vault.crawler Fetching: https://code.claude.com/docs/en/github-enterprise-server
+2026-04-24 18:39:11,710 INFO     site2vault.crawler Written: docs/en/Claude Code with GitHub Enterprise Server - Claude Code Docs.md  <-  https://code.claude.com/docs/en/github-enterprise-server
+2026-04-24 18:39:12,415 INFO     site2vault.crawler Fetching: https://code.claude.com/docs/en/ultrareview
+2026-04-24 18:39:12,629 INFO     site2vault.crawler Written: docs/en/Find bugs with ultrareview - Claude Code Docs.md  <-  https://code.claude.com/docs/en/ultrareview
+2026-04-24 18:39:13,687 INFO     site2vault.crawler Fetching: https://code.claude.com/docs/en/checkpointing
+2026-04-24 18:39:13,921 INFO     site2vault.crawler Written: docs/en/Checkpointing - Claude Code Docs.md  <-  https://code.claude.com/docs/en/checkpointing
+2026-04-24 18:39:14,451 INFO     site2vault.crawler Fetching: https://code.claude.com/docs/en/discover-plugins
+2026-04-24 18:39:15,025 INFO     site2vault.crawler Written: docs/en/Discover and install prebuilt plugins through marketplaces - Claude Code Docs.md  <-  https://code.claude.com/docs/en/discover-plugins
+2026-04-24 18:39:15,466 INFO     site2vault.crawler Fetching: https://code.claude.com/docs/en/analytics
+2026-04-24 18:39:15,740 INFO     site2vault.crawler Written: docs/en/Track team usage with analytics - Claude Code Docs.md  <-  https://code.claude.com/docs/en/analytics
+2026-04-24 18:39:16,478 INFO     site2vault.crawler Fetching: https://code.claude.com/docs/en/statusline
+2026-04-24 18:39:17,230 INFO     site2vault.crawler Written: docs/en/Customize your status line - Claude Code Docs.md  <-  https://code.claude.com/docs/en/statusline
+2026-04-24 18:39:17,446 INFO     site2vault.crawler Fetching: https://code.claude.com/docs/en/sandboxing
+2026-04-24 18:39:17,814 INFO     site2vault.crawler Written: docs/en/Sandboxing - Claude Code Docs.md  <-  https://code.claude.com/docs/en/sandboxing
+2026-04-24 18:39:18,556 INFO     site2vault.crawler Fetching: https://code.claude.com/docs/en/server-managed-settings
+2026-04-24 18:39:18,837 INFO     site2vault.crawler Written: docs/en/Configure server-managed settings - Claude Code Docs.md  <-  https://code.claude.com/docs/en/server-managed-settings
+2026-04-24 18:39:19,409 INFO     site2vault.crawler Fetching: https://code.claude.com/docs/en/auto-mode-config
+2026-04-24 18:39:19,685 INFO     site2vault.crawler Written: docs/en/Configure auto mode - Claude Code Docs.md  <-  https://code.claude.com/docs/en/auto-mode-config
+2026-04-24 18:39:20,406 INFO     site2vault.crawler Fetching: https://code.claude.com/docs/en/fullscreen
+2026-04-24 18:39:20,674 INFO     site2vault.crawler Written: docs/en/Fullscreen rendering - Claude Code Docs.md  <-  https://code.claude.com/docs/en/fullscreen
+2026-04-24 18:39:21,418 INFO     site2vault.crawler Fetching: https://code.claude.com/docs/en/fast-mode
+2026-04-24 18:39:21,664 INFO     site2vault.crawler Written: docs/en/Speed up responses with fast mode - Claude Code Docs.md  <-  https://code.claude.com/docs/en/fast-mode
+2026-04-24 18:39:22,340 INFO     site2vault.crawler Fetching: https://code.claude.com/docs/en/voice-dictation
+2026-04-24 18:39:22,633 INFO     site2vault.crawler Written: docs/en/Voice dictation - Claude Code Docs.md  <-  https://code.claude.com/docs/en/voice-dictation
+2026-04-24 18:39:23,469 INFO     site2vault.crawler Fetching: https://code.claude.com/docs/en/monitoring-usage
+2026-04-24 18:39:24,245 INFO     site2vault.crawler Written: docs/en/Monitoring - Claude Code Docs.md  <-  https://code.claude.com/docs/en/monitoring-usage
+2026-04-24 18:39:24,654 INFO     site2vault.crawler Fetching: https://code.claude.com/docs/en/output-styles
+2026-04-24 18:39:24,867 INFO     site2vault.crawler Written: docs/en/Output styles - Claude Code Docs.md  <-  https://code.claude.com/docs/en/output-styles
+2026-04-24 18:39:25,716 INFO     site2vault.crawler Fetching: https://code.claude.com/product/claude-code/enterprise
+2026-04-24 18:39:26,985 INFO     site2vault.crawler Fetching: https://code.claude.com/cdn-cgi/l/email-protection
+2026-04-24 18:39:27,614 INFO     site2vault.crawler Fetching: https://code.claude.com/docs/en/devcontainer
+2026-04-24 18:39:27,821 INFO     site2vault.crawler Written: docs/en/Development containers - Claude Code Docs.md  <-  https://code.claude.com/docs/en/devcontainer
+2026-04-24 18:39:28,535 INFO     site2vault.crawler Fetching: https://code.claude.com/docs/en/agent-sdk/python
+2026-04-24 18:39:31,002 INFO     site2vault.crawler Written: docs/en/agent-sdk/Agent SDK reference - Python - Claude Code Docs.md  <-  https://code.claude.com/docs/en/agent-sdk/python
+2026-04-24 18:39:31,309 INFO     site2vault.crawler Fetching: https://code.claude.com/docs/en/agent-sdk/typescript
+2026-04-24 18:39:33,569 INFO     site2vault.crawler Written: docs/en/agent-sdk/Agent SDK reference - TypeScript - Claude Code Docs.md  <-  https://code.claude.com/docs/en/agent-sdk/typescript
+2026-04-24 18:39:33,731 INFO     site2vault.crawler Fetching: https://code.claude.com/docs/en/agent-sdk/streaming-output
+2026-04-24 18:39:34,069 INFO     site2vault.crawler Written: docs/en/agent-sdk/Stream responses in real-time - Claude Code Docs.md  <-  https://code.claude.com/docs/en/agent-sdk/streaming-output
+2026-04-24 18:39:34,082 INFO     site2vault.crawler Fetching: https://code.claude.com/docs/en/keybindings
+2026-04-24 18:39:34,517 INFO     site2vault.crawler Written: docs/en/Customize keyboard shortcuts - Claude Code Docs.md  <-  https://code.claude.com/docs/en/keybindings
+2026-04-24 18:39:34,795 INFO     site2vault.crawler Fetching: https://code.claude.com/docs/en/plugin-hints
+2026-04-24 18:39:35,028 INFO     site2vault.crawler Written: docs/en/Recommend your plugin from your CLI - Claude Code Docs.md  <-  https://code.claude.com/docs/en/plugin-hints
+2026-04-24 18:39:35,336 INFO     site2vault.crawler Fetching: https://code.claude.com/docs/en/plugin-dependencies
+2026-04-24 18:39:35,599 INFO     site2vault.crawler Written: docs/en/Constrain plugin dependency versions - Claude Code Docs.md  <-  https://code.claude.com/docs/en/plugin-dependencies
+2026-04-24 18:39:36,366 INFO     site2vault.crawler Fetching: https://code.claude.com/docs/en/claude-directory
+2026-04-24 18:39:36,652 INFO     site2vault.crawler Written: docs/en/Explore the .claude directory - Claude Code Docs.md  <-  https://code.claude.com/docs/en/claude-directory
+2026-04-24 18:39:37,269 INFO     site2vault.crawler Fetching: https://code.claude.com/docs/en/agent-sdk/claude-code-features
+2026-04-24 18:39:38,600 INFO     site2vault.crawler Written: docs/en/agent-sdk/Use Claude Code features in the SDK - Claude Code Docs.md  <-  https://code.claude.com/docs/en/agent-sdk/claude-code-features
+2026-04-24 18:39:38,759 INFO     site2vault.crawler Fetching: https://code.claude.com/docs/en/agent-sdk/streaming-vs-single-mode
+2026-04-24 18:39:39,034 INFO     site2vault.crawler Written: docs/en/agent-sdk/Streaming Input - Claude Code Docs.md  <-  https://code.claude.com/docs/en/agent-sdk/streaming-vs-single-mode
+2026-04-24 18:39:39,439 INFO     site2vault.crawler Fetching: https://code.claude.com/docs/en/agent-sdk/user-input
+2026-04-24 18:39:40,003 INFO     site2vault.crawler Written: docs/en/agent-sdk/Handle approvals and user input - Claude Code Docs.md  <-  https://code.claude.com/docs/en/agent-sdk/user-input
+2026-04-24 18:39:40,136 INFO     site2vault.crawler Fetching: https://code.claude.com/docs/en/agent-sdk/permissions
+2026-04-24 18:39:40,424 INFO     site2vault.crawler Written: docs/en/agent-sdk/Configure permissions - Claude Code Docs-dbd6de.md  <-  https://code.claude.com/docs/en/agent-sdk/permissions
+2026-04-24 18:39:41,103 INFO     site2vault.crawler Fetching: https://code.claude.com/docs/en/agent-sdk/hooks
+2026-04-24 18:39:41,693 INFO     site2vault.crawler Written: docs/en/agent-sdk/Intercept and control agent behavior with hooks - Claude Code Docs.md  <-  https://code.claude.com/docs/en/agent-sdk/hooks
+2026-04-24 18:39:42,143 INFO     site2vault.crawler Fetching: https://code.claude.com/docs/en/agent-sdk/sessions
+2026-04-24 18:39:42,500 INFO     site2vault.crawler Written: docs/en/agent-sdk/Work with sessions - Claude Code Docs.md  <-  https://code.claude.com/docs/en/agent-sdk/sessions
+2026-04-24 18:39:43,361 INFO     site2vault.crawler Fetching: https://code.claude.com/docs/en/agent-sdk/mcp
+2026-04-24 18:39:43,864 INFO     site2vault.crawler Written: docs/en/agent-sdk/Connect to external tools with MCP - Claude Code Docs.md  <-  https://code.claude.com/docs/en/agent-sdk/mcp
+2026-04-24 18:39:44,279 INFO     site2vault.crawler Fetching: https://code.claude.com/docs/en/agent-sdk/hosting
+2026-04-24 18:39:44,530 INFO     site2vault.crawler Written: docs/en/agent-sdk/Hosting the Agent SDK - Claude Code Docs.md  <-  https://code.claude.com/docs/en/agent-sdk/hosting
+2026-04-24 18:39:45,375 INFO     site2vault.crawler Fetching: https://code.claude.com/docs/en/agent-sdk/skills
+2026-04-24 18:39:45,697 INFO     site2vault.crawler Written: docs/en/agent-sdk/Agent Skills in the SDK - Claude Code Docs.md  <-  https://code.claude.com/docs/en/agent-sdk/skills
+2026-04-24 18:39:46,182 INFO     site2vault.crawler Fetching: https://code.claude.com/docs/en/agent-sdk/subagents
+2026-04-24 18:39:46,613 INFO     site2vault.crawler Written: docs/en/agent-sdk/Subagents in the SDK - Claude Code Docs.md  <-  https://code.claude.com/docs/en/agent-sdk/subagents
+2026-04-24 18:39:47,242 INFO     site2vault.crawler Fetching: https://code.claude.com/docs/en/agent-sdk/custom-tools
+2026-04-24 18:39:47,857 INFO     site2vault.crawler Written: docs/en/agent-sdk/Give Claude custom tools - Claude Code Docs.md  <-  https://code.claude.com/docs/en/agent-sdk/custom-tools
+2026-04-24 18:39:47,859 INFO     site2vault.crawler Crawl complete: 108 total, 105 done, 1 failed, 2 skipped, 0 pending
+2026-04-24 18:39:47,861 INFO     site2vault.crawler   Host code.claude.com: 108 requests, 1 errors
+2026-04-24 18:39:47,925 DEBUG    site2vault.rewrite Unresolved anchor: #using-with-aws-bedrock-%26-google-vertex-ai
+2026-04-24 18:39:47,940 DEBUG    site2vault.rewrite Unresolved anchor: #use-mcp-servers-from-claude-ai
+2026-04-24 18:39:47,950 DEBUG    site2vault.rewrite Unresolved anchor: #claude-md-files
+2026-04-24 18:39:47,950 DEBUG    site2vault.rewrite Unresolved anchor: #organize-rules-with-claude/rules/
+2026-04-24 18:39:47,951 DEBUG    site2vault.rewrite Unresolved anchor: #organize-rules-with-claude/rules/
+2026-04-24 18:39:47,951 DEBUG    site2vault.rewrite Unresolved anchor: #how-claude-md-files-load
+2026-04-24 18:39:47,951 DEBUG    site2vault.rewrite Unresolved anchor: #organize-rules-with-claude/rules/
+2026-04-24 18:39:47,951 DEBUG    site2vault.rewrite Unresolved anchor: #organize-rules-with-claude/rules/
+2026-04-24 18:39:47,951 DEBUG    site2vault.rewrite Unresolved anchor: #exclude-specific-claude-md-files
+2026-04-24 18:39:47,951 DEBUG    site2vault.rewrite Unresolved anchor: #organize-rules-with-claude/rules/
+2026-04-24 18:39:47,951 DEBUG    site2vault.rewrite Unresolved anchor: #exclude-specific-claude-md-files
+2026-04-24 18:39:47,952 DEBUG    site2vault.rewrite Unresolved anchor: #view-and-edit-with-memory
+2026-04-24 18:39:47,952 DEBUG    site2vault.rewrite Unresolved anchor: #choose-where-to-put-claude-md-files
+2026-04-24 18:39:47,975 DEBUG    site2vault.rewrite Unresolved anchor: #side-questions-with-%2Fbtw
+2026-04-24 18:39:48,002 DEBUG    site2vault.rewrite Unresolved anchor: #customize-the-default-prompt-with-loop-md
+2026-04-24 18:39:48,057 DEBUG    site2vault.rewrite Unresolved anchor: #review-md
+2026-04-24 18:39:48,085 DEBUG    site2vault.rewrite Unresolved anchor: #illegal-instruction-on-linux
+2026-04-24 18:39:48,085 DEBUG    site2vault.rewrite Unresolved anchor: #dyld-cannot-load-on-macos
+2026-04-24 18:39:48,115 DEBUG    site2vault.rewrite Unresolved anchor: #use-mcp-servers-from-claude-ai
+2026-04-24 18:39:48,134 DEBUG    site2vault.rewrite Unresolved anchor: #default-model-setting
+2026-04-24 18:39:48,149 DEBUG    site2vault.rewrite Unresolved anchor: #dyld-cannot-load-on-macos
+2026-04-24 18:39:48,193 DEBUG    site2vault.rewrite Unresolved anchor: #the-hooks-menu
+2026-04-24 18:39:48,216 DEBUG    site2vault.rewrite Unresolved anchor: #how-claude-md-files-load
+2026-04-24 18:39:48,217 DEBUG    site2vault.rewrite Unresolved anchor: #how-claude-md-files-load
+2026-04-24 18:39:48,224 DEBUG    site2vault.rewrite Unresolved anchor: #how-claude-md-files-load
+2026-04-24 18:39:48,229 DEBUG    site2vault.rewrite Unresolved anchor: #who-can-use-claude-code-on-the-web
+2026-04-24 18:39:48,229 DEBUG    site2vault.rewrite Unresolved anchor: #side-questions-with-%2Fbtw
+2026-04-24 18:39:48,230 DEBUG    site2vault.rewrite Unresolved anchor: #using-the-%2Fusage-command
+2026-04-24 18:39:48,255 DEBUG    site2vault.rewrite Unresolved anchor: #claude-agent-options
+2026-04-24 18:39:48,328 DEBUG    site2vault.rewrite Unresolved anchor: #thinking-type-enabled-is-not-supported-for-this-model
+2026-04-24 18:39:48,363 DEBUG    site2vault.rewrite Unresolved anchor: #use-the-%2Fstatusline-command
+2026-04-24 18:39:48,364 DEBUG    site2vault.rewrite Unresolved anchor: #use-the-%2Fstatusline-command
+2026-04-24 18:39:48,390 DEBUG    site2vault.rewrite Unresolved anchor: #scroll-actions
+2026-04-24 18:39:48,415 DEBUG    site2vault.rewrite Unresolved anchor: #tool-annotations
+2026-04-24 18:39:48,415 DEBUG    site2vault.rewrite Unresolved anchor: #tag-session
+2026-04-24 18:39:48,415 DEBUG    site2vault.rewrite Unresolved anchor: #return-type-sdk-session-info
+2026-04-24 18:39:48,415 DEBUG    site2vault.rewrite Unresolved anchor: #return-type-sdk-session-info
+2026-04-24 18:39:48,415 DEBUG    site2vault.rewrite Unresolved anchor: #mcp-status-response
+2026-04-24 18:39:48,416 DEBUG    site2vault.rewrite Unresolved anchor: #task-notification-message
+2026-04-24 18:39:48,416 DEBUG    site2vault.rewrite Unresolved anchor: #sdk-beta
+2026-04-24 18:39:48,416 DEBUG    site2vault.rewrite Unresolved anchor: #can-use-tool
+2026-04-24 18:39:48,416 DEBUG    site2vault.rewrite Unresolved anchor: #can-use-tool
+2026-04-24 18:39:48,416 DEBUG    site2vault.rewrite Unresolved anchor: #stream-event
+2026-04-24 18:39:48,416 DEBUG    site2vault.rewrite Unresolved anchor: #sandbox-settings
+2026-04-24 18:39:48,416 DEBUG    site2vault.rewrite Unresolved anchor: #sandbox-settings
+2026-04-24 18:39:48,416 DEBUG    site2vault.rewrite Unresolved anchor: #thinking-config
+2026-04-24 18:39:48,417 DEBUG    site2vault.rewrite Unresolved anchor: #permission-mode
+2026-04-24 18:39:48,417 DEBUG    site2vault.rewrite Unresolved anchor: #mcp-server-config
+2026-04-24 18:39:48,417 DEBUG    site2vault.rewrite Unresolved anchor: #mcp-sdk-server-config
+2026-04-24 18:39:48,417 DEBUG    site2vault.rewrite Unresolved anchor: #mcp-status-response
+2026-04-24 18:39:48,417 DEBUG    site2vault.rewrite Unresolved anchor: #mcp-server-status-config
+2026-04-24 18:39:48,417 DEBUG    site2vault.rewrite Unresolved anchor: #mcp-server-config
+2026-04-24 18:39:48,417 DEBUG    site2vault.rewrite Unresolved anchor: #assistant-message-error
+2026-04-24 18:39:48,418 DEBUG    site2vault.rewrite Unresolved anchor: #result-message
+2026-04-24 18:39:48,418 DEBUG    site2vault.rewrite Unresolved anchor: #model-usage
+2026-04-24 18:39:48,418 DEBUG    site2vault.rewrite Unresolved anchor: #rate-limit-info
+2026-04-24 18:39:48,418 DEBUG    site2vault.rewrite Unresolved anchor: #rate-limit-event
+2026-04-24 18:39:48,418 DEBUG    site2vault.rewrite Unresolved anchor: #hook-input
+2026-04-24 18:39:48,418 DEBUG    site2vault.rewrite Unresolved anchor: #hook-json-output
+2026-04-24 18:39:48,418 DEBUG    site2vault.rewrite Unresolved anchor: #sandbox-network-config
+2026-04-24 18:39:48,419 DEBUG    site2vault.rewrite Unresolved anchor: #sandbox-ignore-violations
+2026-04-24 18:39:48,425 DEBUG    site2vault.rewrite Unresolved anchor: #query-object
+2026-04-24 18:39:48,425 DEBUG    site2vault.rewrite Unresolved anchor: #warm-query
+2026-04-24 18:39:48,425 DEBUG    site2vault.rewrite Unresolved anchor: #return-type-sdk-session-info
+2026-04-24 18:39:48,425 DEBUG    site2vault.rewrite Unresolved anchor: #sandbox-settings
+2026-04-24 18:39:48,426 DEBUG    site2vault.rewrite Unresolved anchor: #thinking-config
+2026-04-24 18:39:48,426 DEBUG    site2vault.rewrite Unresolved anchor: #tool-config
+2026-04-24 18:39:48,426 DEBUG    site2vault.rewrite Unresolved anchor: #mcp-server-config
+2026-04-24 18:39:48,447 DEBUG    site2vault.rewrite Unresolved anchor: #organize-rules-with-claude/rules/
+2026-04-24 18:39:48,452 DEBUG    site2vault.rewrite Unresolved anchor: #claude-agent-options
+2026-04-24 18:39:48,452 DEBUG    site2vault.rewrite Unresolved anchor: #setting-source
+2026-04-24 18:39:48,452 DEBUG    site2vault.rewrite Unresolved anchor: #setting-source
+2026-04-24 18:39:48,452 DEBUG    site2vault.rewrite Unresolved anchor: #setting-source
+2026-04-24 18:39:48,457 DEBUG    site2vault.rewrite Unresolved anchor: #tool-input-output-types
+2026-04-24 18:39:48,458 DEBUG    site2vault.rewrite Unresolved anchor: #can-use-tool
+2026-04-24 18:39:48,466 DEBUG    site2vault.rewrite Unresolved anchor: #setting-source
+2026-04-24 18:39:48,466 DEBUG    site2vault.rewrite Unresolved anchor: #setting-source
+2026-04-24 18:39:48,466 DEBUG    site2vault.rewrite Unresolved anchor: #hook-input
+2026-04-24 18:39:48,466 DEBUG    site2vault.rewrite Unresolved anchor: #hook-input
+2026-04-24 18:39:48,467 DEBUG    site2vault.rewrite Unresolved anchor: #sync-hook-json-output
+2026-04-24 18:39:48,467 DEBUG    site2vault.rewrite Unresolved anchor: #sync-hook-json-output
+2026-04-24 18:39:48,467 DEBUG    site2vault.rewrite Unresolved anchor: #hook-input
+2026-04-24 18:39:48,467 DEBUG    site2vault.rewrite Unresolved anchor: #hook-input
+2026-04-24 18:39:48,467 DEBUG    site2vault.rewrite Unresolved anchor: #setting-source
+2026-04-24 18:39:48,467 DEBUG    site2vault.rewrite Unresolved anchor: #setting-source
+2026-04-24 18:39:48,473 DEBUG    site2vault.rewrite Unresolved anchor: #claude-agent-options
+2026-04-24 18:39:48,473 DEBUG    site2vault.rewrite Unresolved anchor: #claude-sdk-client
+2026-04-24 18:39:48,473 DEBUG    site2vault.rewrite Unresolved anchor: #claude-sdk-client
+2026-04-24 18:39:48,473 DEBUG    site2vault.rewrite Unresolved anchor: #choosing-between-query-and-claude-sdk-client
+2026-04-24 18:39:48,473 DEBUG    site2vault.rewrite Unresolved anchor: #result-message
+2026-04-24 18:39:48,473 DEBUG    site2vault.rewrite Unresolved anchor: #sdk-result-message
+2026-04-24 18:39:48,474 DEBUG    site2vault.rewrite Unresolved anchor: #list-sessions
+2026-04-24 18:39:48,474 DEBUG    site2vault.rewrite Unresolved anchor: #get-session-messages
+2026-04-24 18:39:48,474 DEBUG    site2vault.rewrite Unresolved anchor: #list-sessions
+2026-04-24 18:39:48,474 DEBUG    site2vault.rewrite Unresolved anchor: #get-session-messages
+2026-04-24 18:39:48,474 DEBUG    site2vault.rewrite Unresolved anchor: #get-session-info
+2026-04-24 18:39:48,474 DEBUG    site2vault.rewrite Unresolved anchor: #rename-session
+2026-04-24 18:39:48,474 DEBUG    site2vault.rewrite Unresolved anchor: #tag-session
+2026-04-24 18:39:48,474 DEBUG    site2vault.rewrite Unresolved anchor: #get-session-info
+2026-04-24 18:39:48,475 DEBUG    site2vault.rewrite Unresolved anchor: #rename-session
+2026-04-24 18:39:48,475 DEBUG    site2vault.rewrite Unresolved anchor: #tag-session
+2026-04-24 18:39:48,475 DEBUG    site2vault.rewrite Unresolved anchor: #claude-agent-options
+2026-04-24 18:39:48,486 DEBUG    site2vault.rewrite Unresolved anchor: #sandbox-settings
+2026-04-24 18:39:48,486 DEBUG    site2vault.rewrite Unresolved anchor: #sandbox-settings
+2026-04-24 18:39:48,490 DEBUG    site2vault.rewrite Unresolved anchor: #setting-source
+2026-04-24 18:39:48,491 DEBUG    site2vault.rewrite Unresolved anchor: #setting-source
+2026-04-24 18:39:48,495 DEBUG    site2vault.rewrite Unresolved anchor: #agent-definition
+2026-04-24 18:39:48,495 DEBUG    site2vault.rewrite Unresolved anchor: #agent-definition
+2026-04-24 18:39:48,495 DEBUG    site2vault.rewrite Unresolved anchor: #agent-definition
+2026-04-24 18:39:48,500 DEBUG    site2vault.rewrite Unresolved anchor: #tool
+2026-04-24 18:39:48,500 DEBUG    site2vault.rewrite Unresolved anchor: #create-sdk-mcp-server
+2026-04-24 18:39:48,500 DEBUG    site2vault.rewrite Unresolved anchor: #create-sdk-mcp-server
+2026-04-24 18:39:48,500 DEBUG    site2vault.rewrite Unresolved anchor: #tool
+2026-04-24 18:39:48,500 DEBUG    site2vault.rewrite Unresolved anchor: #tool-annotations
+2026-04-24 18:39:48,500 DEBUG    site2vault.rewrite Unresolved anchor: #tool-annotations
+2026-04-24 18:39:48,504 INFO     site2vault.rewrite Rewritten links in 104 notes
+2026-04-24 18:39:48,518 INFO     site2vault.index Generated index with 105 notes
+2026-04-24 18:39:48,529 INFO     site2vault.orchestrator site2vault finished.

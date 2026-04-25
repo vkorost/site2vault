@@ -1,0 +1,50 @@
+{
+  "S2V_LINK_0": {
+    "url": "https://json-schema.org/understanding-json-schema/about",
+    "text": "JSON Schema"
+  },
+  "S2V_LINK_1": {
+    "url": "#error-handling",
+    "text": "Error handling"
+  },
+  "S2V_LINK_2": {
+    "url": "#type-safe-schemas-with-zod-and-pydantic",
+    "text": "Zod"
+  },
+  "S2V_LINK_3": {
+    "url": "#type-safe-schemas-with-zod-and-pydantic",
+    "text": "Pydantic"
+  },
+  "S2V_LINK_4": {
+    "url": "https://json-schema.org/understanding-json-schema/about",
+    "text": "JSON Schema"
+  },
+  "S2V_LINK_5": {
+    "url": "https://zod.dev/",
+    "text": "Zod"
+  },
+  "S2V_LINK_6": {
+    "url": "https://docs.pydantic.dev/latest/",
+    "text": "Pydantic"
+  },
+  "S2V_LINK_7": {
+    "url": "https://json-schema.org/understanding-json-schema/about",
+    "text": "JSON Schema"
+  },
+  "S2V_LINK_8": {
+    "url": "https://platform.claude.com/docs/en/build-with-claude/structured-outputs#json-schema-limitations",
+    "text": "JSON Schema limitations"
+  },
+  "S2V_LINK_9": {
+    "url": "https://json-schema.org/",
+    "text": "JSON Schema documentation"
+  },
+  "S2V_LINK_10": {
+    "url": "https://platform.claude.com/docs/en/build-with-claude/structured-outputs",
+    "text": "API Structured Outputs"
+  },
+  "S2V_LINK_11": {
+    "url": "/docs/en/agent-sdk/custom-tools",
+    "text": "Custom tools"
+  }
+}

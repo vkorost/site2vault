@@ -1,0 +1,132 @@
+[
+  {
+    "level": 2,
+    "text": "Overview",
+    "slug": "overview"
+  },
+  {
+    "level": 2,
+    "text": "Why sandboxing matters",
+    "slug": "why-sandboxing-matters"
+  },
+  {
+    "level": 2,
+    "text": "How it works",
+    "slug": "how-it-works"
+  },
+  {
+    "level": 3,
+    "text": "Filesystem isolation",
+    "slug": "filesystem-isolation"
+  },
+  {
+    "level": 3,
+    "text": "Network isolation",
+    "slug": "network-isolation"
+  },
+  {
+    "level": 3,
+    "text": "OS-level enforcement",
+    "slug": "os-level-enforcement"
+  },
+  {
+    "level": 2,
+    "text": "Getting started",
+    "slug": "getting-started"
+  },
+  {
+    "level": 3,
+    "text": "Prerequisites",
+    "slug": "prerequisites"
+  },
+  {
+    "level": 3,
+    "text": "Enable sandboxing",
+    "slug": "enable-sandboxing"
+  },
+  {
+    "level": 3,
+    "text": "Sandbox modes",
+    "slug": "sandbox-modes"
+  },
+  {
+    "level": 3,
+    "text": "Configure sandboxing",
+    "slug": "configure-sandboxing"
+  },
+  {
+    "level": 4,
+    "text": "Granting subprocess write access to specific paths",
+    "slug": "granting-subprocess-write-access-to-specific-paths"
+  },
+  {
+    "level": 2,
+    "text": "Security benefits",
+    "slug": "security-benefits"
+  },
+  {
+    "level": 3,
+    "text": "Protection against prompt injection",
+    "slug": "protection-against-prompt-injection"
+  },
+  {
+    "level": 3,
+    "text": "Reduced attack surface",
+    "slug": "reduced-attack-surface"
+  },
+  {
+    "level": 3,
+    "text": "Transparent operation",
+    "slug": "transparent-operation"
+  },
+  {
+    "level": 2,
+    "text": "Security Limitations",
+    "slug": "security-limitations"
+  },
+  {
+    "level": 2,
+    "text": "How sandboxing relates to permissions",
+    "slug": "how-sandboxing-relates-to-permissions"
+  },
+  {
+    "level": 2,
+    "text": "Advanced usage",
+    "slug": "advanced-usage"
+  },
+  {
+    "level": 3,
+    "text": "Custom proxy configuration",
+    "slug": "custom-proxy-configuration"
+  },
+  {
+    "level": 3,
+    "text": "Integration with existing security tools",
+    "slug": "integration-with-existing-security-tools"
+  },
+  {
+    "level": 2,
+    "text": "Best practices",
+    "slug": "best-practices"
+  },
+  {
+    "level": 2,
+    "text": "Open source",
+    "slug": "open-source"
+  },
+  {
+    "level": 2,
+    "text": "Limitations",
+    "slug": "limitations"
+  },
+  {
+    "level": 2,
+    "text": "What sandboxing does not cover",
+    "slug": "what-sandboxing-does-not-cover"
+  },
+  {
+    "level": 2,
+    "text": "See also",
+    "slug": "see-also"
+  }
+]

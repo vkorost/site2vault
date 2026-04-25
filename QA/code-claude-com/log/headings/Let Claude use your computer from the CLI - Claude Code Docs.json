@@ -1,0 +1,102 @@
+[
+  {
+    "level": 2,
+    "text": "What you can do with computer use",
+    "slug": "what-you-can-do-with-computer-use"
+  },
+  {
+    "level": 2,
+    "text": "When computer use applies",
+    "slug": "when-computer-use-applies"
+  },
+  {
+    "level": 2,
+    "text": "Enable computer use",
+    "slug": "enable-computer-use"
+  },
+  {
+    "level": 2,
+    "text": "Approve apps per session",
+    "slug": "approve-apps-per-session"
+  },
+  {
+    "level": 2,
+    "text": "How Claude works on your screen",
+    "slug": "how-claude-works-on-your-screen"
+  },
+  {
+    "level": 3,
+    "text": "One session at a time",
+    "slug": "one-session-at-a-time"
+  },
+  {
+    "level": 3,
+    "text": "Apps are hidden while Claude works",
+    "slug": "apps-are-hidden-while-claude-works"
+  },
+  {
+    "level": 3,
+    "text": "Screenshots are downscaled automatically",
+    "slug": "screenshots-are-downscaled-automatically"
+  },
+  {
+    "level": 3,
+    "text": "Stop at any time",
+    "slug": "stop-at-any-time"
+  },
+  {
+    "level": 2,
+    "text": "Safety and the trust boundary",
+    "slug": "safety-and-the-trust-boundary"
+  },
+  {
+    "level": 2,
+    "text": "Example workflows",
+    "slug": "example-workflows"
+  },
+  {
+    "level": 3,
+    "text": "Validate a native build",
+    "slug": "validate-a-native-build"
+  },
+  {
+    "level": 3,
+    "text": "Reproduce a layout bug",
+    "slug": "reproduce-a-layout-bug"
+  },
+  {
+    "level": 3,
+    "text": "Test a simulator flow",
+    "slug": "test-a-simulator-flow"
+  },
+  {
+    "level": 2,
+    "text": "Differences from the Desktop app",
+    "slug": "differences-from-the-desktop-app"
+  },
+  {
+    "level": 2,
+    "text": "Troubleshooting",
+    "slug": "troubleshooting"
+  },
+  {
+    "level": 3,
+    "text": "\u201dComputer use is in use by another Claude session\u201d",
+    "slug": "computer-use-is-in-use-by-another-claude-session"
+  },
+  {
+    "level": 3,
+    "text": "macOS permissions prompt keeps reappearing",
+    "slug": "macos-permissions-prompt-keeps-reappearing"
+  },
+  {
+    "level": 3,
+    "text": "computer-usedoesn\u2019t appear in/mcp",
+    "slug": "computer-usedoesnt-appear-inmcp"
+  },
+  {
+    "level": 2,
+    "text": "See also",
+    "slug": "see-also"
+  }
+]

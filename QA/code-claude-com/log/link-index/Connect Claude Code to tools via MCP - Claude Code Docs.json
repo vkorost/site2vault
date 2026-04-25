@@ -1,0 +1,90 @@
+{
+  "S2V_LINK_0": {
+    "url": "https://modelcontextprotocol.io/introduction",
+    "text": "Model Context Protocol (MCP)"
+  },
+  "S2V_LINK_1": {
+    "url": "/docs/en/channels",
+    "text": "channel"
+  },
+  "S2V_LINK_2": {
+    "url": "https://github.com/modelcontextprotocol/servers",
+    "text": "Find hundreds more MCP servers on GitHub"
+  },
+  "S2V_LINK_3": {
+    "url": "https://modelcontextprotocol.io/quickstart/server",
+    "text": "MCP SDK"
+  },
+  "S2V_LINK_4": {
+    "url": "/docs/en/channels",
+    "text": "Channels"
+  },
+  "S2V_LINK_5": {
+    "url": "/docs/en/channels-reference",
+    "text": "Channels reference"
+  },
+  "S2V_LINK_6": {
+    "url": "/docs/en/plugins",
+    "text": "Plugins"
+  },
+  "S2V_LINK_7": {
+    "url": "/docs/en/plugins-reference#persistent-data-directory",
+    "text": "persistent state"
+  },
+  "S2V_LINK_8": {
+    "url": "/docs/en/plugins-reference#mcp-servers",
+    "text": "plugin components reference"
+  },
+  "S2V_LINK_9": {
+    "url": "/docs/en/settings#settings-files",
+    "text": "Settings"
+  },
+  "S2V_LINK_10": {
+    "url": "/docs/en/plugins",
+    "text": "Plugin-provided servers"
+  },
+  "S2V_LINK_11": {
+    "url": "#use-mcp-servers-from-claude-ai",
+    "text": "claude.ai connectors"
+  },
+  "S2V_LINK_12": {
+    "url": "https://github.com/settings/personal-access-tokens",
+    "text": "GitHub token settings"
+  },
+  "S2V_LINK_13": {
+    "url": "https://claude.ai",
+    "text": "Claude.ai"
+  },
+  "S2V_LINK_14": {
+    "url": "https://claude.ai/customize/connectors",
+    "text": "claude.ai/customize/connectors"
+  },
+  "S2V_LINK_15": {
+    "url": "#raise-the-limit-for-a-specific-tool",
+    "text": ""
+  },
+  "S2V_LINK_16": {
+    "url": "/docs/en/hooks#elicitation",
+    "text": ". If you\u2019re building an MCP server that uses elicitation, see the"
+  },
+  "S2V_LINK_17": {
+    "url": "https://modelcontextprotocol.io/docs/learn/client-concepts#elicitation",
+    "text": "MCP elicitation specification"
+  },
+  "S2V_LINK_18": {
+    "url": "#configure-tool-search",
+    "text": "Configure tool search"
+  },
+  "S2V_LINK_19": {
+    "url": "/docs/en/skills",
+    "text": "skills"
+  },
+  "S2V_LINK_20": {
+    "url": "/docs/en/settings#available-settings",
+    "text": "settings.json"
+  },
+  "S2V_LINK_21": {
+    "url": "/docs/en/settings#settings-files",
+    "text": "managed settings file"
+  }
+}

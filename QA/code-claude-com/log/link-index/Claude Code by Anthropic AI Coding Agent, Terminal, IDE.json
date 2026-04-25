@@ -1,0 +1,34 @@
+{
+  "S2V_LINK_0": {
+    "url": "https://slack.com/oauth/v2/authorize?client_id=1601185624273.8899143856786&scope=app_mentions:read,assistant:write,channels:history,channels:read,chat:write,files:read,files:write,groups:history,groups:read,im:history,im:read,im:write,mpim:history,reactions:write,users:read,users:read.email,commands,search:read.public&user_scope=bookmarks:read,channels:history,channels:read,chat:write,emoji:read,files:read,groups:history,groups:read,groups:write,im:history,im:read,im:write,links:read,mpim:history,mpim:read,mpim:write,mpim:write.topic,pins:read,reactions:read,reactions:write,remote_files:read,team:read,users:read,users:read.email,search:read.public,search:read.private,search:read.im,search:read.mpim,search:read.files,search:read.users,canvases:read,canvases:write",
+    "text": "Slack App Marketplace"
+  },
+  "S2V_LINK_1": {
+    "url": "/product/claude-code/enterprise",
+    "text": "Learn more here"
+  },
+  "S2V_LINK_2": {
+    "url": "https://support.anthropic.com/en/articles/9797557-usage-limit-best-practices",
+    "text": "Usage limits"
+  },
+  "S2V_LINK_3": {
+    "url": "/cdn-cgi/l/email-protection",
+    "text": "[email\u00a0protected]"
+  },
+  "S2V_LINK_4": {
+    "url": "https://code.claude.com/docs/en/overview",
+    "text": "Download Claude Code"
+  },
+  "S2V_LINK_5": {
+    "url": "https://docs.claude.com/en/docs/claude-code/setup#system-requirements",
+    "text": "See full system requirements"
+  },
+  "S2V_LINK_6": {
+    "url": "https://anthropic.com/pricing#api",
+    "text": "standard API pricing"
+  },
+  "S2V_LINK_7": {
+    "url": "https://www.claude.com/download",
+    "text": "Claude desktop app"
+  }
+}

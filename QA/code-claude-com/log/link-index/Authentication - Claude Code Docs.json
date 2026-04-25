@@ -1,0 +1,134 @@
+{
+  "S2V_LINK_0": {
+    "url": "/docs/en/setup#install-claude-code",
+    "text": "installing Claude Code"
+  },
+  "S2V_LINK_1": {
+    "url": "https://claude.com/pricing?utm_source=claude_code&utm_medium=docs&utm_content=authentication_pro_max",
+    "text": "claude.com/pricing"
+  },
+  "S2V_LINK_2": {
+    "url": "#claude-console-authentication",
+    "text": "invited you"
+  },
+  "S2V_LINK_3": {
+    "url": "/docs/en/amazon-bedrock",
+    "text": "Amazon Bedrock"
+  },
+  "S2V_LINK_4": {
+    "url": "/docs/en/google-vertex-ai",
+    "text": "Google Vertex AI"
+  },
+  "S2V_LINK_5": {
+    "url": "/docs/en/microsoft-foundry",
+    "text": "Microsoft Foundry"
+  },
+  "S2V_LINK_6": {
+    "url": "/docs/en/troubleshooting#authentication-issues",
+    "text": "authentication troubleshooting"
+  },
+  "S2V_LINK_7": {
+    "url": "#claude-for-teams-or-enterprise",
+    "text": "Claude for Teams or Enterprise"
+  },
+  "S2V_LINK_8": {
+    "url": "#claude-console-authentication",
+    "text": "Claude Console"
+  },
+  "S2V_LINK_9": {
+    "url": "/docs/en/amazon-bedrock",
+    "text": "Amazon Bedrock"
+  },
+  "S2V_LINK_10": {
+    "url": "/docs/en/google-vertex-ai",
+    "text": "Google Vertex AI"
+  },
+  "S2V_LINK_11": {
+    "url": "/docs/en/microsoft-foundry",
+    "text": "Microsoft Foundry"
+  },
+  "S2V_LINK_12": {
+    "url": "https://claude.com/pricing?utm_source=claude_code&utm_medium=docs&utm_content=authentication_teams#team-&-enterprise",
+    "text": "Claude for Teams"
+  },
+  "S2V_LINK_13": {
+    "url": "https://anthropic.com/contact-sales?utm_source=claude_code&utm_medium=docs&utm_content=authentication_enterprise",
+    "text": "Claude for Enterprise"
+  },
+  "S2V_LINK_14": {
+    "url": "https://claude.com/pricing?utm_source=claude_code&utm_medium=docs&utm_content=authentication_teams_step#team-&-enterprise",
+    "text": "Claude for Teams"
+  },
+  "S2V_LINK_15": {
+    "url": "https://anthropic.com/contact-sales?utm_source=claude_code&utm_medium=docs&utm_content=authentication_enterprise_step",
+    "text": "Claude for Enterprise"
+  },
+  "S2V_LINK_16": {
+    "url": "https://support.claude.com/en/articles/13132885-setting-up-single-sign-on-sso",
+    "text": "Set up SSO"
+  },
+  "S2V_LINK_17": {
+    "url": "/docs/en/setup#system-requirements",
+    "text": "Check system requirements"
+  },
+  "S2V_LINK_18": {
+    "url": "/docs/en/setup#install-claude-code",
+    "text": "Install Claude Code"
+  },
+  "S2V_LINK_19": {
+    "url": "/docs/en/amazon-bedrock",
+    "text": "Bedrock docs"
+  },
+  "S2V_LINK_20": {
+    "url": "/docs/en/google-vertex-ai",
+    "text": "Vertex docs"
+  },
+  "S2V_LINK_21": {
+    "url": "/docs/en/microsoft-foundry",
+    "text": "Microsoft Foundry docs"
+  },
+  "S2V_LINK_22": {
+    "url": "/docs/en/settings",
+    "text": "manage configuration here"
+  },
+  "S2V_LINK_23": {
+    "url": "/docs/en/setup#install-claude-code",
+    "text": "install Claude Code"
+  },
+  "S2V_LINK_24": {
+    "url": "/docs/en/settings#available-settings",
+    "text": ""
+  },
+  "S2V_LINK_25": {
+    "url": "/docs/en/third-party-integrations",
+    "text": "third-party integrations"
+  },
+  "S2V_LINK_26": {
+    "url": "/docs/en/llm-gateway",
+    "text": "LLM gateway or proxy"
+  },
+  "S2V_LINK_27": {
+    "url": "https://platform.claude.com",
+    "text": "Claude Console"
+  },
+  "S2V_LINK_28": {
+    "url": "/docs/en/settings#available-settings",
+    "text": ""
+  },
+  "S2V_LINK_29": {
+    "url": "#generate-a-long-lived-token",
+    "text": ""
+  },
+  "S2V_LINK_30": {
+    "url": "/docs/en/claude-code-on-the-web",
+    "text": "Claude Code on the Web"
+  },
+  "S2V_LINK_31": {
+    "url": "/docs/en/remote-control",
+    "text": "Remote Control"
+  },
+  "S2V_LINK_32": {
+    "url": "/docs/en/headless#start-faster-with-bare-mode",
+    "text": "Bare mode"
+  }
+}

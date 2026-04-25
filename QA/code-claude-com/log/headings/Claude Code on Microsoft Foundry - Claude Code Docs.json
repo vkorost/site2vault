@@ -1,0 +1,42 @@
+[
+  {
+    "level": 2,
+    "text": "Prerequisites",
+    "slug": "prerequisites"
+  },
+  {
+    "level": 2,
+    "text": "Setup",
+    "slug": "setup"
+  },
+  {
+    "level": 3,
+    "text": "1. Provision Microsoft Foundry resource",
+    "slug": "1-provision-microsoft-foundry-resource"
+  },
+  {
+    "level": 3,
+    "text": "2. Configure Azure credentials",
+    "slug": "2-configure-azure-credentials"
+  },
+  {
+    "level": 3,
+    "text": "3. Configure Claude Code",
+    "slug": "3-configure-claude-code"
+  },
+  {
+    "level": 3,
+    "text": "4. Pin model versions",
+    "slug": "4-pin-model-versions"
+  },
+  {
+    "level": 2,
+    "text": "Azure RBAC configuration",
+    "slug": "azure-rbac-configuration"
+  },
+  {
+    "level": 2,
+    "text": "Troubleshooting",
+    "slug": "troubleshooting"
+  }
+]

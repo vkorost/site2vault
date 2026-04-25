@@ -1,0 +1,42 @@
+[
+  {
+    "level": 2,
+    "text": "How it works",
+    "slug": "how-it-works"
+  },
+  {
+    "level": 2,
+    "text": "Emit the hint",
+    "slug": "emit-the-hint"
+  },
+  {
+    "level": 2,
+    "text": "Choose where to emit",
+    "slug": "choose-where-to-emit"
+  },
+  {
+    "level": 2,
+    "text": "What the user sees",
+    "slug": "what-the-user-sees"
+  },
+  {
+    "level": 2,
+    "text": "Hint format",
+    "slug": "hint-format"
+  },
+  {
+    "level": 2,
+    "text": "Requirements",
+    "slug": "requirements"
+  },
+  {
+    "level": 2,
+    "text": "Get your plugin into the official marketplace",
+    "slug": "get-your-plugin-into-the-official-marketplace"
+  },
+  {
+    "level": 2,
+    "text": "See also",
+    "slug": "see-also"
+  }
+]

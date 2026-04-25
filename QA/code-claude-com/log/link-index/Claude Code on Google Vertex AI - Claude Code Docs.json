@@ -1,0 +1,114 @@
+{
+  "S2V_LINK_0": {
+    "url": "#sign-in-with-vertex-ai",
+    "text": "Sign in with Vertex AI"
+  },
+  "S2V_LINK_1": {
+    "url": "#set-up-manually",
+    "text": "manual setup"
+  },
+  "S2V_LINK_2": {
+    "url": "#5-pin-model-versions",
+    "text": "pin your model versions"
+  },
+  "S2V_LINK_3": {
+    "url": "#1-enable-vertex-ai-api",
+    "text": "Enable the Vertex AI API"
+  },
+  "S2V_LINK_4": {
+    "url": "https://console.cloud.google.com/vertex-ai/model-garden",
+    "text": "Vertex AI Model Garden"
+  },
+  "S2V_LINK_5": {
+    "url": "#iam-configuration",
+    "text": "IAM configuration"
+  },
+  "S2V_LINK_6": {
+    "url": "/docs/en/settings",
+    "text": "user settings file"
+  },
+  "S2V_LINK_7": {
+    "url": "https://cloud.google.com/blog/products/ai-machine-learning/global-endpoint-for-claude-models-generally-available-on-vertex-ai",
+    "text": "global"
+  },
+  "S2V_LINK_8": {
+    "url": "https://cloud.google.com/vertex-ai/generative-ai/docs/learn/locations#genai-partner-models",
+    "text": "specific regions"
+  },
+  "S2V_LINK_9": {
+    "url": "https://cloud.google.com/vertex-ai/generative-ai/docs/partner-models/use-partner-models#supported_models",
+    "text": "global endpoints"
+  },
+  "S2V_LINK_10": {
+    "url": "https://console.cloud.google.com/vertex-ai/model-garden",
+    "text": "Vertex AI Model Garden"
+  },
+  "S2V_LINK_11": {
+    "url": "https://cloud.google.com/docs/authentication",
+    "text": "Google Cloud authentication documentation"
+  },
+  "S2V_LINK_12": {
+    "url": "/docs/en/env-vars",
+    "text": "Environment variables reference"
+  },
+  "S2V_LINK_13": {
+    "url": "https://console.cloud.google.com/vertex-ai/model-garden",
+    "text": "Vertex Model Garden"
+  },
+  "S2V_LINK_14": {
+    "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-caching",
+    "text": "Prompt caching"
+  },
+  "S2V_LINK_15": {
+    "url": "/docs/en/mcp#scale-with-mcp-tool-search",
+    "text": "MCP tool search"
+  },
+  "S2V_LINK_16": {
+    "url": "https://platform.claude.com/docs/en/about-claude/models/overview",
+    "text": "Models overview"
+  },
+  "S2V_LINK_17": {
+    "url": "/docs/en/model-config#pin-models-for-third-party-deployments",
+    "text": "Model configuration"
+  },
+  "S2V_LINK_18": {
+    "url": "/docs/en/settings",
+    "text": "user settings file"
+  },
+  "S2V_LINK_19": {
+    "url": "https://console.cloud.google.com/vertex-ai/model-garden",
+    "text": "Model Garden"
+  },
+  "S2V_LINK_20": {
+    "url": "#5-pin-model-versions",
+    "text": "pin a version"
+  },
+  "S2V_LINK_21": {
+    "url": "https://cloud.google.com/vertex-ai/docs/general/access-control",
+    "text": "Vertex IAM documentation"
+  },
+  "S2V_LINK_22": {
+    "url": "https://platform.claude.com/docs/en/build-with-claude/context-windows#1m-token-context-window",
+    "text": "1M token context window"
+  },
+  "S2V_LINK_23": {
+    "url": "#sign-in-with-vertex-ai",
+    "text": "setup wizard"
+  },
+  "S2V_LINK_24": {
+    "url": "/docs/en/model-config#pin-models-for-third-party-deployments",
+    "text": "Pin models for third-party deployments"
+  },
+  "S2V_LINK_25": {
+    "url": "https://cloud.google.com/docs/quotas/view-manage",
+    "text": "Cloud Console"
+  },
+  "S2V_LINK_26": {
+    "url": "https://console.cloud.google.com/vertex-ai/model-garden",
+    "text": "Model Garden"
+  },
+  "S2V_LINK_27": {
+    "url": "https://console.cloud.google.com/vertex-ai/model-garden",
+    "text": "Model Garden"
+  }
+}

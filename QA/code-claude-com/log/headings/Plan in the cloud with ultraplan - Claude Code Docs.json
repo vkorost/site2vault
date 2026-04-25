@@ -1,0 +1,32 @@
+[
+  {
+    "level": 2,
+    "text": "Launch ultraplan from the CLI",
+    "slug": "launch-ultraplan-from-the-cli"
+  },
+  {
+    "level": 2,
+    "text": "Review and revise the plan in your browser",
+    "slug": "review-and-revise-the-plan-in-your-browser"
+  },
+  {
+    "level": 2,
+    "text": "Choose where to execute",
+    "slug": "choose-where-to-execute"
+  },
+  {
+    "level": 3,
+    "text": "Execute on the web",
+    "slug": "execute-on-the-web"
+  },
+  {
+    "level": 3,
+    "text": "Send the plan back to your terminal",
+    "slug": "send-the-plan-back-to-your-terminal"
+  },
+  {
+    "level": 2,
+    "text": "Related resources",
+    "slug": "related-resources"
+  }
+]

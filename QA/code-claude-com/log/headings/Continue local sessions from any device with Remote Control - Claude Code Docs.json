@@ -1,0 +1,87 @@
+[
+  {
+    "level": 2,
+    "text": "Requirements",
+    "slug": "requirements"
+  },
+  {
+    "level": 2,
+    "text": "Start a Remote Control session",
+    "slug": "start-a-remote-control-session"
+  },
+  {
+    "level": 3,
+    "text": "Connect from another device",
+    "slug": "connect-from-another-device"
+  },
+  {
+    "level": 3,
+    "text": "Enable Remote Control for all sessions",
+    "slug": "enable-remote-control-for-all-sessions"
+  },
+  {
+    "level": 2,
+    "text": "Connection and security",
+    "slug": "connection-and-security"
+  },
+  {
+    "level": 2,
+    "text": "Remote Control vs Claude Code on the web",
+    "slug": "remote-control-vs-claude-code-on-the-web"
+  },
+  {
+    "level": 2,
+    "text": "Mobile push notifications",
+    "slug": "mobile-push-notifications"
+  },
+  {
+    "level": 2,
+    "text": "Limitations",
+    "slug": "limitations"
+  },
+  {
+    "level": 2,
+    "text": "Troubleshooting",
+    "slug": "troubleshooting"
+  },
+  {
+    "level": 3,
+    "text": "\u201dRemote Control requires a claude.ai subscription\u201d",
+    "slug": "remote-control-requires-a-claudeai-subscription"
+  },
+  {
+    "level": 3,
+    "text": "\u201dRemote Control requires a full-scope login token\u201d",
+    "slug": "remote-control-requires-a-full-scope-login-token"
+  },
+  {
+    "level": 3,
+    "text": "\u201dUnable to determine your organization for Remote Control eligibility\u201d",
+    "slug": "unable-to-determine-your-organization-for-remote-control-eligibility"
+  },
+  {
+    "level": 3,
+    "text": "\u201dRemote Control is not yet enabled for your account\u201d",
+    "slug": "remote-control-is-not-yet-enabled-for-your-account"
+  },
+  {
+    "level": 3,
+    "text": "\u201dRemote Control is disabled by your organization\u2019s policy\u201d",
+    "slug": "remote-control-is-disabled-by-your-organizations-policy"
+  },
+  {
+    "level": 3,
+    "text": "\u201dRemote credentials fetch failed\u201d",
+    "slug": "remote-credentials-fetch-failed"
+  },
+  {
+    "level": 2,
+    "text": "Choose the right approach",
+    "slug": "choose-the-right-approach"
+  },
+  {
+    "level": 2,
+    "text": "Related resources",
+    "slug": "related-resources"
+  }
+]

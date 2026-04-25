@@ -1,0 +1,66 @@
+{
+  "S2V_LINK_0": {
+    "url": "/docs/en/data-usage",
+    "text": "data usage"
+  },
+  "S2V_LINK_1": {
+    "url": "/docs/en/claude-code-on-the-web",
+    "text": "Claude Code on the web"
+  },
+  "S2V_LINK_2": {
+    "url": "/docs/en/vs-code",
+    "text": "VS Code extension"
+  },
+  "S2V_LINK_3": {
+    "url": "/docs/en/settings",
+    "text": "user settings file"
+  },
+  "S2V_LINK_4": {
+    "url": "/docs/en/statusline",
+    "text": "custom status line"
+  },
+  "S2V_LINK_5": {
+    "url": "/docs/en/settings",
+    "text": "that controls Claude\u2019s response language. If that setting is empty, dictation defaults to English."
+  },
+  "S2V_LINK_6": {
+    "url": "https://en.wikipedia.org/wiki/IETF_language_tag",
+    "text": "BCP 47 language code"
+  },
+  "S2V_LINK_7": {
+    "url": "/docs/en/keybindings",
+    "text": ":"
+  },
+  "S2V_LINK_8": {
+    "url": "/docs/en/keybindings",
+    "text": "customize keyboard shortcuts"
+  },
+  "S2V_LINK_9": {
+    "url": "#terminal-not-listed-in-macos-microphone-settings",
+    "text": "Terminal not listed in macOS Microphone settings"
+  },
+  "S2V_LINK_10": {
+    "url": "#change-the-dictation-language",
+    "text": "dictation language"
+  },
+  "S2V_LINK_11": {
+    "url": "#change-the-dictation-language",
+    "text": "Change the dictation language"
+  },
+  "S2V_LINK_12": {
+    "url": "/docs/en/keybindings",
+    "text": "Customize keyboard shortcuts"
+  },
+  "S2V_LINK_13": {
+    "url": "/docs/en/settings",
+    "text": "Configure settings"
+  },
+  "S2V_LINK_14": {
+    "url": "/docs/en/interactive-mode",
+    "text": "Interactive mode"
+  },
+  "S2V_LINK_15": {
+    "url": "/docs/en/commands",
+    "text": "Commands"
+  }
+}

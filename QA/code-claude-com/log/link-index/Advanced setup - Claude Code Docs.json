@@ -1,0 +1,150 @@
+{
+  "S2V_LINK_0": {
+    "url": "/docs/en/quickstart",
+    "text": "quickstart"
+  },
+  "S2V_LINK_1": {
+    "url": "/docs/en/terminal-guide",
+    "text": "terminal guide"
+  },
+  "S2V_LINK_2": {
+    "url": "/docs/en/network-config#network-access-requirements",
+    "text": "network configuration"
+  },
+  "S2V_LINK_3": {
+    "url": "https://git-scm.com/downloads/win",
+    "text": "Git for Windows"
+  },
+  "S2V_LINK_4": {
+    "url": "https://www.anthropic.com/supported-countries",
+    "text": "Anthropic supported countries"
+  },
+  "S2V_LINK_5": {
+    "url": "/docs/en/troubleshooting#search-and-discovery-issues",
+    "text": "search troubleshooting"
+  },
+  "S2V_LINK_6": {
+    "url": "https://git-scm.com/downloads/win",
+    "text": "Git for Windows"
+  },
+  "S2V_LINK_7": {
+    "url": "/docs/en/setup#install-with-linux-package-managers",
+    "text": "apt, dnf, or apk"
+  },
+  "S2V_LINK_8": {
+    "url": "/docs/en/troubleshooting",
+    "text": "troubleshooting guide"
+  },
+  "S2V_LINK_9": {
+    "url": "https://git-scm.com/downloads/win",
+    "text": "Git for Windows"
+  },
+  "S2V_LINK_10": {
+    "url": "https://git-scm.com/downloads/win",
+    "text": "Git for Windows"
+  },
+  "S2V_LINK_11": {
+    "url": "/docs/en/terminal-guide#windows",
+    "text": "terminal guide"
+  },
+  "S2V_LINK_12": {
+    "url": "/docs/en/settings",
+    "text": "settings.json file"
+  },
+  "S2V_LINK_13": {
+    "url": "/docs/en/tools-reference#powershell-tool",
+    "text": "PowerShell tool"
+  },
+  "S2V_LINK_14": {
+    "url": "#install-claude-code",
+    "text": "install instructions"
+  },
+  "S2V_LINK_15": {
+    "url": "/docs/en/settings#available-settings",
+    "text": "file:"
+  },
+  "S2V_LINK_16": {
+    "url": "/docs/en/troubleshooting#get-more-help",
+    "text": ":"
+  },
+  "S2V_LINK_17": {
+    "url": "/docs/en/amazon-bedrock",
+    "text": "Amazon Bedrock"
+  },
+  "S2V_LINK_18": {
+    "url": "/docs/en/google-vertex-ai",
+    "text": "Google Vertex AI"
+  },
+  "S2V_LINK_19": {
+    "url": "/docs/en/microsoft-foundry",
+    "text": "Microsoft Foundry"
+  },
+  "S2V_LINK_20": {
+    "url": "/docs/en/authentication",
+    "text": "Authentication"
+  },
+  "S2V_LINK_21": {
+    "url": "#configure-release-channel",
+    "text": "configure the release channel"
+  },
+  "S2V_LINK_22": {
+    "url": "#disable-auto-updates",
+    "text": "disable auto-updates"
+  },
+  "S2V_LINK_23": {
+    "url": "#install-with-linux-package-managers",
+    "text": "Linux package manager"
+  },
+  "S2V_LINK_24": {
+    "url": "#install-with-linux-package-managers",
+    "text": "Install with Linux package managers"
+  },
+  "S2V_LINK_25": {
+    "url": "/docs/en/settings",
+    "text": "settings.json file"
+  },
+  "S2V_LINK_26": {
+    "url": "/docs/en/permissions#managed-settings",
+    "text": "managed settings"
+  },
+  "S2V_LINK_27": {
+    "url": "/docs/en/settings",
+    "text": "settings.json file"
+  },
+  "S2V_LINK_28": {
+    "url": "/docs/en/permissions#managed-settings",
+    "text": "managed settings"
+  },
+  "S2V_LINK_29": {
+    "url": "/docs/en/settings#available-settings",
+    "text": "file:"
+  },
+  "S2V_LINK_30": {
+    "url": "/docs/en/env-vars",
+    "text": "instead. Use this when you distribute Claude Code through your own channels and need users to stay on the version you provide."
+  },
+  "S2V_LINK_31": {
+    "url": "#configure-release-channel",
+    "text": "configure release channel"
+  },
+  "S2V_LINK_32": {
+    "url": "#binary-integrity-and-code-signing",
+    "text": "Claude Code release signing key"
+  },
+  "S2V_LINK_33": {
+    "url": "https://nodejs.org/en/download",
+    "text": "Node.js 18 or later"
+  },
+  "S2V_LINK_34": {
+    "url": "/docs/en/troubleshooting#native-binary-not-found-after-npm-install",
+    "text": "troubleshooting"
+  },
+  "S2V_LINK_35": {
+    "url": "#install-with-linux-package-managers",
+    "text": "apt, dnf, or apk"
+  },
+  "S2V_LINK_36": {
+    "url": "/docs/en/vs-code#uninstall-the-extension",
+    "text": "VS Code extension"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "S2V_LINK_0": {
+    "url": "/docs/en/desktop#let-claude-use-your-computer",
+    "text": "computer use in Desktop"
+  },
+  "S2V_LINK_1": {
+    "url": "/docs/en/mcp",
+    "text": "MCP server"
+  },
+  "S2V_LINK_2": {
+    "url": "/docs/en/chrome",
+    "text": "Claude in Chrome"
+  },
+  "S2V_LINK_3": {
+    "url": "/docs/en/desktop#app-permissions",
+    "text": "app permissions in Desktop"
+  },
+  "S2V_LINK_4": {
+    "url": "/docs/en/desktop#let-claude-use-your-computer",
+    "text": "computer use in Desktop"
+  },
+  "S2V_LINK_5": {
+    "url": "/docs/en/desktop#let-claude-use-your-computer",
+    "text": "Computer use in Desktop"
+  },
+  "S2V_LINK_6": {
+    "url": "/docs/en/chrome",
+    "text": "Claude in Chrome"
+  },
+  "S2V_LINK_7": {
+    "url": "/docs/en/mcp",
+    "text": "MCP"
+  },
+  "S2V_LINK_8": {
+    "url": "/docs/en/sandboxing",
+    "text": "Sandboxing"
+  },
+  "S2V_LINK_9": {
+    "url": "https://support.claude.com/en/articles/14128542",
+    "text": "Computer use safety guide"
+  }
+}

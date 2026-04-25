@@ -1,0 +1,117 @@
+[
+  {
+    "level": 2,
+    "text": "Available models",
+    "slug": "available-models"
+  },
+  {
+    "level": 3,
+    "text": "Model aliases",
+    "slug": "model-aliases"
+  },
+  {
+    "level": 3,
+    "text": "Setting your model",
+    "slug": "setting-your-model"
+  },
+  {
+    "level": 2,
+    "text": "Restrict model selection",
+    "slug": "restrict-model-selection"
+  },
+  {
+    "level": 3,
+    "text": "Default model behavior",
+    "slug": "default-model-behavior"
+  },
+  {
+    "level": 3,
+    "text": "Control the model users run on",
+    "slug": "control-the-model-users-run-on"
+  },
+  {
+    "level": 3,
+    "text": "Merge behavior",
+    "slug": "merge-behavior"
+  },
+  {
+    "level": 3,
+    "text": "Mantle model IDs",
+    "slug": "mantle-model-ids"
+  },
+  {
+    "level": 2,
+    "text": "Special model behavior",
+    "slug": "special-model-behavior"
+  },
+  {
+    "level": 3,
+    "text": "defaultmodel setting",
+    "slug": "defaultmodel-setting"
+  },
+  {
+    "level": 3,
+    "text": "opusplanmodel setting",
+    "slug": "opusplanmodel-setting"
+  },
+  {
+    "level": 3,
+    "text": "Adjust effort level",
+    "slug": "adjust-effort-level"
+  },
+  {
+    "level": 4,
+    "text": "Choose an effort level",
+    "slug": "choose-an-effort-level"
+  },
+  {
+    "level": 4,
+    "text": "Set the effort level",
+    "slug": "set-the-effort-level"
+  },
+  {
+    "level": 4,
+    "text": "Adaptive reasoning and fixed thinking budgets",
+    "slug": "adaptive-reasoning-and-fixed-thinking-budgets"
+  },
+  {
+    "level": 3,
+    "text": "Extended context",
+    "slug": "extended-context"
+  },
+  {
+    "level": 2,
+    "text": "Checking your current model",
+    "slug": "checking-your-current-model"
+  },
+  {
+    "level": 2,
+    "text": "Add a custom model option",
+    "slug": "add-a-custom-model-option"
+  },
+  {
+    "level": 2,
+    "text": "Environment variables",
+    "slug": "environment-variables"
+  },
+  {
+    "level": 3,
+    "text": "Pin models for third-party deployments",
+    "slug": "pin-models-for-third-party-deployments"
+  },
+  {
+    "level": 3,
+    "text": "Customize pinned model display and capabilities",
+    "slug": "customize-pinned-model-display-and-capabilities"
+  },
+  {
+    "level": 3,
+    "text": "Override model IDs per version",
+    "slug": "override-model-ids-per-version"
+  },
+  {
+    "level": 3,
+    "text": "Prompt caching configuration",
+    "slug": "prompt-caching-configuration"
+  }
+]

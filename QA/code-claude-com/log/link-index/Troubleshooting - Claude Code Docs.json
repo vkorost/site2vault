@@ -1,0 +1,206 @@
+{
+  "S2V_LINK_0": {
+    "url": "#install-script-returns-html-instead-of-a-shell-script",
+    "text": "Install script returns HTML"
+  },
+  "S2V_LINK_1": {
+    "url": "#curl-56-failure-writing-output-to-destination",
+    "text": "Download script first, then run it"
+  },
+  "S2V_LINK_2": {
+    "url": "#install-killed-on-low-memory-linux-servers",
+    "text": "Add swap space for low-memory servers"
+  },
+  "S2V_LINK_3": {
+    "url": "#tls-or-ssl-connection-errors",
+    "text": "Update CA certificates"
+  },
+  "S2V_LINK_4": {
+    "url": "#check-network-connectivity",
+    "text": "Check network and proxy settings"
+  },
+  "S2V_LINK_5": {
+    "url": "#windows-wrong-install-command",
+    "text": "Use the right command for your shell"
+  },
+  "S2V_LINK_6": {
+    "url": "#windows-wrong-install-command",
+    "text": "Use the Windows installer command"
+  },
+  "S2V_LINK_7": {
+    "url": "#windows-claude-code-on-windows-requires-git-bash",
+    "text": "Install or configure Git Bash"
+  },
+  "S2V_LINK_8": {
+    "url": "#windows-claude-code-does-not-support-32-bit-windows",
+    "text": "Open Windows PowerShell, not the x86 entry"
+  },
+  "S2V_LINK_9": {
+    "url": "#linux-wrong-binary-variant-installed-musl/glibc-mismatch",
+    "text": "Wrong binary variant for your system"
+  },
+  "S2V_LINK_10": {
+    "url": "#illegal-instruction-on-linux",
+    "text": "Architecture mismatch"
+  },
+  "S2V_LINK_11": {
+    "url": "#dyld-cannot-load-on-macos",
+    "text": "Binary incompatibility"
+  },
+  "S2V_LINK_12": {
+    "url": "#install-script-returns-html-instead-of-a-shell-script",
+    "text": "Install script returns HTML"
+  },
+  "S2V_LINK_13": {
+    "url": "https://www.anthropic.com/supported-countries",
+    "text": "supported countries"
+  },
+  "S2V_LINK_14": {
+    "url": "#tls-or-ssl-connection-errors",
+    "text": "Configure corporate CA certificates"
+  },
+  "S2V_LINK_15": {
+    "url": "#authentication-issues",
+    "text": "Fix authentication"
+  },
+  "S2V_LINK_16": {
+    "url": "/docs/en/errors",
+    "text": "Error reference"
+  },
+  "S2V_LINK_17": {
+    "url": "/docs/en/setup#alpine-linux-and-musl-based-distributions",
+    "text": "Alpine Linux setup"
+  },
+  "S2V_LINK_18": {
+    "url": "https://www.anthropic.com/supported-countries",
+    "text": "supported countries"
+  },
+  "S2V_LINK_19": {
+    "url": "#verify-your-path",
+    "text": "Verify your PATH"
+  },
+  "S2V_LINK_20": {
+    "url": "/docs/en/network-config#proxy-configuration",
+    "text": "proxy configuration"
+  },
+  "S2V_LINK_21": {
+    "url": "https://git-scm.com/downloads/win",
+    "text": "Git for Windows"
+  },
+  "S2V_LINK_22": {
+    "url": "https://git-scm.com/downloads/win",
+    "text": "git-scm.com/downloads/win"
+  },
+  "S2V_LINK_23": {
+    "url": "/docs/en/settings",
+    "text": "settings.json file"
+  },
+  "S2V_LINK_24": {
+    "url": "/docs/en/setup#system-requirements",
+    "text": "system requirements"
+  },
+  "S2V_LINK_25": {
+    "url": "https://github.com/anthropics/claude-code/issues",
+    "text": "GitHub issue"
+  },
+  "S2V_LINK_26": {
+    "url": "https://github.com/anthropics/claude-code/issues",
+    "text": "file a GitHub issue"
+  },
+  "S2V_LINK_27": {
+    "url": "https://github.com/nvm-sh/nvm",
+    "text": ". nvm version conflicts: if you have nvm installed in both WSL and Windows, you may experience version conflicts when switching Node versions in WSL. This happens because WSL imports the Windows PATH by default, causing Windows nvm/npm to take priority over the WSL installation. You can identify this issue by:"
+  },
+  "S2V_LINK_28": {
+    "url": "/docs/en/sandboxing",
+    "text": "Sandboxing"
+  },
+  "S2V_LINK_29": {
+    "url": "/docs/en/settings#sandbox-settings",
+    "text": "so it runs outside the sandbox."
+  },
+  "S2V_LINK_30": {
+    "url": "#check-directory-permissions",
+    "text": "Check directory permissions"
+  },
+  "S2V_LINK_31": {
+    "url": "/docs/en/setup#system-requirements",
+    "text": "system requirements"
+  },
+  "S2V_LINK_32": {
+    "url": "/docs/en/permissions#manage-permissions",
+    "text": "Permissions docs"
+  },
+  "S2V_LINK_33": {
+    "url": "https://claude.ai/settings",
+    "text": "claude.ai/settings"
+  },
+  "S2V_LINK_34": {
+    "url": "/docs/en/network-config",
+    "text": "network configuration"
+  },
+  "S2V_LINK_35": {
+    "url": "/docs/en/model-config#setting-your-model",
+    "text": "priority order"
+  },
+  "S2V_LINK_36": {
+    "url": "/docs/en/google-vertex-ai#troubleshooting",
+    "text": "the Vertex AI troubleshooting section"
+  },
+  "S2V_LINK_37": {
+    "url": "/docs/en/authentication#authentication-precedence",
+    "text": "authentication precedence"
+  },
+  "S2V_LINK_38": {
+    "url": "/docs/en/settings#settings-files",
+    "text": "Managed settings"
+  },
+  "S2V_LINK_39": {
+    "url": "/docs/en/settings",
+    "text": "Settings"
+  },
+  "S2V_LINK_40": {
+    "url": "/docs/en/mcp",
+    "text": "MCP"
+  },
+  "S2V_LINK_41": {
+    "url": "https://github.com/anthropics/claude-code/issues",
+    "text": "GitHub"
+  },
+  "S2V_LINK_42": {
+    "url": "/docs/en/sub-agents",
+    "text": "subagent"
+  },
+  "S2V_LINK_43": {
+    "url": "/docs/en/env-vars",
+    "text": "environment"
+  },
+  "S2V_LINK_44": {
+    "url": "https://learn.microsoft.com/en-us/windows/wsl/filesystems",
+    "text": "working across file systems on WSL"
+  },
+  "S2V_LINK_45": {
+    "url": "/docs/en/jetbrains#plugin-settings",
+    "text": "JetBrains IDE guide"
+  },
+  "S2V_LINK_46": {
+    "url": "https://github.com/anthropics/claude-code/issues",
+    "text": "create an issue"
+  },
+  "S2V_LINK_47": {
+    "url": "/docs/en/hooks-guide#auto-format-code-after-edits",
+    "text": "Auto-format code after edits"
+  },
+  "S2V_LINK_48": {
+    "url": "/docs/en/memory",
+    "text": "memory"
+  },
+  "S2V_LINK_49": {
+    "url": "/docs/en/errors",
+    "text": "Error reference"
+  },
+  "S2V_LINK_50": {
+    "url": "https://github.com/anthropics/claude-code",
+    "text": "GitHub repository"
+  }
+}

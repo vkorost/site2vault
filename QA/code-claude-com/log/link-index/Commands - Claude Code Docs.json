@@ -1,0 +1,222 @@
+{
+  "S2V_LINK_0": {
+    "url": "/docs/en/skills#bundled-skills",
+    "text": "Skill"
+  },
+  "S2V_LINK_1": {
+    "url": "/docs/en/skills",
+    "text": "skills"
+  },
+  "S2V_LINK_2": {
+    "url": "/docs/en/claude-code-on-the-web#auto-fix-pull-requests",
+    "text": "Claude Code on the web"
+  },
+  "S2V_LINK_3": {
+    "url": "/docs/en/claude-code-on-the-web#who-can-use-claude-code-on-the-web",
+    "text": "Claude Code on the web"
+  },
+  "S2V_LINK_4": {
+    "url": "/docs/en/skills#bundled-skills",
+    "text": "Skill"
+  },
+  "S2V_LINK_5": {
+    "url": "/docs/en/common-workflows#run-parallel-claude-code-sessions-with-git-worktrees",
+    "text": "git worktree"
+  },
+  "S2V_LINK_6": {
+    "url": "/docs/en/env-vars",
+    "text": "is set,"
+  },
+  "S2V_LINK_7": {
+    "url": "/docs/en/sub-agents#fork-the-current-conversation",
+    "text": "forked subagent"
+  },
+  "S2V_LINK_8": {
+    "url": "/docs/en/interactive-mode#side-questions-with-%2Fbtw",
+    "text": "side question"
+  },
+  "S2V_LINK_9": {
+    "url": "/docs/en/chrome",
+    "text": "Claude in Chrome"
+  },
+  "S2V_LINK_10": {
+    "url": "/docs/en/skills#bundled-skills",
+    "text": "Skill"
+  },
+  "S2V_LINK_11": {
+    "url": "/docs/en/remote-control",
+    "text": "Remote Control"
+  },
+  "S2V_LINK_12": {
+    "url": "/docs/en/context-window#what-survives-compaction",
+    "text": "how compaction handles rules, skills, and memory files"
+  },
+  "S2V_LINK_13": {
+    "url": "/docs/en/settings",
+    "text": "Settings"
+  },
+  "S2V_LINK_14": {
+    "url": "/docs/en/output-styles",
+    "text": "output style"
+  },
+  "S2V_LINK_15": {
+    "url": "/docs/en/skills#bundled-skills",
+    "text": "Skill"
+  },
+  "S2V_LINK_16": {
+    "url": "/docs/en/model-config#adjust-effort-level",
+    "text": "effort level"
+  },
+  "S2V_LINK_17": {
+    "url": "/docs/en/fast-mode",
+    "text": "fast mode"
+  },
+  "S2V_LINK_18": {
+    "url": "/docs/en/skills#bundled-skills",
+    "text": "Skill"
+  },
+  "S2V_LINK_19": {
+    "url": "/docs/en/fullscreen",
+    "text": "fullscreen rendering"
+  },
+  "S2V_LINK_20": {
+    "url": "/docs/en/troubleshooting#high-cpu-or-memory-usage",
+    "text": "troubleshooting"
+  },
+  "S2V_LINK_21": {
+    "url": "/docs/en/hooks",
+    "text": "hook"
+  },
+  "S2V_LINK_22": {
+    "url": "/docs/en/github-actions",
+    "text": "Claude GitHub Actions"
+  },
+  "S2V_LINK_23": {
+    "url": "/docs/en/skills#bundled-skills",
+    "text": "Skill"
+  },
+  "S2V_LINK_24": {
+    "url": "/docs/en/scheduled-tasks",
+    "text": "Run prompts on a schedule"
+  },
+  "S2V_LINK_25": {
+    "url": "/docs/en/memory#auto-memory",
+    "text": "auto-memory"
+  },
+  "S2V_LINK_26": {
+    "url": "/docs/en/model-config#adjust-effort-level",
+    "text": "adjust effort level"
+  },
+  "S2V_LINK_27": {
+    "url": "/docs/en/auto-mode-config#review-denials",
+    "text": "recent auto mode denials"
+  },
+  "S2V_LINK_28": {
+    "url": "/docs/en/plugins",
+    "text": "plugins"
+  },
+  "S2V_LINK_29": {
+    "url": "/docs/en/interactive-mode#session-recap",
+    "text": "Session recap"
+  },
+  "S2V_LINK_30": {
+    "url": "/docs/en/plugins",
+    "text": "plugins"
+  },
+  "S2V_LINK_31": {
+    "url": "/docs/en/remote-control",
+    "text": "remote control"
+  },
+  "S2V_LINK_32": {
+    "url": "/docs/en/claude-code-on-the-web#configure-your-environment",
+    "text": "web sessions started with"
+  },
+  "S2V_LINK_33": {
+    "url": "/docs/en/ultrareview",
+    "text": ""
+  },
+  "S2V_LINK_34": {
+    "url": "/docs/en/checkpointing",
+    "text": "checkpointing"
+  },
+  "S2V_LINK_35": {
+    "url": "/docs/en/sandboxing",
+    "text": "sandbox mode"
+  },
+  "S2V_LINK_36": {
+    "url": "/docs/en/routines",
+    "text": "routines"
+  },
+  "S2V_LINK_37": {
+    "url": "/docs/en/amazon-bedrock",
+    "text": "Amazon Bedrock"
+  },
+  "S2V_LINK_38": {
+    "url": "/docs/en/google-vertex-ai",
+    "text": "Google Vertex AI"
+  },
+  "S2V_LINK_39": {
+    "url": "/docs/en/skills#bundled-skills",
+    "text": "Skill"
+  },
+  "S2V_LINK_40": {
+    "url": "/docs/en/skills",
+    "text": "skills"
+  },
+  "S2V_LINK_41": {
+    "url": "/docs/en/statusline",
+    "text": "status line"
+  },
+  "S2V_LINK_42": {
+    "url": "/docs/en/claude-code-on-the-web#from-web-to-terminal",
+    "text": "Claude Code on the web"
+  },
+  "S2V_LINK_43": {
+    "url": "/docs/en/terminal-config#create-a-custom-theme",
+    "text": "custom themes"
+  },
+  "S2V_LINK_44": {
+    "url": "/docs/en/fullscreen",
+    "text": "flicker-free alt-screen renderer"
+  },
+  "S2V_LINK_45": {
+    "url": "/docs/en/ultraplan",
+    "text": "ultraplan"
+  },
+  "S2V_LINK_46": {
+    "url": "/docs/en/ultrareview",
+    "text": "ultrareview"
+  },
+  "S2V_LINK_47": {
+    "url": "https://support.claude.com/en/articles/12429409-extra-usage-for-paid-claude-plans",
+    "text": "extra usage"
+  },
+  "S2V_LINK_48": {
+    "url": "/docs/en/costs#using-the-%2Fusage-command",
+    "text": "cost tracking guide"
+  },
+  "S2V_LINK_49": {
+    "url": "/docs/en/voice-dictation",
+    "text": "voice dictation"
+  },
+  "S2V_LINK_50": {
+    "url": "/docs/en/web-quickstart#connect-from-your-terminal",
+    "text": "Claude Code on the web"
+  },
+  "S2V_LINK_51": {
+    "url": "/docs/en/mcp#use-mcp-prompts-as-commands",
+    "text": "MCP prompts"
+  },
+  "S2V_LINK_52": {
+    "url": "/docs/en/skills",
+    "text": "Skills"
+  },
+  "S2V_LINK_53": {
+    "url": "/docs/en/interactive-mode",
+    "text": "Interactive mode"
+  },
+  "S2V_LINK_54": {
+    "url": "/docs/en/cli-reference",
+    "text": "CLI reference"
+  }
+}

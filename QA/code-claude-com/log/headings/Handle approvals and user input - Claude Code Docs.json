@@ -1,0 +1,72 @@
+[
+  {
+    "level": 2,
+    "text": "Detect when Claude needs input",
+    "slug": "detect-when-claude-needs-input"
+  },
+  {
+    "level": 2,
+    "text": "Handle tool approval requests",
+    "slug": "handle-tool-approval-requests"
+  },
+  {
+    "level": 3,
+    "text": "Respond to tool requests",
+    "slug": "respond-to-tool-requests"
+  },
+  {
+    "level": 2,
+    "text": "Handle clarifying questions",
+    "slug": "handle-clarifying-questions"
+  },
+  {
+    "level": 3,
+    "text": "Question format",
+    "slug": "question-format"
+  },
+  {
+    "level": 4,
+    "text": "Option previews (TypeScript)",
+    "slug": "option-previews-typescript"
+  },
+  {
+    "level": 3,
+    "text": "Response format",
+    "slug": "response-format"
+  },
+  {
+    "level": 4,
+    "text": "Support free-text input",
+    "slug": "support-free-text-input"
+  },
+  {
+    "level": 3,
+    "text": "Complete example",
+    "slug": "complete-example"
+  },
+  {
+    "level": 2,
+    "text": "Limitations",
+    "slug": "limitations"
+  },
+  {
+    "level": 2,
+    "text": "Other ways to get user input",
+    "slug": "other-ways-to-get-user-input"
+  },
+  {
+    "level": 3,
+    "text": "Streaming input",
+    "slug": "streaming-input"
+  },
+  {
+    "level": 3,
+    "text": "Custom tools",
+    "slug": "custom-tools"
+  },
+  {
+    "level": 2,
+    "text": "Related resources",
+    "slug": "related-resources"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "level": 2,
+    "text": "See what loaded into context",
+    "slug": "see-what-loaded-into-context"
+  },
+  {
+    "level": 2,
+    "text": "Check resolved settings",
+    "slug": "check-resolved-settings"
+  },
+  {
+    "level": 2,
+    "text": "Check MCP servers",
+    "slug": "check-mcp-servers"
+  },
+  {
+    "level": 2,
+    "text": "Check hooks",
+    "slug": "check-hooks"
+  },
+  {
+    "level": 2,
+    "text": "Common causes",
+    "slug": "common-causes"
+  },
+  {
+    "level": 2,
+    "text": "Related resources",
+    "slug": "related-resources"
+  }
+]

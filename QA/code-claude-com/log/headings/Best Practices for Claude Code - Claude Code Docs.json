@@ -1,0 +1,152 @@
+[
+  {
+    "level": 2,
+    "text": "Give Claude a way to verify its work",
+    "slug": "give-claude-a-way-to-verify-its-work"
+  },
+  {
+    "level": 2,
+    "text": "Explore first, then plan, then code",
+    "slug": "explore-first-then-plan-then-code"
+  },
+  {
+    "level": 2,
+    "text": "Provide specific context in your prompts",
+    "slug": "provide-specific-context-in-your-prompts"
+  },
+  {
+    "level": 3,
+    "text": "Provide rich content",
+    "slug": "provide-rich-content"
+  },
+  {
+    "level": 2,
+    "text": "Configure your environment",
+    "slug": "configure-your-environment"
+  },
+  {
+    "level": 3,
+    "text": "Write an effective CLAUDE.md",
+    "slug": "write-an-effective-claudemd"
+  },
+  {
+    "level": 3,
+    "text": "Configure permissions",
+    "slug": "configure-permissions"
+  },
+  {
+    "level": 3,
+    "text": "Use CLI tools",
+    "slug": "use-cli-tools"
+  },
+  {
+    "level": 3,
+    "text": "Connect MCP servers",
+    "slug": "connect-mcp-servers"
+  },
+  {
+    "level": 3,
+    "text": "Set up hooks",
+    "slug": "set-up-hooks"
+  },
+  {
+    "level": 3,
+    "text": "Create skills",
+    "slug": "create-skills"
+  },
+  {
+    "level": 3,
+    "text": "Create custom subagents",
+    "slug": "create-custom-subagents"
+  },
+  {
+    "level": 3,
+    "text": "Install plugins",
+    "slug": "install-plugins"
+  },
+  {
+    "level": 2,
+    "text": "Communicate effectively",
+    "slug": "communicate-effectively"
+  },
+  {
+    "level": 3,
+    "text": "Ask codebase questions",
+    "slug": "ask-codebase-questions"
+  },
+  {
+    "level": 3,
+    "text": "Let Claude interview you",
+    "slug": "let-claude-interview-you"
+  },
+  {
+    "level": 2,
+    "text": "Manage your session",
+    "slug": "manage-your-session"
+  },
+  {
+    "level": 3,
+    "text": "Course-correct early and often",
+    "slug": "course-correct-early-and-often"
+  },
+  {
+    "level": 3,
+    "text": "Manage context aggressively",
+    "slug": "manage-context-aggressively"
+  },
+  {
+    "level": 3,
+    "text": "Use subagents for investigation",
+    "slug": "use-subagents-for-investigation"
+  },
+  {
+    "level": 3,
+    "text": "Rewind with checkpoints",
+    "slug": "rewind-with-checkpoints"
+  },
+  {
+    "level": 3,
+    "text": "Resume conversations",
+    "slug": "resume-conversations"
+  },
+  {
+    "level": 2,
+    "text": "Automate and scale",
+    "slug": "automate-and-scale"
+  },
+  {
+    "level": 3,
+    "text": "Run non-interactive mode",
+    "slug": "run-non-interactive-mode"
+  },
+  {
+    "level": 3,
+    "text": "Run multiple Claude sessions",
+    "slug": "run-multiple-claude-sessions"
+  },
+  {
+    "level": 3,
+    "text": "Fan out across files",
+    "slug": "fan-out-across-files"
+  },
+  {
+    "level": 3,
+    "text": "Run autonomously with auto mode",
+    "slug": "run-autonomously-with-auto-mode"
+  },
+  {
+    "level": 2,
+    "text": "Avoid common failure patterns",
+    "slug": "avoid-common-failure-patterns"
+  },
+  {
+    "level": 2,
+    "text": "Develop your intuition",
+    "slug": "develop-your-intuition"
+  },
+  {
+    "level": 2,
+    "text": "Related resources",
+    "slug": "related-resources"
+  }
+]

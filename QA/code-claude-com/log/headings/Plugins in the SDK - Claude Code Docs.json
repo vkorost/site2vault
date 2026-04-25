@@ -1,0 +1,82 @@
+[
+  {
+    "level": 2,
+    "text": "What are plugins?",
+    "slug": "what-are-plugins"
+  },
+  {
+    "level": 2,
+    "text": "Loading plugins",
+    "slug": "loading-plugins"
+  },
+  {
+    "level": 3,
+    "text": "Path specifications",
+    "slug": "path-specifications"
+  },
+  {
+    "level": 2,
+    "text": "Verifying plugin installation",
+    "slug": "verifying-plugin-installation"
+  },
+  {
+    "level": 2,
+    "text": "Using plugin skills",
+    "slug": "using-plugin-skills"
+  },
+  {
+    "level": 2,
+    "text": "Complete example",
+    "slug": "complete-example"
+  },
+  {
+    "level": 2,
+    "text": "Plugin structure reference",
+    "slug": "plugin-structure-reference"
+  },
+  {
+    "level": 2,
+    "text": "Common use cases",
+    "slug": "common-use-cases"
+  },
+  {
+    "level": 3,
+    "text": "Development and testing",
+    "slug": "development-and-testing"
+  },
+  {
+    "level": 3,
+    "text": "Project-specific extensions",
+    "slug": "project-specific-extensions"
+  },
+  {
+    "level": 3,
+    "text": "Multiple plugin sources",
+    "slug": "multiple-plugin-sources"
+  },
+  {
+    "level": 2,
+    "text": "Troubleshooting",
+    "slug": "troubleshooting"
+  },
+  {
+    "level": 3,
+    "text": "Plugin not loading",
+    "slug": "plugin-not-loading"
+  },
+  {
+    "level": 3,
+    "text": "Skills not appearing",
+    "slug": "skills-not-appearing"
+  },
+  {
+    "level": 3,
+    "text": "Path resolution issues",
+    "slug": "path-resolution-issues"
+  },
+  {
+    "level": 2,
+    "text": "See also",
+    "slug": "see-also"
+  }
+]

@@ -1,0 +1,54 @@
+{
+  "S2V_LINK_0": {
+    "url": "/docs/en/settings",
+    "text": "."
+  },
+  "S2V_LINK_1": {
+    "url": "/docs/en/amazon-bedrock",
+    "text": "Amazon Bedrock"
+  },
+  "S2V_LINK_2": {
+    "url": "/docs/en/google-vertex-ai",
+    "text": "Google Vertex AI"
+  },
+  "S2V_LINK_3": {
+    "url": "/docs/en/microsoft-foundry",
+    "text": "Microsoft Foundry"
+  },
+  "S2V_LINK_4": {
+    "url": "/docs/en/data-usage#webfetch-domain-safety-check",
+    "text": "domain safety check"
+  },
+  "S2V_LINK_5": {
+    "url": "/docs/en/settings",
+    "text": "settings"
+  },
+  "S2V_LINK_6": {
+    "url": "/docs/en/claude-code-on-the-web",
+    "text": "Claude Code on the web"
+  },
+  "S2V_LINK_7": {
+    "url": "/docs/en/code-review",
+    "text": "Code Review"
+  },
+  "S2V_LINK_8": {
+    "url": "https://docs.github.com/en/enterprise-cloud@latest/organizations/keeping-your-organization-secure/managing-security-settings-for-your-organization/managing-allowed-ip-addresses-for-your-organization#allowing-access-by-github-apps",
+    "text": "IP allow list inheritance for installed GitHub Apps"
+  },
+  "S2V_LINK_9": {
+    "url": "https://docs.github.com/en/enterprise-cloud@latest/organizations/keeping-your-organization-secure/managing-security-settings-for-your-organization/managing-allowed-ip-addresses-for-your-organization#adding-an-allowed-ip-address",
+    "text": "add the ranges to your allow list manually"
+  },
+  "S2V_LINK_10": {
+    "url": "https://platform.claude.com/docs/en/api/ip-addresses",
+    "text": "Anthropic API IP addresses"
+  },
+  "S2V_LINK_11": {
+    "url": "/docs/en/github-enterprise-server",
+    "text": "GitHub Enterprise Server"
+  },
+  "S2V_LINK_12": {
+    "url": "https://platform.claude.com/docs/en/api/ip-addresses",
+    "text": "Anthropic API IP addresses"
+  }
+}

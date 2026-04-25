@@ -1,0 +1,142 @@
+[
+  {
+    "level": 2,
+    "text": "Bundled skills",
+    "slug": "bundled-skills"
+  },
+  {
+    "level": 2,
+    "text": "Getting started",
+    "slug": "getting-started"
+  },
+  {
+    "level": 3,
+    "text": "Create your first skill",
+    "slug": "create-your-first-skill"
+  },
+  {
+    "level": 3,
+    "text": "Where skills live",
+    "slug": "where-skills-live"
+  },
+  {
+    "level": 4,
+    "text": "Live change detection",
+    "slug": "live-change-detection"
+  },
+  {
+    "level": 4,
+    "text": "Automatic discovery from nested directories",
+    "slug": "automatic-discovery-from-nested-directories"
+  },
+  {
+    "level": 4,
+    "text": "Skills from additional directories",
+    "slug": "skills-from-additional-directories"
+  },
+  {
+    "level": 2,
+    "text": "Configure skills",
+    "slug": "configure-skills"
+  },
+  {
+    "level": 3,
+    "text": "Types of skill content",
+    "slug": "types-of-skill-content"
+  },
+  {
+    "level": 3,
+    "text": "Frontmatter reference",
+    "slug": "frontmatter-reference"
+  },
+  {
+    "level": 4,
+    "text": "Available string substitutions",
+    "slug": "available-string-substitutions"
+  },
+  {
+    "level": 3,
+    "text": "Add supporting files",
+    "slug": "add-supporting-files"
+  },
+  {
+    "level": 3,
+    "text": "Control who invokes a skill",
+    "slug": "control-who-invokes-a-skill"
+  },
+  {
+    "level": 3,
+    "text": "Skill content lifecycle",
+    "slug": "skill-content-lifecycle"
+  },
+  {
+    "level": 3,
+    "text": "Pre-approve tools for a skill",
+    "slug": "pre-approve-tools-for-a-skill"
+  },
+  {
+    "level": 3,
+    "text": "Pass arguments to skills",
+    "slug": "pass-arguments-to-skills"
+  },
+  {
+    "level": 2,
+    "text": "Advanced patterns",
+    "slug": "advanced-patterns"
+  },
+  {
+    "level": 3,
+    "text": "Inject dynamic context",
+    "slug": "inject-dynamic-context"
+  },
+  {
+    "level": 3,
+    "text": "Run skills in a subagent",
+    "slug": "run-skills-in-a-subagent"
+  },
+  {
+    "level": 4,
+    "text": "Example: Research skill using Explore agent",
+    "slug": "example-research-skill-using-explore-agent"
+  },
+  {
+    "level": 3,
+    "text": "Restrict Claude\u2019s skill access",
+    "slug": "restrict-claudes-skill-access"
+  },
+  {
+    "level": 2,
+    "text": "Share skills",
+    "slug": "share-skills"
+  },
+  {
+    "level": 3,
+    "text": "Generate visual output",
+    "slug": "generate-visual-output"
+  },
+  {
+    "level": 2,
+    "text": "Troubleshooting",
+    "slug": "troubleshooting"
+  },
+  {
+    "level": 3,
+    "text": "Skill not triggering",
+    "slug": "skill-not-triggering"
+  },
+  {
+    "level": 3,
+    "text": "Skill triggers too often",
+    "slug": "skill-triggers-too-often"
+  },
+  {
+    "level": 3,
+    "text": "Skill descriptions are cut short",
+    "slug": "skill-descriptions-are-cut-short"
+  },
+  {
+    "level": 2,
+    "text": "Related resources",
+    "slug": "related-resources"
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "level": 2,
+    "text": "Overview",
+    "slug": "overview"
+  },
+  {
+    "level": 2,
+    "text": "Benefits of using subagents",
+    "slug": "benefits-of-using-subagents"
+  },
+  {
+    "level": 3,
+    "text": "Context isolation",
+    "slug": "context-isolation"
+  },
+  {
+    "level": 3,
+    "text": "Parallelization",
+    "slug": "parallelization"
+  },
+  {
+    "level": 3,
+    "text": "Specialized instructions and knowledge",
+    "slug": "specialized-instructions-and-knowledge"
+  },
+  {
+    "level": 3,
+    "text": "Tool restrictions",
+    "slug": "tool-restrictions"
+  },
+  {
+    "level": 2,
+    "text": "Creating subagents",
+    "slug": "creating-subagents"
+  },
+  {
+    "level": 3,
+    "text": "Programmatic definition (recommended)",
+    "slug": "programmatic-definition-recommended"
+  },
+  {
+    "level": 3,
+    "text": "AgentDefinition configuration",
+    "slug": "agentdefinition-configuration"
+  },
+  {
+    "level": 3,
+    "text": "Filesystem-based definition (alternative)",
+    "slug": "filesystem-based-definition-alternative"
+  },
+  {
+    "level": 2,
+    "text": "What subagents inherit",
+    "slug": "what-subagents-inherit"
+  },
+  {
+    "level": 2,
+    "text": "Invoking subagents",
+    "slug": "invoking-subagents"
+  },
+  {
+    "level": 3,
+    "text": "Automatic invocation",
+    "slug": "automatic-invocation"
+  },
+  {
+    "level": 3,
+    "text": "Explicit invocation",
+    "slug": "explicit-invocation"
+  },
+  {
+    "level": 3,
+    "text": "Dynamic agent configuration",
+    "slug": "dynamic-agent-configuration"
+  },
+  {
+    "level": 2,
+    "text": "Detecting subagent invocation",
+    "slug": "detecting-subagent-invocation"
+  },
+  {
+    "level": 2,
+    "text": "Resuming subagents",
+    "slug": "resuming-subagents"
+  },
+  {
+    "level": 2,
+    "text": "Tool restrictions",
+    "slug": "tool-restrictions"
+  },
+  {
+    "level": 3,
+    "text": "Common tool combinations",
+    "slug": "common-tool-combinations"
+  },
+  {
+    "level": 2,
+    "text": "Troubleshooting",
+    "slug": "troubleshooting"
+  },
+  {
+    "level": 3,
+    "text": "Claude not delegating to subagents",
+    "slug": "claude-not-delegating-to-subagents"
+  },
+  {
+    "level": 3,
+    "text": "Filesystem-based agents not loading",
+    "slug": "filesystem-based-agents-not-loading"
+  },
+  {
+    "level": 3,
+    "text": "Windows: long prompt failures",
+    "slug": "windows-long-prompt-failures"
+  },
+  {
+    "level": 2,
+    "text": "Related documentation",
+    "slug": "related-documentation"
+  }
+]

@@ -1,0 +1,217 @@
+[
+  {
+    "level": 2,
+    "text": "GitHub authentication options",
+    "slug": "github-authentication-options"
+  },
+  {
+    "level": 2,
+    "text": "The cloud environment",
+    "slug": "the-cloud-environment"
+  },
+  {
+    "level": 3,
+    "text": "What\u2019s available in cloud sessions",
+    "slug": "whats-available-in-cloud-sessions"
+  },
+  {
+    "level": 3,
+    "text": "Installed tools",
+    "slug": "installed-tools"
+  },
+  {
+    "level": 3,
+    "text": "Work with GitHub issues and pull requests",
+    "slug": "work-with-github-issues-and-pull-requests"
+  },
+  {
+    "level": 3,
+    "text": "Link artifacts back to the session",
+    "slug": "link-artifacts-back-to-the-session"
+  },
+  {
+    "level": 3,
+    "text": "Run tests, start services, and add packages",
+    "slug": "run-tests-start-services-and-add-packages"
+  },
+  {
+    "level": 3,
+    "text": "Resource limits",
+    "slug": "resource-limits"
+  },
+  {
+    "level": 3,
+    "text": "Configure your environment",
+    "slug": "configure-your-environment"
+  },
+  {
+    "level": 2,
+    "text": "Setup scripts",
+    "slug": "setup-scripts"
+  },
+  {
+    "level": 3,
+    "text": "Environment caching",
+    "slug": "environment-caching"
+  },
+  {
+    "level": 3,
+    "text": "Setup scripts vs. SessionStart hooks",
+    "slug": "setup-scripts-vs-sessionstart-hooks"
+  },
+  {
+    "level": 3,
+    "text": "Install dependencies with a SessionStart hook",
+    "slug": "install-dependencies-with-a-sessionstart-hook"
+  },
+  {
+    "level": 2,
+    "text": "Network access",
+    "slug": "network-access"
+  },
+  {
+    "level": 3,
+    "text": "Access levels",
+    "slug": "access-levels"
+  },
+  {
+    "level": 3,
+    "text": "Allow specific domains",
+    "slug": "allow-specific-domains"
+  },
+  {
+    "level": 3,
+    "text": "GitHub proxy",
+    "slug": "github-proxy"
+  },
+  {
+    "level": 3,
+    "text": "Security proxy",
+    "slug": "security-proxy"
+  },
+  {
+    "level": 3,
+    "text": "Default allowed domains",
+    "slug": "default-allowed-domains"
+  },
+  {
+    "level": 2,
+    "text": "Move tasks between web and terminal",
+    "slug": "move-tasks-between-web-and-terminal"
+  },
+  {
+    "level": 3,
+    "text": "From terminal to web",
+    "slug": "from-terminal-to-web"
+  },
+  {
+    "level": 4,
+    "text": "Tips for cloud tasks",
+    "slug": "tips-for-cloud-tasks"
+  },
+  {
+    "level": 4,
+    "text": "Send local repositories without GitHub",
+    "slug": "send-local-repositories-without-github"
+  },
+  {
+    "level": 3,
+    "text": "From web to terminal",
+    "slug": "from-web-to-terminal"
+  },
+  {
+    "level": 4,
+    "text": "Teleport requirements",
+    "slug": "teleport-requirements"
+  },
+  {
+    "level": 4,
+    "text": "--teleportis unavailable",
+    "slug": "teleportis-unavailable"
+  },
+  {
+    "level": 2,
+    "text": "Work with sessions",
+    "slug": "work-with-sessions"
+  },
+  {
+    "level": 3,
+    "text": "Manage context",
+    "slug": "manage-context"
+  },
+  {
+    "level": 3,
+    "text": "Review changes",
+    "slug": "review-changes"
+  },
+  {
+    "level": 3,
+    "text": "Share sessions",
+    "slug": "share-sessions"
+  },
+  {
+    "level": 4,
+    "text": "Share from an Enterprise or Team account",
+    "slug": "share-from-an-enterprise-or-team-account"
+  },
+  {
+    "level": 4,
+    "text": "Share from a Max or Pro account",
+    "slug": "share-from-a-max-or-pro-account"
+  },
+  {
+    "level": 3,
+    "text": "Archive sessions",
+    "slug": "archive-sessions"
+  },
+  {
+    "level": 3,
+    "text": "Delete sessions",
+    "slug": "delete-sessions"
+  },
+  {
+    "level": 2,
+    "text": "Auto-fix pull requests",
+    "slug": "auto-fix-pull-requests"
+  },
+  {
+    "level": 3,
+    "text": "How Claude responds to PR activity",
+    "slug": "how-claude-responds-to-pr-activity"
+  },
+  {
+    "level": 2,
+    "text": "Security and isolation",
+    "slug": "security-and-isolation"
+  },
+  {
+    "level": 2,
+    "text": "Troubleshooting",
+    "slug": "troubleshooting"
+  },
+  {
+    "level": 3,
+    "text": "Session creation failed",
+    "slug": "session-creation-failed"
+  },
+  {
+    "level": 3,
+    "text": "Remote Control session expired or access denied",
+    "slug": "remote-control-session-expired-or-access-denied"
+  },
+  {
+    "level": 3,
+    "text": "Environment expired",
+    "slug": "environment-expired"
+  },
+  {
+    "level": 2,
+    "text": "Limitations",
+    "slug": "limitations"
+  },
+  {
+    "level": 2,
+    "text": "Related resources",
+    "slug": "related-resources"
+  }
+]

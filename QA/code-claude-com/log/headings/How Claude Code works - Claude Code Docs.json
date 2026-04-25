@@ -1,0 +1,137 @@
+[
+  {
+    "level": 2,
+    "text": "The agentic loop",
+    "slug": "the-agentic-loop"
+  },
+  {
+    "level": 3,
+    "text": "Models",
+    "slug": "models"
+  },
+  {
+    "level": 3,
+    "text": "Tools",
+    "slug": "tools"
+  },
+  {
+    "level": 2,
+    "text": "What Claude can access",
+    "slug": "what-claude-can-access"
+  },
+  {
+    "level": 2,
+    "text": "Environments and interfaces",
+    "slug": "environments-and-interfaces"
+  },
+  {
+    "level": 3,
+    "text": "Execution environments",
+    "slug": "execution-environments"
+  },
+  {
+    "level": 3,
+    "text": "Interfaces",
+    "slug": "interfaces"
+  },
+  {
+    "level": 2,
+    "text": "Work with sessions",
+    "slug": "work-with-sessions"
+  },
+  {
+    "level": 3,
+    "text": "Work across branches",
+    "slug": "work-across-branches"
+  },
+  {
+    "level": 3,
+    "text": "Resume or fork sessions",
+    "slug": "resume-or-fork-sessions"
+  },
+  {
+    "level": 3,
+    "text": "The context window",
+    "slug": "the-context-window"
+  },
+  {
+    "level": 4,
+    "text": "When context fills up",
+    "slug": "when-context-fills-up"
+  },
+  {
+    "level": 4,
+    "text": "Manage context with skills and subagents",
+    "slug": "manage-context-with-skills-and-subagents"
+  },
+  {
+    "level": 2,
+    "text": "Stay safe with checkpoints and permissions",
+    "slug": "stay-safe-with-checkpoints-and-permissions"
+  },
+  {
+    "level": 3,
+    "text": "Undo changes with checkpoints",
+    "slug": "undo-changes-with-checkpoints"
+  },
+  {
+    "level": 3,
+    "text": "Control what Claude can do",
+    "slug": "control-what-claude-can-do"
+  },
+  {
+    "level": 2,
+    "text": "Work effectively with Claude Code",
+    "slug": "work-effectively-with-claude-code"
+  },
+  {
+    "level": 3,
+    "text": "Ask Claude Code for help",
+    "slug": "ask-claude-code-for-help"
+  },
+  {
+    "level": 3,
+    "text": "It\u2019s a conversation",
+    "slug": "its-a-conversation"
+  },
+  {
+    "level": 4,
+    "text": "Interrupt and steer",
+    "slug": "interrupt-and-steer"
+  },
+  {
+    "level": 3,
+    "text": "Be specific upfront",
+    "slug": "be-specific-upfront"
+  },
+  {
+    "level": 3,
+    "text": "Give Claude something to verify against",
+    "slug": "give-claude-something-to-verify-against"
+  },
+  {
+    "level": 3,
+    "text": "Explore before implementing",
+    "slug": "explore-before-implementing"
+  },
+  {
+    "level": 3,
+    "text": "Delegate, don\u2019t dictate",
+    "slug": "delegate-dont-dictate"
+  },
+  {
+    "level": 2,
+    "text": "What\u2019s next",
+    "slug": "whats-next"
+  },
+  {
+    "level": 2,
+    "text": "Extend with features",
+    "slug": "extend-with-features"
+  },
+  {
+    "level": 2,
+    "text": "Common workflows",
+    "slug": "common-workflows"
+  }
+]

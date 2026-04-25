@@ -1,0 +1,87 @@
+[
+  {
+    "level": 2,
+    "text": "How we approach security",
+    "slug": "how-we-approach-security"
+  },
+  {
+    "level": 3,
+    "text": "Security foundation",
+    "slug": "security-foundation"
+  },
+  {
+    "level": 3,
+    "text": "Permission-based architecture",
+    "slug": "permission-based-architecture"
+  },
+  {
+    "level": 3,
+    "text": "Built-in protections",
+    "slug": "built-in-protections"
+  },
+  {
+    "level": 3,
+    "text": "User responsibility",
+    "slug": "user-responsibility"
+  },
+  {
+    "level": 2,
+    "text": "Protect against prompt injection",
+    "slug": "protect-against-prompt-injection"
+  },
+  {
+    "level": 3,
+    "text": "Core protections",
+    "slug": "core-protections"
+  },
+  {
+    "level": 3,
+    "text": "Privacy safeguards",
+    "slug": "privacy-safeguards"
+  },
+  {
+    "level": 3,
+    "text": "Additional safeguards",
+    "slug": "additional-safeguards"
+  },
+  {
+    "level": 2,
+    "text": "MCP security",
+    "slug": "mcp-security"
+  },
+  {
+    "level": 2,
+    "text": "IDE security",
+    "slug": "ide-security"
+  },
+  {
+    "level": 2,
+    "text": "Cloud execution security",
+    "slug": "cloud-execution-security"
+  },
+  {
+    "level": 2,
+    "text": "Security best practices",
+    "slug": "security-best-practices"
+  },
+  {
+    "level": 3,
+    "text": "Working with sensitive code",
+    "slug": "working-with-sensitive-code"
+  },
+  {
+    "level": 3,
+    "text": "Team security",
+    "slug": "team-security"
+  },
+  {
+    "level": 3,
+    "text": "Reporting security issues",
+    "slug": "reporting-security-issues"
+  },
+  {
+    "level": 2,
+    "text": "Related resources",
+    "slug": "related-resources"
+  }
+]

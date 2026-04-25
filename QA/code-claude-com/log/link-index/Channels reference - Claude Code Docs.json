@@ -1,0 +1,238 @@
+{
+  "S2V_LINK_0": {
+    "url": "/docs/en/channels#research-preview",
+    "text": "research preview"
+  },
+  "S2V_LINK_1": {
+    "url": "/docs/en/channels#enterprise-controls",
+    "text": "explicitly enable them"
+  },
+  "S2V_LINK_2": {
+    "url": "#expose-a-reply-tool",
+    "text": "expose a reply tool"
+  },
+  "S2V_LINK_3": {
+    "url": "#relay-permission-prompts",
+    "text": "relay permission prompts"
+  },
+  "S2V_LINK_4": {
+    "url": "#overview",
+    "text": "Overview"
+  },
+  "S2V_LINK_5": {
+    "url": "#what-you-need",
+    "text": "What you need"
+  },
+  "S2V_LINK_6": {
+    "url": "#example-build-a-webhook-receiver",
+    "text": "Example: build a webhook receiver"
+  },
+  "S2V_LINK_7": {
+    "url": "#server-options",
+    "text": "Server options"
+  },
+  "S2V_LINK_8": {
+    "url": "#notification-format",
+    "text": "Notification format"
+  },
+  "S2V_LINK_9": {
+    "url": "#expose-a-reply-tool",
+    "text": "Expose a reply tool"
+  },
+  "S2V_LINK_10": {
+    "url": "#gate-inbound-messages",
+    "text": "Gate inbound messages"
+  },
+  "S2V_LINK_11": {
+    "url": "#relay-permission-prompts",
+    "text": "Relay permission prompts"
+  },
+  "S2V_LINK_12": {
+    "url": "/docs/en/channels",
+    "text": "Channels"
+  },
+  "S2V_LINK_13": {
+    "url": "https://modelcontextprotocol.io",
+    "text": "MCP"
+  },
+  "S2V_LINK_14": {
+    "url": "https://www.npmjs.com/package/@modelcontextprotocol/sdk",
+    "text": "package and a Node.js-compatible runtime."
+  },
+  "S2V_LINK_15": {
+    "url": "https://bun.sh",
+    "text": "Bun"
+  },
+  "S2V_LINK_16": {
+    "url": "https://nodejs.org",
+    "text": "Node"
+  },
+  "S2V_LINK_17": {
+    "url": "https://deno.com",
+    "text": "Deno"
+  },
+  "S2V_LINK_18": {
+    "url": "https://modelcontextprotocol.io/docs/concepts/transports#standard-io",
+    "text": "stdio transport"
+  },
+  "S2V_LINK_19": {
+    "url": "#server-options",
+    "text": "Server options"
+  },
+  "S2V_LINK_20": {
+    "url": "#notification-format",
+    "text": "Notification format"
+  },
+  "S2V_LINK_21": {
+    "url": "#example-build-a-webhook-receiver",
+    "text": "Example: build a webhook receiver"
+  },
+  "S2V_LINK_22": {
+    "url": "/docs/en/channels#supported-channels",
+    "text": "approved allowlist"
+  },
+  "S2V_LINK_23": {
+    "url": "#test-during-the-research-preview",
+    "text": "Test during the research preview"
+  },
+  "S2V_LINK_24": {
+    "url": "https://bun.sh",
+    "text": "Bun"
+  },
+  "S2V_LINK_25": {
+    "url": "https://nodejs.org",
+    "text": "Node"
+  },
+  "S2V_LINK_26": {
+    "url": "https://deno.com",
+    "text": "Deno"
+  },
+  "S2V_LINK_27": {
+    "url": "https://www.npmjs.com/package/@modelcontextprotocol/sdk",
+    "text": "MCP SDK"
+  },
+  "S2V_LINK_28": {
+    "url": "#server-options",
+    "text": ""
+  },
+  "S2V_LINK_29": {
+    "url": "https://modelcontextprotocol.io/docs/concepts/transports#standard-io",
+    "text": "MCP server"
+  },
+  "S2V_LINK_30": {
+    "url": "/docs/en/channels#enterprise-controls",
+    "text": "enable channels"
+  },
+  "S2V_LINK_31": {
+    "url": "#expose-a-reply-tool",
+    "text": "Expose a reply tool"
+  },
+  "S2V_LINK_32": {
+    "url": "https://github.com/anthropics/claude-plugins-official/tree/main/external_plugins/fakechat",
+    "text": "fakechat server"
+  },
+  "S2V_LINK_33": {
+    "url": "/docs/en/channels#research-preview",
+    "text": "approved allowlist"
+  },
+  "S2V_LINK_34": {
+    "url": "https://modelcontextprotocol.io/docs/concepts/servers",
+    "text": "constructor. The"
+  },
+  "S2V_LINK_35": {
+    "url": "https://modelcontextprotocol.io/docs/concepts/servers",
+    "text": "standard MCP"
+  },
+  "S2V_LINK_36": {
+    "url": "https://modelcontextprotocol.io/docs/concepts/tools",
+    "text": "MCP tool"
+  },
+  "S2V_LINK_37": {
+    "url": "#example-build-a-webhook-receiver",
+    "text": "webhook receiver above"
+  },
+  "S2V_LINK_38": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events",
+    "text": "Server-Sent Events"
+  },
+  "S2V_LINK_39": {
+    "url": "https://github.com/anthropics/claude-plugins-official/tree/main/external_plugins/fakechat",
+    "text": "fakechat server"
+  },
+  "S2V_LINK_40": {
+    "url": "https://github.com/anthropics/claude-plugins-official/tree/main/external_plugins/telegram",
+    "text": "Telegram"
+  },
+  "S2V_LINK_41": {
+    "url": "https://github.com/anthropics/claude-plugins-official/tree/main/external_plugins/discord",
+    "text": "Discord"
+  },
+  "S2V_LINK_42": {
+    "url": "https://github.com/anthropics/claude-plugins-official/tree/main/external_plugins/imessage",
+    "text": "iMessage"
+  },
+  "S2V_LINK_43": {
+    "url": "#notification-format",
+    "text": "channel notification"
+  },
+  "S2V_LINK_44": {
+    "url": "#gate-inbound-messages",
+    "text": "authenticates the sender"
+  },
+  "S2V_LINK_45": {
+    "url": "#expose-a-reply-tool",
+    "text": "Expose a reply tool"
+  },
+  "S2V_LINK_46": {
+    "url": "#permission-request-fields",
+    "text": "four request fields"
+  },
+  "S2V_LINK_47": {
+    "url": "#gate-inbound-messages",
+    "text": "gate on sender"
+  },
+  "S2V_LINK_48": {
+    "url": "#example-build-a-webhook-receiver",
+    "text": "project setup and"
+  },
+  "S2V_LINK_49": {
+    "url": "#test-during-the-research-preview",
+    "text": "development flag"
+  },
+  "S2V_LINK_50": {
+    "url": "/docs/en/plugins",
+    "text": "plugin"
+  },
+  "S2V_LINK_51": {
+    "url": "/docs/en/plugin-marketplaces",
+    "text": "marketplace"
+  },
+  "S2V_LINK_52": {
+    "url": "/docs/en/channels#supported-channels",
+    "text": "approved allowlist"
+  },
+  "S2V_LINK_53": {
+    "url": "/docs/en/plugins#submit-your-plugin-to-the-official-marketplace",
+    "text": "submit it to the official marketplace"
+  },
+  "S2V_LINK_54": {
+    "url": "/docs/en/channels#restrict-which-channel-plugins-can-run",
+    "text": "list, which replaces the default Anthropic allowlist."
+  },
+  "S2V_LINK_55": {
+    "url": "/docs/en/channels",
+    "text": "Channels"
+  },
+  "S2V_LINK_56": {
+    "url": "https://github.com/anthropics/claude-plugins-official/tree/main/external_plugins",
+    "text": "Working channel implementations"
+  },
+  "S2V_LINK_57": {
+    "url": "/docs/en/mcp",
+    "text": "MCP"
+  },
+  "S2V_LINK_58": {
+    "url": "/docs/en/plugins",
+    "text": "Plugins"
+  }
+}

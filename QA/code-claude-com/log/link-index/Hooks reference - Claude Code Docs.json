@@ -1,0 +1,478 @@
+{
+  "S2V_LINK_0": {
+    "url": "/docs/en/hooks-guide",
+    "text": "guide"
+  },
+  "S2V_LINK_1": {
+    "url": "#hook-events",
+    "text": "Hook events"
+  },
+  "S2V_LINK_2": {
+    "url": "#configuration",
+    "text": "Configuration"
+  },
+  "S2V_LINK_3": {
+    "url": "#hook-events",
+    "text": "hook event"
+  },
+  "S2V_LINK_4": {
+    "url": "#hook-events",
+    "text": "hook event"
+  },
+  "S2V_LINK_5": {
+    "url": "#matcher-patterns",
+    "text": "matcher group"
+  },
+  "S2V_LINK_6": {
+    "url": "#hook-handler-fields",
+    "text": "hook handlers"
+  },
+  "S2V_LINK_7": {
+    "url": "#how-a-hook-resolves",
+    "text": "How a hook resolves"
+  },
+  "S2V_LINK_8": {
+    "url": "/docs/en/skills",
+    "text": "Skill"
+  },
+  "S2V_LINK_9": {
+    "url": "/docs/en/sub-agents",
+    "text": "agent"
+  },
+  "S2V_LINK_10": {
+    "url": "/docs/en/settings",
+    "text": "settings"
+  },
+  "S2V_LINK_11": {
+    "url": "/docs/en/settings#hook-configuration",
+    "text": "Hook configuration"
+  },
+  "S2V_LINK_12": {
+    "url": "#filechanged",
+    "text": "FileChanged"
+  },
+  "S2V_LINK_13": {
+    "url": "#hook-input-and-output",
+    "text": "JSON input"
+  },
+  "S2V_LINK_14": {
+    "url": "#hook-events",
+    "text": "hook event"
+  },
+  "S2V_LINK_15": {
+    "url": "#common-fields",
+    "text": "on individual hook handlers."
+  },
+  "S2V_LINK_16": {
+    "url": "/docs/en/permissions",
+    "text": "permission rule syntax"
+  },
+  "S2V_LINK_17": {
+    "url": "/docs/en/mcp",
+    "text": "MCP"
+  },
+  "S2V_LINK_18": {
+    "url": "#command-hook-fields",
+    "text": "Command hooks"
+  },
+  "S2V_LINK_19": {
+    "url": "#hook-input-and-output",
+    "text": "JSON input"
+  },
+  "S2V_LINK_20": {
+    "url": "#http-hook-fields",
+    "text": "HTTP hooks"
+  },
+  "S2V_LINK_21": {
+    "url": "#json-output",
+    "text": "JSON output format"
+  },
+  "S2V_LINK_22": {
+    "url": "#mcp-tool-hook-fields",
+    "text": "MCP tool hooks"
+  },
+  "S2V_LINK_23": {
+    "url": "/docs/en/mcp",
+    "text": "MCP server"
+  },
+  "S2V_LINK_24": {
+    "url": "#prompt-and-agent-hook-fields",
+    "text": "Prompt hooks"
+  },
+  "S2V_LINK_25": {
+    "url": "#prompt-based-hooks",
+    "text": "Prompt-based hooks"
+  },
+  "S2V_LINK_26": {
+    "url": "#prompt-and-agent-hook-fields",
+    "text": "Agent hooks"
+  },
+  "S2V_LINK_27": {
+    "url": "#agent-based-hooks",
+    "text": "Agent-based hooks"
+  },
+  "S2V_LINK_28": {
+    "url": "#common-fields",
+    "text": "common fields"
+  },
+  "S2V_LINK_29": {
+    "url": "#common-fields",
+    "text": "common fields"
+  },
+  "S2V_LINK_30": {
+    "url": "#hook-input-and-output",
+    "text": "JSON input"
+  },
+  "S2V_LINK_31": {
+    "url": "#json-output",
+    "text": "JSON output format"
+  },
+  "S2V_LINK_32": {
+    "url": "#common-fields",
+    "text": "common fields"
+  },
+  "S2V_LINK_33": {
+    "url": "#json-output",
+    "text": "JSON output"
+  },
+  "S2V_LINK_34": {
+    "url": "#common-fields",
+    "text": "common fields"
+  },
+  "S2V_LINK_35": {
+    "url": "/docs/en/plugins",
+    "text": "plugin"
+  },
+  "S2V_LINK_36": {
+    "url": "/docs/en/plugins-reference#persistent-data-directory",
+    "text": "persistent data directory"
+  },
+  "S2V_LINK_37": {
+    "url": "/docs/en/skills",
+    "text": "skills"
+  },
+  "S2V_LINK_38": {
+    "url": "/docs/en/sub-agents",
+    "text": "subagents"
+  },
+  "S2V_LINK_39": {
+    "url": "#hook-events",
+    "text": "Hook events"
+  },
+  "S2V_LINK_40": {
+    "url": "#hook-events",
+    "text": "hook event"
+  },
+  "S2V_LINK_41": {
+    "url": "#hook-events",
+    "text": "hook event"
+  },
+  "S2V_LINK_42": {
+    "url": "#json-output",
+    "text": "JSON output fields"
+  },
+  "S2V_LINK_43": {
+    "url": "#exit-code-2-behavior-per-event",
+    "text": "exit code 2 behavior"
+  },
+  "S2V_LINK_44": {
+    "url": "#json-output",
+    "text": "JSON output"
+  },
+  "S2V_LINK_45": {
+    "url": "#decision-control",
+    "text": "decision control"
+  },
+  "S2V_LINK_46": {
+    "url": "/docs/en/hooks-guide#json-validation-failed",
+    "text": "JSON validation failed"
+  },
+  "S2V_LINK_47": {
+    "url": "/docs/en/hooks-guide#what-you-can-automate",
+    "text": "What you can automate"
+  },
+  "S2V_LINK_48": {
+    "url": "https://github.com/anthropics/claude-code/blob/main/examples/hooks/bash_command_validator_example.py",
+    "text": "Bash command validator reference implementation"
+  },
+  "S2V_LINK_49": {
+    "url": "/docs/en/memory",
+    "text": "CLAUDE.md"
+  },
+  "S2V_LINK_50": {
+    "url": "#common-input-fields",
+    "text": "common input fields"
+  },
+  "S2V_LINK_51": {
+    "url": "#json-output",
+    "text": "JSON output fields"
+  },
+  "S2V_LINK_52": {
+    "url": "#cwdchanged",
+    "text": "CwdChanged"
+  },
+  "S2V_LINK_53": {
+    "url": "#filechanged",
+    "text": "FileChanged"
+  },
+  "S2V_LINK_54": {
+    "url": "#common-input-fields",
+    "text": "common input fields"
+  },
+  "S2V_LINK_55": {
+    "url": "#common-input-fields",
+    "text": "common input fields"
+  },
+  "S2V_LINK_56": {
+    "url": "#json-output",
+    "text": "JSON output fields"
+  },
+  "S2V_LINK_57": {
+    "url": "#common-input-fields",
+    "text": "common input fields"
+  },
+  "S2V_LINK_58": {
+    "url": "#json-output",
+    "text": "JSON output fields"
+  },
+  "S2V_LINK_59": {
+    "url": "#match-mcp-tools",
+    "text": "MCP tool names"
+  },
+  "S2V_LINK_60": {
+    "url": "#pretooluse-decision-control",
+    "text": "PreToolUse decision control"
+  },
+  "S2V_LINK_61": {
+    "url": "#common-input-fields",
+    "text": "common input fields"
+  },
+  "S2V_LINK_62": {
+    "url": "/docs/en/sub-agents",
+    "text": "subagent"
+  },
+  "S2V_LINK_63": {
+    "url": "/docs/en/headless",
+    "text": "non-interactive mode"
+  },
+  "S2V_LINK_64": {
+    "url": "#askuserquestion",
+    "text": "object mapping each question\u2019s text to the chosen answer."
+  },
+  "S2V_LINK_65": {
+    "url": "/docs/en/headless",
+    "text": "non-interactive mode"
+  },
+  "S2V_LINK_66": {
+    "url": "/docs/en/settings#available-settings",
+    "text": "retention sweep that deletes session files after 30 days by default. If the answer is not ready when you resume, the hook can return"
+  },
+  "S2V_LINK_67": {
+    "url": "#permissionrequest-decision-control",
+    "text": "PermissionRequest decision control"
+  },
+  "S2V_LINK_68": {
+    "url": "#json-output",
+    "text": "JSON output fields"
+  },
+  "S2V_LINK_69": {
+    "url": "#permissionrequest-input",
+    "text": "both use the same array of entry objects. Each entry has a"
+  },
+  "S2V_LINK_70": {
+    "url": "/docs/en/permissions#managed-settings",
+    "text": ". Otherwise the update is a no-op."
+  },
+  "S2V_LINK_71": {
+    "url": "#json-output",
+    "text": "JSON output fields"
+  },
+  "S2V_LINK_72": {
+    "url": "#json-output",
+    "text": "JSON output fields"
+  },
+  "S2V_LINK_73": {
+    "url": "#common-input-fields",
+    "text": "common input fields"
+  },
+  "S2V_LINK_74": {
+    "url": "#json-output",
+    "text": "JSON output fields"
+  },
+  "S2V_LINK_75": {
+    "url": "/docs/en/permission-modes#eliminate-prompts-with-auto-mode",
+    "text": "auto mode"
+  },
+  "S2V_LINK_76": {
+    "url": "#common-input-fields",
+    "text": "common input fields"
+  },
+  "S2V_LINK_77": {
+    "url": "#common-input-fields",
+    "text": "common input fields"
+  },
+  "S2V_LINK_78": {
+    "url": "#json-output",
+    "text": "JSON output fields"
+  },
+  "S2V_LINK_79": {
+    "url": "#common-input-fields",
+    "text": "common input fields"
+  },
+  "S2V_LINK_80": {
+    "url": "#json-output",
+    "text": "JSON output fields"
+  },
+  "S2V_LINK_81": {
+    "url": "#common-input-fields",
+    "text": "common input fields"
+  },
+  "S2V_LINK_82": {
+    "url": "#stop-decision-control",
+    "text": "Stop hooks"
+  },
+  "S2V_LINK_83": {
+    "url": "#common-input-fields",
+    "text": "common input fields"
+  },
+  "S2V_LINK_84": {
+    "url": "/docs/en/agent-teams",
+    "text": "agent team"
+  },
+  "S2V_LINK_85": {
+    "url": "#common-input-fields",
+    "text": "common input fields"
+  },
+  "S2V_LINK_86": {
+    "url": "#stopfailure",
+    "text": "StopFailure"
+  },
+  "S2V_LINK_87": {
+    "url": "#common-input-fields",
+    "text": "common input fields"
+  },
+  "S2V_LINK_88": {
+    "url": "#json-output",
+    "text": "JSON output fields"
+  },
+  "S2V_LINK_89": {
+    "url": "#stop",
+    "text": "Stop"
+  },
+  "S2V_LINK_90": {
+    "url": "#common-input-fields",
+    "text": "common input fields"
+  },
+  "S2V_LINK_91": {
+    "url": "/docs/en/agent-teams",
+    "text": "agent team"
+  },
+  "S2V_LINK_92": {
+    "url": "#common-input-fields",
+    "text": "common input fields"
+  },
+  "S2V_LINK_93": {
+    "url": "#common-input-fields",
+    "text": "common input fields"
+  },
+  "S2V_LINK_94": {
+    "url": "#filechanged",
+    "text": "FileChanged"
+  },
+  "S2V_LINK_95": {
+    "url": "https://direnv.net/",
+    "text": "direnv"
+  },
+  "S2V_LINK_96": {
+    "url": "#persist-environment-variables",
+    "text": "SessionStart hooks"
+  },
+  "S2V_LINK_97": {
+    "url": "#common-input-fields",
+    "text": "common input fields"
+  },
+  "S2V_LINK_98": {
+    "url": "#json-output",
+    "text": "JSON output fields"
+  },
+  "S2V_LINK_99": {
+    "url": "#filechanged",
+    "text": "FileChanged"
+  },
+  "S2V_LINK_100": {
+    "url": "#matcher-patterns",
+    "text": "matcher rules"
+  },
+  "S2V_LINK_101": {
+    "url": "#persist-environment-variables",
+    "text": "SessionStart hooks"
+  },
+  "S2V_LINK_102": {
+    "url": "#common-input-fields",
+    "text": "common input fields"
+  },
+  "S2V_LINK_103": {
+    "url": "#json-output",
+    "text": "JSON output fields"
+  },
+  "S2V_LINK_104": {
+    "url": "/docs/en/sub-agents#choose-the-subagent-scope",
+    "text": "subagent uses"
+  },
+  "S2V_LINK_105": {
+    "url": "/docs/en/common-workflows#copy-gitignored-files-to-worktrees",
+    "text": "is not processed. If you need to copy local configuration files like"
+  },
+  "S2V_LINK_106": {
+    "url": "#common-input-fields",
+    "text": "common input fields"
+  },
+  "S2V_LINK_107": {
+    "url": "#worktreecreate",
+    "text": "WorktreeCreate"
+  },
+  "S2V_LINK_108": {
+    "url": "#common-input-fields",
+    "text": "common input fields"
+  },
+  "S2V_LINK_109": {
+    "url": "#common-input-fields",
+    "text": "common input fields"
+  },
+  "S2V_LINK_110": {
+    "url": "#common-input-fields",
+    "text": "common input fields"
+  },
+  "S2V_LINK_111": {
+    "url": "#common-input-fields",
+    "text": "common input fields"
+  },
+  "S2V_LINK_112": {
+    "url": "#sessionend",
+    "text": "reason table"
+  },
+  "S2V_LINK_113": {
+    "url": "#common-input-fields",
+    "text": "common input fields"
+  },
+  "S2V_LINK_114": {
+    "url": "#common-input-fields",
+    "text": "common input fields"
+  },
+  "S2V_LINK_115": {
+    "url": "/docs/en/sub-agents",
+    "text": "subagent"
+  },
+  "S2V_LINK_116": {
+    "url": "#prompt-hook-configuration",
+    "text": "prompt hooks"
+  },
+  "S2V_LINK_117": {
+    "url": "/docs/en/hooks-guide#limitations-and-troubleshooting",
+    "text": "Limitations and troubleshooting"
+  },
+  "S2V_LINK_118": {
+    "url": "/docs/en/debug-your-config",
+    "text": "Debug your config"
+  }
+}

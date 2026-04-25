@@ -1,0 +1,122 @@
+{
+  "S2V_LINK_0": {
+    "url": "#display-multiple-lines",
+    "text": "multi-line status line"
+  },
+  "S2V_LINK_1": {
+    "url": "#set-up-a-status-line",
+    "text": "setting up a basic status line"
+  },
+  "S2V_LINK_2": {
+    "url": "#how-status-lines-work",
+    "text": "how the data flows"
+  },
+  "S2V_LINK_3": {
+    "url": "#available-data",
+    "text": "all the fields you can display"
+  },
+  "S2V_LINK_4": {
+    "url": "#examples",
+    "text": "ready-to-use examples"
+  },
+  "S2V_LINK_5": {
+    "url": "#use-the-%2Fstatusline-command",
+    "text": "to have Claude Code generate a script for you, or"
+  },
+  "S2V_LINK_6": {
+    "url": "#manually-configure-a-status-line",
+    "text": "manually create a script"
+  },
+  "S2V_LINK_7": {
+    "url": "/docs/en/settings#settings-files",
+    "text": "project settings"
+  },
+  "S2V_LINK_8": {
+    "url": "#build-a-status-line-step-by-step",
+    "text": "Build a status line step by step"
+  },
+  "S2V_LINK_9": {
+    "url": "#how-status-lines-work",
+    "text": "event-driven updates"
+  },
+  "S2V_LINK_10": {
+    "url": "#use-the-%2Fstatusline-command",
+    "text": "with a description of what you want configures all of this for you automatically."
+  },
+  "S2V_LINK_11": {
+    "url": "#windows-configuration",
+    "text": "Windows configuration"
+  },
+  "S2V_LINK_12": {
+    "url": "https://jqlang.github.io/jq/",
+    "text": ", a command-line JSON parser you may need to install, to extract the model name, directory, and context percentage, then prints a formatted line.Save this to"
+  },
+  "S2V_LINK_13": {
+    "url": "#available-data",
+    "text": "JSON session data"
+  },
+  "S2V_LINK_14": {
+    "url": "#manually-configure-a-status-line",
+    "text": "to also re-run the command on a fixed timer. What your script can output"
+  },
+  "S2V_LINK_15": {
+    "url": "#display-multiple-lines",
+    "text": "multi-line example"
+  },
+  "S2V_LINK_16": {
+    "url": "https://en.wikipedia.org/wiki/ANSI_escape_code#Colors",
+    "text": "ANSI escape codes"
+  },
+  "S2V_LINK_17": {
+    "url": "#git-status-with-colors",
+    "text": "git status example"
+  },
+  "S2V_LINK_18": {
+    "url": "https://en.wikipedia.org/wiki/ANSI_escape_code#OSC",
+    "text": "OSC 8 escape sequences"
+  },
+  "S2V_LINK_19": {
+    "url": "#clickable-links",
+    "text": "clickable links example"
+  },
+  "S2V_LINK_20": {
+    "url": "/docs/en/interactive-mode#vim-editor-mode",
+    "text": "vim mode"
+  },
+  "S2V_LINK_21": {
+    "url": "#manually-configure-a-status-line",
+    "text": "settings"
+  },
+  "S2V_LINK_22": {
+    "url": "https://jqlang.github.io/jq/",
+    "text": "to parse JSON. Python and Node.js have built-in JSON parsing."
+  },
+  "S2V_LINK_23": {
+    "url": "https://en.wikipedia.org/wiki/ANSI_escape_code#Colors",
+    "text": "ANSI escape codes"
+  },
+  "S2V_LINK_24": {
+    "url": "/docs/en/sub-agents",
+    "text": "subagent"
+  },
+  "S2V_LINK_25": {
+    "url": "/docs/en/hooks#common-input-fields",
+    "text": "base hook fields"
+  },
+  "S2V_LINK_26": {
+    "url": "/docs/en/plugins-reference#standard-plugin-layout",
+    "text": "."
+  },
+  "S2V_LINK_27": {
+    "url": "#cache-expensive-operations",
+    "text": "caching example"
+  },
+  "S2V_LINK_28": {
+    "url": "https://github.com/sirmalloc/ccstatusline",
+    "text": "ccstatusline"
+  },
+  "S2V_LINK_29": {
+    "url": "https://github.com/martinemde/starship-claude",
+    "text": "starship-claude"
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "S2V_LINK_0": {
+    "url": "/docs/en/troubleshooting",
+    "text": "Troubleshooting"
+  },
+  "S2V_LINK_1": {
+    "url": "/docs/en/memory#how-claude-md-files-load",
+    "text": "how CLAUDE.md files load"
+  },
+  "S2V_LINK_2": {
+    "url": "/docs/en/memory#write-effective-instructions",
+    "text": "Write effective instructions"
+  },
+  "S2V_LINK_3": {
+    "url": "/docs/en/permissions",
+    "text": "Permissions"
+  },
+  "S2V_LINK_4": {
+    "url": "/docs/en/hooks",
+    "text": "hooks"
+  },
+  "S2V_LINK_5": {
+    "url": "/docs/en/env-vars",
+    "text": "environment variables"
+  },
+  "S2V_LINK_6": {
+    "url": "/docs/en/settings#how-scopes-interact",
+    "text": "How scopes interact"
+  },
+  "S2V_LINK_7": {
+    "url": "/docs/en/mcp",
+    "text": "MCP"
+  },
+  "S2V_LINK_8": {
+    "url": "/docs/en/hooks#debug-hooks",
+    "text": "Debug hooks"
+  },
+  "S2V_LINK_9": {
+    "url": "/docs/en/hooks-guide#limitations-and-troubleshooting",
+    "text": "hooks troubleshooting"
+  },
+  "S2V_LINK_10": {
+    "url": "/docs/en/sub-agents",
+    "text": "subagent configuration"
+  },
+  "S2V_LINK_11": {
+    "url": "/docs/en/hooks#hook-events",
+    "text": "hook events list"
+  },
+  "S2V_LINK_12": {
+    "url": "/docs/en/mcp",
+    "text": "MCP configuration"
+  },
+  "S2V_LINK_13": {
+    "url": "/docs/en/hooks-guide",
+    "text": "PreToolUse hook"
+  },
+  "S2V_LINK_14": {
+    "url": "/docs/en/sandboxing",
+    "text": "sandbox"
+  },
+  "S2V_LINK_15": {
+    "url": "/docs/en/claude-directory",
+    "text": ""
+  },
+  "S2V_LINK_16": {
+    "url": "/docs/en/settings",
+    "text": "Settings"
+  },
+  "S2V_LINK_17": {
+    "url": "/docs/en/hooks",
+    "text": "Hooks reference"
+  },
+  "S2V_LINK_18": {
+    "url": "/docs/en/mcp",
+    "text": "MCP"
+  },
+  "S2V_LINK_19": {
+    "url": "/docs/en/troubleshooting",
+    "text": "Troubleshooting"
+  }
+}

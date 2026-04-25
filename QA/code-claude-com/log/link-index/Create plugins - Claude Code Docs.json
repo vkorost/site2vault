@@ -1,0 +1,106 @@
+{
+  "S2V_LINK_0": {
+    "url": "/docs/en/discover-plugins",
+    "text": "Discover and install plugins"
+  },
+  "S2V_LINK_1": {
+    "url": "/docs/en/plugins-reference",
+    "text": "Plugins reference"
+  },
+  "S2V_LINK_2": {
+    "url": "/docs/en/quickstart#step-1-install-claude-code",
+    "text": "installed and authenticated"
+  },
+  "S2V_LINK_3": {
+    "url": "/docs/en/troubleshooting",
+    "text": "Troubleshooting"
+  },
+  "S2V_LINK_4": {
+    "url": "/docs/en/plugins-reference#plugin-manifest-schema",
+    "text": "full manifest schema"
+  },
+  "S2V_LINK_5": {
+    "url": "/docs/en/skills#pass-arguments-to-skills",
+    "text": "Skills"
+  },
+  "S2V_LINK_6": {
+    "url": "#develop-more-complex-plugins",
+    "text": "Develop more complex plugins"
+  },
+  "S2V_LINK_7": {
+    "url": "/docs/en/plugins-reference",
+    "text": "Plugins reference"
+  },
+  "S2V_LINK_8": {
+    "url": "/docs/en/skills",
+    "text": "Agent Skills"
+  },
+  "S2V_LINK_9": {
+    "url": "/docs/en/skills",
+    "text": "Agent Skills"
+  },
+  "S2V_LINK_10": {
+    "url": "/docs/en/plugins-reference#lsp-servers",
+    "text": "LSP servers"
+  },
+  "S2V_LINK_11": {
+    "url": "/docs/en/plugins-reference#monitors",
+    "text": "Monitors"
+  },
+  "S2V_LINK_12": {
+    "url": "/docs/en/sub-agents",
+    "text": "custom agents"
+  },
+  "S2V_LINK_13": {
+    "url": "/docs/en/plugins-reference#plugin-directory-structure",
+    "text": "Plugin directory structure"
+  },
+  "S2V_LINK_14": {
+    "url": "/docs/en/plugins-reference#debugging-and-development-tools",
+    "text": "Debugging and development tools"
+  },
+  "S2V_LINK_15": {
+    "url": "/docs/en/plugins-reference#version-management",
+    "text": "version management"
+  },
+  "S2V_LINK_16": {
+    "url": "/docs/en/plugin-marketplaces",
+    "text": "plugin marketplaces"
+  },
+  "S2V_LINK_17": {
+    "url": "/docs/en/discover-plugins",
+    "text": "Discover and install plugins"
+  },
+  "S2V_LINK_18": {
+    "url": "https://claude.ai/settings/plugins/submit",
+    "text": "claude.ai/settings/plugins/submit"
+  },
+  "S2V_LINK_19": {
+    "url": "https://platform.claude.com/plugins/submit",
+    "text": "platform.claude.com/plugins/submit"
+  },
+  "S2V_LINK_20": {
+    "url": "/docs/en/plugin-hints",
+    "text": "Recommend your plugin from your CLI"
+  },
+  "S2V_LINK_21": {
+    "url": "/docs/en/plugins-reference",
+    "text": "Plugins reference"
+  },
+  "S2V_LINK_22": {
+    "url": "/docs/en/discover-plugins",
+    "text": "Discover and install plugins"
+  },
+  "S2V_LINK_23": {
+    "url": "/docs/en/discover-plugins#configure-team-marketplaces",
+    "text": "Configure team marketplaces"
+  },
+  "S2V_LINK_24": {
+    "url": "/docs/en/plugin-marketplaces",
+    "text": "Create and distribute a marketplace"
+  },
+  "S2V_LINK_25": {
+    "url": "/docs/en/plugins-reference",
+    "text": "Plugins reference"
+  }
+}

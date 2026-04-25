@@ -1,0 +1,82 @@
+[
+  {
+    "level": 2,
+    "text": "What works with GitHub Enterprise Server",
+    "slug": "what-works-with-github-enterprise-server"
+  },
+  {
+    "level": 2,
+    "text": "Admin setup",
+    "slug": "admin-setup"
+  },
+  {
+    "level": 3,
+    "text": "GitHub App permissions",
+    "slug": "github-app-permissions"
+  },
+  {
+    "level": 3,
+    "text": "Manual setup",
+    "slug": "manual-setup"
+  },
+  {
+    "level": 3,
+    "text": "Network requirements",
+    "slug": "network-requirements"
+  },
+  {
+    "level": 2,
+    "text": "Developer workflow",
+    "slug": "developer-workflow"
+  },
+  {
+    "level": 3,
+    "text": "Teleport sessions to your terminal",
+    "slug": "teleport-sessions-to-your-terminal"
+  },
+  {
+    "level": 2,
+    "text": "Plugin marketplaces on GHES",
+    "slug": "plugin-marketplaces-on-ghes"
+  },
+  {
+    "level": 3,
+    "text": "Add a GHES marketplace",
+    "slug": "add-a-ghes-marketplace"
+  },
+  {
+    "level": 3,
+    "text": "Allowlist GHES marketplaces in managed settings",
+    "slug": "allowlist-ghes-marketplaces-in-managed-settings"
+  },
+  {
+    "level": 2,
+    "text": "Limitations",
+    "slug": "limitations"
+  },
+  {
+    "level": 2,
+    "text": "Troubleshooting",
+    "slug": "troubleshooting"
+  },
+  {
+    "level": 3,
+    "text": "Web session fails to clone repository",
+    "slug": "web-session-fails-to-clone-repository"
+  },
+  {
+    "level": 3,
+    "text": "Marketplace add fails with a policy error",
+    "slug": "marketplace-add-fails-with-a-policy-error"
+  },
+  {
+    "level": 3,
+    "text": "GHES instance not reachable",
+    "slug": "ghes-instance-not-reachable"
+  },
+  {
+    "level": 2,
+    "text": "Related resources",
+    "slug": "related-resources"
+  }
+]

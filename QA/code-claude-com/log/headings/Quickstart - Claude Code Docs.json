@@ -1,0 +1,87 @@
+[
+  {
+    "level": 2,
+    "text": "Before you begin",
+    "slug": "before-you-begin"
+  },
+  {
+    "level": 2,
+    "text": "Step 1: Install Claude Code",
+    "slug": "step-1-install-claude-code"
+  },
+  {
+    "level": 2,
+    "text": "Step 2: Log in to your account",
+    "slug": "step-2-log-in-to-your-account"
+  },
+  {
+    "level": 2,
+    "text": "Step 3: Start your first session",
+    "slug": "step-3-start-your-first-session"
+  },
+  {
+    "level": 2,
+    "text": "Step 4: Ask your first question",
+    "slug": "step-4-ask-your-first-question"
+  },
+  {
+    "level": 2,
+    "text": "Step 5: Make your first code change",
+    "slug": "step-5-make-your-first-code-change"
+  },
+  {
+    "level": 2,
+    "text": "Step 6: Use Git with Claude Code",
+    "slug": "step-6-use-git-with-claude-code"
+  },
+  {
+    "level": 2,
+    "text": "Step 7: Fix a bug or add a feature",
+    "slug": "step-7-fix-a-bug-or-add-a-feature"
+  },
+  {
+    "level": 2,
+    "text": "Step 8: Test out other common workflows",
+    "slug": "step-8-test-out-other-common-workflows"
+  },
+  {
+    "level": 2,
+    "text": "Essential commands",
+    "slug": "essential-commands"
+  },
+  {
+    "level": 2,
+    "text": "Pro tips for beginners",
+    "slug": "pro-tips-for-beginners"
+  },
+  {
+    "level": 2,
+    "text": "What\u2019s next?",
+    "slug": "whats-next"
+  },
+  {
+    "level": 2,
+    "text": "How Claude Code works",
+    "slug": "how-claude-code-works"
+  },
+  {
+    "level": 2,
+    "text": "Best practices",
+    "slug": "best-practices"
+  },
+  {
+    "level": 2,
+    "text": "Common workflows",
+    "slug": "common-workflows"
+  },
+  {
+    "level": 2,
+    "text": "Extend Claude Code",
+    "slug": "extend-claude-code"
+  },
+  {
+    "level": 2,
+    "text": "Getting help",
+    "slug": "getting-help"
+  }
+]

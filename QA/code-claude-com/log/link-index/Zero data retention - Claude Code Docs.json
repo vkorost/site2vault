@@ -1,0 +1,22 @@
+{
+  "S2V_LINK_0": {
+    "url": "/docs/en/analytics",
+    "text": "Analytics"
+  },
+  "S2V_LINK_1": {
+    "url": "/docs/en/server-managed-settings",
+    "text": "Server-managed settings"
+  },
+  "S2V_LINK_2": {
+    "url": "/docs/en/data-usage#data-retention",
+    "text": "standard data retention policies"
+  },
+  "S2V_LINK_3": {
+    "url": "/docs/en/desktop#remote-sessions",
+    "text": "Remote sessions"
+  },
+  "S2V_LINK_4": {
+    "url": "https://www.anthropic.com/contact-sales?utm_source=claude_code&utm_medium=docs&utm_content=zero_data_retention_request",
+    "text": "contact sales"
+  }
+}

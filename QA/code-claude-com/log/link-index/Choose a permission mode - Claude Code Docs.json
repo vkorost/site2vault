@@ -1,0 +1,138 @@
+{
+  "S2V_LINK_0": {
+    "url": "#analyze-before-you-edit-with-plan-mode",
+    "text": ""
+  },
+  "S2V_LINK_1": {
+    "url": "#eliminate-prompts-with-auto-mode",
+    "text": ""
+  },
+  "S2V_LINK_2": {
+    "url": "#allow-only-pre-approved-tools-with-dontask-mode",
+    "text": ""
+  },
+  "S2V_LINK_3": {
+    "url": "#skip-all-checks-with-bypasspermissions-mode",
+    "text": ""
+  },
+  "S2V_LINK_4": {
+    "url": "#protected-paths",
+    "text": "protected paths"
+  },
+  "S2V_LINK_5": {
+    "url": "/docs/en/permissions#manage-permissions",
+    "text": "permission rules"
+  },
+  "S2V_LINK_6": {
+    "url": "#eliminate-prompts-with-auto-mode",
+    "text": "auto mode requirements"
+  },
+  "S2V_LINK_7": {
+    "url": "/docs/en/settings#settings-files",
+    "text": "settings"
+  },
+  "S2V_LINK_8": {
+    "url": "/docs/en/headless",
+    "text": "non-interactive runs"
+  },
+  "S2V_LINK_9": {
+    "url": "#protected-paths",
+    "text": "protected paths"
+  },
+  "S2V_LINK_10": {
+    "url": "/docs/en/ultraplan",
+    "text": "Ultraplan"
+  },
+  "S2V_LINK_11": {
+    "url": "https://claude.ai/admin-settings/claude-code",
+    "text": "Claude Code admin settings"
+  },
+  "S2V_LINK_12": {
+    "url": "/docs/en/permissions#managed-settings",
+    "text": "managed settings"
+  },
+  "S2V_LINK_13": {
+    "url": "/docs/en/errors#auto-mode-cannot-determine-the-safety-of-an-action",
+    "text": "error reference"
+  },
+  "S2V_LINK_14": {
+    "url": "/docs/en/auto-mode-config",
+    "text": "configure trusted infrastructure"
+  },
+  "S2V_LINK_15": {
+    "url": "/docs/en/auto-mode-config",
+    "text": "Configure auto mode"
+  },
+  "S2V_LINK_16": {
+    "url": "/docs/en/costs#reduce-token-usage",
+    "text": "context compaction"
+  },
+  "S2V_LINK_17": {
+    "url": "/docs/en/permissions#permission-rule-syntax",
+    "text": "deny rule"
+  },
+  "S2V_LINK_18": {
+    "url": "/docs/en/headless",
+    "text": "non-interactive mode"
+  },
+  "S2V_LINK_19": {
+    "url": "/docs/en/auto-mode-config",
+    "text": "configure trusted infrastructure"
+  },
+  "S2V_LINK_20": {
+    "url": "/docs/en/permissions#manage-permissions",
+    "text": "allow or deny rules"
+  },
+  "S2V_LINK_21": {
+    "url": "#protected-paths",
+    "text": "protected paths"
+  },
+  "S2V_LINK_22": {
+    "url": "https://claude.com/blog/auto-mode",
+    "text": "auto mode announcement"
+  },
+  "S2V_LINK_23": {
+    "url": "https://www.anthropic.com/engineering/claude-code-auto-mode",
+    "text": "engineering deep dive"
+  },
+  "S2V_LINK_24": {
+    "url": "/docs/en/sub-agents",
+    "text": "subagent"
+  },
+  "S2V_LINK_25": {
+    "url": "/docs/en/permissions#read-only-commands",
+    "text": "read-only Bash commands"
+  },
+  "S2V_LINK_26": {
+    "url": "#protected-paths",
+    "text": "protected paths"
+  },
+  "S2V_LINK_27": {
+    "url": "/docs/en/permissions",
+    "text": "Permissions"
+  },
+  "S2V_LINK_28": {
+    "url": "/docs/en/auto-mode-config",
+    "text": "Configure auto mode"
+  },
+  "S2V_LINK_29": {
+    "url": "/docs/en/hooks",
+    "text": "Hooks"
+  },
+  "S2V_LINK_30": {
+    "url": "/docs/en/ultraplan",
+    "text": "Ultraplan"
+  },
+  "S2V_LINK_31": {
+    "url": "/docs/en/security",
+    "text": "Security"
+  },
+  "S2V_LINK_32": {
+    "url": "/docs/en/sandboxing",
+    "text": "Sandboxing"
+  },
+  "S2V_LINK_33": {
+    "url": "/docs/en/headless",
+    "text": "Non-interactive mode"
+  }
+}

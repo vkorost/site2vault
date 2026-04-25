@@ -1,0 +1,94 @@
+{
+  "S2V_LINK_0": {
+    "url": "#research-preview",
+    "text": "research preview"
+  },
+  "S2V_LINK_1": {
+    "url": "#toggle-fast-mode",
+    "text": "toggle fast mode"
+  },
+  "S2V_LINK_2": {
+    "url": "#understand-the-cost-tradeoff",
+    "text": "cost tradeoff"
+  },
+  "S2V_LINK_3": {
+    "url": "#decide-when-to-use-fast-mode",
+    "text": "when to use it"
+  },
+  "S2V_LINK_4": {
+    "url": "#requirements",
+    "text": "requirements"
+  },
+  "S2V_LINK_5": {
+    "url": "#require-per-session-opt-in",
+    "text": "per-session opt-in"
+  },
+  "S2V_LINK_6": {
+    "url": "#handle-rate-limits",
+    "text": "rate limit behavior"
+  },
+  "S2V_LINK_7": {
+    "url": "/docs/en/settings",
+    "text": "user settings file"
+  },
+  "S2V_LINK_8": {
+    "url": "#require-per-session-opt-in",
+    "text": "require per-session opt-in"
+  },
+  "S2V_LINK_9": {
+    "url": "#understand-the-cost-tradeoff",
+    "text": "understand the cost tradeoff"
+  },
+  "S2V_LINK_10": {
+    "url": "/docs/en/model-config#adjust-effort-level",
+    "text": "effort level"
+  },
+  "S2V_LINK_11": {
+    "url": "https://platform.claude.com/settings/organization/billing",
+    "text": "Console billing settings"
+  },
+  "S2V_LINK_12": {
+    "url": "#enable-fast-mode-for-your-organization",
+    "text": "enable fast mode"
+  },
+  "S2V_LINK_13": {
+    "url": "https://platform.claude.com/claude-code/preferences",
+    "text": "Claude Code preferences"
+  },
+  "S2V_LINK_14": {
+    "url": "https://claude.ai/admin-settings/claude-code",
+    "text": "Admin Settings > Claude Code"
+  },
+  "S2V_LINK_15": {
+    "url": "/docs/en/env-vars",
+    "text": "Environment variables"
+  },
+  "S2V_LINK_16": {
+    "url": "https://claude.com/pricing?utm_source=claude_code&utm_medium=docs&utm_content=fast_mode_teams#team-&-enterprise",
+    "text": "Team"
+  },
+  "S2V_LINK_17": {
+    "url": "https://anthropic.com/contact-sales?utm_source=claude_code&utm_medium=docs&utm_content=fast_mode_enterprise",
+    "text": "Enterprise"
+  },
+  "S2V_LINK_18": {
+    "url": "/docs/en/settings#settings-files",
+    "text": "managed settings"
+  },
+  "S2V_LINK_19": {
+    "url": "/docs/en/server-managed-settings",
+    "text": "server-managed settings"
+  },
+  "S2V_LINK_20": {
+    "url": "/docs/en/model-config",
+    "text": "Model configuration"
+  },
+  "S2V_LINK_21": {
+    "url": "/docs/en/costs",
+    "text": "Manage costs effectively"
+  },
+  "S2V_LINK_22": {
+    "url": "/docs/en/statusline",
+    "text": "Status line configuration"
+  }
+}

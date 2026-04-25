@@ -1,0 +1,77 @@
+[
+  {
+    "level": 2,
+    "text": "Quickstart",
+    "slug": "quickstart"
+  },
+  {
+    "level": 2,
+    "text": "Example agents",
+    "slug": "example-agents"
+  },
+  {
+    "level": 2,
+    "text": "Get started",
+    "slug": "get-started"
+  },
+  {
+    "level": 2,
+    "text": "Capabilities",
+    "slug": "capabilities"
+  },
+  {
+    "level": 3,
+    "text": "Claude Code features",
+    "slug": "claude-code-features"
+  },
+  {
+    "level": 2,
+    "text": "Compare the Agent SDK to other Claude tools",
+    "slug": "compare-the-agent-sdk-to-other-claude-tools"
+  },
+  {
+    "level": 2,
+    "text": "Changelog",
+    "slug": "changelog"
+  },
+  {
+    "level": 2,
+    "text": "Reporting bugs",
+    "slug": "reporting-bugs"
+  },
+  {
+    "level": 2,
+    "text": "Branding guidelines",
+    "slug": "branding-guidelines"
+  },
+  {
+    "level": 2,
+    "text": "License and terms",
+    "slug": "license-and-terms"
+  },
+  {
+    "level": 2,
+    "text": "Next steps",
+    "slug": "next-steps"
+  },
+  {
+    "level": 2,
+    "text": "Quickstart",
+    "slug": "quickstart"
+  },
+  {
+    "level": 2,
+    "text": "Example agents",
+    "slug": "example-agents"
+  },
+  {
+    "level": 2,
+    "text": "TypeScript SDK",
+    "slug": "typescript-sdk"
+  },
+  {
+    "level": 2,
+    "text": "Python SDK",
+    "slug": "python-sdk"
+  }
+]

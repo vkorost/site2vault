@@ -1,0 +1,42 @@
+[
+  {
+    "level": 2,
+    "text": "Enable streaming output",
+    "slug": "enable-streaming-output"
+  },
+  {
+    "level": 2,
+    "text": "StreamEvent reference",
+    "slug": "streamevent-reference"
+  },
+  {
+    "level": 2,
+    "text": "Message flow",
+    "slug": "message-flow"
+  },
+  {
+    "level": 2,
+    "text": "Stream text responses",
+    "slug": "stream-text-responses"
+  },
+  {
+    "level": 2,
+    "text": "Stream tool calls",
+    "slug": "stream-tool-calls"
+  },
+  {
+    "level": 2,
+    "text": "Build a streaming UI",
+    "slug": "build-a-streaming-ui"
+  },
+  {
+    "level": 2,
+    "text": "Known limitations",
+    "slug": "known-limitations"
+  },
+  {
+    "level": 2,
+    "text": "Next steps",
+    "slug": "next-steps"
+  }
+]

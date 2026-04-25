@@ -1,0 +1,106 @@
+{
+  "S2V_LINK_0": {
+    "url": "/docs/en/agent-sdk/overview",
+    "text": "Agent SDK"
+  },
+  "S2V_LINK_1": {
+    "url": "/docs/en/agent-sdk/python",
+    "text": "Python"
+  },
+  "S2V_LINK_2": {
+    "url": "/docs/en/agent-sdk/typescript",
+    "text": "TypeScript"
+  },
+  "S2V_LINK_3": {
+    "url": "/docs/en/cli-reference",
+    "text": "CLI options"
+  },
+  "S2V_LINK_4": {
+    "url": "/docs/en/agent-sdk/overview",
+    "text": "full Agent SDK documentation"
+  },
+  "S2V_LINK_5": {
+    "url": "/docs/en/cli-reference",
+    "text": "CLI options"
+  },
+  "S2V_LINK_6": {
+    "url": "#continue-conversations",
+    "text": "continuing conversations"
+  },
+  "S2V_LINK_7": {
+    "url": "#auto-approve-tools",
+    "text": "auto-approving tools"
+  },
+  "S2V_LINK_8": {
+    "url": "#get-structured-output",
+    "text": "structured output"
+  },
+  "S2V_LINK_9": {
+    "url": "/docs/en/how-claude-code-works#the-context-window",
+    "text": "context"
+  },
+  "S2V_LINK_10": {
+    "url": "#start-faster-with-bare-mode",
+    "text": "so they don\u2019t pick up whatever happens to be configured locally."
+  },
+  "S2V_LINK_11": {
+    "url": "https://json-schema.org/",
+    "text": "JSON Schema"
+  },
+  "S2V_LINK_12": {
+    "url": "https://jqlang.github.io/jq/",
+    "text": "jq"
+  },
+  "S2V_LINK_13": {
+    "url": "/docs/en/env-vars",
+    "text": "is set, in which case"
+  },
+  "S2V_LINK_14": {
+    "url": "/docs/en/env-vars",
+    "text": "is set, Claude Code emits"
+  },
+  "S2V_LINK_15": {
+    "url": "/docs/en/agent-sdk/streaming-output",
+    "text": "Stream responses in real-time"
+  },
+  "S2V_LINK_16": {
+    "url": "/docs/en/permission-modes",
+    "text": "permission mode"
+  },
+  "S2V_LINK_17": {
+    "url": "/docs/en/permissions#read-only-commands",
+    "text": "read-only command set"
+  },
+  "S2V_LINK_18": {
+    "url": "/docs/en/settings#permission-rule-syntax",
+    "text": "permission rule syntax"
+  },
+  "S2V_LINK_19": {
+    "url": "/docs/en/skills",
+    "text": "skills"
+  },
+  "S2V_LINK_20": {
+    "url": "/docs/en/commands",
+    "text": "built-in commands"
+  },
+  "S2V_LINK_21": {
+    "url": "/docs/en/cli-reference#system-prompt-flags",
+    "text": "system prompt flags"
+  },
+  "S2V_LINK_22": {
+    "url": "/docs/en/agent-sdk/quickstart",
+    "text": "Agent SDK quickstart"
+  },
+  "S2V_LINK_23": {
+    "url": "/docs/en/cli-reference",
+    "text": "CLI reference"
+  },
+  "S2V_LINK_24": {
+    "url": "/docs/en/github-actions",
+    "text": "GitHub Actions"
+  },
+  "S2V_LINK_25": {
+    "url": "/docs/en/gitlab-ci-cd",
+    "text": "GitLab CI/CD"
+  }
+}

@@ -1,0 +1,57 @@
+[
+  {
+    "level": 2,
+    "text": "Enter multiline prompts",
+    "slug": "enter-multiline-prompts"
+  },
+  {
+    "level": 2,
+    "text": "Enable Option key shortcuts on macOS",
+    "slug": "enable-option-key-shortcuts-on-macos"
+  },
+  {
+    "level": 2,
+    "text": "Get a terminal bell or notification",
+    "slug": "get-a-terminal-bell-or-notification"
+  },
+  {
+    "level": 3,
+    "text": "Play a sound with a Notification hook",
+    "slug": "play-a-sound-with-a-notification-hook"
+  },
+  {
+    "level": 2,
+    "text": "Configure tmux",
+    "slug": "configure-tmux"
+  },
+  {
+    "level": 2,
+    "text": "Match the color theme",
+    "slug": "match-the-color-theme"
+  },
+  {
+    "level": 3,
+    "text": "Create a custom theme",
+    "slug": "create-a-custom-theme"
+  },
+  {
+    "level": 2,
+    "text": "Switch to fullscreen rendering",
+    "slug": "switch-to-fullscreen-rendering"
+  },
+  {
+    "level": 2,
+    "text": "Paste large content",
+    "slug": "paste-large-content"
+  },
+  {
+    "level": 2,
+    "text": "Edit prompts with Vim keybindings",
+    "slug": "edit-prompts-with-vim-keybindings"
+  },
+  {
+    "level": 2,
+    "text": "Related resources",
+    "slug": "related-resources"
+  }
+]

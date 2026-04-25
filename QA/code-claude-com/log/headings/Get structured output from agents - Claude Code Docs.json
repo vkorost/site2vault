@@ -1,0 +1,37 @@
+[
+  {
+    "level": 2,
+    "text": "Why structured outputs?",
+    "slug": "why-structured-outputs"
+  },
+  {
+    "level": 2,
+    "text": "Quick start",
+    "slug": "quick-start"
+  },
+  {
+    "level": 2,
+    "text": "Type-safe schemas with Zod and Pydantic",
+    "slug": "type-safe-schemas-with-zod-and-pydantic"
+  },
+  {
+    "level": 2,
+    "text": "Output format configuration",
+    "slug": "output-format-configuration"
+  },
+  {
+    "level": 2,
+    "text": "Example: TODO tracking agent",
+    "slug": "example-todo-tracking-agent"
+  },
+  {
+    "level": 2,
+    "text": "Error handling",
+    "slug": "error-handling"
+  },
+  {
+    "level": 2,
+    "text": "Related resources",
+    "slug": "related-resources"
+  }
+]

@@ -1,0 +1,197 @@
+[
+  {
+    "level": 2,
+    "text": "When to use agent teams",
+    "slug": "when-to-use-agent-teams"
+  },
+  {
+    "level": 3,
+    "text": "Compare with subagents",
+    "slug": "compare-with-subagents"
+  },
+  {
+    "level": 2,
+    "text": "Enable agent teams",
+    "slug": "enable-agent-teams"
+  },
+  {
+    "level": 2,
+    "text": "Start your first agent team",
+    "slug": "start-your-first-agent-team"
+  },
+  {
+    "level": 2,
+    "text": "Control your agent team",
+    "slug": "control-your-agent-team"
+  },
+  {
+    "level": 3,
+    "text": "Choose a display mode",
+    "slug": "choose-a-display-mode"
+  },
+  {
+    "level": 3,
+    "text": "Specify teammates and models",
+    "slug": "specify-teammates-and-models"
+  },
+  {
+    "level": 3,
+    "text": "Require plan approval for teammates",
+    "slug": "require-plan-approval-for-teammates"
+  },
+  {
+    "level": 3,
+    "text": "Talk to teammates directly",
+    "slug": "talk-to-teammates-directly"
+  },
+  {
+    "level": 3,
+    "text": "Assign and claim tasks",
+    "slug": "assign-and-claim-tasks"
+  },
+  {
+    "level": 3,
+    "text": "Shut down teammates",
+    "slug": "shut-down-teammates"
+  },
+  {
+    "level": 3,
+    "text": "Clean up the team",
+    "slug": "clean-up-the-team"
+  },
+  {
+    "level": 3,
+    "text": "Enforce quality gates with hooks",
+    "slug": "enforce-quality-gates-with-hooks"
+  },
+  {
+    "level": 2,
+    "text": "How agent teams work",
+    "slug": "how-agent-teams-work"
+  },
+  {
+    "level": 3,
+    "text": "How Claude starts agent teams",
+    "slug": "how-claude-starts-agent-teams"
+  },
+  {
+    "level": 3,
+    "text": "Architecture",
+    "slug": "architecture"
+  },
+  {
+    "level": 3,
+    "text": "Use subagent definitions for teammates",
+    "slug": "use-subagent-definitions-for-teammates"
+  },
+  {
+    "level": 3,
+    "text": "Permissions",
+    "slug": "permissions"
+  },
+  {
+    "level": 3,
+    "text": "Context and communication",
+    "slug": "context-and-communication"
+  },
+  {
+    "level": 3,
+    "text": "Token usage",
+    "slug": "token-usage"
+  },
+  {
+    "level": 2,
+    "text": "Use case examples",
+    "slug": "use-case-examples"
+  },
+  {
+    "level": 3,
+    "text": "Run a parallel code review",
+    "slug": "run-a-parallel-code-review"
+  },
+  {
+    "level": 3,
+    "text": "Investigate with competing hypotheses",
+    "slug": "investigate-with-competing-hypotheses"
+  },
+  {
+    "level": 2,
+    "text": "Best practices",
+    "slug": "best-practices"
+  },
+  {
+    "level": 3,
+    "text": "Give teammates enough context",
+    "slug": "give-teammates-enough-context"
+  },
+  {
+    "level": 3,
+    "text": "Choose an appropriate team size",
+    "slug": "choose-an-appropriate-team-size"
+  },
+  {
+    "level": 3,
+    "text": "Size tasks appropriately",
+    "slug": "size-tasks-appropriately"
+  },
+  {
+    "level": 3,
+    "text": "Wait for teammates to finish",
+    "slug": "wait-for-teammates-to-finish"
+  },
+  {
+    "level": 3,
+    "text": "Start with research and review",
+    "slug": "start-with-research-and-review"
+  },
+  {
+    "level": 3,
+    "text": "Avoid file conflicts",
+    "slug": "avoid-file-conflicts"
+  },
+  {
+    "level": 3,
+    "text": "Monitor and steer",
+    "slug": "monitor-and-steer"
+  },
+  {
+    "level": 2,
+    "text": "Troubleshooting",
+    "slug": "troubleshooting"
+  },
+  {
+    "level": 3,
+    "text": "Teammates not appearing",
+    "slug": "teammates-not-appearing"
+  },
+  {
+    "level": 3,
+    "text": "Too many permission prompts",
+    "slug": "too-many-permission-prompts"
+  },
+  {
+    "level": 3,
+    "text": "Teammates stopping on errors",
+    "slug": "teammates-stopping-on-errors"
+  },
+  {
+    "level": 3,
+    "text": "Lead shuts down before work is done",
+    "slug": "lead-shuts-down-before-work-is-done"
+  },
+  {
+    "level": 3,
+    "text": "Orphaned tmux sessions",
+    "slug": "orphaned-tmux-sessions"
+  },
+  {
+    "level": 2,
+    "text": "Limitations",
+    "slug": "limitations"
+  },
+  {
+    "level": 2,
+    "text": "Next steps",
+    "slug": "next-steps"
+  }
+]

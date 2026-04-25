@@ -1,0 +1,47 @@
+[
+  {
+    "level": 2,
+    "text": "Control filesystem settings with settingSources",
+    "slug": "control-filesystem-settings-with-settingsources"
+  },
+  {
+    "level": 3,
+    "text": "What settingSources does not control",
+    "slug": "what-settingsources-does-not-control"
+  },
+  {
+    "level": 2,
+    "text": "Project instructions (CLAUDE.md and rules)",
+    "slug": "project-instructions-claudemd-and-rules"
+  },
+  {
+    "level": 3,
+    "text": "CLAUDE.md load locations",
+    "slug": "claudemd-load-locations"
+  },
+  {
+    "level": 2,
+    "text": "Skills",
+    "slug": "skills"
+  },
+  {
+    "level": 2,
+    "text": "Hooks",
+    "slug": "hooks"
+  },
+  {
+    "level": 3,
+    "text": "When to use which hook type",
+    "slug": "when-to-use-which-hook-type"
+  },
+  {
+    "level": 2,
+    "text": "Choose the right feature",
+    "slug": "choose-the-right-feature"
+  },
+  {
+    "level": 2,
+    "text": "Related resources",
+    "slug": "related-resources"
+  }
+]

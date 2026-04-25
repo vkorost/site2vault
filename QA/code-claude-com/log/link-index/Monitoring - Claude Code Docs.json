@@ -1,0 +1,150 @@
+{
+  "S2V_LINK_0": {
+    "url": "#traces-beta",
+    "text": "traces protocol"
+  },
+  "S2V_LINK_1": {
+    "url": "https://github.com/open-telemetry/opentelemetry-specification/blob/main/specification/protocol/exporter.md#configuration-options",
+    "text": "OpenTelemetry specification"
+  },
+  "S2V_LINK_2": {
+    "url": "/docs/en/settings#settings-files",
+    "text": "managed settings file"
+  },
+  "S2V_LINK_3": {
+    "url": "/docs/en/settings#settings-precedence",
+    "text": "settings precedence"
+  },
+  "S2V_LINK_4": {
+    "url": "#common-configuration-variables",
+    "text": "common OTLP configuration"
+  },
+  "S2V_LINK_5": {
+    "url": "#standard-attributes",
+    "text": "standard attributes"
+  },
+  "S2V_LINK_6": {
+    "url": "#event-correlation-attributes",
+    "text": "Event correlation attributes"
+  },
+  "S2V_LINK_7": {
+    "url": "#standard-attributes",
+    "text": "standard attributes"
+  },
+  "S2V_LINK_8": {
+    "url": "#standard-attributes",
+    "text": "standard attributes"
+  },
+  "S2V_LINK_9": {
+    "url": "#standard-attributes",
+    "text": "standard attributes"
+  },
+  "S2V_LINK_10": {
+    "url": "/docs/en/model-config#adjust-effort-level",
+    "text": "Effort level"
+  },
+  "S2V_LINK_11": {
+    "url": "#standard-attributes",
+    "text": "standard attributes"
+  },
+  "S2V_LINK_12": {
+    "url": "/docs/en/model-config#adjust-effort-level",
+    "text": "Effort level"
+  },
+  "S2V_LINK_13": {
+    "url": "#cost-counter",
+    "text": "Cost counter"
+  },
+  "S2V_LINK_14": {
+    "url": "#standard-attributes",
+    "text": "standard attributes"
+  },
+  "S2V_LINK_15": {
+    "url": "#standard-attributes",
+    "text": "standard attributes"
+  },
+  "S2V_LINK_16": {
+    "url": "#standard-attributes",
+    "text": "standard attributes"
+  },
+  "S2V_LINK_17": {
+    "url": "#standard-attributes",
+    "text": "standard attributes"
+  },
+  "S2V_LINK_18": {
+    "url": "#standard-attributes",
+    "text": "standard attributes"
+  },
+  "S2V_LINK_19": {
+    "url": "/docs/en/model-config#adjust-effort-level",
+    "text": "Effort level"
+  },
+  "S2V_LINK_20": {
+    "url": "#standard-attributes",
+    "text": "standard attributes"
+  },
+  "S2V_LINK_21": {
+    "url": "/docs/en/model-config#adjust-effort-level",
+    "text": "Effort level"
+  },
+  "S2V_LINK_22": {
+    "url": "#standard-attributes",
+    "text": "standard attributes"
+  },
+  "S2V_LINK_23": {
+    "url": "#standard-attributes",
+    "text": "standard attributes"
+  },
+  "S2V_LINK_24": {
+    "url": "#standard-attributes",
+    "text": "standard attributes"
+  },
+  "S2V_LINK_25": {
+    "url": "#standard-attributes",
+    "text": "standard attributes"
+  },
+  "S2V_LINK_26": {
+    "url": "#standard-attributes",
+    "text": "standard attributes"
+  },
+  "S2V_LINK_27": {
+    "url": "#standard-attributes",
+    "text": "standard attributes"
+  },
+  "S2V_LINK_28": {
+    "url": "#standard-attributes",
+    "text": "standard attributes"
+  },
+  "S2V_LINK_29": {
+    "url": "#standard-attributes",
+    "text": "standard attributes"
+  },
+  "S2V_LINK_30": {
+    "url": "#standard-attributes",
+    "text": "standard attributes"
+  },
+  "S2V_LINK_31": {
+    "url": "#standard-attributes",
+    "text": "standard attributes"
+  },
+  "S2V_LINK_32": {
+    "url": "#standard-attributes",
+    "text": "standard attributes"
+  },
+  "S2V_LINK_33": {
+    "url": "#standard-attributes",
+    "text": "standard attributes"
+  },
+  "S2V_LINK_34": {
+    "url": "#standard-attributes",
+    "text": "standard attributes"
+  },
+  "S2V_LINK_35": {
+    "url": "https://github.com/anthropics/claude-code-monitoring-guide",
+    "text": "Claude Code ROI Measurement Guide"
+  },
+  "S2V_LINK_36": {
+    "url": "https://github.com/aws-solutions-library-samples/guidance-for-claude-code-with-amazon-bedrock/blob/main/assets/docs/MONITORING.md",
+    "text": "Claude Code Monitoring Implementation (Bedrock)"
+  }
+}

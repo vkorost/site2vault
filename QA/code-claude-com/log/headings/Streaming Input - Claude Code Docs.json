@@ -1,0 +1,67 @@
+[
+  {
+    "level": 2,
+    "text": "Overview",
+    "slug": "overview"
+  },
+  {
+    "level": 2,
+    "text": "Streaming Input Mode (Recommended)",
+    "slug": "streaming-input-mode-recommended"
+  },
+  {
+    "level": 3,
+    "text": "How It Works",
+    "slug": "how-it-works"
+  },
+  {
+    "level": 3,
+    "text": "Benefits",
+    "slug": "benefits"
+  },
+  {
+    "level": 2,
+    "text": "Image Uploads",
+    "slug": "image-uploads"
+  },
+  {
+    "level": 2,
+    "text": "Queued Messages",
+    "slug": "queued-messages"
+  },
+  {
+    "level": 2,
+    "text": "Tool Integration",
+    "slug": "tool-integration"
+  },
+  {
+    "level": 2,
+    "text": "Hooks Support",
+    "slug": "hooks-support"
+  },
+  {
+    "level": 2,
+    "text": "Real-time Feedback",
+    "slug": "real-time-feedback"
+  },
+  {
+    "level": 2,
+    "text": "Context Persistence",
+    "slug": "context-persistence"
+  },
+  {
+    "level": 3,
+    "text": "Implementation Example",
+    "slug": "implementation-example"
+  },
+  {
+    "level": 2,
+    "text": "Single Message Input",
+    "slug": "single-message-input"
+  },
+  {
+    "level": 3,
+    "text": "When to Use Single Message Input",
+    "slug": "when-to-use-single-message-input"
+  }
+]

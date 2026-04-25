@@ -1,0 +1,50 @@
+{
+  "S2V_LINK_0": {
+    "url": "#access-analytics-for-team-and-enterprise",
+    "text": "Details"
+  },
+  "S2V_LINK_1": {
+    "url": "https://platform.claude.com/claude-code",
+    "text": "platform.claude.com/claude-code"
+  },
+  "S2V_LINK_2": {
+    "url": "#access-analytics-for-api-customers",
+    "text": "Details"
+  },
+  "S2V_LINK_3": {
+    "url": "https://claude.ai/analytics/claude-code",
+    "text": "claude.ai/analytics/claude-code"
+  },
+  "S2V_LINK_4": {
+    "url": "#enable-contribution-metrics",
+    "text": "GitHub integration"
+  },
+  "S2V_LINK_5": {
+    "url": "https://github.com/apps/claude",
+    "text": "github.com/apps/claude"
+  },
+  "S2V_LINK_6": {
+    "url": "https://claude.ai/admin-settings/claude-code",
+    "text": "claude.ai/admin-settings/claude-code"
+  },
+  "S2V_LINK_7": {
+    "url": "https://dora.dev/",
+    "text": "DORA metrics"
+  },
+  "S2V_LINK_8": {
+    "url": "https://platform.claude.com/claude-code",
+    "text": "platform.claude.com/claude-code"
+  },
+  "S2V_LINK_9": {
+    "url": "/docs/en/monitoring-usage",
+    "text": "Monitoring with OpenTelemetry"
+  },
+  "S2V_LINK_10": {
+    "url": "/docs/en/costs",
+    "text": "Manage costs effectively"
+  },
+  "S2V_LINK_11": {
+    "url": "/docs/en/permissions",
+    "text": "Permissions"
+  }
+}

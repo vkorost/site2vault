@@ -1,0 +1,82 @@
+[
+  {
+    "level": 2,
+    "text": "Requirements",
+    "slug": "requirements"
+  },
+  {
+    "level": 2,
+    "text": "Choose between server-managed and endpoint-managed settings",
+    "slug": "choose-between-server-managed-and-endpoint-managed-settings"
+  },
+  {
+    "level": 2,
+    "text": "Configure server-managed settings",
+    "slug": "configure-server-managed-settings"
+  },
+  {
+    "level": 3,
+    "text": "Verify settings delivery",
+    "slug": "verify-settings-delivery"
+  },
+  {
+    "level": 3,
+    "text": "Access control",
+    "slug": "access-control"
+  },
+  {
+    "level": 3,
+    "text": "Managed-only settings",
+    "slug": "managed-only-settings"
+  },
+  {
+    "level": 3,
+    "text": "Current limitations",
+    "slug": "current-limitations"
+  },
+  {
+    "level": 2,
+    "text": "Settings delivery",
+    "slug": "settings-delivery"
+  },
+  {
+    "level": 3,
+    "text": "Settings precedence",
+    "slug": "settings-precedence"
+  },
+  {
+    "level": 3,
+    "text": "Fetch and caching behavior",
+    "slug": "fetch-and-caching-behavior"
+  },
+  {
+    "level": 3,
+    "text": "Enforce fail-closed startup",
+    "slug": "enforce-fail-closed-startup"
+  },
+  {
+    "level": 3,
+    "text": "Security approval dialogs",
+    "slug": "security-approval-dialogs"
+  },
+  {
+    "level": 2,
+    "text": "Platform availability",
+    "slug": "platform-availability"
+  },
+  {
+    "level": 2,
+    "text": "Audit logging",
+    "slug": "audit-logging"
+  },
+  {
+    "level": 2,
+    "text": "Security considerations",
+    "slug": "security-considerations"
+  },
+  {
+    "level": 2,
+    "text": "See also",
+    "slug": "see-also"
+  }
+]

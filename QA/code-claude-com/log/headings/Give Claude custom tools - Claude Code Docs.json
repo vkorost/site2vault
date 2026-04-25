@@ -1,0 +1,77 @@
+[
+  {
+    "level": 2,
+    "text": "Quick reference",
+    "slug": "quick-reference"
+  },
+  {
+    "level": 2,
+    "text": "Create a custom tool",
+    "slug": "create-a-custom-tool"
+  },
+  {
+    "level": 3,
+    "text": "Weather tool example",
+    "slug": "weather-tool-example"
+  },
+  {
+    "level": 3,
+    "text": "Call a custom tool",
+    "slug": "call-a-custom-tool"
+  },
+  {
+    "level": 3,
+    "text": "Add more tools",
+    "slug": "add-more-tools"
+  },
+  {
+    "level": 3,
+    "text": "Add tool annotations",
+    "slug": "add-tool-annotations"
+  },
+  {
+    "level": 2,
+    "text": "Control tool access",
+    "slug": "control-tool-access"
+  },
+  {
+    "level": 3,
+    "text": "Tool name format",
+    "slug": "tool-name-format"
+  },
+  {
+    "level": 3,
+    "text": "Configure allowed tools",
+    "slug": "configure-allowed-tools"
+  },
+  {
+    "level": 2,
+    "text": "Handle errors",
+    "slug": "handle-errors"
+  },
+  {
+    "level": 2,
+    "text": "Return images and resources",
+    "slug": "return-images-and-resources"
+  },
+  {
+    "level": 3,
+    "text": "Images",
+    "slug": "images"
+  },
+  {
+    "level": 3,
+    "text": "Resources",
+    "slug": "resources"
+  },
+  {
+    "level": 2,
+    "text": "Example: unit converter",
+    "slug": "example-unit-converter"
+  },
+  {
+    "level": 2,
+    "text": "Next steps",
+    "slug": "next-steps"
+  }
+]

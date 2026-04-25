@@ -1,0 +1,57 @@
+[
+  {
+    "level": 2,
+    "text": "How permissions are evaluated",
+    "slug": "how-permissions-are-evaluated"
+  },
+  {
+    "level": 2,
+    "text": "Allow and deny rules",
+    "slug": "allow-and-deny-rules"
+  },
+  {
+    "level": 2,
+    "text": "Permission modes",
+    "slug": "permission-modes"
+  },
+  {
+    "level": 3,
+    "text": "Available modes",
+    "slug": "available-modes"
+  },
+  {
+    "level": 3,
+    "text": "Set permission mode",
+    "slug": "set-permission-mode"
+  },
+  {
+    "level": 3,
+    "text": "Mode details",
+    "slug": "mode-details"
+  },
+  {
+    "level": 4,
+    "text": "Accept edits mode (acceptEdits)",
+    "slug": "accept-edits-mode-acceptedits"
+  },
+  {
+    "level": 4,
+    "text": "Don\u2019t ask mode (dontAsk)",
+    "slug": "dont-ask-mode-dontask"
+  },
+  {
+    "level": 4,
+    "text": "Bypass permissions mode (bypassPermissions)",
+    "slug": "bypass-permissions-mode-bypasspermissions"
+  },
+  {
+    "level": 4,
+    "text": "Plan mode (plan)",
+    "slug": "plan-mode-plan"
+  },
+  {
+    "level": 2,
+    "text": "Related resources",
+    "slug": "related-resources"
+  }
+]

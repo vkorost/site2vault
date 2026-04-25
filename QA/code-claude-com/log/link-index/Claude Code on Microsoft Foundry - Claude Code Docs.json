@@ -1,0 +1,30 @@
+{
+  "S2V_LINK_0": {
+    "url": "#4-pin-model-versions",
+    "text": "pin your model versions"
+  },
+  "S2V_LINK_1": {
+    "url": "https://ai.azure.com/",
+    "text": "Microsoft Foundry portal"
+  },
+  "S2V_LINK_2": {
+    "url": "https://learn.microsoft.com/en-us/azure/developer/javascript/sdk/authentication/credential-chains#defaultazurecredential-overview",
+    "text": "default credential chain"
+  },
+  "S2V_LINK_3": {
+    "url": "https://platform.claude.com/docs/en/about-claude/models/overview",
+    "text": "Models overview"
+  },
+  "S2V_LINK_4": {
+    "url": "/docs/en/model-config#pin-models-for-third-party-deployments",
+    "text": "Model configuration"
+  },
+  "S2V_LINK_5": {
+    "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-caching",
+    "text": "Prompt caching"
+  },
+  "S2V_LINK_6": {
+    "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/rbac-azure-ai-foundry",
+    "text": "Microsoft Foundry RBAC documentation"
+  }
+}

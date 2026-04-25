@@ -1,0 +1,94 @@
+{
+  "S2V_LINK_0": {
+    "url": "/docs/en/permissions#additional-directories-grant-file-access-not-configuration",
+    "text": "not discovered"
+  },
+  "S2V_LINK_1": {
+    "url": "/docs/en/sub-agents#supported-frontmatter-fields",
+    "text": "frontmatter"
+  },
+  "S2V_LINK_2": {
+    "url": "/docs/en/permission-modes#skip-all-checks-with-bypasspermissions-mode",
+    "text": "permission modes"
+  },
+  "S2V_LINK_3": {
+    "url": "/docs/en/settings#permission-rule-syntax",
+    "text": "permission rule syntax"
+  },
+  "S2V_LINK_4": {
+    "url": "/docs/en/env-vars",
+    "text": "CLAUDE_CODE_SIMPLE"
+  },
+  "S2V_LINK_5": {
+    "url": "/docs/en/headless#start-faster-with-bare-mode",
+    "text": "bare mode"
+  },
+  "S2V_LINK_6": {
+    "url": "/docs/en/channels",
+    "text": "channel"
+  },
+  "S2V_LINK_7": {
+    "url": "/docs/en/chrome",
+    "text": "Chrome browser integration"
+  },
+  "S2V_LINK_8": {
+    "url": "/docs/en/channels-reference#test-during-the-research-preview",
+    "text": "channels"
+  },
+  "S2V_LINK_9": {
+    "url": "/docs/en/permission-modes#skip-all-checks-with-bypasspermissions-mode",
+    "text": "permission modes"
+  },
+  "S2V_LINK_10": {
+    "url": "/docs/en/model-config#adjust-effort-level",
+    "text": "effort level"
+  },
+  "S2V_LINK_11": {
+    "url": "/docs/en/agent-sdk/structured-outputs",
+    "text": "structured outputs"
+  },
+  "S2V_LINK_12": {
+    "url": "/docs/en/commands",
+    "text": "/rename"
+  },
+  "S2V_LINK_13": {
+    "url": "/docs/en/chrome",
+    "text": "Chrome browser integration"
+  },
+  "S2V_LINK_14": {
+    "url": "/docs/en/permission-modes",
+    "text": "permission mode"
+  },
+  "S2V_LINK_15": {
+    "url": "/docs/en/agent-sdk/overview",
+    "text": "Agent SDK documentation"
+  },
+  "S2V_LINK_16": {
+    "url": "/docs/en/claude-code-on-the-web",
+    "text": "web session"
+  },
+  "S2V_LINK_17": {
+    "url": "/docs/en/remote-control#start-a-remote-control-session",
+    "text": "Remote Control"
+  },
+  "S2V_LINK_18": {
+    "url": "/docs/en/remote-control",
+    "text": "Remote Control"
+  },
+  "S2V_LINK_19": {
+    "url": "/docs/en/claude-code-on-the-web",
+    "text": "web session"
+  },
+  "S2V_LINK_20": {
+    "url": "/docs/en/agent-teams",
+    "text": "agent team"
+  },
+  "S2V_LINK_21": {
+    "url": "/docs/en/agent-teams#choose-a-display-mode",
+    "text": "Choose a display mode"
+  },
+  "S2V_LINK_22": {
+    "url": "/docs/en/common-workflows#run-parallel-claude-code-sessions-with-git-worktrees",
+    "text": "git worktree"
+  }
+}

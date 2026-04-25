@@ -1,0 +1,102 @@
+[
+  {
+    "level": 2,
+    "text": "Set up a status line",
+    "slug": "set-up-a-status-line"
+  },
+  {
+    "level": 3,
+    "text": "Use the /statusline command",
+    "slug": "use-the-statusline-command"
+  },
+  {
+    "level": 3,
+    "text": "Manually configure a status line",
+    "slug": "manually-configure-a-status-line"
+  },
+  {
+    "level": 3,
+    "text": "Disable the status line",
+    "slug": "disable-the-status-line"
+  },
+  {
+    "level": 2,
+    "text": "Build a status line step by step",
+    "slug": "build-a-status-line-step-by-step"
+  },
+  {
+    "level": 2,
+    "text": "How status lines work",
+    "slug": "how-status-lines-work"
+  },
+  {
+    "level": 2,
+    "text": "Available data",
+    "slug": "available-data"
+  },
+  {
+    "level": 3,
+    "text": "Context window fields",
+    "slug": "context-window-fields"
+  },
+  {
+    "level": 2,
+    "text": "Examples",
+    "slug": "examples"
+  },
+  {
+    "level": 3,
+    "text": "Context window usage",
+    "slug": "context-window-usage"
+  },
+  {
+    "level": 3,
+    "text": "Git status with colors",
+    "slug": "git-status-with-colors"
+  },
+  {
+    "level": 3,
+    "text": "Cost and duration tracking",
+    "slug": "cost-and-duration-tracking"
+  },
+  {
+    "level": 3,
+    "text": "Display multiple lines",
+    "slug": "display-multiple-lines"
+  },
+  {
+    "level": 3,
+    "text": "Clickable links",
+    "slug": "clickable-links"
+  },
+  {
+    "level": 3,
+    "text": "Rate limit usage",
+    "slug": "rate-limit-usage"
+  },
+  {
+    "level": 3,
+    "text": "Cache expensive operations",
+    "slug": "cache-expensive-operations"
+  },
+  {
+    "level": 3,
+    "text": "Windows configuration",
+    "slug": "windows-configuration"
+  },
+  {
+    "level": 2,
+    "text": "Subagent status lines",
+    "slug": "subagent-status-lines"
+  },
+  {
+    "level": 2,
+    "text": "Tips",
+    "slug": "tips"
+  },
+  {
+    "level": 2,
+    "text": "Troubleshooting",
+    "slug": "troubleshooting"
+  }
+]

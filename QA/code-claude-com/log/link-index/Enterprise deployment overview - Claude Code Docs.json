@@ -1,0 +1,90 @@
+{
+  "S2V_LINK_0": {
+    "url": "https://support.claude.com/en/articles/9266767-what-is-the-team-plan",
+    "text": "Team plans"
+  },
+  "S2V_LINK_1": {
+    "url": "https://support.claude.com/en/articles/9797531-what-is-the-enterprise-plan",
+    "text": "Enterprise plans"
+  },
+  "S2V_LINK_2": {
+    "url": "https://www.anthropic.com/supported-countries",
+    "text": "countries"
+  },
+  "S2V_LINK_3": {
+    "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/models-regions.html",
+    "text": "regions"
+  },
+  "S2V_LINK_4": {
+    "url": "https://cloud.google.com/vertex-ai/generative-ai/docs/learn/locations",
+    "text": "regions"
+  },
+  "S2V_LINK_5": {
+    "url": "https://azure.microsoft.com/en-us/explore/global-infrastructure/products-by-region/",
+    "text": "regions"
+  },
+  "S2V_LINK_6": {
+    "url": "/docs/en/network-config",
+    "text": "Enterprise network configuration"
+  },
+  "S2V_LINK_7": {
+    "url": "/docs/en/llm-gateway",
+    "text": "LLM gateway configuration"
+  },
+  "S2V_LINK_8": {
+    "url": "/docs/en/settings",
+    "text": "Settings"
+  },
+  "S2V_LINK_9": {
+    "url": "/docs/en/env-vars",
+    "text": "environment variables"
+  },
+  "S2V_LINK_10": {
+    "url": "/docs/en/env-vars",
+    "text": "environment variables"
+  },
+  "S2V_LINK_11": {
+    "url": "/docs/en/env-vars",
+    "text": "environment variables"
+  },
+  "S2V_LINK_12": {
+    "url": "/docs/en/memory",
+    "text": "Memory and CLAUDE.md files"
+  },
+  "S2V_LINK_13": {
+    "url": "/docs/en/amazon-bedrock",
+    "text": "Bedrock"
+  },
+  "S2V_LINK_14": {
+    "url": "/docs/en/google-vertex-ai",
+    "text": "Vertex AI"
+  },
+  "S2V_LINK_15": {
+    "url": "/docs/en/microsoft-foundry",
+    "text": "Foundry"
+  },
+  "S2V_LINK_16": {
+    "url": "/docs/en/model-config#pin-models-for-third-party-deployments",
+    "text": "Model configuration"
+  },
+  "S2V_LINK_17": {
+    "url": "/docs/en/security",
+    "text": "Learn more"
+  },
+  "S2V_LINK_18": {
+    "url": "/docs/en/mcp",
+    "text": "Learn more"
+  },
+  "S2V_LINK_19": {
+    "url": "/docs/en/setup",
+    "text": "install Claude Code"
+  },
+  "S2V_LINK_20": {
+    "url": "/docs/en/memory",
+    "text": "CLAUDE.md file"
+  },
+  "S2V_LINK_21": {
+    "url": "/docs/en/security",
+    "text": "security settings"
+  }
+}

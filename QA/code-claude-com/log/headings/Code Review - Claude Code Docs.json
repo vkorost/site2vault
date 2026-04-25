@@ -1,0 +1,102 @@
+[
+  {
+    "level": 2,
+    "text": "How reviews work",
+    "slug": "how-reviews-work"
+  },
+  {
+    "level": 3,
+    "text": "Severity levels",
+    "slug": "severity-levels"
+  },
+  {
+    "level": 3,
+    "text": "Rate and reply to findings",
+    "slug": "rate-and-reply-to-findings"
+  },
+  {
+    "level": 3,
+    "text": "Check run output",
+    "slug": "check-run-output"
+  },
+  {
+    "level": 3,
+    "text": "What Code Review checks",
+    "slug": "what-code-review-checks"
+  },
+  {
+    "level": 2,
+    "text": "Set up Code Review",
+    "slug": "set-up-code-review"
+  },
+  {
+    "level": 2,
+    "text": "Manually trigger reviews",
+    "slug": "manually-trigger-reviews"
+  },
+  {
+    "level": 2,
+    "text": "Customize reviews",
+    "slug": "customize-reviews"
+  },
+  {
+    "level": 3,
+    "text": "CLAUDE.md",
+    "slug": "claudemd"
+  },
+  {
+    "level": 3,
+    "text": "REVIEW.md",
+    "slug": "reviewmd"
+  },
+  {
+    "level": 4,
+    "text": "What you can tune",
+    "slug": "what-you-can-tune"
+  },
+  {
+    "level": 4,
+    "text": "Example",
+    "slug": "example"
+  },
+  {
+    "level": 4,
+    "text": "Keep it focused",
+    "slug": "keep-it-focused"
+  },
+  {
+    "level": 2,
+    "text": "View usage",
+    "slug": "view-usage"
+  },
+  {
+    "level": 2,
+    "text": "Pricing",
+    "slug": "pricing"
+  },
+  {
+    "level": 2,
+    "text": "Troubleshooting",
+    "slug": "troubleshooting"
+  },
+  {
+    "level": 3,
+    "text": "Retrigger a failed or timed-out review",
+    "slug": "retrigger-a-failed-or-timed-out-review"
+  },
+  {
+    "level": 3,
+    "text": "Review didn\u2019t run and the PR shows a spend-cap message",
+    "slug": "review-didnt-run-and-the-pr-shows-a-spend-cap-message"
+  },
+  {
+    "level": 3,
+    "text": "Find issues that aren\u2019t showing as inline comments",
+    "slug": "find-issues-that-arent-showing-as-inline-comments"
+  },
+  {
+    "level": 2,
+    "text": "Related resources",
+    "slug": "related-resources"
+  }
+]

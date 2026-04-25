@@ -1,0 +1,262 @@
+[
+  {
+    "level": 2,
+    "text": "What you can do with MCP",
+    "slug": "what-you-can-do-with-mcp"
+  },
+  {
+    "level": 2,
+    "text": "Popular MCP servers",
+    "slug": "popular-mcp-servers"
+  },
+  {
+    "level": 2,
+    "text": "Installing MCP servers",
+    "slug": "installing-mcp-servers"
+  },
+  {
+    "level": 3,
+    "text": "Option 1: Add a remote HTTP server",
+    "slug": "option-1-add-a-remote-http-server"
+  },
+  {
+    "level": 3,
+    "text": "Option 2: Add a remote SSE server",
+    "slug": "option-2-add-a-remote-sse-server"
+  },
+  {
+    "level": 3,
+    "text": "Option 3: Add a local stdio server",
+    "slug": "option-3-add-a-local-stdio-server"
+  },
+  {
+    "level": 3,
+    "text": "Managing your servers",
+    "slug": "managing-your-servers"
+  },
+  {
+    "level": 3,
+    "text": "Dynamic tool updates",
+    "slug": "dynamic-tool-updates"
+  },
+  {
+    "level": 3,
+    "text": "Automatic reconnection",
+    "slug": "automatic-reconnection"
+  },
+  {
+    "level": 3,
+    "text": "Push messages with channels",
+    "slug": "push-messages-with-channels"
+  },
+  {
+    "level": 3,
+    "text": "Plugin-provided MCP servers",
+    "slug": "plugin-provided-mcp-servers"
+  },
+  {
+    "level": 2,
+    "text": "MCP installation scopes",
+    "slug": "mcp-installation-scopes"
+  },
+  {
+    "level": 3,
+    "text": "Local scope",
+    "slug": "local-scope"
+  },
+  {
+    "level": 3,
+    "text": "Project scope",
+    "slug": "project-scope"
+  },
+  {
+    "level": 3,
+    "text": "User scope",
+    "slug": "user-scope"
+  },
+  {
+    "level": 3,
+    "text": "Scope hierarchy and precedence",
+    "slug": "scope-hierarchy-and-precedence"
+  },
+  {
+    "level": 3,
+    "text": "Environment variable expansion in.mcp.json",
+    "slug": "environment-variable-expansion-inmcpjson"
+  },
+  {
+    "level": 2,
+    "text": "Practical examples",
+    "slug": "practical-examples"
+  },
+  {
+    "level": 3,
+    "text": "Example: Monitor errors with Sentry",
+    "slug": "example-monitor-errors-with-sentry"
+  },
+  {
+    "level": 3,
+    "text": "Example: Connect to GitHub for code reviews",
+    "slug": "example-connect-to-github-for-code-reviews"
+  },
+  {
+    "level": 3,
+    "text": "Example: Query your PostgreSQL database",
+    "slug": "example-query-your-postgresql-database"
+  },
+  {
+    "level": 2,
+    "text": "Authenticate with remote MCP servers",
+    "slug": "authenticate-with-remote-mcp-servers"
+  },
+  {
+    "level": 3,
+    "text": "Use a fixed OAuth callback port",
+    "slug": "use-a-fixed-oauth-callback-port"
+  },
+  {
+    "level": 3,
+    "text": "Use pre-configured OAuth credentials",
+    "slug": "use-pre-configured-oauth-credentials"
+  },
+  {
+    "level": 3,
+    "text": "Override OAuth metadata discovery",
+    "slug": "override-oauth-metadata-discovery"
+  },
+  {
+    "level": 3,
+    "text": "Restrict OAuth scopes",
+    "slug": "restrict-oauth-scopes"
+  },
+  {
+    "level": 3,
+    "text": "Use dynamic headers for custom authentication",
+    "slug": "use-dynamic-headers-for-custom-authentication"
+  },
+  {
+    "level": 2,
+    "text": "Add MCP servers from JSON configuration",
+    "slug": "add-mcp-servers-from-json-configuration"
+  },
+  {
+    "level": 2,
+    "text": "Import MCP servers from Claude Desktop",
+    "slug": "import-mcp-servers-from-claude-desktop"
+  },
+  {
+    "level": 2,
+    "text": "Use MCP servers from Claude.ai",
+    "slug": "use-mcp-servers-from-claudeai"
+  },
+  {
+    "level": 2,
+    "text": "Use Claude Code as an MCP server",
+    "slug": "use-claude-code-as-an-mcp-server"
+  },
+  {
+    "level": 2,
+    "text": "MCP output limits and warnings",
+    "slug": "mcp-output-limits-and-warnings"
+  },
+  {
+    "level": 3,
+    "text": "Raise the limit for a specific tool",
+    "slug": "raise-the-limit-for-a-specific-tool"
+  },
+  {
+    "level": 2,
+    "text": "Respond to MCP elicitation requests",
+    "slug": "respond-to-mcp-elicitation-requests"
+  },
+  {
+    "level": 2,
+    "text": "Use MCP resources",
+    "slug": "use-mcp-resources"
+  },
+  {
+    "level": 3,
+    "text": "Reference MCP resources",
+    "slug": "reference-mcp-resources"
+  },
+  {
+    "level": 2,
+    "text": "Scale with MCP Tool Search",
+    "slug": "scale-with-mcp-tool-search"
+  },
+  {
+    "level": 3,
+    "text": "How it works",
+    "slug": "how-it-works"
+  },
+  {
+    "level": 3,
+    "text": "For MCP server authors",
+    "slug": "for-mcp-server-authors"
+  },
+  {
+    "level": 3,
+    "text": "Configure tool search",
+    "slug": "configure-tool-search"
+  },
+  {
+    "level": 2,
+    "text": "Use MCP prompts as commands",
+    "slug": "use-mcp-prompts-as-commands"
+  },
+  {
+    "level": 3,
+    "text": "Execute MCP prompts",
+    "slug": "execute-mcp-prompts"
+  },
+  {
+    "level": 2,
+    "text": "Managed MCP configuration",
+    "slug": "managed-mcp-configuration"
+  },
+  {
+    "level": 3,
+    "text": "Option 1: Exclusive control with managed-mcp.json",
+    "slug": "option-1-exclusive-control-with-managed-mcpjson"
+  },
+  {
+    "level": 3,
+    "text": "Option 2: Policy-based control with allowlists and denylists",
+    "slug": "option-2-policy-based-control-with-allowlists-and-denylists"
+  },
+  {
+    "level": 4,
+    "text": "Restriction options",
+    "slug": "restriction-options"
+  },
+  {
+    "level": 4,
+    "text": "Example configuration",
+    "slug": "example-configuration"
+  },
+  {
+    "level": 4,
+    "text": "How command-based restrictions work",
+    "slug": "how-command-based-restrictions-work"
+  },
+  {
+    "level": 4,
+    "text": "How URL-based restrictions work",
+    "slug": "how-url-based-restrictions-work"
+  },
+  {
+    "level": 4,
+    "text": "Allowlist behavior (allowedMcpServers)",
+    "slug": "allowlist-behavior-allowedmcpservers"
+  },
+  {
+    "level": 4,
+    "text": "Denylist behavior (deniedMcpServers)",
+    "slug": "denylist-behavior-deniedmcpservers"
+  },
+  {
+    "level": 4,
+    "text": "Important notes",
+    "slug": "important-notes"
+  }
+]

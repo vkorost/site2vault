@@ -1,0 +1,152 @@
+[
+  {
+    "level": 2,
+    "text": "CLAUDE.md vs auto memory",
+    "slug": "claudemd-vs-auto-memory"
+  },
+  {
+    "level": 2,
+    "text": "CLAUDE.md files",
+    "slug": "claudemd-files"
+  },
+  {
+    "level": 3,
+    "text": "When to add to CLAUDE.md",
+    "slug": "when-to-add-to-claudemd"
+  },
+  {
+    "level": 3,
+    "text": "Choose where to put CLAUDE.md files",
+    "slug": "choose-where-to-put-claudemd-files"
+  },
+  {
+    "level": 3,
+    "text": "Set up a project CLAUDE.md",
+    "slug": "set-up-a-project-claudemd"
+  },
+  {
+    "level": 3,
+    "text": "Write effective instructions",
+    "slug": "write-effective-instructions"
+  },
+  {
+    "level": 3,
+    "text": "Import additional files",
+    "slug": "import-additional-files"
+  },
+  {
+    "level": 3,
+    "text": "AGENTS.md",
+    "slug": "agentsmd"
+  },
+  {
+    "level": 3,
+    "text": "How CLAUDE.md files load",
+    "slug": "how-claudemd-files-load"
+  },
+  {
+    "level": 4,
+    "text": "Load from additional directories",
+    "slug": "load-from-additional-directories"
+  },
+  {
+    "level": 3,
+    "text": "Organize rules with.claude/rules/",
+    "slug": "organize-rules-withclauderules"
+  },
+  {
+    "level": 4,
+    "text": "Set up rules",
+    "slug": "set-up-rules"
+  },
+  {
+    "level": 4,
+    "text": "Path-specific rules",
+    "slug": "path-specific-rules"
+  },
+  {
+    "level": 4,
+    "text": "Share rules across projects with symlinks",
+    "slug": "share-rules-across-projects-with-symlinks"
+  },
+  {
+    "level": 4,
+    "text": "User-level rules",
+    "slug": "user-level-rules"
+  },
+  {
+    "level": 3,
+    "text": "Manage CLAUDE.md for large teams",
+    "slug": "manage-claudemd-for-large-teams"
+  },
+  {
+    "level": 4,
+    "text": "Deploy organization-wide CLAUDE.md",
+    "slug": "deploy-organization-wide-claudemd"
+  },
+  {
+    "level": 4,
+    "text": "Exclude specific CLAUDE.md files",
+    "slug": "exclude-specific-claudemd-files"
+  },
+  {
+    "level": 2,
+    "text": "Auto memory",
+    "slug": "auto-memory"
+  },
+  {
+    "level": 3,
+    "text": "Enable or disable auto memory",
+    "slug": "enable-or-disable-auto-memory"
+  },
+  {
+    "level": 3,
+    "text": "Storage location",
+    "slug": "storage-location"
+  },
+  {
+    "level": 3,
+    "text": "How it works",
+    "slug": "how-it-works"
+  },
+  {
+    "level": 3,
+    "text": "Audit and edit your memory",
+    "slug": "audit-and-edit-your-memory"
+  },
+  {
+    "level": 2,
+    "text": "View and edit with/memory",
+    "slug": "view-and-edit-withmemory"
+  },
+  {
+    "level": 2,
+    "text": "Troubleshoot memory issues",
+    "slug": "troubleshoot-memory-issues"
+  },
+  {
+    "level": 3,
+    "text": "Claude isn\u2019t following my CLAUDE.md",
+    "slug": "claude-isnt-following-my-claudemd"
+  },
+  {
+    "level": 3,
+    "text": "I don\u2019t know what auto memory saved",
+    "slug": "i-dont-know-what-auto-memory-saved"
+  },
+  {
+    "level": 3,
+    "text": "My CLAUDE.md is too large",
+    "slug": "my-claudemd-is-too-large"
+  },
+  {
+    "level": 3,
+    "text": "Instructions seem lost after/compact",
+    "slug": "instructions-seem-lost-aftercompact"
+  },
+  {
+    "level": 2,
+    "text": "Related resources",
+    "slug": "related-resources"
+  }
+]

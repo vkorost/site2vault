@@ -1,0 +1,150 @@
+{
+  "S2V_LINK_0": {
+    "url": "#sign-in-with-bedrock",
+    "text": "Sign in with Bedrock"
+  },
+  "S2V_LINK_1": {
+    "url": "#set-up-manually",
+    "text": "manual setup"
+  },
+  "S2V_LINK_2": {
+    "url": "#4-pin-model-versions",
+    "text": "pin your model versions"
+  },
+  "S2V_LINK_3": {
+    "url": "https://console.aws.amazon.com/bedrock/",
+    "text": "Amazon Bedrock console"
+  },
+  "S2V_LINK_4": {
+    "url": "#1-submit-use-case-details",
+    "text": "Submit use case details"
+  },
+  "S2V_LINK_5": {
+    "url": "#iam-configuration",
+    "text": "IAM configuration"
+  },
+  "S2V_LINK_6": {
+    "url": "/docs/en/settings",
+    "text": "user settings file"
+  },
+  "S2V_LINK_7": {
+    "url": "https://console.aws.amazon.com/bedrock/",
+    "text": "Amazon Bedrock console"
+  },
+  "S2V_LINK_8": {
+    "url": "https://docs.aws.amazon.com/bedrock/latest/APIReference/API_PutUseCaseForModelAccess.html",
+    "text": ". This call requires the"
+  },
+  "S2V_LINK_9": {
+    "url": "https://docs.aws.amazon.com/signin/latest/userguide/command-line-sign-in.html",
+    "text": "Learn more"
+  },
+  "S2V_LINK_10": {
+    "url": "https://aws.amazon.com/blogs/machine-learning/accelerate-ai-development-with-amazon-bedrock-api-keys/",
+    "text": "Learn more about Bedrock API keys"
+  },
+  "S2V_LINK_11": {
+    "url": "/docs/en/settings",
+    "text": "Settings"
+  },
+  "S2V_LINK_12": {
+    "url": "/docs/en/settings",
+    "text": "Settings"
+  },
+  "S2V_LINK_13": {
+    "url": "https://platform.claude.com/docs/en/about-claude/models/overview",
+    "text": "Models overview"
+  },
+  "S2V_LINK_14": {
+    "url": "/docs/en/model-config#pin-models-for-third-party-deployments",
+    "text": "Model configuration"
+  },
+  "S2V_LINK_15": {
+    "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-caching",
+    "text": "Prompt caching"
+  },
+  "S2V_LINK_16": {
+    "url": "/docs/en/settings#settings-files",
+    "text": "settings file"
+  },
+  "S2V_LINK_17": {
+    "url": "/docs/en/model-config#override-model-ids-per-version",
+    "text": "Override model IDs per version"
+  },
+  "S2V_LINK_18": {
+    "url": "/docs/en/settings",
+    "text": "user settings file"
+  },
+  "S2V_LINK_19": {
+    "url": "#map-each-model-version-to-an-inference-profile",
+    "text": "application inference profile ARN"
+  },
+  "S2V_LINK_20": {
+    "url": "#4-pin-model-versions",
+    "text": "pin a version"
+  },
+  "S2V_LINK_21": {
+    "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/security-iam.html",
+    "text": "Bedrock IAM documentation"
+  },
+  "S2V_LINK_22": {
+    "url": "https://platform.claude.com/docs/en/build-with-claude/context-windows#1m-token-context-window",
+    "text": "1M token context window"
+  },
+  "S2V_LINK_23": {
+    "url": "#sign-in-with-bedrock",
+    "text": "setup wizard"
+  },
+  "S2V_LINK_24": {
+    "url": "/docs/en/model-config#pin-models-for-third-party-deployments",
+    "text": "Pin models for third-party deployments"
+  },
+  "S2V_LINK_25": {
+    "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/guardrails.html",
+    "text": "Amazon Bedrock Guardrails"
+  },
+  "S2V_LINK_26": {
+    "url": "https://console.aws.amazon.com/bedrock/",
+    "text": "Amazon Bedrock console"
+  },
+  "S2V_LINK_27": {
+    "url": "/docs/en/settings",
+    "text": "settings file"
+  },
+  "S2V_LINK_28": {
+    "url": "/docs/en/settings",
+    "text": "settings file"
+  },
+  "S2V_LINK_29": {
+    "url": "/docs/en/model-config#restrict-model-selection",
+    "text": "Restrict model selection"
+  },
+  "S2V_LINK_30": {
+    "url": "/docs/en/llm-gateway",
+    "text": "LLM gateway"
+  },
+  "S2V_LINK_31": {
+    "url": "/docs/en/env-vars",
+    "text": "Environment variables"
+  },
+  "S2V_LINK_32": {
+    "url": "/docs/en/settings",
+    "text": "settings file"
+  },
+  "S2V_LINK_33": {
+    "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/inference-profiles-support.html",
+    "text": "inference profile"
+  },
+  "S2V_LINK_34": {
+    "url": "https://docs.aws.amazon.com/bedrock/latest/APIReference/API_runtime_InvokeModelWithResponseStream.html",
+    "text": "Invoke API"
+  },
+  "S2V_LINK_35": {
+    "url": "/docs/en/settings",
+    "text": "settings file"
+  },
+  "S2V_LINK_36": {
+    "url": "#run-mantle-alongside-the-invoke-api",
+    "text": "both endpoints"
+  }
+}

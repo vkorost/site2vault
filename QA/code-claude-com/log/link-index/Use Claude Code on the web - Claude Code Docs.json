@@ -1,0 +1,458 @@
+{
+  "S2V_LINK_0": {
+    "url": "https://claude.ai/code",
+    "text": "claude.ai/code"
+  },
+  "S2V_LINK_1": {
+    "url": "#github-authentication-options",
+    "text": "GitHub authentication options"
+  },
+  "S2V_LINK_2": {
+    "url": "#the-cloud-environment",
+    "text": "The cloud environment"
+  },
+  "S2V_LINK_3": {
+    "url": "#setup-scripts",
+    "text": "Setup scripts"
+  },
+  "S2V_LINK_4": {
+    "url": "#network-access",
+    "text": "Network access"
+  },
+  "S2V_LINK_5": {
+    "url": "#move-tasks-between-web-and-terminal",
+    "text": "Move tasks between web and terminal"
+  },
+  "S2V_LINK_6": {
+    "url": "#work-with-sessions",
+    "text": "Work with sessions"
+  },
+  "S2V_LINK_7": {
+    "url": "#auto-fix-pull-requests",
+    "text": "Auto-fix pull requests"
+  },
+  "S2V_LINK_8": {
+    "url": "#security-and-isolation",
+    "text": "Security and isolation"
+  },
+  "S2V_LINK_9": {
+    "url": "#limitations",
+    "text": "Limitations"
+  },
+  "S2V_LINK_10": {
+    "url": "/docs/en/routines",
+    "text": "checks for either form of access and prompts you to run"
+  },
+  "S2V_LINK_11": {
+    "url": "/docs/en/web-quickstart#connect-from-your-terminal",
+    "text": "Connect from your terminal"
+  },
+  "S2V_LINK_12": {
+    "url": "#auto-fix-pull-requests",
+    "text": "Auto-fix"
+  },
+  "S2V_LINK_13": {
+    "url": "https://claude.ai/admin-settings/claude-code",
+    "text": "claude.ai/admin-settings/claude-code"
+  },
+  "S2V_LINK_14": {
+    "url": "/docs/en/zero-data-retention",
+    "text": "Zero Data Retention"
+  },
+  "S2V_LINK_15": {
+    "url": "/docs/en/mcp#project-scope",
+    "text": "instead"
+  },
+  "S2V_LINK_16": {
+    "url": "#install-dependencies-with-a-sessionstart-hook",
+    "text": "proxy compatibility issues"
+  },
+  "S2V_LINK_17": {
+    "url": "#github-proxy",
+    "text": "GitHub proxy"
+  },
+  "S2V_LINK_18": {
+    "url": "#github-authentication-options",
+    "text": "GitHub authentication options"
+  },
+  "S2V_LINK_19": {
+    "url": "#setup-scripts",
+    "text": "setup script"
+  },
+  "S2V_LINK_20": {
+    "url": "#configure-your-environment",
+    "text": "environment settings"
+  },
+  "S2V_LINK_21": {
+    "url": "#access-levels",
+    "text": "access level"
+  },
+  "S2V_LINK_22": {
+    "url": "#default-allowed-domains",
+    "text": "Trusted defaults"
+  },
+  "S2V_LINK_23": {
+    "url": "#setup-scripts",
+    "text": "setup script"
+  },
+  "S2V_LINK_24": {
+    "url": "#environment-caching",
+    "text": "cached environment"
+  },
+  "S2V_LINK_25": {
+    "url": "#setup-scripts",
+    "text": "setup script"
+  },
+  "S2V_LINK_26": {
+    "url": "#environment-caching",
+    "text": "cached"
+  },
+  "S2V_LINK_27": {
+    "url": "/docs/en/remote-control",
+    "text": "Remote Control"
+  },
+  "S2V_LINK_28": {
+    "url": "#network-access",
+    "text": "network access"
+  },
+  "S2V_LINK_29": {
+    "url": "#setup-scripts",
+    "text": "setup script"
+  },
+  "S2V_LINK_30": {
+    "url": "#installed-tools",
+    "text": "Installed tools"
+  },
+  "S2V_LINK_31": {
+    "url": "#default-allowed-domains",
+    "text": "common package registries"
+  },
+  "S2V_LINK_32": {
+    "url": "#setup-scripts-vs-sessionstart-hooks",
+    "text": "SessionStart hook"
+  },
+  "S2V_LINK_33": {
+    "url": "/docs/en/hooks#sessionstart",
+    "text": "SessionStart hook"
+  },
+  "S2V_LINK_34": {
+    "url": "#default-allowed-domains",
+    "text": "default allowlist"
+  },
+  "S2V_LINK_35": {
+    "url": "#security-proxy",
+    "text": "security proxy"
+  },
+  "S2V_LINK_36": {
+    "url": "#environment-caching",
+    "text": "environment caching"
+  },
+  "S2V_LINK_37": {
+    "url": "/docs/en/hooks#sessionstart",
+    "text": "SessionStart hooks"
+  },
+  "S2V_LINK_38": {
+    "url": "#installed-tools",
+    "text": "provided image"
+  },
+  "S2V_LINK_39": {
+    "url": "#default-allowed-domains",
+    "text": "allowlisted domains"
+  },
+  "S2V_LINK_40": {
+    "url": "#github-proxy",
+    "text": "separate proxy"
+  },
+  "S2V_LINK_41": {
+    "url": "#default-allowed-domains",
+    "text": "Trusted domains"
+  },
+  "S2V_LINK_42": {
+    "url": "http://www.github.com",
+    "text": "www.github.com"
+  },
+  "S2V_LINK_43": {
+    "url": "http://www.gitlab.com",
+    "text": "www.gitlab.com"
+  },
+  "S2V_LINK_44": {
+    "url": "http://www.bitbucket.org",
+    "text": "www.bitbucket.org"
+  },
+  "S2V_LINK_45": {
+    "url": "http://www.docker.com",
+    "text": "www.docker.com"
+  },
+  "S2V_LINK_46": {
+    "url": "http://www.microsoft.com",
+    "text": "www.microsoft.com"
+  },
+  "S2V_LINK_47": {
+    "url": "http://www.oracle.com",
+    "text": "www.oracle.com"
+  },
+  "S2V_LINK_48": {
+    "url": "http://www.java.com",
+    "text": "www.java.com"
+  },
+  "S2V_LINK_49": {
+    "url": "http://www.java.net",
+    "text": "www.java.net"
+  },
+  "S2V_LINK_50": {
+    "url": "http://www.npmjs.com",
+    "text": "www.npmjs.com"
+  },
+  "S2V_LINK_51": {
+    "url": "http://www.npmjs.org",
+    "text": "www.npmjs.org"
+  },
+  "S2V_LINK_52": {
+    "url": "http://www.pypi.org",
+    "text": "www.pypi.org"
+  },
+  "S2V_LINK_53": {
+    "url": "http://www.pypa.io",
+    "text": "www.pypa.io"
+  },
+  "S2V_LINK_54": {
+    "url": "http://www.rubygems.org",
+    "text": "www.rubygems.org"
+  },
+  "S2V_LINK_55": {
+    "url": "http://www.ruby-lang.org",
+    "text": "www.ruby-lang.org"
+  },
+  "S2V_LINK_56": {
+    "url": "http://www.rubyforge.org",
+    "text": "www.rubyforge.org"
+  },
+  "S2V_LINK_57": {
+    "url": "http://www.rubyonrails.org",
+    "text": "www.rubyonrails.org"
+  },
+  "S2V_LINK_58": {
+    "url": "http://www.crates.io",
+    "text": "www.crates.io"
+  },
+  "S2V_LINK_59": {
+    "url": "http://www.rust-lang.org",
+    "text": "www.rust-lang.org"
+  },
+  "S2V_LINK_60": {
+    "url": "http://www.golang.org",
+    "text": "www.golang.org"
+  },
+  "S2V_LINK_61": {
+    "url": "http://www.gradle.org",
+    "text": "www.gradle.org"
+  },
+  "S2V_LINK_62": {
+    "url": "http://www.kotlinlang.org",
+    "text": "www.kotlinlang.org"
+  },
+  "S2V_LINK_63": {
+    "url": "http://www.packagist.org",
+    "text": "www.packagist.org"
+  },
+  "S2V_LINK_64": {
+    "url": "http://www.nuget.org",
+    "text": "www.nuget.org"
+  },
+  "S2V_LINK_65": {
+    "url": "http://www.hex.pm",
+    "text": "www.hex.pm"
+  },
+  "S2V_LINK_66": {
+    "url": "http://www.cpan.org",
+    "text": "www.cpan.org"
+  },
+  "S2V_LINK_67": {
+    "url": "http://www.metacpan.org",
+    "text": "www.metacpan.org"
+  },
+  "S2V_LINK_68": {
+    "url": "http://www.cocoapods.org",
+    "text": "www.cocoapods.org"
+  },
+  "S2V_LINK_69": {
+    "url": "http://www.haskell.org",
+    "text": "www.haskell.org"
+  },
+  "S2V_LINK_70": {
+    "url": "http://www.swift.org",
+    "text": "www.swift.org"
+  },
+  "S2V_LINK_71": {
+    "url": "http://www.ubuntu.com",
+    "text": "www.ubuntu.com"
+  },
+  "S2V_LINK_72": {
+    "url": "http://www.launchpad.net",
+    "text": "www.launchpad.net"
+  },
+  "S2V_LINK_73": {
+    "url": "http://www.k8s.io",
+    "text": "www.k8s.io"
+  },
+  "S2V_LINK_74": {
+    "url": "http://www.hashicorp.com",
+    "text": "www.hashicorp.com"
+  },
+  "S2V_LINK_75": {
+    "url": "http://www.anaconda.com",
+    "text": "www.anaconda.com"
+  },
+  "S2V_LINK_76": {
+    "url": "http://www.apache.org",
+    "text": "www.apache.org"
+  },
+  "S2V_LINK_77": {
+    "url": "http://www.eclipse.org",
+    "text": "www.eclipse.org"
+  },
+  "S2V_LINK_78": {
+    "url": "http://www.nodejs.org",
+    "text": "www.nodejs.org"
+  },
+  "S2V_LINK_79": {
+    "url": "http://www.statsig.com",
+    "text": "www.statsig.com"
+  },
+  "S2V_LINK_80": {
+    "url": "http://www.json-schema.org",
+    "text": "www.json-schema.org"
+  },
+  "S2V_LINK_81": {
+    "url": "http://www.schemastore.org",
+    "text": "www.schemastore.org"
+  },
+  "S2V_LINK_82": {
+    "url": "/docs/en/quickstart",
+    "text": "Claude Code CLI"
+  },
+  "S2V_LINK_83": {
+    "url": "/docs/en/desktop#continue-in-another-surface",
+    "text": "Desktop app"
+  },
+  "S2V_LINK_84": {
+    "url": "/docs/en/remote-control",
+    "text": "Remote Control"
+  },
+  "S2V_LINK_85": {
+    "url": "/docs/en/ultraplan",
+    "text": "ultraplan"
+  },
+  "S2V_LINK_86": {
+    "url": "#from-web-to-terminal",
+    "text": "teleport"
+  },
+  "S2V_LINK_87": {
+    "url": "#github-authentication-options",
+    "text": "GitHub authentication"
+  },
+  "S2V_LINK_88": {
+    "url": "/docs/en/commands",
+    "text": "built-in commands"
+  },
+  "S2V_LINK_89": {
+    "url": "/docs/en/env-vars",
+    "text": "in your"
+  },
+  "S2V_LINK_90": {
+    "url": "#configure-your-environment",
+    "text": "environment variables"
+  },
+  "S2V_LINK_91": {
+    "url": "/docs/en/env-vars",
+    "text": "."
+  },
+  "S2V_LINK_92": {
+    "url": "/docs/en/sub-agents",
+    "text": "Subagents"
+  },
+  "S2V_LINK_93": {
+    "url": "/docs/en/agent-teams",
+    "text": "Agent teams"
+  },
+  "S2V_LINK_94": {
+    "url": "#configure-your-environment",
+    "text": "environment variables"
+  },
+  "S2V_LINK_95": {
+    "url": "/docs/en/web-quickstart#review-and-iterate",
+    "text": "Review and iterate"
+  },
+  "S2V_LINK_96": {
+    "url": "#auto-fix-pull-requests",
+    "text": "Auto-fix pull requests"
+  },
+  "S2V_LINK_97": {
+    "url": "/docs/en/slack",
+    "text": "Claude in Slack"
+  },
+  "S2V_LINK_98": {
+    "url": "https://github.com/apps/claude",
+    "text": "GitHub App page"
+  },
+  "S2V_LINK_99": {
+    "url": "/docs/en/web-quickstart#connect-github-and-create-an-environment",
+    "text": "setup"
+  },
+  "S2V_LINK_100": {
+    "url": "/docs/en/commands",
+    "text": ""
+  },
+  "S2V_LINK_101": {
+    "url": "/docs/en/errors",
+    "text": "Error reference"
+  },
+  "S2V_LINK_102": {
+    "url": "https://status.claude.com",
+    "text": "status.claude.com"
+  },
+  "S2V_LINK_103": {
+    "url": "#github-authentication-options",
+    "text": "GitHub authentication options"
+  },
+  "S2V_LINK_104": {
+    "url": "https://claude.ai/code",
+    "text": "claude.ai/code"
+  },
+  "S2V_LINK_105": {
+    "url": "/docs/en/github-enterprise-server",
+    "text": "GitHub Enterprise Server"
+  },
+  "S2V_LINK_106": {
+    "url": "#send-local-repositories-without-github",
+    "text": "local bundle"
+  },
+  "S2V_LINK_107": {
+    "url": "/docs/en/ultraplan",
+    "text": "Ultraplan"
+  },
+  "S2V_LINK_108": {
+    "url": "/docs/en/ultrareview",
+    "text": "Ultrareview"
+  },
+  "S2V_LINK_109": {
+    "url": "/docs/en/routines",
+    "text": "Routines"
+  },
+  "S2V_LINK_110": {
+    "url": "/docs/en/hooks",
+    "text": "Hooks configuration"
+  },
+  "S2V_LINK_111": {
+    "url": "/docs/en/settings",
+    "text": "Settings reference"
+  },
+  "S2V_LINK_112": {
+    "url": "/docs/en/security",
+    "text": "Security"
+  },
+  "S2V_LINK_113": {
+    "url": "/docs/en/data-usage",
+    "text": "Data usage"
+  }
+}

@@ -1,0 +1,137 @@
+[
+  {
+    "level": 2,
+    "text": "How marketplaces work",
+    "slug": "how-marketplaces-work"
+  },
+  {
+    "level": 2,
+    "text": "Official Anthropic marketplace",
+    "slug": "official-anthropic-marketplace"
+  },
+  {
+    "level": 3,
+    "text": "Code intelligence",
+    "slug": "code-intelligence"
+  },
+  {
+    "level": 4,
+    "text": "What Claude gains from code intelligence plugins",
+    "slug": "what-claude-gains-from-code-intelligence-plugins"
+  },
+  {
+    "level": 3,
+    "text": "External integrations",
+    "slug": "external-integrations"
+  },
+  {
+    "level": 3,
+    "text": "Development workflows",
+    "slug": "development-workflows"
+  },
+  {
+    "level": 3,
+    "text": "Output styles",
+    "slug": "output-styles"
+  },
+  {
+    "level": 2,
+    "text": "Try it: add the demo marketplace",
+    "slug": "try-it-add-the-demo-marketplace"
+  },
+  {
+    "level": 2,
+    "text": "Add marketplaces",
+    "slug": "add-marketplaces"
+  },
+  {
+    "level": 3,
+    "text": "Add from GitHub",
+    "slug": "add-from-github"
+  },
+  {
+    "level": 3,
+    "text": "Add from other Git hosts",
+    "slug": "add-from-other-git-hosts"
+  },
+  {
+    "level": 3,
+    "text": "Add from local paths",
+    "slug": "add-from-local-paths"
+  },
+  {
+    "level": 3,
+    "text": "Add from remote URLs",
+    "slug": "add-from-remote-urls"
+  },
+  {
+    "level": 2,
+    "text": "Install plugins",
+    "slug": "install-plugins"
+  },
+  {
+    "level": 2,
+    "text": "Manage installed plugins",
+    "slug": "manage-installed-plugins"
+  },
+  {
+    "level": 3,
+    "text": "Apply plugin changes without restarting",
+    "slug": "apply-plugin-changes-without-restarting"
+  },
+  {
+    "level": 2,
+    "text": "Manage marketplaces",
+    "slug": "manage-marketplaces"
+  },
+  {
+    "level": 3,
+    "text": "Use the interactive interface",
+    "slug": "use-the-interactive-interface"
+  },
+  {
+    "level": 3,
+    "text": "Use CLI commands",
+    "slug": "use-cli-commands"
+  },
+  {
+    "level": 3,
+    "text": "Configure auto-updates",
+    "slug": "configure-auto-updates"
+  },
+  {
+    "level": 2,
+    "text": "Configure team marketplaces",
+    "slug": "configure-team-marketplaces"
+  },
+  {
+    "level": 2,
+    "text": "Security",
+    "slug": "security"
+  },
+  {
+    "level": 2,
+    "text": "Troubleshooting",
+    "slug": "troubleshooting"
+  },
+  {
+    "level": 3,
+    "text": "/plugin command not recognized",
+    "slug": "plugin-command-not-recognized"
+  },
+  {
+    "level": 3,
+    "text": "Common issues",
+    "slug": "common-issues"
+  },
+  {
+    "level": 3,
+    "text": "Code intelligence issues",
+    "slug": "code-intelligence-issues"
+  },
+  {
+    "level": 2,
+    "text": "Next steps",
+    "slug": "next-steps"
+  }
+]

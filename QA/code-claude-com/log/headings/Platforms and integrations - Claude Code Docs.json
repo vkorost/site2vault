@@ -1,0 +1,37 @@
+[
+  {
+    "level": 2,
+    "text": "Where to run Claude Code",
+    "slug": "where-to-run-claude-code"
+  },
+  {
+    "level": 2,
+    "text": "Connect your tools",
+    "slug": "connect-your-tools"
+  },
+  {
+    "level": 2,
+    "text": "Work when you are away from your terminal",
+    "slug": "work-when-you-are-away-from-your-terminal"
+  },
+  {
+    "level": 2,
+    "text": "Related resources",
+    "slug": "related-resources"
+  },
+  {
+    "level": 3,
+    "text": "Platforms",
+    "slug": "platforms"
+  },
+  {
+    "level": 3,
+    "text": "Integrations",
+    "slug": "integrations"
+  },
+  {
+    "level": 3,
+    "text": "Remote access",
+    "slug": "remote-access"
+  }
+]

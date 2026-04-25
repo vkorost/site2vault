@@ -1,0 +1,897 @@
+[
+  {
+    "level": 2,
+    "text": "Installation",
+    "slug": "installation"
+  },
+  {
+    "level": 2,
+    "text": "Functions",
+    "slug": "functions"
+  },
+  {
+    "level": 3,
+    "text": "query()",
+    "slug": "query"
+  },
+  {
+    "level": 4,
+    "text": "Parameters",
+    "slug": "parameters"
+  },
+  {
+    "level": 4,
+    "text": "Returns",
+    "slug": "returns"
+  },
+  {
+    "level": 3,
+    "text": "startup()",
+    "slug": "startup"
+  },
+  {
+    "level": 4,
+    "text": "Parameters",
+    "slug": "parameters"
+  },
+  {
+    "level": 4,
+    "text": "Returns",
+    "slug": "returns"
+  },
+  {
+    "level": 4,
+    "text": "Example",
+    "slug": "example"
+  },
+  {
+    "level": 3,
+    "text": "tool()",
+    "slug": "tool"
+  },
+  {
+    "level": 4,
+    "text": "Parameters",
+    "slug": "parameters"
+  },
+  {
+    "level": 4,
+    "text": "ToolAnnotations",
+    "slug": "toolannotations"
+  },
+  {
+    "level": 3,
+    "text": "createSdkMcpServer()",
+    "slug": "createsdkmcpserver"
+  },
+  {
+    "level": 4,
+    "text": "Parameters",
+    "slug": "parameters"
+  },
+  {
+    "level": 3,
+    "text": "listSessions()",
+    "slug": "listsessions"
+  },
+  {
+    "level": 4,
+    "text": "Parameters",
+    "slug": "parameters"
+  },
+  {
+    "level": 4,
+    "text": "Return type:SDKSessionInfo",
+    "slug": "return-typesdksessioninfo"
+  },
+  {
+    "level": 4,
+    "text": "Example",
+    "slug": "example"
+  },
+  {
+    "level": 3,
+    "text": "getSessionMessages()",
+    "slug": "getsessionmessages"
+  },
+  {
+    "level": 4,
+    "text": "Parameters",
+    "slug": "parameters"
+  },
+  {
+    "level": 4,
+    "text": "Return type:SessionMessage",
+    "slug": "return-typesessionmessage"
+  },
+  {
+    "level": 4,
+    "text": "Example",
+    "slug": "example"
+  },
+  {
+    "level": 3,
+    "text": "getSessionInfo()",
+    "slug": "getsessioninfo"
+  },
+  {
+    "level": 4,
+    "text": "Parameters",
+    "slug": "parameters"
+  },
+  {
+    "level": 3,
+    "text": "renameSession()",
+    "slug": "renamesession"
+  },
+  {
+    "level": 4,
+    "text": "Parameters",
+    "slug": "parameters"
+  },
+  {
+    "level": 3,
+    "text": "tagSession()",
+    "slug": "tagsession"
+  },
+  {
+    "level": 4,
+    "text": "Parameters",
+    "slug": "parameters"
+  },
+  {
+    "level": 2,
+    "text": "Types",
+    "slug": "types"
+  },
+  {
+    "level": 3,
+    "text": "Options",
+    "slug": "options"
+  },
+  {
+    "level": 3,
+    "text": "Queryobject",
+    "slug": "queryobject"
+  },
+  {
+    "level": 4,
+    "text": "Methods",
+    "slug": "methods"
+  },
+  {
+    "level": 3,
+    "text": "WarmQuery",
+    "slug": "warmquery"
+  },
+  {
+    "level": 4,
+    "text": "Methods",
+    "slug": "methods"
+  },
+  {
+    "level": 3,
+    "text": "SDKControlInitializeResponse",
+    "slug": "sdkcontrolinitializeresponse"
+  },
+  {
+    "level": 3,
+    "text": "AgentDefinition",
+    "slug": "agentdefinition"
+  },
+  {
+    "level": 3,
+    "text": "AgentMcpServerSpec",
+    "slug": "agentmcpserverspec"
+  },
+  {
+    "level": 3,
+    "text": "SettingSource",
+    "slug": "settingsource"
+  },
+  {
+    "level": 4,
+    "text": "Default behavior",
+    "slug": "default-behavior"
+  },
+  {
+    "level": 4,
+    "text": "Why use settingSources",
+    "slug": "why-use-settingsources"
+  },
+  {
+    "level": 4,
+    "text": "Settings precedence",
+    "slug": "settings-precedence"
+  },
+  {
+    "level": 3,
+    "text": "PermissionMode",
+    "slug": "permissionmode"
+  },
+  {
+    "level": 3,
+    "text": "CanUseTool",
+    "slug": "canusetool"
+  },
+  {
+    "level": 3,
+    "text": "PermissionResult",
+    "slug": "permissionresult"
+  },
+  {
+    "level": 3,
+    "text": "ToolConfig",
+    "slug": "toolconfig"
+  },
+  {
+    "level": 3,
+    "text": "McpServerConfig",
+    "slug": "mcpserverconfig"
+  },
+  {
+    "level": 4,
+    "text": "McpStdioServerConfig",
+    "slug": "mcpstdioserverconfig"
+  },
+  {
+    "level": 4,
+    "text": "McpSSEServerConfig",
+    "slug": "mcpsseserverconfig"
+  },
+  {
+    "level": 4,
+    "text": "McpHttpServerConfig",
+    "slug": "mcphttpserverconfig"
+  },
+  {
+    "level": 4,
+    "text": "McpSdkServerConfigWithInstance",
+    "slug": "mcpsdkserverconfigwithinstance"
+  },
+  {
+    "level": 4,
+    "text": "McpClaudeAIProxyServerConfig",
+    "slug": "mcpclaudeaiproxyserverconfig"
+  },
+  {
+    "level": 3,
+    "text": "SdkPluginConfig",
+    "slug": "sdkpluginconfig"
+  },
+  {
+    "level": 2,
+    "text": "Message Types",
+    "slug": "message-types"
+  },
+  {
+    "level": 3,
+    "text": "SDKMessage",
+    "slug": "sdkmessage"
+  },
+  {
+    "level": 3,
+    "text": "SDKAssistantMessage",
+    "slug": "sdkassistantmessage"
+  },
+  {
+    "level": 3,
+    "text": "SDKUserMessage",
+    "slug": "sdkusermessage"
+  },
+  {
+    "level": 3,
+    "text": "SDKUserMessageReplay",
+    "slug": "sdkusermessagereplay"
+  },
+  {
+    "level": 3,
+    "text": "SDKResultMessage",
+    "slug": "sdkresultmessage"
+  },
+  {
+    "level": 3,
+    "text": "SDKSystemMessage",
+    "slug": "sdksystemmessage"
+  },
+  {
+    "level": 3,
+    "text": "SDKPartialAssistantMessage",
+    "slug": "sdkpartialassistantmessage"
+  },
+  {
+    "level": 3,
+    "text": "SDKCompactBoundaryMessage",
+    "slug": "sdkcompactboundarymessage"
+  },
+  {
+    "level": 3,
+    "text": "SDKPluginInstallMessage",
+    "slug": "sdkplugininstallmessage"
+  },
+  {
+    "level": 3,
+    "text": "SDKPermissionDenial",
+    "slug": "sdkpermissiondenial"
+  },
+  {
+    "level": 2,
+    "text": "Hook Types",
+    "slug": "hook-types"
+  },
+  {
+    "level": 3,
+    "text": "HookEvent",
+    "slug": "hookevent"
+  },
+  {
+    "level": 3,
+    "text": "HookCallback",
+    "slug": "hookcallback"
+  },
+  {
+    "level": 3,
+    "text": "HookCallbackMatcher",
+    "slug": "hookcallbackmatcher"
+  },
+  {
+    "level": 3,
+    "text": "HookInput",
+    "slug": "hookinput"
+  },
+  {
+    "level": 3,
+    "text": "BaseHookInput",
+    "slug": "basehookinput"
+  },
+  {
+    "level": 4,
+    "text": "PreToolUseHookInput",
+    "slug": "pretoolusehookinput"
+  },
+  {
+    "level": 4,
+    "text": "PostToolUseHookInput",
+    "slug": "posttoolusehookinput"
+  },
+  {
+    "level": 4,
+    "text": "PostToolUseFailureHookInput",
+    "slug": "posttoolusefailurehookinput"
+  },
+  {
+    "level": 4,
+    "text": "PostToolBatchHookInput",
+    "slug": "posttoolbatchhookinput"
+  },
+  {
+    "level": 4,
+    "text": "NotificationHookInput",
+    "slug": "notificationhookinput"
+  },
+  {
+    "level": 4,
+    "text": "UserPromptSubmitHookInput",
+    "slug": "userpromptsubmithookinput"
+  },
+  {
+    "level": 4,
+    "text": "SessionStartHookInput",
+    "slug": "sessionstarthookinput"
+  },
+  {
+    "level": 4,
+    "text": "SessionEndHookInput",
+    "slug": "sessionendhookinput"
+  },
+  {
+    "level": 4,
+    "text": "StopHookInput",
+    "slug": "stophookinput"
+  },
+  {
+    "level": 4,
+    "text": "SubagentStartHookInput",
+    "slug": "subagentstarthookinput"
+  },
+  {
+    "level": 4,
+    "text": "SubagentStopHookInput",
+    "slug": "subagentstophookinput"
+  },
+  {
+    "level": 4,
+    "text": "PreCompactHookInput",
+    "slug": "precompacthookinput"
+  },
+  {
+    "level": 4,
+    "text": "PermissionRequestHookInput",
+    "slug": "permissionrequesthookinput"
+  },
+  {
+    "level": 4,
+    "text": "SetupHookInput",
+    "slug": "setuphookinput"
+  },
+  {
+    "level": 4,
+    "text": "TeammateIdleHookInput",
+    "slug": "teammateidlehookinput"
+  },
+  {
+    "level": 4,
+    "text": "TaskCompletedHookInput",
+    "slug": "taskcompletedhookinput"
+  },
+  {
+    "level": 4,
+    "text": "ConfigChangeHookInput",
+    "slug": "configchangehookinput"
+  },
+  {
+    "level": 4,
+    "text": "WorktreeCreateHookInput",
+    "slug": "worktreecreatehookinput"
+  },
+  {
+    "level": 4,
+    "text": "WorktreeRemoveHookInput",
+    "slug": "worktreeremovehookinput"
+  },
+  {
+    "level": 3,
+    "text": "HookJSONOutput",
+    "slug": "hookjsonoutput"
+  },
+  {
+    "level": 4,
+    "text": "AsyncHookJSONOutput",
+    "slug": "asynchookjsonoutput"
+  },
+  {
+    "level": 4,
+    "text": "SyncHookJSONOutput",
+    "slug": "synchookjsonoutput"
+  },
+  {
+    "level": 2,
+    "text": "Tool Input Types",
+    "slug": "tool-input-types"
+  },
+  {
+    "level": 3,
+    "text": "ToolInputSchemas",
+    "slug": "toolinputschemas"
+  },
+  {
+    "level": 3,
+    "text": "Agent",
+    "slug": "agent"
+  },
+  {
+    "level": 3,
+    "text": "AskUserQuestion",
+    "slug": "askuserquestion"
+  },
+  {
+    "level": 3,
+    "text": "Bash",
+    "slug": "bash"
+  },
+  {
+    "level": 3,
+    "text": "Monitor",
+    "slug": "monitor"
+  },
+  {
+    "level": 3,
+    "text": "TaskOutput",
+    "slug": "taskoutput"
+  },
+  {
+    "level": 3,
+    "text": "Edit",
+    "slug": "edit"
+  },
+  {
+    "level": 3,
+    "text": "Read",
+    "slug": "read"
+  },
+  {
+    "level": 3,
+    "text": "Write",
+    "slug": "write"
+  },
+  {
+    "level": 3,
+    "text": "Glob",
+    "slug": "glob"
+  },
+  {
+    "level": 3,
+    "text": "Grep",
+    "slug": "grep"
+  },
+  {
+    "level": 3,
+    "text": "TaskStop",
+    "slug": "taskstop"
+  },
+  {
+    "level": 3,
+    "text": "NotebookEdit",
+    "slug": "notebookedit"
+  },
+  {
+    "level": 3,
+    "text": "WebFetch",
+    "slug": "webfetch"
+  },
+  {
+    "level": 3,
+    "text": "WebSearch",
+    "slug": "websearch"
+  },
+  {
+    "level": 3,
+    "text": "TodoWrite",
+    "slug": "todowrite"
+  },
+  {
+    "level": 3,
+    "text": "ExitPlanMode",
+    "slug": "exitplanmode"
+  },
+  {
+    "level": 3,
+    "text": "ListMcpResources",
+    "slug": "listmcpresources"
+  },
+  {
+    "level": 3,
+    "text": "ReadMcpResource",
+    "slug": "readmcpresource"
+  },
+  {
+    "level": 3,
+    "text": "EnterWorktree",
+    "slug": "enterworktree"
+  },
+  {
+    "level": 2,
+    "text": "Tool Output Types",
+    "slug": "tool-output-types"
+  },
+  {
+    "level": 3,
+    "text": "ToolOutputSchemas",
+    "slug": "tooloutputschemas"
+  },
+  {
+    "level": 3,
+    "text": "Agent",
+    "slug": "agent"
+  },
+  {
+    "level": 3,
+    "text": "AskUserQuestion",
+    "slug": "askuserquestion"
+  },
+  {
+    "level": 3,
+    "text": "Bash",
+    "slug": "bash"
+  },
+  {
+    "level": 3,
+    "text": "Monitor",
+    "slug": "monitor"
+  },
+  {
+    "level": 3,
+    "text": "Edit",
+    "slug": "edit"
+  },
+  {
+    "level": 3,
+    "text": "Read",
+    "slug": "read"
+  },
+  {
+    "level": 3,
+    "text": "Write",
+    "slug": "write"
+  },
+  {
+    "level": 3,
+    "text": "Glob",
+    "slug": "glob"
+  },
+  {
+    "level": 3,
+    "text": "Grep",
+    "slug": "grep"
+  },
+  {
+    "level": 3,
+    "text": "TaskStop",
+    "slug": "taskstop"
+  },
+  {
+    "level": 3,
+    "text": "NotebookEdit",
+    "slug": "notebookedit"
+  },
+  {
+    "level": 3,
+    "text": "WebFetch",
+    "slug": "webfetch"
+  },
+  {
+    "level": 3,
+    "text": "WebSearch",
+    "slug": "websearch"
+  },
+  {
+    "level": 3,
+    "text": "TodoWrite",
+    "slug": "todowrite"
+  },
+  {
+    "level": 3,
+    "text": "ExitPlanMode",
+    "slug": "exitplanmode"
+  },
+  {
+    "level": 3,
+    "text": "ListMcpResources",
+    "slug": "listmcpresources"
+  },
+  {
+    "level": 3,
+    "text": "ReadMcpResource",
+    "slug": "readmcpresource"
+  },
+  {
+    "level": 3,
+    "text": "EnterWorktree",
+    "slug": "enterworktree"
+  },
+  {
+    "level": 2,
+    "text": "Permission Types",
+    "slug": "permission-types"
+  },
+  {
+    "level": 3,
+    "text": "PermissionUpdate",
+    "slug": "permissionupdate"
+  },
+  {
+    "level": 3,
+    "text": "PermissionBehavior",
+    "slug": "permissionbehavior"
+  },
+  {
+    "level": 3,
+    "text": "PermissionUpdateDestination",
+    "slug": "permissionupdatedestination"
+  },
+  {
+    "level": 3,
+    "text": "PermissionRuleValue",
+    "slug": "permissionrulevalue"
+  },
+  {
+    "level": 2,
+    "text": "Other Types",
+    "slug": "other-types"
+  },
+  {
+    "level": 3,
+    "text": "ApiKeySource",
+    "slug": "apikeysource"
+  },
+  {
+    "level": 3,
+    "text": "SdkBeta",
+    "slug": "sdkbeta"
+  },
+  {
+    "level": 3,
+    "text": "SlashCommand",
+    "slug": "slashcommand"
+  },
+  {
+    "level": 3,
+    "text": "ModelInfo",
+    "slug": "modelinfo"
+  },
+  {
+    "level": 3,
+    "text": "AgentInfo",
+    "slug": "agentinfo"
+  },
+  {
+    "level": 3,
+    "text": "McpServerStatus",
+    "slug": "mcpserverstatus"
+  },
+  {
+    "level": 3,
+    "text": "McpServerStatusConfig",
+    "slug": "mcpserverstatusconfig"
+  },
+  {
+    "level": 3,
+    "text": "AccountInfo",
+    "slug": "accountinfo"
+  },
+  {
+    "level": 3,
+    "text": "ModelUsage",
+    "slug": "modelusage"
+  },
+  {
+    "level": 3,
+    "text": "ConfigScope",
+    "slug": "configscope"
+  },
+  {
+    "level": 3,
+    "text": "NonNullableUsage",
+    "slug": "nonnullableusage"
+  },
+  {
+    "level": 3,
+    "text": "Usage",
+    "slug": "usage"
+  },
+  {
+    "level": 3,
+    "text": "CallToolResult",
+    "slug": "calltoolresult"
+  },
+  {
+    "level": 3,
+    "text": "ThinkingConfig",
+    "slug": "thinkingconfig"
+  },
+  {
+    "level": 3,
+    "text": "SpawnedProcess",
+    "slug": "spawnedprocess"
+  },
+  {
+    "level": 3,
+    "text": "SpawnOptions",
+    "slug": "spawnoptions"
+  },
+  {
+    "level": 3,
+    "text": "McpSetServersResult",
+    "slug": "mcpsetserversresult"
+  },
+  {
+    "level": 3,
+    "text": "RewindFilesResult",
+    "slug": "rewindfilesresult"
+  },
+  {
+    "level": 3,
+    "text": "SDKStatusMessage",
+    "slug": "sdkstatusmessage"
+  },
+  {
+    "level": 3,
+    "text": "SDKTaskNotificationMessage",
+    "slug": "sdktasknotificationmessage"
+  },
+  {
+    "level": 3,
+    "text": "SDKToolUseSummaryMessage",
+    "slug": "sdktoolusesummarymessage"
+  },
+  {
+    "level": 3,
+    "text": "SDKHookStartedMessage",
+    "slug": "sdkhookstartedmessage"
+  },
+  {
+    "level": 3,
+    "text": "SDKHookProgressMessage",
+    "slug": "sdkhookprogressmessage"
+  },
+  {
+    "level": 3,
+    "text": "SDKHookResponseMessage",
+    "slug": "sdkhookresponsemessage"
+  },
+  {
+    "level": 3,
+    "text": "SDKToolProgressMessage",
+    "slug": "sdktoolprogressmessage"
+  },
+  {
+    "level": 3,
+    "text": "SDKAuthStatusMessage",
+    "slug": "sdkauthstatusmessage"
+  },
+  {
+    "level": 3,
+    "text": "SDKTaskStartedMessage",
+    "slug": "sdktaskstartedmessage"
+  },
+  {
+    "level": 3,
+    "text": "SDKTaskProgressMessage",
+    "slug": "sdktaskprogressmessage"
+  },
+  {
+    "level": 3,
+    "text": "SDKTaskUpdatedMessage",
+    "slug": "sdktaskupdatedmessage"
+  },
+  {
+    "level": 3,
+    "text": "SDKFilesPersistedEvent",
+    "slug": "sdkfilespersistedevent"
+  },
+  {
+    "level": 3,
+    "text": "SDKRateLimitEvent",
+    "slug": "sdkratelimitevent"
+  },
+  {
+    "level": 3,
+    "text": "SDKLocalCommandOutputMessage",
+    "slug": "sdklocalcommandoutputmessage"
+  },
+  {
+    "level": 3,
+    "text": "SDKPromptSuggestionMessage",
+    "slug": "sdkpromptsuggestionmessage"
+  },
+  {
+    "level": 3,
+    "text": "AbortError",
+    "slug": "aborterror"
+  },
+  {
+    "level": 2,
+    "text": "Sandbox Configuration",
+    "slug": "sandbox-configuration"
+  },
+  {
+    "level": 3,
+    "text": "SandboxSettings",
+    "slug": "sandboxsettings"
+  },
+  {
+    "level": 4,
+    "text": "Example usage",
+    "slug": "example-usage"
+  },
+  {
+    "level": 3,
+    "text": "SandboxNetworkConfig",
+    "slug": "sandboxnetworkconfig"
+  },
+  {
+    "level": 3,
+    "text": "SandboxFilesystemConfig",
+    "slug": "sandboxfilesystemconfig"
+  },
+  {
+    "level": 3,
+    "text": "Permissions Fallback for Unsandboxed Commands",
+    "slug": "permissions-fallback-for-unsandboxed-commands"
+  },
+  {
+    "level": 2,
+    "text": "See also",
+    "slug": "see-also"
+  }
+]

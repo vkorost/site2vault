@@ -1,0 +1,90 @@
+{
+  "S2V_LINK_0": {
+    "url": "https://support.claude.com/en/articles/11174108-about-the-development-partner-program",
+    "text": "Developer Partner Program"
+  },
+  "S2V_LINK_1": {
+    "url": "https://support.claude.com/en/articles/11174108-about-the-development-partner-program",
+    "text": "Development Partner Program"
+  },
+  "S2V_LINK_2": {
+    "url": "/docs/en/settings#available-settings",
+    "text": "in your settings file to a probability between"
+  },
+  "S2V_LINK_3": {
+    "url": "https://claude.ai/settings/data-privacy-controls",
+    "text": "claude.ai/settings/data-privacy-controls"
+  },
+  "S2V_LINK_4": {
+    "url": "/docs/en/zero-data-retention",
+    "text": "Zero data retention"
+  },
+  "S2V_LINK_5": {
+    "url": "/docs/en/claude-directory#application-data",
+    "text": "application data"
+  },
+  "S2V_LINK_6": {
+    "url": "/docs/en/claude-code-on-the-web#delete-sessions",
+    "text": "Delete sessions"
+  },
+  "S2V_LINK_7": {
+    "url": "https://privacy.anthropic.com/",
+    "text": "Privacy Center"
+  },
+  "S2V_LINK_8": {
+    "url": "https://www.anthropic.com/legal/commercial-terms",
+    "text": "Commercial Terms of Service"
+  },
+  "S2V_LINK_9": {
+    "url": "https://www.anthropic.com/legal/consumer-terms",
+    "text": "Consumer Terms"
+  },
+  "S2V_LINK_10": {
+    "url": "https://www.anthropic.com/legal/privacy",
+    "text": "Privacy Policy"
+  },
+  "S2V_LINK_11": {
+    "url": "#local-claude-code-data-flow-and-dependencies",
+    "text": "local Claude Code"
+  },
+  "S2V_LINK_12": {
+    "url": "#cloud-execution-data-flow-and-dependencies",
+    "text": "remote Claude Code"
+  },
+  "S2V_LINK_13": {
+    "url": "/docs/en/remote-control",
+    "text": "Remote Control"
+  },
+  "S2V_LINK_14": {
+    "url": "https://trust.anthropic.com",
+    "text": "Anthropic Trust Center"
+  },
+  "S2V_LINK_15": {
+    "url": "/docs/en/claude-code-on-the-web",
+    "text": "Claude Code on the web"
+  },
+  "S2V_LINK_16": {
+    "url": "/docs/en/security#cloud-execution-security",
+    "text": "Security"
+  },
+  "S2V_LINK_17": {
+    "url": "https://www.statsig.com/trust/security",
+    "text": "Statsig security documentation"
+  },
+  "S2V_LINK_18": {
+    "url": "https://sentry.io/security/",
+    "text": "Sentry security documentation"
+  },
+  "S2V_LINK_19": {
+    "url": "/docs/en/settings",
+    "text": "settings reference"
+  },
+  "S2V_LINK_20": {
+    "url": "/docs/en/settings",
+    "text": "settings"
+  },
+  "S2V_LINK_21": {
+    "url": "/docs/en/permissions#webfetch",
+    "text": "if you need to restrict which domains Claude can reach."
+  }
+}

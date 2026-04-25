@@ -1,0 +1,57 @@
+[
+  {
+    "level": 2,
+    "text": "Explore the directory",
+    "slug": "explore-the-directory"
+  },
+  {
+    "level": 2,
+    "text": "What\u2019s not shown",
+    "slug": "whats-not-shown"
+  },
+  {
+    "level": 2,
+    "text": "Choose the right file",
+    "slug": "choose-the-right-file"
+  },
+  {
+    "level": 2,
+    "text": "File reference",
+    "slug": "file-reference"
+  },
+  {
+    "level": 2,
+    "text": "Troubleshoot configuration",
+    "slug": "troubleshoot-configuration"
+  },
+  {
+    "level": 2,
+    "text": "Application data",
+    "slug": "application-data"
+  },
+  {
+    "level": 3,
+    "text": "Cleaned up automatically",
+    "slug": "cleaned-up-automatically"
+  },
+  {
+    "level": 3,
+    "text": "Kept until you delete them",
+    "slug": "kept-until-you-delete-them"
+  },
+  {
+    "level": 3,
+    "text": "Plaintext storage",
+    "slug": "plaintext-storage"
+  },
+  {
+    "level": 3,
+    "text": "Clear local data",
+    "slug": "clear-local-data"
+  },
+  {
+    "level": 2,
+    "text": "Related resources",
+    "slug": "related-resources"
+  }
+]

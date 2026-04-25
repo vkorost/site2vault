@@ -1,0 +1,132 @@
+[
+  {
+    "level": 2,
+    "text": "Keyboard shortcuts",
+    "slug": "keyboard-shortcuts"
+  },
+  {
+    "level": 3,
+    "text": "General controls",
+    "slug": "general-controls"
+  },
+  {
+    "level": 3,
+    "text": "Text editing",
+    "slug": "text-editing"
+  },
+  {
+    "level": 3,
+    "text": "Theme and display",
+    "slug": "theme-and-display"
+  },
+  {
+    "level": 3,
+    "text": "Multiline input",
+    "slug": "multiline-input"
+  },
+  {
+    "level": 3,
+    "text": "Quick commands",
+    "slug": "quick-commands"
+  },
+  {
+    "level": 3,
+    "text": "Transcript viewer",
+    "slug": "transcript-viewer"
+  },
+  {
+    "level": 3,
+    "text": "Voice input",
+    "slug": "voice-input"
+  },
+  {
+    "level": 2,
+    "text": "Commands",
+    "slug": "commands"
+  },
+  {
+    "level": 2,
+    "text": "Vim editor mode",
+    "slug": "vim-editor-mode"
+  },
+  {
+    "level": 3,
+    "text": "Mode switching",
+    "slug": "mode-switching"
+  },
+  {
+    "level": 3,
+    "text": "Navigation (NORMAL mode)",
+    "slug": "navigation-normal-mode"
+  },
+  {
+    "level": 3,
+    "text": "Editing (NORMAL mode)",
+    "slug": "editing-normal-mode"
+  },
+  {
+    "level": 3,
+    "text": "Text objects (NORMAL mode)",
+    "slug": "text-objects-normal-mode"
+  },
+  {
+    "level": 3,
+    "text": "Visual mode",
+    "slug": "visual-mode"
+  },
+  {
+    "level": 2,
+    "text": "Command history",
+    "slug": "command-history"
+  },
+  {
+    "level": 3,
+    "text": "Reverse search with Ctrl+R",
+    "slug": "reverse-search-with-ctrlr"
+  },
+  {
+    "level": 2,
+    "text": "Background bash commands",
+    "slug": "background-bash-commands"
+  },
+  {
+    "level": 3,
+    "text": "How backgrounding works",
+    "slug": "how-backgrounding-works"
+  },
+  {
+    "level": 3,
+    "text": "Bash mode with!prefix",
+    "slug": "bash-mode-withprefix"
+  },
+  {
+    "level": 2,
+    "text": "Prompt suggestions",
+    "slug": "prompt-suggestions"
+  },
+  {
+    "level": 2,
+    "text": "Side questions with /btw",
+    "slug": "side-questions-with-btw"
+  },
+  {
+    "level": 2,
+    "text": "Task list",
+    "slug": "task-list"
+  },
+  {
+    "level": 2,
+    "text": "Session recap",
+    "slug": "session-recap"
+  },
+  {
+    "level": 2,
+    "text": "PR review status",
+    "slug": "pr-review-status"
+  },
+  {
+    "level": 2,
+    "text": "See also",
+    "slug": "see-also"
+  }
+]

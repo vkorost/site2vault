@@ -1,0 +1,107 @@
+[
+  {
+    "level": 2,
+    "text": "When to use plugins vs standalone configuration",
+    "slug": "when-to-use-plugins-vs-standalone-configuration"
+  },
+  {
+    "level": 2,
+    "text": "Quickstart",
+    "slug": "quickstart"
+  },
+  {
+    "level": 3,
+    "text": "Prerequisites",
+    "slug": "prerequisites"
+  },
+  {
+    "level": 3,
+    "text": "Create your first plugin",
+    "slug": "create-your-first-plugin"
+  },
+  {
+    "level": 2,
+    "text": "Plugin structure overview",
+    "slug": "plugin-structure-overview"
+  },
+  {
+    "level": 2,
+    "text": "Develop more complex plugins",
+    "slug": "develop-more-complex-plugins"
+  },
+  {
+    "level": 3,
+    "text": "Add Skills to your plugin",
+    "slug": "add-skills-to-your-plugin"
+  },
+  {
+    "level": 3,
+    "text": "Add LSP servers to your plugin",
+    "slug": "add-lsp-servers-to-your-plugin"
+  },
+  {
+    "level": 3,
+    "text": "Add background monitors to your plugin",
+    "slug": "add-background-monitors-to-your-plugin"
+  },
+  {
+    "level": 3,
+    "text": "Ship default settings with your plugin",
+    "slug": "ship-default-settings-with-your-plugin"
+  },
+  {
+    "level": 3,
+    "text": "Organize complex plugins",
+    "slug": "organize-complex-plugins"
+  },
+  {
+    "level": 3,
+    "text": "Test your plugins locally",
+    "slug": "test-your-plugins-locally"
+  },
+  {
+    "level": 3,
+    "text": "Debug plugin issues",
+    "slug": "debug-plugin-issues"
+  },
+  {
+    "level": 3,
+    "text": "Share your plugins",
+    "slug": "share-your-plugins"
+  },
+  {
+    "level": 3,
+    "text": "Submit your plugin to the official marketplace",
+    "slug": "submit-your-plugin-to-the-official-marketplace"
+  },
+  {
+    "level": 2,
+    "text": "Convert existing configurations to plugins",
+    "slug": "convert-existing-configurations-to-plugins"
+  },
+  {
+    "level": 3,
+    "text": "Migration steps",
+    "slug": "migration-steps"
+  },
+  {
+    "level": 3,
+    "text": "What changes when migrating",
+    "slug": "what-changes-when-migrating"
+  },
+  {
+    "level": 2,
+    "text": "Next steps",
+    "slug": "next-steps"
+  },
+  {
+    "level": 3,
+    "text": "For plugin users",
+    "slug": "for-plugin-users"
+  },
+  {
+    "level": 3,
+    "text": "For plugin developers",
+    "slug": "for-plugin-developers"
+  }
+]

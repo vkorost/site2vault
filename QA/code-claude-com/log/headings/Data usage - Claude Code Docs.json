@@ -1,0 +1,62 @@
+[
+  {
+    "level": 2,
+    "text": "Data policies",
+    "slug": "data-policies"
+  },
+  {
+    "level": 3,
+    "text": "Data training policy",
+    "slug": "data-training-policy"
+  },
+  {
+    "level": 3,
+    "text": "Development Partner Program",
+    "slug": "development-partner-program"
+  },
+  {
+    "level": 3,
+    "text": "Feedback using the/feedbackcommand",
+    "slug": "feedback-using-thefeedbackcommand"
+  },
+  {
+    "level": 3,
+    "text": "Session quality surveys",
+    "slug": "session-quality-surveys"
+  },
+  {
+    "level": 3,
+    "text": "Data retention",
+    "slug": "data-retention"
+  },
+  {
+    "level": 2,
+    "text": "Data access",
+    "slug": "data-access"
+  },
+  {
+    "level": 2,
+    "text": "Local Claude Code: Data flow and dependencies",
+    "slug": "local-claude-code-data-flow-and-dependencies"
+  },
+  {
+    "level": 3,
+    "text": "Cloud execution: Data flow and dependencies",
+    "slug": "cloud-execution-data-flow-and-dependencies"
+  },
+  {
+    "level": 2,
+    "text": "Telemetry services",
+    "slug": "telemetry-services"
+  },
+  {
+    "level": 2,
+    "text": "Default behaviors by API provider",
+    "slug": "default-behaviors-by-api-provider"
+  },
+  {
+    "level": 3,
+    "text": "WebFetch domain safety check",
+    "slug": "webfetch-domain-safety-check"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "level": 2,
+    "text": "Where the classifier reads configuration",
+    "slug": "where-the-classifier-reads-configuration"
+  },
+  {
+    "level": 2,
+    "text": "Define trusted infrastructure",
+    "slug": "define-trusted-infrastructure"
+  },
+  {
+    "level": 2,
+    "text": "Override the block and allow rules",
+    "slug": "override-the-block-and-allow-rules"
+  },
+  {
+    "level": 2,
+    "text": "Inspect the defaults and your effective config",
+    "slug": "inspect-the-defaults-and-your-effective-config"
+  },
+  {
+    "level": 2,
+    "text": "Review denials",
+    "slug": "review-denials"
+  },
+  {
+    "level": 2,
+    "text": "See also",
+    "slug": "see-also"
+  }
+]

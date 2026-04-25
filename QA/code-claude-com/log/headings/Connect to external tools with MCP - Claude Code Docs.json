@@ -1,0 +1,132 @@
+[
+  {
+    "level": 2,
+    "text": "Quickstart",
+    "slug": "quickstart"
+  },
+  {
+    "level": 2,
+    "text": "Add an MCP server",
+    "slug": "add-an-mcp-server"
+  },
+  {
+    "level": 3,
+    "text": "In code",
+    "slug": "in-code"
+  },
+  {
+    "level": 3,
+    "text": "From a config file",
+    "slug": "from-a-config-file"
+  },
+  {
+    "level": 2,
+    "text": "Allow MCP tools",
+    "slug": "allow-mcp-tools"
+  },
+  {
+    "level": 3,
+    "text": "Tool naming convention",
+    "slug": "tool-naming-convention"
+  },
+  {
+    "level": 3,
+    "text": "Grant access with allowedTools",
+    "slug": "grant-access-with-allowedtools"
+  },
+  {
+    "level": 3,
+    "text": "Discover available tools",
+    "slug": "discover-available-tools"
+  },
+  {
+    "level": 2,
+    "text": "Transport types",
+    "slug": "transport-types"
+  },
+  {
+    "level": 3,
+    "text": "stdio servers",
+    "slug": "stdio-servers"
+  },
+  {
+    "level": 3,
+    "text": "HTTP/SSE servers",
+    "slug": "httpsse-servers"
+  },
+  {
+    "level": 3,
+    "text": "SDK MCP servers",
+    "slug": "sdk-mcp-servers"
+  },
+  {
+    "level": 2,
+    "text": "MCP tool search",
+    "slug": "mcp-tool-search"
+  },
+  {
+    "level": 2,
+    "text": "Authentication",
+    "slug": "authentication"
+  },
+  {
+    "level": 3,
+    "text": "Pass credentials via environment variables",
+    "slug": "pass-credentials-via-environment-variables"
+  },
+  {
+    "level": 3,
+    "text": "HTTP headers for remote servers",
+    "slug": "http-headers-for-remote-servers"
+  },
+  {
+    "level": 3,
+    "text": "OAuth2 authentication",
+    "slug": "oauth2-authentication"
+  },
+  {
+    "level": 2,
+    "text": "Examples",
+    "slug": "examples"
+  },
+  {
+    "level": 3,
+    "text": "List issues from a repository",
+    "slug": "list-issues-from-a-repository"
+  },
+  {
+    "level": 3,
+    "text": "Query a database",
+    "slug": "query-a-database"
+  },
+  {
+    "level": 2,
+    "text": "Error handling",
+    "slug": "error-handling"
+  },
+  {
+    "level": 2,
+    "text": "Troubleshooting",
+    "slug": "troubleshooting"
+  },
+  {
+    "level": 3,
+    "text": "Server shows \u201cfailed\u201d status",
+    "slug": "server-shows-failed-status"
+  },
+  {
+    "level": 3,
+    "text": "Tools not being called",
+    "slug": "tools-not-being-called"
+  },
+  {
+    "level": 3,
+    "text": "Connection timeouts",
+    "slug": "connection-timeouts"
+  },
+  {
+    "level": 2,
+    "text": "Related resources",
+    "slug": "related-resources"
+  }
+]

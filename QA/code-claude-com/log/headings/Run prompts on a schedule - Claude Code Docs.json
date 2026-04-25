@@ -1,0 +1,77 @@
+[
+  {
+    "level": 2,
+    "text": "Compare scheduling options",
+    "slug": "compare-scheduling-options"
+  },
+  {
+    "level": 2,
+    "text": "Run a prompt repeatedly with /loop",
+    "slug": "run-a-prompt-repeatedly-with-loop"
+  },
+  {
+    "level": 3,
+    "text": "Run on a fixed interval",
+    "slug": "run-on-a-fixed-interval"
+  },
+  {
+    "level": 3,
+    "text": "Let Claude choose the interval",
+    "slug": "let-claude-choose-the-interval"
+  },
+  {
+    "level": 3,
+    "text": "Run the built-in maintenance prompt",
+    "slug": "run-the-built-in-maintenance-prompt"
+  },
+  {
+    "level": 3,
+    "text": "Customize the default prompt with loop.md",
+    "slug": "customize-the-default-prompt-with-loopmd"
+  },
+  {
+    "level": 3,
+    "text": "Stop a loop",
+    "slug": "stop-a-loop"
+  },
+  {
+    "level": 2,
+    "text": "Set a one-time reminder",
+    "slug": "set-a-one-time-reminder"
+  },
+  {
+    "level": 2,
+    "text": "Manage scheduled tasks",
+    "slug": "manage-scheduled-tasks"
+  },
+  {
+    "level": 2,
+    "text": "How scheduled tasks run",
+    "slug": "how-scheduled-tasks-run"
+  },
+  {
+    "level": 3,
+    "text": "Jitter",
+    "slug": "jitter"
+  },
+  {
+    "level": 3,
+    "text": "Seven-day expiry",
+    "slug": "seven-day-expiry"
+  },
+  {
+    "level": 2,
+    "text": "Cron expression reference",
+    "slug": "cron-expression-reference"
+  },
+  {
+    "level": 2,
+    "text": "Disable scheduled tasks",
+    "slug": "disable-scheduled-tasks"
+  },
+  {
+    "level": 2,
+    "text": "Limitations",
+    "slug": "limitations"
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "level": 2,
+    "text": "Available modes",
+    "slug": "available-modes"
+  },
+  {
+    "level": 2,
+    "text": "Switch permission modes",
+    "slug": "switch-permission-modes"
+  },
+  {
+    "level": 2,
+    "text": "Auto-approve file edits with acceptEdits mode",
+    "slug": "auto-approve-file-edits-with-acceptedits-mode"
+  },
+  {
+    "level": 2,
+    "text": "Analyze before you edit with plan mode",
+    "slug": "analyze-before-you-edit-with-plan-mode"
+  },
+  {
+    "level": 2,
+    "text": "Eliminate prompts with auto mode",
+    "slug": "eliminate-prompts-with-auto-mode"
+  },
+  {
+    "level": 3,
+    "text": "What the classifier blocks by default",
+    "slug": "what-the-classifier-blocks-by-default"
+  },
+  {
+    "level": 3,
+    "text": "Boundaries you state in conversation",
+    "slug": "boundaries-you-state-in-conversation"
+  },
+  {
+    "level": 3,
+    "text": "When auto mode falls back",
+    "slug": "when-auto-mode-falls-back"
+  },
+  {
+    "level": 2,
+    "text": "Allow only pre-approved tools with dontAsk mode",
+    "slug": "allow-only-pre-approved-tools-with-dontask-mode"
+  },
+  {
+    "level": 2,
+    "text": "Skip all checks with bypassPermissions mode",
+    "slug": "skip-all-checks-with-bypasspermissions-mode"
+  },
+  {
+    "level": 2,
+    "text": "Protected paths",
+    "slug": "protected-paths"
+  },
+  {
+    "level": 2,
+    "text": "See also",
+    "slug": "see-also"
+  }
+]

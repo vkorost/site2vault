@@ -1,0 +1,210 @@
+{
+  "S2V_LINK_0": {
+    "url": "#tool-annotations",
+    "text": "ToolAnnotations"
+  },
+  "S2V_LINK_1": {
+    "url": "#tag-session",
+    "text": "tag_session()"
+  },
+  "S2V_LINK_2": {
+    "url": "#return-type-sdk-session-info",
+    "text": "SDKSessionInfo"
+  },
+  "S2V_LINK_3": {
+    "url": "#return-type-sdk-session-info",
+    "text": "SDKSessionInfo.custom_title"
+  },
+  "S2V_LINK_4": {
+    "url": "/docs/en/agent-sdk/file-checkpointing",
+    "text": "File checkpointing"
+  },
+  "S2V_LINK_5": {
+    "url": "#mcp-status-response",
+    "text": "McpStatusResponse"
+  },
+  "S2V_LINK_6": {
+    "url": "#task-notification-message",
+    "text": "TaskNotificationMessage"
+  },
+  "S2V_LINK_7": {
+    "url": "/docs/en/agent-sdk/permissions#allow-and-deny-rules",
+    "text": "Permissions"
+  },
+  "S2V_LINK_8": {
+    "url": "/docs/en/agent-sdk/cost-tracking",
+    "text": "Track cost and usage"
+  },
+  "S2V_LINK_9": {
+    "url": "/docs/en/agent-sdk/file-checkpointing",
+    "text": "File checkpointing"
+  },
+  "S2V_LINK_10": {
+    "url": "#sdk-beta",
+    "text": "SdkBeta"
+  },
+  "S2V_LINK_11": {
+    "url": "/docs/en/agent-sdk/structured-outputs",
+    "text": "Structured outputs"
+  },
+  "S2V_LINK_12": {
+    "url": "/docs/en/env-vars",
+    "text": "Environment variables"
+  },
+  "S2V_LINK_13": {
+    "url": "#can-use-tool",
+    "text": "CanUseTool"
+  },
+  "S2V_LINK_14": {
+    "url": "#can-use-tool",
+    "text": "Permission types"
+  },
+  "S2V_LINK_15": {
+    "url": "#stream-event",
+    "text": "StreamEvent"
+  },
+  "S2V_LINK_16": {
+    "url": "/docs/en/agent-sdk/plugins",
+    "text": "Plugins"
+  },
+  "S2V_LINK_17": {
+    "url": "#sandbox-settings",
+    "text": "SandboxSettings"
+  },
+  "S2V_LINK_18": {
+    "url": "#sandbox-settings",
+    "text": "Sandbox settings"
+  },
+  "S2V_LINK_19": {
+    "url": "/docs/en/agent-sdk/claude-code-features#what-settingsources-does-not-control",
+    "text": "Use Claude Code features"
+  },
+  "S2V_LINK_20": {
+    "url": "#thinking-config",
+    "text": "ThinkingConfig"
+  },
+  "S2V_LINK_21": {
+    "url": "/docs/en/agent-sdk/session-storage#the-session-store-interface",
+    "text": "SessionStore"
+  },
+  "S2V_LINK_22": {
+    "url": "/docs/en/agent-sdk/session-storage",
+    "text": "Persist sessions to external storage"
+  },
+  "S2V_LINK_23": {
+    "url": "/docs/en/agent-sdk/modifying-system-prompts#improve-prompt-caching-across-users-and-machines",
+    "text": "Modify system prompts"
+  },
+  "S2V_LINK_24": {
+    "url": "/docs/en/agent-sdk/claude-code-features#what-settingsources-does-not-control",
+    "text": "What settingSources does not control"
+  },
+  "S2V_LINK_25": {
+    "url": "#permission-mode",
+    "text": "PermissionMode"
+  },
+  "S2V_LINK_26": {
+    "url": "https://platform.claude.com/docs/en/about-claude/models/overview",
+    "text": "Claude Sonnet 4.6, Claude Opus 4.6, or Claude Opus 4.7"
+  },
+  "S2V_LINK_27": {
+    "url": "#methods",
+    "text": "get_mcp_status()"
+  },
+  "S2V_LINK_28": {
+    "url": "#mcp-server-config",
+    "text": "McpServerConfig"
+  },
+  "S2V_LINK_29": {
+    "url": "#mcp-sdk-server-config",
+    "text": "McpSdkServerConfig"
+  },
+  "S2V_LINK_30": {
+    "url": "#methods",
+    "text": "ClaudeSDKClient.get_mcp_status()"
+  },
+  "S2V_LINK_31": {
+    "url": "#mcp-status-response",
+    "text": "McpStatusResponse"
+  },
+  "S2V_LINK_32": {
+    "url": "#mcp-server-status-config",
+    "text": "McpServerStatusConfig"
+  },
+  "S2V_LINK_33": {
+    "url": "#mcp-server-config",
+    "text": "McpServerConfig"
+  },
+  "S2V_LINK_34": {
+    "url": "/docs/en/agent-sdk/plugins",
+    "text": "Plugins"
+  },
+  "S2V_LINK_35": {
+    "url": "#assistant-message-error",
+    "text": "AssistantMessageError"
+  },
+  "S2V_LINK_36": {
+    "url": "#result-message",
+    "text": "ResultMessage.usage"
+  },
+  "S2V_LINK_37": {
+    "url": "/docs/en/agent-sdk/typescript#model-usage",
+    "text": "ModelUsage"
+  },
+  "S2V_LINK_38": {
+    "url": "/docs/en/agent-sdk/cost-tracking",
+    "text": "Track cost and usage"
+  },
+  "S2V_LINK_39": {
+    "url": "#rate-limit-info",
+    "text": "RateLimitInfo"
+  },
+  "S2V_LINK_40": {
+    "url": "#rate-limit-event",
+    "text": "RateLimitEvent"
+  },
+  "S2V_LINK_41": {
+    "url": "#monitor",
+    "text": "Monitor"
+  },
+  "S2V_LINK_42": {
+    "url": "/docs/en/agent-sdk/hooks",
+    "text": "Hooks guide"
+  },
+  "S2V_LINK_43": {
+    "url": "#hook-input",
+    "text": "HookInput"
+  },
+  "S2V_LINK_44": {
+    "url": "#hook-json-output",
+    "text": "HookJSONOutput"
+  },
+  "S2V_LINK_45": {
+    "url": "/docs/en/agent-sdk/hooks#outputs",
+    "text": "Control execution with hooks"
+  },
+  "S2V_LINK_46": {
+    "url": "/docs/en/agent-sdk/user-input#handle-clarifying-questions",
+    "text": "Handle approvals and user input"
+  },
+  "S2V_LINK_47": {
+    "url": "/docs/en/tools-reference#monitor-tool",
+    "text": "Monitor tool reference"
+  },
+  "S2V_LINK_48": {
+    "url": "#permissions-fallback-for-unsandboxed-commands",
+    "text": "permissions system"
+  },
+  "S2V_LINK_49": {
+    "url": "#sandbox-network-config",
+    "text": "SandboxNetworkConfig"
+  },
+  "S2V_LINK_50": {
+    "url": "#sandbox-ignore-violations",
+    "text": "SandboxIgnoreViolations"
+  },
+  "S2V_LINK_51": {
+    "url": "/docs/en/settings#permission-settings",
+    "text": "permission rules"
+  }
+}

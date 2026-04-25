@@ -1,0 +1,74 @@
+{
+  "S2V_LINK_0": {
+    "url": "/docs/en/hooks#defer-a-tool-call-for-later",
+    "text": ", which lets the process exit and resume later from the persisted session; this option is not available in the Python SDK. This guide shows you how to detect each type of request and respond appropriately."
+  },
+  "S2V_LINK_1": {
+    "url": "/docs/en/agent-sdk/permissions",
+    "text": "permission rules"
+  },
+  "S2V_LINK_2": {
+    "url": "#handle-clarifying-questions",
+    "text": "Handle clarifying questions"
+  },
+  "S2V_LINK_3": {
+    "url": "/docs/en/agent-sdk/hooks",
+    "text": "hooks"
+  },
+  "S2V_LINK_4": {
+    "url": "/docs/en/agent-sdk/hooks#available-hooks",
+    "text": "to send external notifications (Slack, email, push) when Claude is waiting for approval."
+  },
+  "S2V_LINK_5": {
+    "url": "/docs/en/agent-sdk/python#tool-input-output-types",
+    "text": "Python"
+  },
+  "S2V_LINK_6": {
+    "url": "/docs/en/agent-sdk/typescript#tool-input-types",
+    "text": "TypeScript"
+  },
+  "S2V_LINK_7": {
+    "url": "/docs/en/agent-sdk/streaming-vs-single-mode",
+    "text": "streaming mode"
+  },
+  "S2V_LINK_8": {
+    "url": "#respond-to-tool-requests",
+    "text": "Respond to tool requests"
+  },
+  "S2V_LINK_9": {
+    "url": "/docs/en/agent-sdk/streaming-vs-single-mode",
+    "text": "streaming input"
+  },
+  "S2V_LINK_10": {
+    "url": "#question-format",
+    "text": "Question format"
+  },
+  "S2V_LINK_11": {
+    "url": "#support-free-text-input",
+    "text": "support free-text input"
+  },
+  "S2V_LINK_12": {
+    "url": "#complete-example",
+    "text": "complete example"
+  },
+  "S2V_LINK_13": {
+    "url": "/docs/en/agent-sdk/streaming-vs-single-mode",
+    "text": "streaming input"
+  },
+  "S2V_LINK_14": {
+    "url": "/docs/en/agent-sdk/custom-tools",
+    "text": "custom tools"
+  },
+  "S2V_LINK_15": {
+    "url": "/docs/en/agent-sdk/permissions",
+    "text": "Configure permissions"
+  },
+  "S2V_LINK_16": {
+    "url": "/docs/en/agent-sdk/hooks",
+    "text": "Control execution with hooks"
+  },
+  "S2V_LINK_17": {
+    "url": "/docs/en/agent-sdk/typescript#can-use-tool",
+    "text": "TypeScript SDK reference"
+  }
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "level": 2,
+    "text": "Download for macOS",
+    "slug": "download-for-macos"
+  },
+  {
+    "level": 2,
+    "text": "Download for Windows",
+    "slug": "download-for-windows"
+  },
+  {
+    "level": 2,
+    "text": "Install",
+    "slug": "install"
+  },
+  {
+    "level": 2,
+    "text": "Start your first session",
+    "slug": "start-your-first-session"
+  },
+  {
+    "level": 2,
+    "text": "Now what?",
+    "slug": "now-what"
+  },
+  {
+    "level": 2,
+    "text": "Coming from the CLI?",
+    "slug": "coming-from-the-cli"
+  },
+  {
+    "level": 2,
+    "text": "What\u2019s next",
+    "slug": "whats-next"
+  }
+]

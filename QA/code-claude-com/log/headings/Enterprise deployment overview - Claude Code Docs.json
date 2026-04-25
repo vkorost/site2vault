@@ -1,0 +1,67 @@
+[
+  {
+    "level": 2,
+    "text": "Compare deployment options",
+    "slug": "compare-deployment-options"
+  },
+  {
+    "level": 2,
+    "text": "Configure proxies and gateways",
+    "slug": "configure-proxies-and-gateways"
+  },
+  {
+    "level": 3,
+    "text": "Amazon Bedrock",
+    "slug": "amazon-bedrock"
+  },
+  {
+    "level": 3,
+    "text": "Microsoft Foundry",
+    "slug": "microsoft-foundry"
+  },
+  {
+    "level": 3,
+    "text": "Google Vertex AI",
+    "slug": "google-vertex-ai"
+  },
+  {
+    "level": 2,
+    "text": "Best practices for organizations",
+    "slug": "best-practices-for-organizations"
+  },
+  {
+    "level": 3,
+    "text": "Invest in documentation and memory",
+    "slug": "invest-in-documentation-and-memory"
+  },
+  {
+    "level": 3,
+    "text": "Simplify deployment",
+    "slug": "simplify-deployment"
+  },
+  {
+    "level": 3,
+    "text": "Start with guided usage",
+    "slug": "start-with-guided-usage"
+  },
+  {
+    "level": 3,
+    "text": "Pin model versions for cloud providers",
+    "slug": "pin-model-versions-for-cloud-providers"
+  },
+  {
+    "level": 3,
+    "text": "Configure security policies",
+    "slug": "configure-security-policies"
+  },
+  {
+    "level": 3,
+    "text": "Leverage MCP for integrations",
+    "slug": "leverage-mcp-for-integrations"
+  },
+  {
+    "level": 2,
+    "text": "Next steps",
+    "slug": "next-steps"
+  }
+]

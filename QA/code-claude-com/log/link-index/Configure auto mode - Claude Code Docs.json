@@ -1,0 +1,62 @@
+{
+  "S2V_LINK_0": {
+    "url": "/docs/en/permission-modes#eliminate-prompts-with-auto-mode",
+    "text": "Auto mode"
+  },
+  "S2V_LINK_1": {
+    "url": "/docs/en/permission-modes#eliminate-prompts-with-auto-mode",
+    "text": "Permission modes"
+  },
+  "S2V_LINK_2": {
+    "url": "#where-the-classifier-reads-configuration",
+    "text": "Choose where to set rules"
+  },
+  "S2V_LINK_3": {
+    "url": "#define-trusted-infrastructure",
+    "text": "Define trusted infrastructure"
+  },
+  "S2V_LINK_4": {
+    "url": "#override-the-block-and-allow-rules",
+    "text": "Override the block and allow rules"
+  },
+  "S2V_LINK_5": {
+    "url": "#inspect-the-defaults-and-your-effective-config",
+    "text": "Inspect your effective config"
+  },
+  "S2V_LINK_6": {
+    "url": "#review-denials",
+    "text": "Review denials"
+  },
+  "S2V_LINK_7": {
+    "url": "/docs/en/memory",
+    "text": "CLAUDE.md"
+  },
+  "S2V_LINK_8": {
+    "url": "/docs/en/permissions",
+    "text": "permissions system"
+  },
+  "S2V_LINK_9": {
+    "url": "/docs/en/permissions",
+    "text": ", which runs before the classifier. Inside the classifier, precedence works in three tiers:"
+  },
+  "S2V_LINK_10": {
+    "url": "/docs/en/hooks#permissiondenied",
+    "text": "."
+  },
+  "S2V_LINK_11": {
+    "url": "/docs/en/permission-modes#eliminate-prompts-with-auto-mode",
+    "text": "Permission modes"
+  },
+  "S2V_LINK_12": {
+    "url": "/docs/en/server-managed-settings",
+    "text": "Managed settings"
+  },
+  "S2V_LINK_13": {
+    "url": "/docs/en/permissions",
+    "text": "Permissions"
+  },
+  "S2V_LINK_14": {
+    "url": "/docs/en/settings",
+    "text": "Settings"
+  }
+}

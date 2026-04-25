@@ -1,0 +1,22 @@
+{
+  "S2V_LINK_0": {
+    "url": "https://support.claude.com/en/articles/12429409-extra-usage-for-paid-claude-plans",
+    "text": "extra usage"
+  },
+  "S2V_LINK_1": {
+    "url": "https://support.claude.com/en/articles/12429409-extra-usage-for-paid-claude-plans",
+    "text": "extra usage"
+  },
+  "S2V_LINK_2": {
+    "url": "/docs/en/claude-code-on-the-web",
+    "text": "Claude Code on the web"
+  },
+  "S2V_LINK_3": {
+    "url": "/docs/en/ultraplan",
+    "text": "Plan complex changes with ultraplan"
+  },
+  "S2V_LINK_4": {
+    "url": "/docs/en/costs",
+    "text": "Manage costs effectively"
+  }
+}

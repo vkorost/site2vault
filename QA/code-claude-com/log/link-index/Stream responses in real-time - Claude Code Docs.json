@@ -1,0 +1,22 @@
+{
+  "S2V_LINK_0": {
+    "url": "https://platform.claude.com/docs/en/build-with-claude/streaming#event-types",
+    "text": "Claude API"
+  },
+  "S2V_LINK_1": {
+    "url": "/docs/en/agent-sdk/structured-outputs",
+    "text": "structured outputs"
+  },
+  "S2V_LINK_2": {
+    "url": "/docs/en/agent-sdk/streaming-vs-single-mode",
+    "text": "Interactive vs one-shot queries"
+  },
+  "S2V_LINK_3": {
+    "url": "/docs/en/agent-sdk/structured-outputs",
+    "text": "Structured outputs"
+  },
+  "S2V_LINK_4": {
+    "url": "/docs/en/agent-sdk/permissions",
+    "text": "Permissions"
+  }
+}

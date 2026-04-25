@@ -1,0 +1,267 @@
+[
+  {
+    "level": 2,
+    "text": "Troubleshoot installation issues",
+    "slug": "troubleshoot-installation-issues"
+  },
+  {
+    "level": 2,
+    "text": "Debug installation problems",
+    "slug": "debug-installation-problems"
+  },
+  {
+    "level": 3,
+    "text": "Check network connectivity",
+    "slug": "check-network-connectivity"
+  },
+  {
+    "level": 3,
+    "text": "Verify your PATH",
+    "slug": "verify-your-path"
+  },
+  {
+    "level": 3,
+    "text": "Check for conflicting installations",
+    "slug": "check-for-conflicting-installations"
+  },
+  {
+    "level": 3,
+    "text": "Check directory permissions",
+    "slug": "check-directory-permissions"
+  },
+  {
+    "level": 3,
+    "text": "Verify the binary works",
+    "slug": "verify-the-binary-works"
+  },
+  {
+    "level": 2,
+    "text": "Common installation issues",
+    "slug": "common-installation-issues"
+  },
+  {
+    "level": 3,
+    "text": "Install script returns HTML instead of a shell script",
+    "slug": "install-script-returns-html-instead-of-a-shell-script"
+  },
+  {
+    "level": 3,
+    "text": "command not found: claudeafter installation",
+    "slug": "command-not-found-claudeafter-installation"
+  },
+  {
+    "level": 3,
+    "text": "curl: (56) Failure writing output to destination",
+    "slug": "curl-56-failure-writing-output-to-destination"
+  },
+  {
+    "level": 3,
+    "text": "TLS or SSL connection errors",
+    "slug": "tls-or-ssl-connection-errors"
+  },
+  {
+    "level": 3,
+    "text": "Failed to fetch version from downloads.claude.ai",
+    "slug": "failed-to-fetch-version-from-downloadsclaudeai"
+  },
+  {
+    "level": 3,
+    "text": "Windows: wrong install command",
+    "slug": "windows-wrong-install-command"
+  },
+  {
+    "level": 3,
+    "text": "Install killed on low-memory Linux servers",
+    "slug": "install-killed-on-low-memory-linux-servers"
+  },
+  {
+    "level": 3,
+    "text": "Install hangs in Docker",
+    "slug": "install-hangs-in-docker"
+  },
+  {
+    "level": 3,
+    "text": "Windows: Claude Desktop overridesclaudeCLI command",
+    "slug": "windows-claude-desktop-overridesclaudecli-command"
+  },
+  {
+    "level": 3,
+    "text": "Windows: Claude Code on Windows requires git-bash",
+    "slug": "windows-claude-code-on-windows-requires-git-bash"
+  },
+  {
+    "level": 3,
+    "text": "Windows: Claude Code does not support 32-bit Windows",
+    "slug": "windows-claude-code-does-not-support-32-bit-windows"
+  },
+  {
+    "level": 3,
+    "text": "Linux: wrong binary variant installed (musl/glibc mismatch)",
+    "slug": "linux-wrong-binary-variant-installed-muslglibc-mismatch"
+  },
+  {
+    "level": 3,
+    "text": "Illegal instructionon Linux",
+    "slug": "illegal-instructionon-linux"
+  },
+  {
+    "level": 3,
+    "text": "dyld: cannot loadon macOS",
+    "slug": "dyld-cannot-loadon-macos"
+  },
+  {
+    "level": 3,
+    "text": "Windows installation issues: errors in WSL",
+    "slug": "windows-installation-issues-errors-in-wsl"
+  },
+  {
+    "level": 3,
+    "text": "WSL2 sandbox setup",
+    "slug": "wsl2-sandbox-setup"
+  },
+  {
+    "level": 3,
+    "text": "Permission errors during installation",
+    "slug": "permission-errors-during-installation"
+  },
+  {
+    "level": 3,
+    "text": "Native binary not found after npm install",
+    "slug": "native-binary-not-found-after-npm-install"
+  },
+  {
+    "level": 2,
+    "text": "Permissions and authentication",
+    "slug": "permissions-and-authentication"
+  },
+  {
+    "level": 3,
+    "text": "Repeated permission prompts",
+    "slug": "repeated-permission-prompts"
+  },
+  {
+    "level": 3,
+    "text": "Authentication issues",
+    "slug": "authentication-issues"
+  },
+  {
+    "level": 3,
+    "text": "OAuth error: Invalid code",
+    "slug": "oauth-error-invalid-code"
+  },
+  {
+    "level": 3,
+    "text": "403 Forbidden after login",
+    "slug": "403-forbidden-after-login"
+  },
+  {
+    "level": 3,
+    "text": "Model not found or not accessible",
+    "slug": "model-not-found-or-not-accessible"
+  },
+  {
+    "level": 3,
+    "text": "This organization has been disabled with an active subscription",
+    "slug": "this-organization-has-been-disabled-with-an-active-subscription"
+  },
+  {
+    "level": 3,
+    "text": "OAuth login fails in WSL2",
+    "slug": "oauth-login-fails-in-wsl2"
+  },
+  {
+    "level": 3,
+    "text": "Not logged in or token expired",
+    "slug": "not-logged-in-or-token-expired"
+  },
+  {
+    "level": 2,
+    "text": "Configuration file locations",
+    "slug": "configuration-file-locations"
+  },
+  {
+    "level": 3,
+    "text": "Resetting configuration",
+    "slug": "resetting-configuration"
+  },
+  {
+    "level": 2,
+    "text": "Performance and stability",
+    "slug": "performance-and-stability"
+  },
+  {
+    "level": 3,
+    "text": "High CPU or memory usage",
+    "slug": "high-cpu-or-memory-usage"
+  },
+  {
+    "level": 3,
+    "text": "Auto-compaction stops with a thrashing error",
+    "slug": "auto-compaction-stops-with-a-thrashing-error"
+  },
+  {
+    "level": 3,
+    "text": "Command hangs or freezes",
+    "slug": "command-hangs-or-freezes"
+  },
+  {
+    "level": 3,
+    "text": "Search and discovery issues",
+    "slug": "search-and-discovery-issues"
+  },
+  {
+    "level": 3,
+    "text": "Slow or incomplete search results on WSL",
+    "slug": "slow-or-incomplete-search-results-on-wsl"
+  },
+  {
+    "level": 2,
+    "text": "IDE integration issues",
+    "slug": "ide-integration-issues"
+  },
+  {
+    "level": 3,
+    "text": "JetBrains IDE not detected on WSL2",
+    "slug": "jetbrains-ide-not-detected-on-wsl2"
+  },
+  {
+    "level": 4,
+    "text": "WSL2 networking modes",
+    "slug": "wsl2-networking-modes"
+  },
+  {
+    "level": 3,
+    "text": "Report Windows IDE integration issues",
+    "slug": "report-windows-ide-integration-issues"
+  },
+  {
+    "level": 3,
+    "text": "Escape key not working in JetBrains IDE terminals",
+    "slug": "escape-key-not-working-in-jetbrains-ide-terminals"
+  },
+  {
+    "level": 2,
+    "text": "Markdown formatting issues",
+    "slug": "markdown-formatting-issues"
+  },
+  {
+    "level": 3,
+    "text": "Missing language tags in code blocks",
+    "slug": "missing-language-tags-in-code-blocks"
+  },
+  {
+    "level": 3,
+    "text": "Inconsistent spacing and formatting",
+    "slug": "inconsistent-spacing-and-formatting"
+  },
+  {
+    "level": 3,
+    "text": "Reduce markdown formatting issues",
+    "slug": "reduce-markdown-formatting-issues"
+  },
+  {
+    "level": 2,
+    "text": "Get more help",
+    "slug": "get-more-help"
+  }
+]
