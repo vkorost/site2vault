@@ -60,6 +60,11 @@ async def run(config: RunConfig) -> int:
 
     db.save_config(config)
 
+    # Refresh mode: re-queue done URLs
+    if config.refresh:
+        requeued = db.requeue_done_for_refresh()
+        log.info("Refresh mode: re-queued %d URLs for conditional GET", requeued)
+
     robots = RobotsChecker(config)
     await robots.load_seed()
 
@@ -117,6 +122,10 @@ async def run(config: RunConfig) -> int:
             emit("phase_start", phase="index")
             generate_index(config, db)
             emit("phase_end", phase="index")
+
+        # Refresh pruning: handle 404/410 URLs
+        if config.refresh:
+            _handle_refresh_removals(config, db)
 
         # Phase 4: Manifest
         if config.emit_manifest:
@@ -217,3 +226,39 @@ def _merge_manifest(config: RunConfig, new_manifest: dict) -> None:
             pass
 
     write_manifest(config, new_manifest)
+
+
+def _handle_refresh_removals(config: RunConfig, db) -> None:
+    """Handle URLs that returned 404/410 during refresh.
+
+    With --prune: delete the note files.
+    Without --prune: log warnings only.
+    """
+    from pathlib import Path
+
+    failed_urls = db.get_failed_urls()
+    removed_codes = {"http_404", "http_410"}
+    removed_urls = [f for f in failed_urls if f.get("error") in removed_codes]
+
+    if not removed_urls:
+        return
+
+    for entry in removed_urls:
+        url = entry["url"]
+        note = db.get_note_by_url(url)
+        if not note:
+            continue
+
+        folder = note.get("folder_path") or ""
+        fn = note["filename"]
+        if folder:
+            note_path = Path(config.out) / folder / f"{fn}.md"
+        else:
+            note_path = Path(config.out) / f"{fn}.md"
+
+        if config.prune:
+            if note_path.exists():
+                note_path.unlink()
+                log.info("Pruned: %s (URL returned %s)", note_path, entry["error"])
+        else:
+            log.warning("URL removed from site: %s (%s) — use --prune to delete", url, entry["error"])

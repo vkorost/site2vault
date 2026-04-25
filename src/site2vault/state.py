@@ -192,6 +192,22 @@ class StateDB:
         self.conn.commit()
         return cur.rowcount
 
+    def requeue_done_for_refresh(self) -> int:
+        """Re-queue all done URLs as pending for refresh crawl."""
+        cur = self.conn.execute(
+            "UPDATE frontier SET status = 'pending', updated_at = ? WHERE status = 'done'",
+            (_now(),),
+        )
+        self.conn.commit()
+        return cur.rowcount
+
+    def get_failed_urls(self) -> list[dict]:
+        """Get all failed URLs with their error reasons."""
+        rows = self.conn.execute(
+            "SELECT url, error FROM frontier WHERE status = 'failed'"
+        ).fetchall()
+        return [dict(r) for r in rows]
+
     def count_done(self) -> int:
         row = self.conn.execute(
             "SELECT COUNT(*) FROM frontier WHERE status = 'done'"
