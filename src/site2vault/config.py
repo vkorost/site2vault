@@ -38,3 +38,6 @@ class RunConfig:
     refresh: bool = False
     prune: bool = False
     namespace: str | None = None
+    tags: list[str] = field(default_factory=list)
+    timeout: float | None = None  # overall crawl timeout in minutes
+    title_from: str = "auto"  # auto | h1 | url

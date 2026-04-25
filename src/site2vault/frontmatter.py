@@ -11,6 +11,7 @@ def build_frontmatter(
     published: str | None = None,
     lang: str | None = None,
     description: str | None = None,
+    tags: list[str] | None = None,
 ) -> str:
     """Build YAML frontmatter string for a note.
 
@@ -28,6 +29,9 @@ def build_frontmatter(
     if description:
         desc = description.replace("\n", " ").strip()[:160]
         fm["description"] = desc
+
+    if tags:
+        fm["tags"] = tags
 
     yaml_str = yaml.dump(
         fm,

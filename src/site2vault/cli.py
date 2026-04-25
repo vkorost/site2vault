@@ -7,6 +7,7 @@ import typer
 
 from site2vault.config import RunConfig
 
+
 app = typer.Typer(
     name="site2vault",
     help="Mirror any website into a linked Obsidian vault.",
@@ -39,12 +40,20 @@ def _domain_slug(url: str) -> str:
     return host
 
 
+def _ensure_scheme(url: str) -> str:
+    """Auto-prepend https:// if no scheme is provided."""
+    if not url.startswith(("http://", "https://")):
+        return "https://" + url
+    return url
+
+
 @app.command()
 def main(
-    url: Annotated[str, typer.Argument(help="Seed URL to crawl.")],
-    out: Annotated[Optional[Path], typer.Option(help="Output directory.")] = None,
-    depth: Annotated[int, typer.Option(help="Max crawl depth from seed.")] = 3,
-    max_pages: Annotated[int, typer.Option(help="Hard cap on total pages.")] = 2000,
+    url: Annotated[str, typer.Option("--url", "-url", help="Seed URL to crawl.")] = "",
+    path: Annotated[Optional[Path], typer.Option("--path", "-path", help="Base path for output (default: current directory).")] = None,
+    name: Annotated[Optional[str], typer.Option("--name", "-name", help="Output folder name (default: derived from URL).")] = None,
+    depth: Annotated[int, typer.Option("--depth", "-d", help="Max crawl depth from seed.")] = 3,
+    max_pages: Annotated[int, typer.Option("--max-pages", "-m", help="Hard cap on total pages.")] = 2000,
     include: Annotated[Optional[list[str]], typer.Option(help="Regex; only crawl matching URLs.")] = None,
     exclude: Annotated[Optional[list[str]], typer.Option(help="Regex; skip matching URLs.")] = None,
     same_domain: Annotated[bool, typer.Option("--same-domain/--any-domain", help="Stay on seed domain.")] = True,
@@ -59,23 +68,39 @@ def main(
     user_agent: Annotated[Optional[str], typer.Option(help="Override User-Agent string.")] = None,
     resume: Annotated[bool, typer.Option(help="Continue previous run.")] = True,
     force: Annotated[bool, typer.Option(help="Re-crawl even if state exists.")] = False,
-    flat: Annotated[bool, typer.Option(help="All notes at vault root, no subfolders.")] = False,
+    flat: Annotated[bool, typer.Option("--flat", "-f", help="All notes at vault root, no subfolders.")] = False,
     link_style: Annotated[str, typer.Option(help="Wikilink style: shortest|path.")] = "shortest",
     verbose: Annotated[bool, typer.Option("--verbose", "-v", help="Debug logging.")] = False,
     dry_run: Annotated[bool, typer.Option(help="Discover URLs only, write no files.")] = False,
     no_manifest: Annotated[bool, typer.Option("--no-manifest", help="Skip manifest generation.")] = False,
     json_progress: Annotated[bool, typer.Option("--json-progress", help="Emit JSONL progress to stdout for plugin consumption.")] = False,
     no_sitemap: Annotated[bool, typer.Option("--no-sitemap", help="Skip sitemap.xml discovery.")] = False,
-    single: Annotated[bool, typer.Option("--single", help="Fetch only the seed URL (no crawl).")] = False,
+    single: Annotated[bool, typer.Option("--single", "-s", help="Fetch only the seed URL (no crawl).")] = False,
     namespace: Annotated[Optional[str], typer.Option(help="Namespace for multi-site vaults.")] = None,
     refresh: Annotated[bool, typer.Option("--refresh", help="Re-crawl existing vault using conditional GET.")] = False,
     prune: Annotated[bool, typer.Option("--prune", help="Delete notes whose URLs return 404/410 on refresh.")] = False,
     no_static_boilerplate: Annotated[bool, typer.Option("--no-static-boilerplate", help="Skip static boilerplate stripping.")] = False,
     no_cross_page_boilerplate: Annotated[bool, typer.Option("--no-cross-page-boilerplate", help="Skip cross-page boilerplate detection.")] = False,
     boilerplate_threshold: Annotated[float, typer.Option(help="Cross-page boilerplate threshold (0.0-1.0).")] = 0.5,
+    tag: Annotated[Optional[list[str]], typer.Option("--tag", help="Obsidian tag to add to all notes' frontmatter (repeatable).")] = None,
+    timeout: Annotated[Optional[float], typer.Option("--timeout", help="Overall crawl timeout in minutes.")] = None,
+    title_from: Annotated[str, typer.Option("--title-from", help="Title source: auto|h1|url.")] = "auto",
 ) -> None:
-    """Mirror a website into a linked Obsidian vault."""
+    """Mirror a website into a linked Obsidian vault.
+
+    Usage: site2vault --url URL [--path PATH] [--name NAME] [OPTIONS]
+    """
     import asyncio
+
+    # Validate required --url
+    if not url:
+        typer.echo("Error: --url is required.\n")
+        typer.echo("Usage: site2vault --url URL [--path PATH] [--name NAME] [OPTIONS]")
+        typer.echo("\nExample: site2vault --url docs.example.com --path C:\\Obsidian\\Vault --name \"My Docs\"")
+        raise SystemExit(1)
+
+    # Auto-prepend https:// if needed
+    url = _ensure_scheme(url)
 
     # Validate --single constraints
     if single:
@@ -86,7 +111,14 @@ def main(
         depth = 0
         max_pages = 1
 
-    output_path = out or Path(f"./{_domain_slug(url)}")
+    # Validate --title-from
+    if title_from not in ("auto", "h1", "url"):
+        raise typer.BadParameter("--title-from must be one of: auto, h1, url")
+
+    # Resolve output path: --path / --name
+    folder_name = name or _domain_slug(url)
+    base_path = path or Path(".")
+    output_path = base_path / folder_name
 
     config = RunConfig(
         seed_url=url,
@@ -121,6 +153,9 @@ def main(
         static_boilerplate=not no_static_boilerplate,
         cross_page_boilerplate=not no_cross_page_boilerplate,
         boilerplate_threshold=boilerplate_threshold,
+        tags=tag or [],
+        timeout=timeout,
+        title_from=title_from,
     )
 
     from site2vault import exit_codes

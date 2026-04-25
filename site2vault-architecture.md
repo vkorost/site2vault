@@ -5,13 +5,13 @@
 Site2Vault is a cross-platform Python CLI that mirrors websites into fully linked [Obsidian](https://obsidian.md/) vaults. Given a seed URL, it crawls every reachable page under the same domain, converts each page to clean Markdown, and wires all internal links as Obsidian `[[wikilinks]]`. The result is a self-contained vault you can open in Obsidian and navigate exactly like the original site — except offline, in Markdown, and with bi-directional link graph support.
 
 ```
-site2vault https://docs.example.com --depth 5 --out my-vault
+site2vault --url docs.example.com --path ./vaults --name my-vault --depth 5
 ```
 
 Produces:
 
 ```
-my-vault/
+vaults/my-vault/
 ├── Index.md                  # Root MOC (Map of Content)
 ├── getting-started/
 │   ├── Index.md              # Folder MOC
@@ -65,14 +65,14 @@ Cross-page boilerplate detection (Phase 1.5) must run after all notes are writte
 
 | Module | Responsibility |
 |---|---|
-| `cli.py` | Typer CLI entry point. Parses arguments into `RunConfig`. |
+| `cli.py` | Typer CLI entry point. Named parameters (`--url`, `--path`, `--name`), parses into `RunConfig`. |
 | `config.py` | `RunConfig` dataclass — single source of truth for all settings. |
 | `orchestrator.py` | Wires the three phases: crawl → rewrite → index. |
 | `crawler.py` | Async crawl loop: frontier management, HTTP fetching, link discovery. |
 | `extract.py` | HTML → cleaned HTML. Trafilatura main-content extraction with BS4 fallback. Strips media. |
 | `convert.py` | Cleaned HTML → Markdown with `S2V_LINK_N` placeholder tokens. Uses `markdownify`. |
 | `rewrite.py` | Phase 2: replaces placeholder tokens with `[[wikilinks]]` or `[external](links)`. |
-| `frontmatter.py` | Builds YAML frontmatter (`source_url`, `author`, `published`, `description`). |
+| `frontmatter.py` | Builds YAML frontmatter (`source_url`, `author`, `published`, `description`, `tags`). |
 | `index.py` | Generates root `Index.md` and per-folder MOC indexes. |
 | `canonical.py` | URL canonicalization: normalize scheme, host, path, query; strip tracking params. |
 | `slug.py` | URL/title → filename mapping with collision handling. |
@@ -475,10 +475,15 @@ source_url: https://example.com/page
 author: John Doe           # if detected
 published: 2024-01-15      # if detected
 description: A short...    # if detected, truncated to 160 chars
+tags:                       # if --tag used (repeatable)
+  - source/web
+  - reference
 ---
 ```
 
 **Design decision**: `title` is intentionally omitted from frontmatter. The note's filename IS the title in Obsidian — repeating it in frontmatter is redundant and creates a maintenance burden if the file is renamed.
+
+Tags are added when `--tag` is passed on the CLI (repeatable: `--tag source/web --tag reference`). They appear as standard Obsidian tags in frontmatter.
 
 ---
 
@@ -521,6 +526,7 @@ python -m PyInstaller --onefile --name site2vault --console \
 
 Key PyInstaller considerations:
 - `trafilatura` requires `--collect-all` because it loads data files (language models, settings) at runtime
+- `justext` requires `--collect-all` for stoplist data files (trafilatura dependency; without it, extraction crashes at runtime)
 - `certifi` must be collected for HTTPS certificate verification
 - `h2`, `hpack`, `hyperframe` are httpx's HTTP/2 dependencies — not auto-detected
 - `lxml` C extensions require explicit hidden imports
@@ -570,7 +576,19 @@ Key PyInstaller considerations:
 1. `_preprocess_figcaptions()` converts `<figcaption>` text to `<p>` tags before trafilatura runs
 2. `_preserve_figcaptions()` catches any remaining figcaptions post-extraction
 
-### 17.7 Redundant Title in Frontmatter
+### 17.7 Title Derivation (--title-from)
+
+Note titles (used as filenames and in the manifest) can be derived from three sources via `--title-from`:
+
+- **`auto`** (default): Uses the page's `<title>` tag. Falls back to URL slug if no title found.
+- **`h1`**: Uses the first `<h1>` heading from the extracted content. Falls back to `<title>` if no h1 exists.
+- **`url`**: Derives from the last URL path segment, stripping extensions and converting hyphens/underscores to spaces with title case (e.g., `/api/getting-started.html` → `Getting Started`).
+
+### 17.8 Crawl Timeout (--timeout)
+
+`--timeout N` sets an overall crawl time limit in minutes. The crawler checks elapsed time before each batch and stops gracefully when the deadline is reached. Remaining pending URLs stay in the frontier for a future resume run.
+
+### 17.9 Redundant Title in Frontmatter
 
 **Problem**: The YAML frontmatter included a `title:` property, but in Obsidian the note's filename IS the title. The frontmatter title was redundant and would diverge if the file was renamed.
 
@@ -842,16 +860,33 @@ Each `--namespace` run updates the index with its namespace entry. Multiple name
 
 ## 28. Configuration Reference
 
+### 28.1 Core Parameters
+
+| Flag | Short | Default | Description |
+|---|---|---|---|
+| `--url` | `-url` | required | Seed URL to crawl (auto-prepends `https://` if no scheme) |
+| `--path` | `-path` | `.` | Base directory for output |
+| `--name` | `-name` | derived | Output folder name (default: derived from URL hostname + path) |
+
+Output resolves to: `path / name`. Example: `--path C:\Obsidian\Vault --name "My Docs"` → `C:\Obsidian\Vault\My Docs\`.
+
+### 28.2 Crawl Control
+
+| Flag | Short | Default | Description |
+|---|---|---|---|
+| `--depth` | `-d` | 3 | Max crawl depth from seed |
+| `--max-pages` | `-m` | 2000 | Hard cap on total pages |
+| `--single` | `-s` | false | Fetch only the seed URL (no crawl) |
+| `--timeout` | | none | Overall crawl timeout in minutes |
+| `--include` | | none | Regex whitelist for URLs (repeatable) |
+| `--exclude` | | none | Regex blacklist for URLs (repeatable) |
+| `--same-domain/--any-domain` | | same-domain | Stay on seed domain |
+| `--subdomain-policy` | | `include` | `strict` / `include` / `any` |
+
+### 28.3 Politeness
+
 | Flag | Default | Description |
 |---|---|---|
-| `url` (positional) | required | Seed URL to crawl |
-| `--out` | `./domain-slug` | Output directory |
-| `--depth` | 3 | Max crawl depth from seed |
-| `--max-pages` | 2000 | Hard cap on total pages |
-| `--include` | none | Regex whitelist for URLs (repeatable) |
-| `--exclude` | none | Regex blacklist for URLs (repeatable) |
-| `--same-domain/--any-domain` | same-domain | Stay on seed domain |
-| `--subdomain-policy` | `include` | `strict` / `include` / `any` |
 | `--rate` | 1.0 | Target requests per second |
 | `--concurrency` | 2 | Parallel fetch workers |
 | `--jitter` | 0.3 | Random delay factor (0.0–1.0) |
@@ -860,22 +895,38 @@ Each `--namespace` run updates the index with its namespace entry. Multiple name
 | `--ignore-robots` | false | Skip robots.txt checking |
 | `--render-js` | false | Use Playwright for JS rendering |
 | `--user-agent` | site2vault/0.1.0 | Override User-Agent string |
+
+### 28.4 Output Control
+
+| Flag | Short | Default | Description |
+|---|---|---|---|
+| `--flat` | `-f` | false | All notes at vault root (no subfolders) |
+| `--link-style` | | `shortest` | Wikilink style: `shortest` / `path` |
+| `--tag` | | none | Obsidian tag for frontmatter (repeatable) |
+| `--title-from` | | `auto` | Title source: `auto` (page title), `h1` (first H1), `url` (from path) |
+| `--no-manifest` | | false | Skip manifest generation |
+| `--no-sitemap` | | false | Skip sitemap.xml discovery |
+| `--no-static-boilerplate` | | false | Skip static boilerplate stripping |
+| `--no-cross-page-boilerplate` | | false | Skip cross-page boilerplate detection |
+| `--boilerplate-threshold` | | 0.5 | Cross-page boilerplate threshold (0.0–1.0) |
+
+### 28.5 Resume & Refresh
+
+| Flag | Default | Description |
+|---|---|---|
 | `--resume/--no-resume` | resume | Continue previous run |
 | `--force` | false | Re-crawl even if state exists |
-| `--flat` | false | All notes at vault root (no subfolders) |
-| `--link-style` | `shortest` | Wikilink style: `shortest` / `path` |
-| `--verbose, -v` | false | Debug logging |
-| `--dry-run` | false | Discover URLs only, write no files |
-| `--no-manifest` | false | Skip manifest generation |
-| `--json-progress` | false | Emit JSONL progress to stdout |
-| `--no-sitemap` | false | Skip sitemap.xml discovery |
-| `--single` | false | Fetch only the seed URL (no crawl) |
-| `--no-static-boilerplate` | false | Skip static boilerplate stripping |
-| `--no-cross-page-boilerplate` | false | Skip cross-page boilerplate detection |
-| `--boilerplate-threshold` | 0.5 | Cross-page boilerplate threshold (0.0–1.0) |
 | `--refresh` | false | Re-crawl existing vault using conditional GET |
 | `--prune` | false | Delete notes whose URLs return 404/410 on refresh |
 | `--namespace` | none | Namespace for multi-site vaults |
+
+### 28.6 Debug & Integration
+
+| Flag | Short | Default | Description |
+|---|---|---|---|
+| `--verbose` | `-v` | false | Debug logging |
+| `--dry-run` | | false | Discover URLs only, write no files |
+| `--json-progress` | | false | Emit JSONL progress to stdout for plugin consumption |
 
 ---
 

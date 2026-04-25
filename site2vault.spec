@@ -3,8 +3,10 @@ from PyInstaller.utils.hooks import collect_all
 
 datas = []
 binaries = []
-hiddenimports = ['h2', 'hpack', 'hyperframe', 'lxml.html', 'lxml.html.clean', 'lxml.etree', 'markdownify', 'yaml', 'bs4', 'site2vault', 'site2vault.cli', 'site2vault.config', 'site2vault.crawler', 'site2vault.extract', 'site2vault.convert', 'site2vault.rewrite', 'site2vault.canonical', 'site2vault.slug', 'site2vault.state', 'site2vault.robots', 'site2vault.politeness', 'site2vault.antibot', 'site2vault.frontmatter', 'site2vault.logging_setup', 'site2vault.orchestrator']
+hiddenimports = ['h2', 'hpack', 'hyperframe', 'lxml.html', 'lxml.html.clean', 'lxml.etree', 'markdownify', 'yaml', 'bs4', 'site2vault', 'site2vault.cli', 'site2vault.config', 'site2vault.crawler', 'site2vault.extract', 'site2vault.convert', 'site2vault.rewrite', 'site2vault.canonical', 'site2vault.slug', 'site2vault.state', 'site2vault.robots', 'site2vault.politeness', 'site2vault.antibot', 'site2vault.frontmatter', 'site2vault.logging_setup', 'site2vault.orchestrator', 'site2vault.manifest', 'site2vault.progress', 'site2vault.exit_codes', 'site2vault.sitemap', 'site2vault.boilerplate', 'site2vault.boilerplate_patterns', 'site2vault.chunking', 'site2vault.index', 'site2vault.render_js']
 tmp_ret = collect_all('trafilatura')
+datas += tmp_ret[0]; binaries += tmp_ret[1]; hiddenimports += tmp_ret[2]
+tmp_ret = collect_all('justext')
 datas += tmp_ret[0]; binaries += tmp_ret[1]; hiddenimports += tmp_ret[2]
 tmp_ret = collect_all('certifi')
 datas += tmp_ret[0]; binaries += tmp_ret[1]; hiddenimports += tmp_ret[2]

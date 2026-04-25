@@ -92,6 +92,11 @@ class Crawler:
             connect=10.0, read=30.0, write=10.0, pool=60.0
         )
 
+        # Overall timeout tracking
+        crawl_deadline = None
+        if self.config.timeout:
+            crawl_deadline = _time.monotonic() + self.config.timeout * 60
+
         async with httpx.AsyncClient(
             http2=True,
             limits=limits,
@@ -101,6 +106,10 @@ class Crawler:
             headers=self._default_headers(),
         ) as client:
             while True:
+                if crawl_deadline and _time.monotonic() >= crawl_deadline:
+                    log.info("Reached timeout (%.1f min)", self.config.timeout)
+                    break
+
                 done_count = self.db.count_done()
                 if done_count >= self.config.max_pages:
                     log.info("Reached max pages (%d)", self.config.max_pages)
@@ -224,9 +233,12 @@ class Crawler:
             # Convert to markdown
             conversion = convert(extracted.main_html, url, extracted.headings)
 
+            # Determine note title based on --title-from
+            note_title = self._derive_title(extracted, url)
+
             # Assign filename
             existing_filenames = self.db.get_all_filenames()
-            filename = assign_filename(url, extracted.title, existing_filenames)
+            filename = assign_filename(url, note_title, existing_filenames)
             folder_path = url_to_folder_path(url, self.config.seed_url)
 
             if self.config.flat:
@@ -236,13 +248,14 @@ class Crawler:
 
             # Build frontmatter
             fm = build_frontmatter(
-                title=extracted.title,
+                title=note_title,
                 source_url=url,
                 site=urlparse(url).hostname or "",
                 author=extracted.author,
                 published=extracted.published,
                 lang=extracted.lang,
                 description=extracted.description,
+                tags=self.config.tags or None,
             )
 
             # Write note
@@ -257,7 +270,7 @@ class Crawler:
             # Save to DB (with conditional GET headers for future refreshes)
             resp_etag = response.headers.get("etag")
             resp_last_modified = response.headers.get("last-modified")
-            self.db.save_note(url, filename, folder_path, extracted.title, content_hash,
+            self.db.save_note(url, filename, folder_path, note_title, content_hash,
                               etag=resp_etag, last_modified=resp_last_modified)
             self.db.mark_done(url)
 
@@ -499,6 +512,29 @@ class Crawler:
                 "anchor_fragment": fragment,
             })
         return links
+
+    def _derive_title(self, extracted, url: str) -> str:
+        """Derive note title based on --title-from config."""
+        mode = self.config.title_from
+        if mode == "h1":
+            for h in extracted.headings:
+                if h.get("level") == 1 and h.get("text", "").strip():
+                    return h["text"].strip()
+            return extracted.title  # fallback to <title>
+        elif mode == "url":
+            parsed = urlparse(url)
+            path = parsed.path.strip("/")
+            if path:
+                segment = path.rsplit("/", 1)[-1]
+                # Strip extensions
+                for ext in (".html", ".htm", ".php", ".asp", ".aspx"):
+                    if segment.lower().endswith(ext):
+                        segment = segment[:-(len(ext))]
+                        break
+                return segment.replace("-", " ").replace("_", " ").title()
+            return parsed.hostname or "Untitled"
+        else:  # auto
+            return extracted.title
 
     def _log_summary(self) -> None:
         """Log a summary of the crawl results."""
