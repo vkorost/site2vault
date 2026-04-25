@@ -64,6 +64,7 @@ def main(
     verbose: Annotated[bool, typer.Option("--verbose", "-v", help="Debug logging.")] = False,
     dry_run: Annotated[bool, typer.Option(help="Discover URLs only, write no files.")] = False,
     no_manifest: Annotated[bool, typer.Option("--no-manifest", help="Skip manifest generation.")] = False,
+    json_progress: Annotated[bool, typer.Option("--json-progress", help="Emit JSONL progress to stdout for plugin consumption.")] = False,
 ) -> None:
     """Mirror a website into a linked Obsidian vault."""
     import asyncio
@@ -94,6 +95,7 @@ def main(
         verbose=verbose,
         dry_run=dry_run,
         emit_manifest=not no_manifest,
+        json_progress=json_progress,
     )
 
     from site2vault.logging_setup import setup_logging

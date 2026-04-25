@@ -9,24 +9,35 @@ from rich.logging import RichHandler
 
 
 def setup_logging(config: "RunConfig") -> None:  # noqa: F821
-    """Configure root logger with rich console + timestamped log file."""
+    """Configure root logger with rich console + timestamped log file.
+
+    When json_progress is enabled, the Rich console handler is suppressed
+    and a JsonEmitter is installed for structured stdout output.
+    """
+    from site2vault.progress import JsonEmitter, RichEmitter, set_emitter
+
     level = logging.DEBUG if config.verbose else logging.INFO
 
     root = logging.getLogger("site2vault")
     root.setLevel(logging.DEBUG)
     root.handlers.clear()
 
-    # Console via rich
-    console_handler = RichHandler(
-        level=level,
-        show_time=True,
-        show_path=False,
-        markup=True,
-    )
-    console_handler.setFormatter(logging.Formatter("%(message)s"))
-    root.addHandler(console_handler)
+    if config.json_progress:
+        # JSON mode: no console handler, events go to stdout via JsonEmitter
+        set_emitter(JsonEmitter())
+    else:
+        # Default: Rich console handler
+        console_handler = RichHandler(
+            level=level,
+            show_time=True,
+            show_path=False,
+            markup=True,
+        )
+        console_handler.setFormatter(logging.Formatter("%(message)s"))
+        root.addHandler(console_handler)
+        set_emitter(RichEmitter())
 
-    # Timestamped log file
+    # Timestamped log file (always, regardless of mode)
     log_dir = Path(config.out) / "log"
     log_dir.mkdir(parents=True, exist_ok=True)
     timestamp = datetime.now(timezone.utc).strftime("%Y-%m-%d-%H-%M-%S")

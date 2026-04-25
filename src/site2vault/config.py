@@ -29,3 +29,4 @@ class RunConfig:
     verbose: bool = False
     dry_run: bool = False
     emit_manifest: bool = True
+    json_progress: bool = False

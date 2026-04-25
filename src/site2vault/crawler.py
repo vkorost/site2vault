@@ -9,6 +9,8 @@ from urllib.parse import urlparse, urljoin
 
 import httpx
 
+import time as _time
+
 from site2vault.antibot import AntibotDetector
 from site2vault.canonical import canonicalize
 from site2vault.config import RunConfig
@@ -18,6 +20,7 @@ from site2vault.frontmatter import build_frontmatter
 from site2vault.politeness import PolitenessManager
 from site2vault.robots import RobotsChecker
 from site2vault.slug import assign_filename, url_to_folder_path
+from site2vault.progress import emit as progress_emit
 from site2vault.state import StateDB
 
 log = logging.getLogger("site2vault.crawler")
@@ -139,7 +142,8 @@ class Crawler:
                 return
 
             # Fetch
-            log.info("Fetching: %s", url)
+            progress_emit("fetch_start", url=url, depth=depth)
+            _fetch_t0 = _time.monotonic()
             response = await self._fetch_with_retry(client, url, host)
             if response is None:
                 return  # Already marked failed
@@ -152,6 +156,9 @@ class Crawler:
 
             body = response.text
             final_url = str(response.url)
+            _fetch_ms = round((_time.monotonic() - _fetch_t0) * 1000)
+            progress_emit("fetch_done", url=url, status=response.status_code,
+                          bytes=len(body.encode("utf-8")), duration_ms=_fetch_ms)
 
             # Handle meta refresh redirects
             meta_target = self._parse_meta_refresh(body, final_url)
@@ -246,10 +253,8 @@ class Crawler:
             # Discover and enqueue links from raw HTML (not just extracted content)
             self._enqueue_links(raw_links, final_url, depth)
 
-            if folder_path:
-                log.info("Written: %s/%s.md  <-  %s", folder_path, filename, url)
-            else:
-                log.info("Written: %s.md  <-  %s", filename, url)
+            file_rel = f"{folder_path}/{filename}.md" if folder_path else f"{filename}.md"
+            progress_emit("note_written", url=url, file=file_rel)
 
         except Exception as e:
             log.error("Error processing %s: %s", url, e, exc_info=True)
