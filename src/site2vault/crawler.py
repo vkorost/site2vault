@@ -205,7 +205,7 @@ class Crawler:
             raw_links = self._extract_raw_links(body, final_url)
 
             # Extract content (trafilatura + BS4)
-            extracted = extract(body, url)
+            extracted = extract(body, url, strip_boilerplate=self.config.static_boilerplate)
             content_hash = hashlib.sha256(extracted.main_html.encode()).hexdigest()[:16]
 
             # Bot trap check

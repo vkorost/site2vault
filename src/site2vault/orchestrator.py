@@ -80,6 +80,26 @@ async def run(config: RunConfig) -> int:
         return exit_codes.USER_ABORT
 
     if not config.dry_run:
+        # Phase 1.5: Cross-page boilerplate detection
+        if config.cross_page_boilerplate:
+            from site2vault.boilerplate import (
+                detect_cross_page_boilerplate,
+                remove_cross_page_boilerplate,
+            )
+            notes_for_bp = db.get_all_notes()
+            emit("phase_start", phase="deboilerplate")
+            flagged = detect_cross_page_boilerplate(
+                notes_for_bp, config.out, threshold=config.boilerplate_threshold,
+            )
+            if flagged:
+                modified = remove_cross_page_boilerplate(notes_for_bp, config.out, flagged)
+                emit("phase_end", phase="deboilerplate", stats={
+                    "flagged_patterns": len(flagged),
+                    "notes_modified": modified,
+                })
+            else:
+                emit("phase_end", phase="deboilerplate", stats={"flagged_patterns": 0})
+
         # Phase 2: Rewrite
         emit("phase_start", phase="rewrite")
         rewrite_all(config, db)

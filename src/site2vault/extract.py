@@ -34,7 +34,7 @@ class ExtractedContent:
     description: str | None = None
 
 
-def extract(html: str, url: str) -> ExtractedContent:
+def extract(html: str, url: str, strip_boilerplate: bool = True) -> ExtractedContent:
     """Extract content from HTML, stripping images and boilerplate.
 
     Args:
@@ -61,6 +61,11 @@ def extract(html: str, url: str) -> ExtractedContent:
     if not main_html or len(main_html.strip()) < 50:
         log.debug("Trafilatura returned insufficient content, falling back to BS4")
         main_html = _bs4_fallback(soup)
+
+    # Static boilerplate stripping (Stage 1)
+    if strip_boilerplate:
+        from site2vault.boilerplate import strip_static_boilerplate
+        main_html = strip_static_boilerplate(main_html)
 
     # Parse the extracted HTML, strip images, extract headings and links
     content_soup = BeautifulSoup(main_html, "lxml")

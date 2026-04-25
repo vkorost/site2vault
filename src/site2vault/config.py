@@ -32,3 +32,6 @@ class RunConfig:
     json_progress: bool = False
     use_sitemap: bool = True
     single: bool = False
+    static_boilerplate: bool = True
+    cross_page_boilerplate: bool = True
+    boilerplate_threshold: float = 0.5

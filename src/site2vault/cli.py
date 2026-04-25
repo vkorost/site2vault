@@ -67,6 +67,9 @@ def main(
     json_progress: Annotated[bool, typer.Option("--json-progress", help="Emit JSONL progress to stdout for plugin consumption.")] = False,
     no_sitemap: Annotated[bool, typer.Option("--no-sitemap", help="Skip sitemap.xml discovery.")] = False,
     single: Annotated[bool, typer.Option("--single", help="Fetch only the seed URL (no crawl).")] = False,
+    no_static_boilerplate: Annotated[bool, typer.Option("--no-static-boilerplate", help="Skip static boilerplate stripping.")] = False,
+    no_cross_page_boilerplate: Annotated[bool, typer.Option("--no-cross-page-boilerplate", help="Skip cross-page boilerplate detection.")] = False,
+    boilerplate_threshold: Annotated[float, typer.Option(help="Cross-page boilerplate threshold (0.0-1.0).")] = 0.5,
 ) -> None:
     """Mirror a website into a linked Obsidian vault."""
     import asyncio
@@ -109,6 +112,9 @@ def main(
         json_progress=json_progress,
         use_sitemap=not no_sitemap and not single,
         single=single,
+        static_boilerplate=not no_static_boilerplate,
+        cross_page_boilerplate=not no_cross_page_boilerplate,
+        boilerplate_threshold=boilerplate_threshold,
     )
 
     from site2vault import exit_codes
