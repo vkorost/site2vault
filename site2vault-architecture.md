@@ -31,26 +31,33 @@ my-vault/
 
 ## 2. High-Level Pipeline
 
-The app executes a **three-phase pipeline**, orchestrated by `orchestrator.py`:
+The app executes a **multi-phase pipeline**, orchestrated by `orchestrator.py`:
 
 ```
-Phase 1: CRAWL          Phase 2: REWRITE         Phase 3: INDEX
-─────────────────       ──────────────────       ──────────────
-Seed URL                Read all notes           Generate Index.md
-    │                       │                    (root + per-folder MOCs)
-    ▼                       ▼
-Frontier loop           Replace S2V_LINK_N
-(fetch → extract →      placeholders with
- convert → write .md)   [[wikilinks]] or
-    │                   [markdown](links)
-    ▼
-Discover links
-(enqueue to frontier)
+Phase 1: CRAWL          Phase 1.5: DEBOILERPLATE   Phase 2: REWRITE
+─────────────────       ────────────────────────   ──────────────────
+Seed URL + Sitemap      Cross-page paragraph       Replace S2V_LINK_N
+    │                   hash frequency analysis    placeholders with
+    ▼                   → remove repeated cruft    [[wikilinks]] or
+Frontier loop                                      [markdown](links)
+(fetch → extract →
+ convert → write .md)       Phase 2.5: OFFSETS     Phase 3: INDEX
+    │                       ──────────────────     ──────────────
+    ▼                       Compute heading        Generate Index.md
+Discover links              byte offsets in        (root + per-folder
+(enqueue to frontier)       final Markdown         MOCs)
+
+                            Phase 4: MANIFEST
+                            ─────────────────
+                            Build .site2vault/manifest.json
+                            with per-note metadata
 ```
 
-### Why three phases?
+### Why multiple phases?
 
 Links can only be resolved after the **full URL → filename map** exists. During crawl, we don't yet know which URLs will succeed, fail, or redirect. So Phase 1 writes placeholder tokens (`S2V_LINK_0`, `S2V_LINK_1`, ...) wherever a link appears, and Phase 2 resolves them once every page has been processed.
+
+Cross-page boilerplate detection (Phase 1.5) must run after all notes are written but before rewrite, so repeated cruft doesn't get linked. Heading byte offsets (Phase 2.5) must run after rewrite because link replacement changes byte positions. The manifest (Phase 4) runs last because it reads the final state of all files.
 
 ---
 
@@ -74,7 +81,14 @@ Links can only be resolved after the **full URL → filename map** exists. Durin
 | `politeness.py` | Token-bucket rate limiter, per-host delay, adaptive backoff, circuit breaker. |
 | `antibot.py` | Detects Cloudflare challenges, CAPTCHAs, login walls, consent walls, bot traps. |
 | `render_js.py` | Optional Playwright-based JS rendering (lazy import, `pip install 'site2vault[js]'`). |
-| `logging_setup.py` | Rich console handler + timestamped rotating log file. |
+| `manifest.py` | Builds `.site2vault/manifest.json` listing every note with metadata. |
+| `progress.py` | Structured progress event system with `RichEmitter` and `JsonEmitter`. |
+| `exit_codes.py` | Named exit code constants (0-4). |
+| `sitemap.py` | Sitemap discovery and XML parsing with index recursion and gzip support. |
+| `boilerplate.py` | Two-stage boilerplate stripping (static rules + cross-page frequency). |
+| `boilerplate_patterns.py` | CSS selectors and regex for known boilerplate elements. |
+| `chunking.py` | Heading-level byte offset computation for section-level file reading. |
+| `logging_setup.py` | Rich console handler + timestamped rotating log file. Selects emitter. |
 
 ---
 
@@ -564,7 +578,269 @@ Key PyInstaller considerations:
 
 ---
 
-## 18. Configuration Reference
+## 18. Vault Manifest (manifest.py)
+
+A machine-readable JSON manifest is written to `.site2vault/manifest.json` after every run (unless `--no-manifest`). It lists every note with metadata for consumption by Claude Code and similar agentic tools.
+
+### 18.1 Schema
+
+```json
+{
+  "schema_version": 1,
+  "seed_url": "https://docs.example.com",
+  "crawled_at": "2026-04-24T18:32:11Z",
+  "site2vault_version": "0.1.0",
+  "stats": {
+    "note_count": 247,
+    "total_word_count": 184320,
+    "estimated_total_tokens": 245145,
+    "failed_url_count": 3,
+    "skipped_url_count": 12
+  },
+  "notes": [
+    {
+      "file": "api/rest/Endpoints.md",
+      "url": "https://docs.example.com/api/rest/endpoints.html",
+      "title": "Endpoints",
+      "folder": "api/rest",
+      "headings": [...],
+      "outbound_internal_links": ["api/rest/Auth.md"],
+      "outbound_external_links": ["https://oauth.net/2/"],
+      "word_count": 1840,
+      "estimated_tokens": 2447,
+      "content_hash": "sha256:..."
+    }
+  ]
+}
+```
+
+### 18.2 Token Estimation
+
+Token count is estimated as `round(word_count * 1.33)`. This approximates typical BPE tokenization ratio for English prose. It is intentionally simple — actual counts vary by model and content type — but close enough for budget estimation.
+
+### 18.3 Outbound Links
+
+Each note entry includes resolved `outbound_internal_links` (file paths within the vault) and `outbound_external_links` (absolute URLs). These are derived from the link-index sidecar JSONs written during Phase 1, resolved through the URL→file map including redirect targets.
+
+### 18.4 Single-Page Merge
+
+In `--single` mode against an existing vault, the manifest is merged rather than overwritten: existing notes are preserved, the new note is added or updated by URL, and stats are recomputed.
+
+---
+
+## 19. JSON Progress Output (progress.py)
+
+### 19.1 Architecture
+
+The progress system uses a `ProgressEmitter` protocol with two implementations:
+
+- **`RichEmitter`** (default): Routes events through Python's logging module with Rich console formatting.
+- **`JsonEmitter`** (`--json-progress`): Writes one JSON object per line to stdout, with timestamps.
+
+A global emitter is set during `logging_setup.py` based on `config.json_progress`.
+
+### 19.2 Event Schema
+
+Events follow the pattern `{"event": "<name>", "ts": "<ISO8601>", ...fields}`:
+
+| Event | When | Key Fields |
+|---|---|---|
+| `run_start` | Pipeline begins | `config` |
+| `phase_start` | Phase begins | `phase` |
+| `fetch_start` | URL fetch begins | `url`, `depth` |
+| `fetch_done` | URL fetch succeeds | `url`, `status`, `bytes`, `duration_ms` |
+| `fetch_failed` | URL fetch fails | `url`, `reason`, `attempt` |
+| `fetch_unchanged` | 304 Not Modified | `url`, `via` |
+| `note_written` | Note file written | `url`, `file` |
+| `sitemap_discovered` | Sitemap parsed | `url`, `url_count` |
+| `phase_end` | Phase completes | `phase`, `stats` |
+| `run_end` | Pipeline completes | `exit_code`, `stats` |
+
+---
+
+## 20. Structured Exit Codes (exit_codes.py)
+
+| Code | Constant | Meaning |
+|---|---|---|
+| 0 | `SUCCESS` | All in-scope URLs processed or properly skipped. |
+| 1 | `FATAL` | Fatal error before crawl could meaningfully start. |
+| 2 | `PARTIAL` | Crawl completed but at least one host hit circuit breaker or anti-bot kill switch. |
+| 3 | `USER_ABORT` | User abort (SIGINT/SIGTERM). Clean shutdown, not 130. |
+| 4 | `RESUME_CONFLICT` | Existing state DB has incompatible config and `--force` not set. |
+
+The `cli.py` top-level handler maps exceptions to exit codes. `orchestrator.py` installs SIGINT/SIGTERM handlers and promotes partial-success detection from the crawler.
+
+---
+
+## 21. Sitemap Frontier Seeding (sitemap.py)
+
+### 21.1 Discovery
+
+Sitemaps are discovered in priority order:
+
+1. `Sitemap:` directives from `robots.txt` (parsed during robots checking)
+2. `<seed_origin>/sitemap.xml`
+3. `<seed_origin>/sitemap_index.xml`
+
+### 21.2 Parsing
+
+- **Sitemap index files** are recursed up to depth 2.
+- **Gzipped sitemaps** (`.xml.gz`) are detected by URL and decompressed.
+- **HTML responses** (404 pages served as 200) are detected by content sniffing and treated as missing.
+- All discovered URLs pass through `canonicalize()` and scope filters before frontier insertion at `depth=0`.
+
+### 21.3 Integration
+
+Sitemap seeding runs before the crawl loop in the orchestrator. Existing dedup logic prevents double-fetching when link discovery later finds the same URLs. Disabled with `--no-sitemap` or in `--single` mode.
+
+---
+
+## 22. Single-Page Mode
+
+`--single` forces `--depth 0` and `--max-pages 1`, processing only the seed URL. Sitemap discovery is disabled. Designed for ad-hoc usage when a user wants exactly one page added to a vault mid-task.
+
+**Index behavior**: If the vault has only one note, index generation is skipped. If appending to an existing vault, indexes are regenerated to incorporate the new note.
+
+**Manifest behavior**: In single-page mode against an existing vault, the manifest is merged (see §18.4) rather than overwritten.
+
+---
+
+## 23. Boilerplate Stripping (boilerplate.py)
+
+### 23.1 Stage 1: Static Rules
+
+`strip_static_boilerplate(html)` runs after trafilatura extraction (gated by `--no-static-boilerplate`). It removes known boilerplate patterns by CSS selector and regex:
+
+- Elements with class/id matching `edit-this-page`, `edit-on-github`, `feedback`, `was-this-helpful`, `last-updated`, `version-selector`, `breadcrumb`, `cookie-banner`, `consent`
+- Trailing paragraphs matching `^(Last updated|Last modified|Edit this page|Was this helpful)`
+- "On this page" / "Table of contents" sidebars
+
+Patterns are defined in `boilerplate_patterns.py` as lists of CSS selectors and compiled regex patterns, designed for easy extension.
+
+### 23.2 Stage 2: Cross-Page Detection
+
+Phase 1.5 in the pipeline (between Crawl and Rewrite). Algorithm:
+
+1. Hash each paragraph (normalized whitespace, text only) across all notes
+2. Build frequency map: how many notes contain each paragraph hash
+3. Flag paragraphs appearing in more than `--boilerplate-threshold` (default 0.5 = 50%) of notes
+4. Remove flagged paragraphs from each note's Markdown file
+
+**Safeguards**:
+- Auto-disables below 20 notes (small corpora trigger false positives)
+- Never removes paragraphs inside fenced code blocks
+- Emits progress events with flagged pattern count and notes modified
+
+---
+
+## 24. Heading-Level Chunking Metadata (chunking.py)
+
+Enables section-level file reading by recording byte offsets for each heading in the final Markdown files.
+
+### 24.1 Timing
+
+Runs as Phase 2.5, after rewrite (because link replacement changes byte positions). Reads the final `.md` files and computes offsets on the UTF-8 encoded bytes.
+
+### 24.2 Sidecar Schema
+
+Written to `log/headings/<filename>.json`:
+
+```json
+{
+  "headings": [
+    {
+      "level": 2,
+      "text": "Authentication",
+      "slug": "authentication",
+      "start_byte": 1240,
+      "end_byte": 4892
+    }
+  ]
+}
+```
+
+**Section boundaries**: A section starts at the heading line's byte offset and ends at the next heading of equal or lesser level, or EOF. The manifest (§18) references these offsets so Claude Code can read `file[start_byte:end_byte]` to get exactly one section.
+
+---
+
+## 25. Conditional GET (crawler.py, state.py)
+
+### 25.1 Storage
+
+The `url_notes` table stores `etag` and `last_modified` columns (added via schema migration). When a page is fetched, the crawler stores the response's `ETag` and `Last-Modified` headers.
+
+### 25.2 Behavior
+
+On resume or refresh runs, the crawler sends `If-None-Match` and `If-Modified-Since` headers using stored values:
+
+- **304 Not Modified**: URL marked `done`, note not rewritten, `fetch_unchanged` event emitted
+- **200 OK**: Note processed normally, headers updated
+- **No stored headers**: Full fetch (no conditional headers sent)
+
+---
+
+## 26. Refresh Mode
+
+`--refresh` re-crawls an existing vault using conditional GET for known URLs. All `done` URLs in the frontier are re-queued as `pending`.
+
+### 26.1 Pruning
+
+`--prune` deletes note files whose URLs returned 404 or 410 on refresh. Without `--prune`, removals are logged as warnings only. Non-404/410 failures (500, timeout, etc.) are never pruned.
+
+### 26.2 Flow
+
+1. Re-queue all `done` frontier entries as `pending`
+2. Crawl with conditional GET headers
+3. Unchanged pages (304) skip processing
+4. Changed pages overwrite notes normally
+5. New URLs discovered during crawl are processed as full fetches
+6. After crawl, handle removals (prune or warn)
+7. Rebuild manifest and indexes
+
+---
+
+## 27. Vault Namespacing
+
+`--namespace NAME` isolates multiple sites within a single vault. Each namespace gets its own subdirectory, state database, and manifest.
+
+### 27.1 Directory Structure
+
+```
+vault/
+├── docs/                    # --namespace docs
+│   ├── Index.md
+│   ├── api/
+│   └── log/site2vault.sqlite
+├── blog/                    # --namespace blog
+│   ├── Index.md
+│   └── log/site2vault.sqlite
+└── .site2vault/
+    ├── index.json           # Namespace registry
+    ├── docs/manifest.json   # Per-namespace manifest
+    └── blog/manifest.json
+```
+
+### 27.2 Namespace Index
+
+Top-level `.site2vault/index.json` tracks all registered namespaces:
+
+```json
+{
+  "namespaces": {
+    "docs": {
+      "seed_url": "https://docs.example.com",
+      "manifest": "docs/manifest.json",
+      "updated_at": "2026-04-24T18:32:11Z"
+    }
+  }
+}
+```
+
+Each `--namespace` run updates the index with its namespace entry. Multiple namespaces coexist independently — each has its own state DB, crawl frontier, and note tree.
+
+---
+
+## 28. Configuration Reference
 
 | Flag | Default | Description |
 |---|---|---|
@@ -590,10 +866,20 @@ Key PyInstaller considerations:
 | `--link-style` | `shortest` | Wikilink style: `shortest` / `path` |
 | `--verbose, -v` | false | Debug logging |
 | `--dry-run` | false | Discover URLs only, write no files |
+| `--no-manifest` | false | Skip manifest generation |
+| `--json-progress` | false | Emit JSONL progress to stdout |
+| `--no-sitemap` | false | Skip sitemap.xml discovery |
+| `--single` | false | Fetch only the seed URL (no crawl) |
+| `--no-static-boilerplate` | false | Skip static boilerplate stripping |
+| `--no-cross-page-boilerplate` | false | Skip cross-page boilerplate detection |
+| `--boilerplate-threshold` | 0.5 | Cross-page boilerplate threshold (0.0–1.0) |
+| `--refresh` | false | Re-crawl existing vault using conditional GET |
+| `--prune` | false | Delete notes whose URLs return 404/410 on refresh |
+| `--namespace` | none | Namespace for multi-site vaults |
 
 ---
 
-## 19. Dependencies
+## 29. Dependencies
 
 | Package | Purpose |
 |---|---|
@@ -608,16 +894,26 @@ Key PyInstaller considerations:
 
 ---
 
-## 20. Test Suite
+## 30. Test Suite
 
-249 tests covering:
+339 tests covering:
 - URL canonicalization (scheme, host, port, path, query, fragment, tracking params, www normalization)
 - Filename assignment (sanitization, slugification, collision handling, folder path derivation)
 - Content extraction (trafilatura, BS4 fallback, media stripping, heading/link extraction, tab expansion, figcaption preservation)
 - HTML→Markdown conversion (placeholder tokens, link index generation, heading slugs, safety guard, long text truncation)
 - Link rewriting (wikilink formatting, external links, anchor resolution, redirect resolution, space insertion, display text aliasing)
-- State database (CRUD operations, frontier management, resume logic, redirect chains)
+- State database (CRUD operations, frontier management, resume logic, redirect chains, conditional GET headers)
 - Index generation (root MOC, folder MOCs)
 - Integration tests (end-to-end crawl with mock HTTP server)
+- Vault manifest (schema, note counts, outbound links, word/token counts, no-manifest flag)
+- JSON progress output (JSONL validation, event fields, emitter selection)
+- Structured exit codes (all codes reachable, force override, partial success)
+- Sitemap seeding (sitemap.xml, sitemap index, gzip, scope filtering, no-sitemap flag)
+- Single-page mode (fresh vault, existing vault, manifest merge, index behavior)
+- Boilerplate stripping (static rules, cross-page detection, code block exclusion, threshold, auto-disable)
+- Heading byte offsets (section boundaries, UTF-8 correctness, EOF handling)
+- Conditional GET (304 path, 200 overwrite, missing headers)
+- Refresh mode (requeue, conditional GET, pruning, non-404 preservation)
+- Vault namespacing (namespace dirs, index.json, manifest isolation, multi-namespace coexistence)
 
 All tests use `pytest` with `pytest-asyncio` for async test support and `pytest-httpx` for HTTP mocking.
