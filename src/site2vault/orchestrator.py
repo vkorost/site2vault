@@ -105,6 +105,11 @@ async def run(config: RunConfig) -> int:
         rewrite_all(config, db)
         emit("phase_end", phase="rewrite")
 
+        # Phase 2.5: Heading byte offsets (must be after rewrite)
+        from site2vault.chunking import compute_heading_offsets
+        notes_for_offsets = db.get_all_notes()
+        compute_heading_offsets(notes_for_offsets, config.out, config.out / "log")
+
         # Phase 3: Index
         # In single-page mode, skip index if vault has only one note
         notes = db.get_all_notes()
