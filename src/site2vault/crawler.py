@@ -59,6 +59,11 @@ class Crawler:
         self._include_re = [re.compile(p) for p in config.include] if config.include else []
         self._exclude_re = [re.compile(p) for p in config.exclude] if config.exclude else []
         self._dry_run_count = 0
+        self._stopped_hosts: set[str] = set()
+
+    def has_stopped_hosts(self) -> bool:
+        """Check if any host was permanently stopped during the crawl."""
+        return len(self._stopped_hosts) > 0
 
     async def crawl(self) -> None:
         """Run the main crawl loop."""
@@ -139,6 +144,7 @@ class Crawler:
             # Politeness gate
             if not await self.politeness.wait_for_slot(host):
                 self.db.mark_skipped(url, "host_stopped")
+                self._stopped_hosts.add(host)
                 return
 
             # Fetch
@@ -186,7 +192,9 @@ class Crawler:
             )
             if antibot_signal:
                 self.db.mark_failed(url, f"anti_bot:{antibot_signal}")
-                await self.politeness.record_antibot(host)
+                stopped = await self.politeness.record_antibot(host)
+                if stopped:
+                    self._stopped_hosts.add(host)
                 return
 
             # Record success

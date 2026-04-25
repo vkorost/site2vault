@@ -98,13 +98,23 @@ def main(
         json_progress=json_progress,
     )
 
+    from site2vault import exit_codes
     from site2vault.logging_setup import setup_logging
 
     setup_logging(config)
 
     from site2vault.orchestrator import run
 
-    asyncio.run(run(config))
+    try:
+        code = asyncio.run(run(config))
+    except SystemExit as e:
+        code = e.code if isinstance(e.code, int) else exit_codes.FATAL
+    except KeyboardInterrupt:
+        code = exit_codes.USER_ABORT
+    except Exception:
+        code = exit_codes.FATAL
+
+    raise SystemExit(code)
 
 
 if __name__ == "__main__":
