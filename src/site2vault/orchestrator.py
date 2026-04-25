@@ -48,6 +48,13 @@ async def run(config: RunConfig) -> int:
         "max_pages": config.max_pages,
     })
 
+    # Namespace handling: redirect output into subdirectory
+    vault_root = config.out  # Preserve for index.json
+    if config.namespace:
+        from dataclasses import replace
+        config = replace(config, out=config.out / config.namespace)
+        config.out.mkdir(parents=True, exist_ok=True)
+
     db = StateDB(config.out)
     db.initialize()
 
@@ -132,7 +139,11 @@ async def run(config: RunConfig) -> int:
             emit("phase_start", phase="manifest")
             from site2vault.manifest import build_manifest, write_manifest
             manifest = build_manifest(config, db)
-            if config.single:
+            if config.namespace:
+                # Namespaced: write to .site2vault/<namespace>/manifest.json
+                _write_namespaced_manifest(vault_root, config.namespace, config, manifest)
+                _update_namespace_index(vault_root, config.namespace, config.seed_url)
+            elif config.single:
                 _merge_manifest(config, manifest)
             else:
                 write_manifest(config, manifest)
@@ -226,6 +237,52 @@ def _merge_manifest(config: RunConfig, new_manifest: dict) -> None:
             pass
 
     write_manifest(config, new_manifest)
+
+
+def _write_namespaced_manifest(
+    vault_root: "Path", namespace: str, config: RunConfig, manifest: dict
+) -> None:
+    """Write manifest to .site2vault/<namespace>/manifest.json."""
+    import json
+
+    ns_dir = vault_root / ".site2vault" / namespace
+    ns_dir.mkdir(parents=True, exist_ok=True)
+    manifest_path = ns_dir / "manifest.json"
+    manifest_path.write_text(
+        json.dumps(manifest, indent=2, ensure_ascii=False),
+        encoding="utf-8",
+    )
+    log.info("Namespaced manifest written: %s (%d notes)", manifest_path, len(manifest["notes"]))
+
+
+def _update_namespace_index(
+    vault_root: "Path", namespace: str, seed_url: str
+) -> None:
+    """Write/update .site2vault/index.json with namespace registry."""
+    import json
+    from datetime import datetime, timezone
+
+    index_path = vault_root / ".site2vault" / "index.json"
+    if index_path.exists():
+        try:
+            index = json.loads(index_path.read_text(encoding="utf-8"))
+        except (json.JSONDecodeError, KeyError):
+            index = {"namespaces": {}}
+    else:
+        (vault_root / ".site2vault").mkdir(parents=True, exist_ok=True)
+        index = {"namespaces": {}}
+
+    index["namespaces"][namespace] = {
+        "seed_url": seed_url,
+        "manifest": f"{namespace}/manifest.json",
+        "updated_at": datetime.now(timezone.utc).isoformat(),
+    }
+
+    index_path.write_text(
+        json.dumps(index, indent=2, ensure_ascii=False),
+        encoding="utf-8",
+    )
+    log.info("Namespace index updated: %s", index_path)
 
 
 def _handle_refresh_removals(config: RunConfig, db) -> None:

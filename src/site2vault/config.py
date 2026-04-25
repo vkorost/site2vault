@@ -37,3 +37,4 @@ class RunConfig:
     boilerplate_threshold: float = 0.5
     refresh: bool = False
     prune: bool = False
+    namespace: str | None = None
