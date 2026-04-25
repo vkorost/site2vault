@@ -45,6 +45,12 @@ CREATE INDEX IF NOT EXISTS idx_frontier_status ON frontier(status);
 CREATE INDEX IF NOT EXISTS idx_url_notes_filename ON url_notes(filename);
 """
 
+MIGRATION_SQL = """
+-- Add etag and last_modified columns if they don't exist
+ALTER TABLE url_notes ADD COLUMN etag TEXT;
+ALTER TABLE url_notes ADD COLUMN last_modified TEXT;
+"""
+
 
 class StateDB:
     """SQLite-backed state for site2vault crawl runs."""
@@ -68,6 +74,17 @@ class StateDB:
     def initialize(self) -> None:
         """Create tables if they don't exist."""
         self.conn.executescript(SCHEMA_SQL)
+        self._migrate()
+
+    def _migrate(self) -> None:
+        """Apply schema migrations."""
+        # Check if etag column exists
+        cursor = self.conn.execute("PRAGMA table_info(url_notes)")
+        columns = {row[1] for row in cursor.fetchall()}
+        if "etag" not in columns:
+            self.conn.execute("ALTER TABLE url_notes ADD COLUMN etag TEXT")
+            self.conn.execute("ALTER TABLE url_notes ADD COLUMN last_modified TEXT")
+            self.conn.commit()
 
     def close(self) -> None:
         if self._conn:
@@ -203,12 +220,14 @@ class StateDB:
         title: str | None,
         content_hash: str,
         status: str = "done",
+        etag: str | None = None,
+        last_modified: str | None = None,
     ) -> None:
         self.conn.execute(
             """INSERT OR REPLACE INTO url_notes
-               (url, filename, folder_path, title, content_hash, fetched_at, status)
-               VALUES (?, ?, ?, ?, ?, ?, ?)""",
-            (url, filename, folder_path, title, content_hash, _now(), status),
+               (url, filename, folder_path, title, content_hash, fetched_at, status, etag, last_modified)
+               VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)""",
+            (url, filename, folder_path, title, content_hash, _now(), status, etag, last_modified),
         )
         self.conn.commit()
 
@@ -225,6 +244,19 @@ class StateDB:
     def get_all_filenames(self) -> set[str]:
         rows = self.conn.execute("SELECT filename FROM url_notes").fetchall()
         return {r[0] for r in rows}
+
+    def get_conditional_headers(self, url: str) -> dict[str, str]:
+        """Get If-None-Match / If-Modified-Since headers for a URL."""
+        row = self.conn.execute(
+            "SELECT etag, last_modified FROM url_notes WHERE url = ?", (url,)
+        ).fetchone()
+        headers = {}
+        if row:
+            if row["etag"]:
+                headers["If-None-Match"] = row["etag"]
+            if row["last_modified"]:
+                headers["If-Modified-Since"] = row["last_modified"]
+        return headers
 
     def get_content_hashes(self) -> set[str]:
         rows = self.conn.execute(

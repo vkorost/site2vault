@@ -254,8 +254,11 @@ class Crawler:
             save_link_index(conversion.link_index, meta_dir, filename)
             save_headings(conversion.headings, meta_dir, filename)
 
-            # Save to DB
-            self.db.save_note(url, filename, folder_path, extracted.title, content_hash)
+            # Save to DB (with conditional GET headers for future refreshes)
+            resp_etag = response.headers.get("etag")
+            resp_last_modified = response.headers.get("last-modified")
+            self.db.save_note(url, filename, folder_path, extracted.title, content_hash,
+                              etag=resp_etag, last_modified=resp_last_modified)
             self.db.mark_done(url)
 
             # Discover and enqueue links from raw HTML (not just extracted content)
@@ -289,7 +292,17 @@ class Crawler:
                 if discovered_from:
                     headers["Referer"] = discovered_from
 
+                # Conditional GET headers (for resume/refresh)
+                cond_headers = self.db.get_conditional_headers(url)
+                headers.update(cond_headers)
+
                 response = await client.get(url, headers=headers)
+
+                # Handle 304 Not Modified
+                if response.status_code == 304:
+                    progress_emit("fetch_unchanged", url=url, via="etag" if cond_headers.get("If-None-Match") else "last-modified")
+                    self.db.mark_done(url)
+                    return None
 
                 # Handle retryable status codes
                 if response.status_code in TRANSIENT_STATUS:
