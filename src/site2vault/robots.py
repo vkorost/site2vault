@@ -15,6 +15,7 @@ class RobotsChecker:
         self.config = config
         self._cache: dict[str, RobotFileParser | None] = {}
         self._crawl_delays: dict[str, float | None] = {}
+        self._sitemap_urls: list[str] = []
         self.user_agent = config.user_agent
 
     async def load_seed(self) -> None:
@@ -57,6 +58,10 @@ class RobotsChecker:
             return True  # No robots.txt or fetch failed
 
         return robots.can_fetch(self.user_agent, url)
+
+    def get_sitemap_urls(self) -> list[str]:
+        """Get Sitemap URLs discovered from robots.txt."""
+        return list(self._sitemap_urls)
 
     def get_crawl_delay(self, host: str) -> float | None:
         """Get the Crawl-delay for a host, if any."""
@@ -102,6 +107,13 @@ class RobotsChecker:
             if delay is not None:
                 self._crawl_delays[host] = delay
                 log.info("Host %s: Crawl-delay = %.1f", host, delay)
+
+            # Extract Sitemap directives
+            from site2vault.sitemap import extract_sitemap_urls_from_robots
+            sitemap_urls = extract_sitemap_urls_from_robots(text)
+            if sitemap_urls:
+                self._sitemap_urls.extend(sitemap_urls)
+                log.info("Host %s: found %d sitemap(s) in robots.txt", host, len(sitemap_urls))
 
             return rp
 

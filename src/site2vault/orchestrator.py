@@ -63,6 +63,10 @@ async def run(config: RunConfig) -> int:
     robots = RobotsChecker(config)
     await robots.load_seed()
 
+    # Sitemap seeding
+    if config.use_sitemap:
+        await _seed_from_sitemap(config, db, robots)
+
     # Phase 1: Crawl
     emit("phase_start", phase="crawl")
     crawler = Crawler(config, db, robots)
@@ -102,3 +106,55 @@ async def run(config: RunConfig) -> int:
     db.close()
     emit("run_end", exit_code=code, stats=crawl_stats)
     return code
+
+
+async def _seed_from_sitemap(config: RunConfig, db, robots) -> None:
+    """Discover and parse sitemaps, seeding the frontier with discovered URLs."""
+    import httpx
+    from site2vault.sitemap import discover_sitemaps, parse_sitemap
+    from site2vault.canonical import canonicalize
+    from urllib.parse import urlparse
+
+    robots_urls = robots.get_sitemap_urls()
+
+    try:
+        async with httpx.AsyncClient(
+            timeout=httpx.Timeout(15.0),
+            follow_redirects=True,
+        ) as client:
+            sitemap_urls = await discover_sitemaps(
+                config.seed_url, client, robots_urls
+            )
+
+            if not sitemap_urls:
+                log.debug("No sitemaps found")
+                return
+
+            seed_count = 0
+            for sitemap_url in sitemap_urls:
+                entries = await parse_sitemap(sitemap_url, client)
+
+                for entry in entries:
+                    canonical = canonicalize(entry.loc, config.seed_url)
+
+                    # Scope check: same domain
+                    if config.same_domain:
+                        seed_host = (urlparse(config.seed_url).hostname or "").lower()
+                        entry_host = (urlparse(canonical).hostname or "").lower()
+                        if config.subdomain_policy == "strict":
+                            if entry_host != seed_host:
+                                continue
+                        elif config.subdomain_policy == "include":
+                            if entry_host != seed_host and not entry_host.endswith(f".{seed_host}"):
+                                continue
+
+                    if db.add_to_frontier(canonical, depth=0):
+                        seed_count += 1
+
+                emit("sitemap_discovered", url=sitemap_url, url_count=seed_count)
+
+            if seed_count:
+                log.info("Sitemap seeding: added %d URLs to frontier", seed_count)
+
+    except Exception as e:
+        log.warning("Sitemap discovery failed: %s (continuing with link discovery)", e)
