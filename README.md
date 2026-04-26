@@ -5,7 +5,7 @@
 [![Python](https://img.shields.io/badge/python-3.12-blue)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-Site2Vault crawls a website, extracts the main content of each page as clean Markdown, and wires every internal link as an **Obsidian **`[[wikilink]]`. The result is a self-contained vault you can open in Obsidian, search across, and feed to Claude Code without paying for repeated web fetches.
+Site2Vault crawls a website, extracts the main content of each page as clean Markdown, and wires every internal link as an **Obsidian** `[[wikilink]]`. The result is a self-contained vault you can open in Obsidian, search across, and feed to Claude Code without paying for repeated web fetches.
 
 ```mermaid
 flowchart LR
@@ -18,7 +18,6 @@ flowchart LR
     F --> G[Phase 4: Manifest]
     G --> V[(Obsidian Vault)]
 ```
-
 ## Why
 
 Feeding documentation to an agentic coder via repeated web fetches burns tokens. A 200-page docs site can cost dollars per query. Site2Vault pulls the entire corpus once into a local Markdown vault. From then on, the agent reads files at near-zero cost, navigates by `[[wikilink]]` exactly as on the original site, and uses the manifest to read only the sections it needs.
