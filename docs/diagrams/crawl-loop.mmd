@@ -1,0 +1,19 @@
+flowchart TD
+    Start([Pop URL from frontier]) --> P{Politeness gate}
+    P --> F[HTTP fetch]
+    F --> R{Status?}
+    R -->|429 / 503| Backoff[Adaptive backoff] --> F
+    R -->|2xx| CT{Content-type HTML?}
+    R -->|4xx permanent| Fail[Mark failed]
+    CT -->|no| Skip[Mark skipped]
+    CT -->|yes| MR{Meta refresh?}
+    MR -->|yes| Enq[Enqueue target same depth] --> Done
+    MR -->|no| AB{Anti-bot signal?}
+    AB -->|yes| KS[Kill-switch counter]
+    AB -->|no| EX[Extract content]
+    EX --> BT{Bot trap?}
+    BT -->|yes| Fail
+    BT -->|no| CV[Convert to MD with placeholders]
+    CV --> W[Write note + sidecar]
+    W --> LD[Discover links from raw HTML]
+    LD --> Done([Mark done])

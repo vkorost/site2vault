@@ -1,0 +1,9 @@
+flowchart LR
+    A[Seed URL] --> B[Phase 1: Crawl]
+    S[Sitemap] --> B
+    B --> C[Phase 1.5: Deboilerplate]
+    C --> D[Phase 2: Rewrite Links]
+    D --> E[Phase 2.5: Byte Offsets]
+    E --> F[Phase 3: Index MOCs]
+    F --> G[Phase 4: Manifest]
+    G --> V[(Obsidian Vault)]

@@ -1,0 +1,16 @@
+sequenceDiagram
+    participant Crawler
+    participant Note as Note A
+    participant Sidecar as link-index/A.json
+    participant Rewriter
+    participant Map as URL to filename map
+    Crawler->>Note: Write [text](S2V_LINK_0)
+    Crawler->>Sidecar: Store S2V_LINK_0 to URL B
+    Note over Crawler: ... all pages crawled ...
+    Rewriter->>Sidecar: Read S2V_LINK_0
+    Rewriter->>Map: Look up URL B
+    alt URL B is in vault
+        Rewriter->>Note: Replace with [[B|text]]
+    else External URL
+        Rewriter->>Note: Replace with [text](URL B)
+    end
