@@ -1,17 +1,5 @@
 # Site2Vault — Technical Architecture
 
-```mermaid
-flowchart LR
-    A[Seed URL] --> B[Phase 1: Crawl]
-    S[Sitemap] --> B
-    B --> C[Phase 1.5: Deboilerplate]
-    C --> D[Phase 2: Rewrite Links]
-    D --> E[Phase 2.5: Byte Offsets]
-    E --> F[Phase 3: Index MOCs]
-    F --> G[Phase 4: Manifest]
-    G --> V[(Obsidian Vault)]
-```
-
 ## 1. What It Does
 
 Site2Vault is a cross-platform Python CLI that mirrors websites into fully linked [Obsidian](https://obsidian.md/) vaults. Given a seed URL, it crawls every reachable page under the same domain, converts each page to clean Markdown, and wires all internal links as Obsidian `[[wikilinks]]`. The result is a self-contained vault you can open in Obsidian and navigate exactly like the original site — except offline, in Markdown, and with bi-directional link graph support.
