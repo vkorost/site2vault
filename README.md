@@ -7,6 +7,8 @@
 
 Site2Vault crawls a website, extracts the main content of each page as clean Markdown, and wires every internal link as an **Obsidian** `[[wikilink]]`. The result is a self-contained vault you can open in Obsidian, search across, and feed to Claude Code without paying for repeated web fetches.
 
+**Video overview:** [Why Site2Vault exists and how it works](https://www.youtube.com/watch?v=Qk54nlIYy6o) — the pattern of a self-built wiki as the AI context layer, the six-phase pipeline, and how the manifest enables section-level reads for coding agents.
+
 ```mermaid
 flowchart LR
     A[Seed URL] --> B[Phase 1: Crawl]
