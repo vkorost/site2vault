@@ -49,6 +49,10 @@ pip install 'site2vault[js]'
 playwright install chromium
 ```
 
+### Obsidian plugin
+
+If you prefer a GUI, the [obsidian-site2vault](https://github.com/vkorost/obsidian-site2vault) plugin wraps the CLI with a modal dialog, live log view, and settings tab — all inside Obsidian.
+
 ## Quick start
 
 ```bash
