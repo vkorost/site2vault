@@ -56,6 +56,15 @@ class Crawler:
         )
         self.antibot = AntibotDetector()
         self.seed_parsed = urlparse(config.seed_url)
+        # Derive the seed path prefix for scope enforcement.
+        # e.g. seed "/docs/en/intro" -> prefix "/docs/en/"
+        # seed "/docs/en/" -> prefix "/docs/en/"
+        # seed "/" or "" -> prefix "/"
+        seed_path = self.seed_parsed.path or "/"
+        if seed_path.endswith("/"):
+            self._seed_path_prefix = seed_path
+        else:
+            self._seed_path_prefix = seed_path.rsplit("/", 1)[0] + "/"
         self._include_re = [re.compile(p) for p in config.include] if config.include else []
         self._exclude_re = [re.compile(p) for p in config.exclude] if config.exclude else []
         self._dry_run_count = 0
@@ -423,17 +432,25 @@ class Crawler:
         url_host = (parsed.hostname or "").lower()
         seed_host = (self.seed_parsed.hostname or "").lower()
 
+        # Host check
         if self.config.subdomain_policy == "strict":
-            return url_host == seed_host
+            host_ok = url_host == seed_host
         elif self.config.subdomain_policy == "include":
-            return url_host == seed_host or url_host.endswith(f".{seed_host}")
+            host_ok = url_host == seed_host or url_host.endswith(f".{seed_host}")
         else:  # any
-            # Extract base domain (last two parts)
             seed_parts = seed_host.rsplit(".", 2)
             url_parts = url_host.rsplit(".", 2)
             seed_base = ".".join(seed_parts[-2:]) if len(seed_parts) >= 2 else seed_host
             url_base = ".".join(url_parts[-2:]) if len(url_parts) >= 2 else url_host
-            return url_base == seed_base
+            host_ok = url_base == seed_base
+
+        if not host_ok:
+            return False
+
+        # Path prefix check: only follow URLs under the seed's path prefix.
+        # e.g. seed "/docs/en/" restricts to URLs starting with "/docs/en/"
+        url_path = parsed.path or "/"
+        return url_path.startswith(self._seed_path_prefix)
 
     def _is_html_content(self, content_type: str) -> bool:
         """Check if content type is processable."""
