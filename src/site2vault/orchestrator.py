@@ -181,6 +181,14 @@ async def _seed_from_sitemap(config: RunConfig, db, robots) -> None:
                 log.debug("No sitemaps found")
                 return
 
+            # Compute seed path prefix for scope filtering
+            seed_parsed = urlparse(config.seed_url)
+            seed_path = seed_parsed.path or "/"
+            if seed_path.endswith("/"):
+                seed_path_prefix = seed_path
+            else:
+                seed_path_prefix = seed_path.rsplit("/", 1)[0] + "/"
+
             seed_count = 0
             for sitemap_url in sitemap_urls:
                 entries = await parse_sitemap(sitemap_url, client)
@@ -188,16 +196,22 @@ async def _seed_from_sitemap(config: RunConfig, db, robots) -> None:
                 for entry in entries:
                     canonical = canonicalize(entry.loc, config.seed_url)
 
-                    # Scope check: same domain
+                    # Scope check: same domain + path prefix
                     if config.same_domain:
-                        seed_host = (urlparse(config.seed_url).hostname or "").lower()
-                        entry_host = (urlparse(canonical).hostname or "").lower()
+                        seed_host = (seed_parsed.hostname or "").lower()
+                        entry_parsed = urlparse(canonical)
+                        entry_host = (entry_parsed.hostname or "").lower()
                         if config.subdomain_policy == "strict":
                             if entry_host != seed_host:
                                 continue
                         elif config.subdomain_policy == "include":
                             if entry_host != seed_host and not entry_host.endswith(f".{seed_host}"):
                                 continue
+
+                        # Path prefix: reject URLs outside the seed's directory
+                        entry_path = entry_parsed.path or "/"
+                        if not entry_path.startswith(seed_path_prefix):
+                            continue
 
                     if db.add_to_frontier(canonical, depth=0):
                         seed_count += 1
